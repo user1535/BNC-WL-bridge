@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "transactionsSigned": 0,
+  "newProofsGenerated": 0,
+  "sessionId": "f545310336e2b16b1ef004bc7c2578c9",
+  "legacyPendingPreserved": true,
+  "downloadedReceiptReverified": true,
+  "replayBlockedAfterRestart": true,
+  "manualAndAuditVerified": true
+}

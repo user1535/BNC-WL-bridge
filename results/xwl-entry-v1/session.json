@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "protocol": "burn-mint-v2",
+  "mode": "dev",
+  "header_binding": "minimal-link",
+  "phase": "ready",
+  "chains": {
+    "wl": {
+      "rpc": "http://127.0.0.1:8584",
+      "port": 8584,
+      "id": 31337,
+      "pid": 29455
+    },
+    "bnb": {
+      "rpc": "http://127.0.0.1:8585",
+      "port": 8585,
+      "id": 31338,
+      "pid": 29469
+    }
+  },
+  "contracts": {
+    "original": "0x700b6A60ce7EaaEA56F065753d8dcB9653dbAD35",
+    "wrapped": "0x700b6A60ce7EaaEA56F065753d8dcB9653dbAD35",
+    "wl_headers": "0xA15BB66138824a1c7167f5E85b957d04Dd34E468",
+    "unlock": "0xb19b36b1456E65E3A6D514D3F715f204BD59f431",
+    "bnb_headers": "0xA15BB66138824a1c7167f5E85b957d04Dd34E468",
+    "mint": "0xb19b36b1456E65E3A6D514D3F715f204BD59f431",
+    "wl_audit": "0xe1Aa25618fA0c7A1CFDab5d6B456af611873b629",
+    "bnb_audit": "0xe1Aa25618fA0c7A1CFDab5d6B456af611873b629"
+  },
+  "events": [],
+  "chain_authenticated": false,
+  "real_asset_deployment_allowed": false,
+  "asset_profile": "xwl-entry-v1",
+  "entry_policy": {
+    "assetProfile": "xwl-entry-v1",
+    "worldLandChainId": 31337,
+    "bscChainId": 31338,
+    "decimals": 18,
+    "initialSupply": "0",
+    "entryCap": "1000000000000000000000",
+    "sink": "0x0000000000000000000000000000000000000000"
+  },
+  "operator": "0xa0ee7a142d267c1f36714e4a8f75612f20a79720",
+  "users": [
+    "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+    "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc",
+    "0x90f79bf6eb2c4f870365e785982e1f101e93b906"
+  ],
+  "contract_sources": {
+    "contracts/src/bridge/BridgeAuditLog.sol": "24809304e67f8aa52c27e6514d575040e2c0551534a005de2c569f28b2cc708c",
+    "contracts/src/bridge/BurnMintReceiver.sol": "7823d5952e1dead384bde2c2a9945d634fa89e14cf11263581bc0e19763300aa",
+    "contracts/src/bridge/BurnUnlockReceiver.sol": "87df0150889c5d7097739adf355698dc898ed2d1d6b18ac3d9a10cf0a22504fe",
+    "contracts/src/bridge/DevHeaderRegistry.sol": "8812b69f49f1dd635a679e0cb9f4b26fd5d2f00984106eb56efc268538c8b9b2",
+    "contracts/src/bridge/DevMockBurnUnlockReceiver.sol": "76e3ee84baff4b8bec10effcde2962fbd752bf734e81b79901bcbf9ff3276da7",
+    "contracts/src/bridge/DevMockLockMintReceiver.sol": "ce6f2531ca8e3bc9cda675287f6c7fd9592759fba3e5681bcfe641ab5eb97e5f",
+    "contracts/src/bridge/LockMintReceiver.sol": "ec999fae0c6214aaf2f50f0496a36be44e6d4c71cbc2518f205aebd4d79b0346",
+    "contracts/src/bridge/MPTReceiptProofCore.sol": "00e54ae522c44bdcd84002a4d90adb58b411d0ae4c5c69cab6a903b659c378ef",
+    "contracts/src/bridge/lib/MerklePatriciaProof.sol": "f6bfd4d8708018d4421f6c3099a76938a026e23faac99699fe91f04fb41f2ce8",
+    "contracts/src/bridge/lib/RLPReader.sol": "831b0374dc9c999832a8423bdf46db874c16c12a5ea1a66a5f7d06ae3bcf8fd3",
+    "contracts/src/interfaces/IHeaderSource.sol": "3f8dfcb9752d6336aab92e9d06c2b030456cae4016a3f1156cbe87d8dbe36c51",
+    "contracts/src/token/BridgeLockableToken.sol": "010c60c224c78b49ae68504d775786449c82355c5a5914b014fde52ac35a9a99",
+    "contracts/src/token/BridgeWrappedToken.sol": "34a879bbc1a1f4e5049b4d8c4d454999dda165703ca765d79e9f95b765c88fa9",
+    "contracts/src/token/BurnMintToken.sol": "0d34391319bdb6a37238815b5d252b55b38c0d84041e481add25a9270e8925e5",
+    "contracts/src/token/MinimalERC20.sol": "ff2d8ff4b1c519113c5dd1c4e70580fd867bb446685e7dafdb3391158ca4e44b",
+    "contracts/src/token/XWL.sol": "60c241e9b49228459a4a42280e85ff23c91a245749ba8881a4cd9cc5906e42db",
+    "contracts/foundry.toml": "fb8cb4f39f0cd8fca9ba960c1e504044cd595638bdcdece60ffd4520906d21ab",
+    "configs/xwl-entry-local.json": "14140ae91b438b0978a6f66b88d83267c6dea52682646a4a02f83627ad71f363"
+  },
+  "wallet_session_id": "6656b748627dc9f06ed0d8f45481a1c0",
+  "runtime_sha256": {
+    "original": "2de46f95d9d088e554dc06e36cebcc6674344ea46dc57d7e4773e51970849d0c",
+    "wrapped": "422eb2a63584b8fcbba78df92b558ae3498639c46f38c98161b1f28b16023961",
+    "unlock": "0d7c21c7ed7e64517f7e1cc98be18ccf4697a62cbaef1958e97a3ede94a867e5",
+    "mint": "d41f22d92f1a560d9de5f52c7f8fe1dd31b2cdba99a432b813fe5deda748ed30"
+  }
+}

@@ -1,0 +1,82 @@
+Use case: precise-object-edit / productivity-visual.
+Edit target: the attached/current Korean bridge architecture slide. Create one updated, crisp 16:9 slide. Preserve the white background, navy title, pastel amber/green/blue/purple four-column visual identity, clean academic presentation style, numbered blue flow arrows, correct Korean typography. This is a requested DESIGN REVISION; do not portray Scan integration as an already-tested implementation.
+
+Apply these THREE requested changes, ensuring all three are visually obvious:
+
+1. INSIDE THE USER PANEL, show TWO SEPARATE CHAIN ACCOUNTS, side by side. Widen the User panel if needed. A shared user/person icon remains above them. The two account cards must be visibly separate, not one merged wallet.
+Left card exact labels:
+"WorldLand 계좌"
+"원본 체인"
+"lock 실행"
+"원본 토큰 잠금"
+Use a W token / wallet icon and a pale amber accent.
+Right card exact labels:
+"BNB 계좌"
+"목적지 체인"
+"청구 서명"
+"mint 토큰 수신"
+Use a BNB wallet / wrapped token icon and a pale lavender accent.
+Do not invent literal wallet addresses or assert the address values are different. These are accounts on two distinct chains, controlled by one user.
+Retain the shared checks in the User panel above or below the account cards, compactly:
+"패키지·calldata 대조"
+"서명 직전 서버 SDK 재검증 요청".
+Connect blue arrow 1 DIRECTLY FROM the WorldLand account to source bridgeLock() (bottom routing is fine); label "① lock · 사용자 서명".
+Connect blue arrow 4 DIRECTLY FROM the BNB account to destination bridge contracts; label "④ 청구 · 사용자 서명".
+Connect blue arrow 5 from destination wrapped token mint DIRECTLY INTO the BNB account; label "⑤ mint".
+Mint must NEVER point to the WorldLand account. The lock arrow must NEVER start at the BNB account. Keep these connections unambiguous. There is no transfer arrow between the two user account cards.
+
+2. Replace RPC-based data sourcing with an EXTERNAL SCAN WEBSITE data path.
+There must be NO text “RPC” anywhere in the revised image.
+Clearly show a separate small provider box named "외부 Scan 사이트", with smaller "블록·receipt·이벤트" below it.
+It must be visually OUTSIDE the Bridge Server frame to show an external information provider.
+A good layout is to use the now-empty space above the Source/Server panels for this provider box (over the gap or above the left half), with a thin blue routed arrow FROM Source "Blocks / Receipts" TO the external Scan box, then a blue arrow FROM that box DOWN INTO the first server processing box.
+Label this data collection route "② Scan 데이터 조회".
+The Scan provider is the only path of chain information into the server; remove the original direct RPC source-to-server arrow entirely. Do not draw a direct source-to-server data arrow bypassing Scan.
+Replace server first box "RPC receipt 수집" with "Scan 데이터 수집".
+Change server header subtitle to "운영자·Scan 제공자 신뢰".
+Keep remaining server flow:
+"Receipt MPT·이벤트 계산"
+"RISC Zero composite proof"
+"서버 SDK 검증 (필수)"
+small "고정 guest · journal/input 연결"
+"Proof package + calldata".
+Arrow 3 from package to User shared checks: "③ 증명 패키지".
+
+3. REMOVE the two orange top boxes "운영자 root 등록" and "등록된 receipt root", plus their orange dashed connecting arrow and any orange downward arrow. No root-registration boxes, arrows or floating labels anywhere. Leave clean whitespace or use a little of that space for the external Scan provider described above.
+Keep the destination contracts' MPT/event/domain/replay checks and the explicit server-side RISC Zero verification location. Removing the operator root visuals is a simplification of the presentation, not a claim of consensus authentication.
+
+KEEP the main headings:
+"WorldLand ↔ BNB Bridge"
+"사용자 직접 서명 + RISC Zero 연산 증명"
+Top-right badge now reads exactly "요청 설계도 · Scan 연동 예정".
+Four column headers:
+Source Chain / WorldLand 역할 / Local Anvil · 31337
+Bridge Server / 운영자·Scan 제공자 신뢰
+User / 체인별 브라우저 계좌
+Destination Chain / BNB 역할 / Local Anvil · 31338
+
+Source body unchanged:
+"BridgeLockableToken"
+"bridgeLock()"
+"Locked 이벤트"
+"Blocks / Receipts".
+
+Destination body unchanged:
+"Bridge Contracts"
+"Receipt MPT 검증"
+"이벤트·도메인 검증"
+"중복 청구 차단"
+"wrapped token mint"
+Small footer within this panel: "RISC Zero 검증: 서버 SDK".
+
+Reverse-flow caption below main diagram:
+"역방향: BNB 계좌 burn → 증명·SDK 검증 → WorldLand 계좌 청구·unlock"
+
+Footer evidence strip: explicitly label these as PRIOR LOCAL RUN results, because external Scan ingestion is not yet implemented. Use exact text:
+"기존 로컬 검증 (Scan 연동 전) | 사용자 서명 4건 · 실제 증명 2개"
+"증명 생성: lock 261.74 s / burn 271.78 s · 최대 RSS 4.93 GB"
+On the right use small exact notes:
+"설계 가정: 서버 운영자·외부 Scan 제공자 신뢰"
+"미포함: 온체인 RISC Zero 검증 · 합의·최종성 인증 · 실자산 배포"
+
+Prioritize clear routing, large readable account labels, good whitespace and no overlapping text. You may rebalance widths and vertical spacing, but retain the original recognizable four-column architecture. The top root-registration boxes are completely gone. The external Scan provider must be outside the server and the two User account cards must be side by side and clearly labeled. No extra unrelated diagrams, no additional logos, no fabricated integration claims.

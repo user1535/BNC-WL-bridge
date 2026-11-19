@@ -1,0 +1,52 @@
+[
+  {
+    "path": "scripts",
+    "files": 18,
+    "bytes": 94460
+  },
+  {
+    "path": "risc0",
+    "files": 14,
+    "bytes": 156188
+  },
+  {
+    "path": "proof-generator",
+    "files": 22,
+    "bytes": 794179
+  },
+  {
+    "path": "contracts",
+    "files": 26,
+    "bytes": 215945
+  },
+  {
+    "path": "wallet",
+    "files": 12,
+    "bytes": 2039401
+  },
+  {
+    "path": "configs",
+    "files": 1,
+    "bytes": 242
+  },
+  {
+    "path": "docs",
+    "files": 9,
+    "bytes": 3810742
+  },
+  {
+    "path": "legacy",
+    "files": 4,
+    "bytes": 29960669
+  },
+  {
+    "path": ".bin",
+    "files": 2,
+    "bytes": 22577664
+  },
+  {
+    "path": "results",
+    "files": 50,
+    "bytes": 7083247
+  }
+]

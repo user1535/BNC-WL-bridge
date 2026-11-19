@@ -1,0 +1,26 @@
+{
+  "elapsedSeconds": 271.636864394,
+  "imageId": "1d2847d6a7fa72e1a9b5d20444ec043818da086c2ed952493243499702021d21",
+  "journal": {
+    "action": "burn",
+    "amount": "1000000000000000000",
+    "blockHash": "0x96b7cde96e9fc2725c2d0a210ea311dd381796d01f6442a9490cb00d42ace8fd",
+    "blockNumber": 11,
+    "destinationChainId": 31337,
+    "destinationToken": "0x5fbdb2315678afecb367f032d93f642f64180aa3",
+    "inputDigest": "0x30300b933b174efe390ed33fee27a7c24480239f01d6e01b81144230ae8fd75e",
+    "receiptRoot": "0x79f3fa3f3c07eb7f65e9d98b86188e6f7bdfd00b5eca9095bbf4f164ebe75bd5",
+    "recipient": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+    "sourceAuthenticated": false,
+    "sourceChainId": 31338,
+    "sourceToken": "0x5fbdb2315678afecb367f032d93f642f64180aa3",
+    "statement": "trusted-input-receipt-computation",
+    "transferId": "0xb52a599870e1c4682ea8abd7b77da744745a17d3e46a1d6982213491c95b9617",
+    "version": 1
+  },
+  "mode": "prove",
+  "onchainVerified": false,
+  "receiptBytes": 537324,
+  "sdkVerified": true,
+  "sourceAuthenticated": false
+}

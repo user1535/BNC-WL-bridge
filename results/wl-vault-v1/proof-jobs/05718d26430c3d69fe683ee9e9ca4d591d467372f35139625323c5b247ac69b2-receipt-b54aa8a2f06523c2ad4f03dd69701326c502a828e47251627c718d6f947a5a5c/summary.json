@@ -1,0 +1,26 @@
+{
+  "elapsedSeconds": 248.491257003,
+  "imageId": "1b0417939d1f2ccd49bb3c037def83ebf4a63857fe1ff91ae6154b1a5702a310",
+  "journal": {
+    "action": "lock-vault",
+    "amount": "10000000000000000000",
+    "blockHash": "0x0bf521e2ab8cfad402fe87d3c708fdc88f5ec5abfa24fd18cd639b6473b52c45",
+    "blockNumber": 6,
+    "destinationChainId": 31338,
+    "destinationToken": "0xe7f1725e7734ce288f8367e1bb143e90bb3f0512",
+    "inputDigest": "0xfdf02470a97abf4e2819f938389eb45434c82784bbea170001635cafcde98ce3",
+    "receiptRoot": "0x85308ac0bf6803d4556de4075c9215244e2ba814064345d37c6469ad488ba6ba",
+    "recipient": "0x90f79bf6eb2c4f870365e785982e1f101e93b906",
+    "sourceAuthenticated": false,
+    "sourceChainId": 31337,
+    "sourceToken": "0xe7f1725e7734ce288f8367e1bb143e90bb3f0512",
+    "statement": "trusted-input-receipt-computation",
+    "transferId": "0x095d071b0ab134d30693831904d52770837bb7b3fac250fe489fdc8f564703b6",
+    "version": 3
+  },
+  "mode": "prove",
+  "onchainVerified": false,
+  "receiptBytes": 537340,
+  "sdkVerified": true,
+  "sourceAuthenticated": false
+}

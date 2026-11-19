@@ -1,0 +1,21 @@
+{
+  "AGENTS.md": "ebd3a98fac3464188206167e7ad39cdffd63ecaa293e3dd383f093b7961e9140",
+  "README.md": "2cf048b7ececa22c716bbecff3bdc46387f15f2c11bac55427ace34e7ec23feb",
+  "configs/receipt-computation.json": "e96ef2c2d3544cf8626d377ea2e5105f95db32db05de34a7c3321ad1740f0113",
+  "scripts/run-server.sh": "92f872466ad53c6b8ed13d233870b609b37cd2eec31fd085ee8b8bd068468ac4",
+  "scripts/run-prototype.sh": "402726aa08dfe21797c47ff6a542c8ff7e5e3fbc9cb1fe4a4cf2c99498d6deee",
+  "scripts/server-doctor.py": "d3e820fbea7374e8825997e0f7afccf9127537ece43224ad3b08cc7f6005f709",
+  "scripts/runtime-config.py": "c1a5c33f90e800bf1e3001aef1b706cc79045a6df3f64849f95e4e4b55b8d8ac",
+  "scripts/receipt-computation.py": "79f08a506a29cb37d090155ec7f4425178065683b9374122cc87ca308851b231",
+  "scripts/proof-service.py": "b99b844aff1b47019d964dbff1ca6dcec3514c12dca47f997cc9d527fb2a0cfd",
+  "scripts/run-receipt-computation.py": "0829b19ca94b982ae45d2fa63e962022a9dc0451d3d99a5f849c0962e842aefe",
+  "scripts/check-receipt-computation.py": "e9a701ee8025e75c0103cff4342581c50003e1645b054efeb58ee29e6a5cb786",
+  "scripts/check-risc0-computation-demo.mjs": "0ac600369b5e28b237081425fb14d10cb2902c0e196e585eb575294b2b889367",
+  "scripts/check-restored-session.py": "799c24301dd0c88e3da486588e86880429fb0c116c4557b55f509133c914abb8",
+  "scripts/check-restored-ui-restart.mjs": "11f6d11df1d450059c0636cf014788d788a330ebffa21dd8519d5abea7ee88b3",
+  "wallet/client.mjs": "434b199d7e27d8a0aab613b4036d0cb2fa813efaa15c51f0ddb27b4b70f33bbc",
+  "wallet/ui.mjs": "a44e48643145d7afca7c7cd50bc2c6d842e4ffdb9fe9e31be55f6bb0fff340df",
+  "wallet/index.html": "b702b708cde8eb5907710d04f39c258e640b621dffffaa3d7435922beaebdf95",
+  "wallet/manual.html": "43789e7b685d125f541a57ec57b9202dc760d8bf4dedc178ff0b15d1d9a7a4a3",
+  "wallet/style.css": "c9ad34c3c9ceee4e397fc7a7e92e602a4f33ab7312183fd275e76907427e0208"
+}

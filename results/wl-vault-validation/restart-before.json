@@ -1,0 +1,62 @@
+{
+  "sessionId": "6fea237e117be5d66b4d10b40a09183e",
+  "contracts": {
+    "original": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "wrapped": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "mint": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "unlock": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "wl_headers": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "bnb_headers": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+  },
+  "proofs": {
+    "lock": {
+      "transferId": "0x095d071b0ab134d30693831904d52770837bb7b3fac250fe489fdc8f564703b6",
+      "jobId": "05718d26430c3d69fe683ee9e9ca4d591d467372f35139625323c5b247ac69b2",
+      "blockHash": "0x0bf521e2ab8cfad402fe87d3c708fdc88f5ec5abfa24fd18cd639b6473b52c45",
+      "receiptRoot": "0x85308ac0bf6803d4556de4075c9215244e2ba814064345d37c6469ad488ba6ba",
+      "receipt": {
+        "sha256": "6fddd4e66af56abb1b708be0e3d0643b34ef5e83f3c4c8fe1a378d319c0a1b60",
+        "size": 537340,
+        "mtimeNs": 1794274820479924262
+      },
+      "run": {
+        "sha256": "7f809a3da707cb40759cc4816daec86141be73f0207444e7757a857bc76eb16f",
+        "size": 377,
+        "mtimeNs": 1794274820691692517
+      }
+    },
+    "burn": {
+      "transferId": "0x175f1a4751efa70b27c52ce61a418f71eef647f8915f0a3ab816c3d6b139254f",
+      "jobId": "e35f23a1b5d4746a5d8d62143f74ba49ec4cd5ec9806a2fc602a9dc2399d9af9",
+      "blockHash": "0xb7791c40dc2c564412513e9de54cc31ff0804f5c0ac6985dd8e909ce8fd71583",
+      "receiptRoot": "0xb37c2a4573e4851201485500afac2c54c220187efd437b03a0b54ba512beedec",
+      "receipt": {
+        "sha256": "8c83a7a733299d04bfc1d6bc11e60cc46b456cfb23caad7e8adde55e5fd94ad8",
+        "size": 537340,
+        "mtimeNs": 1794275189031744542
+      },
+      "run": {
+        "sha256": "36dac7cdad873214cf1e9f64163fc9e71389008a2196733b82fe249faa67825c",
+        "size": 376,
+        "mtimeNs": 1794275189471781440
+      }
+    }
+  },
+  "balances": {
+    "wl": {
+      "0x70997970c51812dc3a010c7d01b50e0d17dc79c8": "0x21d8f1942ae5900aef5",
+      "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc": "0x21e19e0c9bab2400000",
+      "0x90f79bf6eb2c4f870365e785982e1f101e93b906": "0x21e19e0c9bab2400000"
+    },
+    "bnb": {
+      "0x70997970c51812dc3a010c7d01b50e0d17dc79c8": "0x21e19de6d1049ee876c",
+      "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc": "0x21e19e0779a1acb7744",
+      "0x90f79bf6eb2c4f870365e785982e1f101e93b906": "0x21e19e093a20ece5415"
+    },
+    "vaultWL": "0x8ac7230489e80000"
+  },
+  "nodePids": {
+    "wl": 8705,
+    "bnb": 8719
+  }
+}

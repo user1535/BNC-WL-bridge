@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "storage": {
+    "pendingKey": "bnc-burn-mint-v2-28ca4b9651a716cb9a807b010be7c25c-pending-0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+    "value": "{\"chain\":31337,\"owner\":\"0x70997970c51812dc3a010c7d01b50e0d17dc79c8\",\"status\":\"submitted\",\"transactionHash\":\"0xdb489cb3a03c25512f92e57609bc5da7f89ca665c5a4f9831bf81f04cf93667b\"}",
+    "sessionId": "28ca4b9651a716cb9a807b010be7c25c"
+  },
+  "restart": {
+    "passed": true,
+    "sdkReceiptsVerified": 2,
+    "freshProofsGenerated": 0,
+    "newServicePid": 46885
+  },
+  "preserved": true,
+  "pendingRecovered": true,
+  "replayRejected": true,
+  "rootRedirect": true
+}

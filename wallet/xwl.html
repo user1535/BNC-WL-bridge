@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>xWL 지갑</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="burn-mint.css">
+</head>
+<body class="burn-mint">
+  <main>
+    <header><span class="tag">로컬 테스트 지갑</span><h1>xWL 지갑</h1><p>WorldLand에서 xWL을 받고 BSC로 옮기거나 직접 거래하세요.</p></header>
+    <nav class="route-list" aria-label="xWL 작업">
+      <a class="route-card" href="xwl-entry.html"><span><strong>WL → xWL</strong><small>WL을 소각 주소에 보내고 같은 수량의 xWL 받기</small></span><span aria-hidden="true">→</span></a>
+      <a class="route-card" href="burn-wl.html"><span><strong>xWL → wWL</strong><small>WorldLand에서 소각하고 BSC에서 받기</small></span><span aria-hidden="true">→</span></a>
+      <a class="route-card" href="burn-bsc.html"><span><strong>wWL → xWL</strong><small>BSC에서 소각하고 WorldLand에서 받기</small></span><span aria-hidden="true">→</span></a>
+      <a class="route-card" href="xwl-trade.html"><span><strong>WL · xWL 직접 거래</strong><small>합의한 수량을 각각 전송하고 두 영수증 확인하기</small></span><span aria-hidden="true">→</span></a>
+    </nav>
+    <section id="help"><h2>테스트 방법</h2><p>데모 계정을 연결해 WL 10개를 xWL로 발행해 보세요. 양방향 브리지는 각 소각의 증명과 발행을 별도로 진행합니다. 직접 거래는 같은 WorldLand 체인에서 서로 다른 두 전송으로 이루어집니다.</p></section>
+    <footer><a href="burn-mint-tools.html">토큰 전송·감사 기록</a></footer>
+  </main>
+</body>
+</html>

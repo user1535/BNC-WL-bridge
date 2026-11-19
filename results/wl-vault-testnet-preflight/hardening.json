@@ -1,0 +1,45 @@
+{
+  "verifiedAt": "2026-11-10",
+  "scope": "offline testnet Vault candidate and local RPC fixtures",
+  "chainIds": {"wl": 10359, "bnb": 97},
+  "compiler": {"version": "0.8.24", "evm": "london"},
+  "checks": {
+    "foundryPassed": 57,
+    "londonVaultTestnetPassed": 5,
+    "nodeWalletPassed": 17,
+    "pythonTestnetPassed": 7,
+    "goPackagesPassed": ["cmd/bridge-proof", "internal/chain", "internal/receipt"],
+    "historicalEvidenceFilesMatched": 63
+  },
+  "unsignedPlans": {
+    "deploymentTransactions": 7,
+    "activationTransactions": 2,
+    "pauseTransactions": 2,
+    "unusedRootInvalidationTransactions": 1,
+    "broadcast": false
+  },
+  "computation": {
+    "imageId": "799376513029ceaf76199ef13b1301ce28664a6edd68063324c3eceeec6910f7",
+    "journalVersion": 4,
+    "sdkReverifiedSyntheticReceipts": ["lock-vault", "burn-vault"],
+    "newProvingRuns": 0
+  },
+  "verifiedBehaviors": [
+    "Deployment begins inactive and activation pins the reciprocal asset and registry configuration",
+    "Each paused chain blocks local bridge ingress and claims while ordinary wWL transfers continue",
+    "An unused registered root can be corrected while paused and a consumed root cannot be changed",
+    "A failed WL payout preserves the claim and collateral for an alternate payout authorized by the original recipient",
+    "One WL serializes as a canonical JSON-RPC quantity in the browser wallet client",
+    "Provider log limits are handled by bounded splitting and receipt lookup can fall back to per-transaction RPC",
+    "Completed proof jobs do not count against active capacity",
+    "Testnet RPC transport rejects broadcast methods"
+  ],
+  "remaining": {
+    "gwangjuRpcVerified": false,
+    "bscTestnetRpcVerified": false,
+    "externalDeployment": false,
+    "externalBrowserWalletRoundtripVerified": false,
+    "usedRootIncidentRecovery": "Requires reconciliation across both chains before resuming",
+    "recipientRecovery": "Requires a call from the recipient committed in the source burn"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "passed": true,
+  "before": {
+    "sessionId": "6656b748627dc9f06ed0d8f45481a1c0",
+    "contracts": {
+      "original": "0x700b6A60ce7EaaEA56F065753d8dcB9653dbAD35",
+      "wrapped": "0x700b6A60ce7EaaEA56F065753d8dcB9653dbAD35",
+      "wl_headers": "0xA15BB66138824a1c7167f5E85b957d04Dd34E468",
+      "unlock": "0xb19b36b1456E65E3A6D514D3F715f204BD59f431",
+      "bnb_headers": "0xA15BB66138824a1c7167f5E85b957d04Dd34E468",
+      "mint": "0xb19b36b1456E65E3A6D514D3F715f204BD59f431",
+      "wl_audit": "0xe1Aa25618fA0c7A1CFDab5d6B456af611873b629",
+      "bnb_audit": "0xe1Aa25618fA0c7A1CFDab5d6B456af611873b629"
+    },
+    "balances": {
+      "wl": {
+        "0x70997970c51812dc3a010c7d01b50e0d17dc79c8": "0",
+        "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc": "0",
+        "0x90f79bf6eb2c4f870365e785982e1f101e93b906": "0"
+      },
+      "bnb": {
+        "0x70997970c51812dc3a010c7d01b50e0d17dc79c8": "0",
+        "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc": "0",
+        "0x90f79bf6eb2c4f870365e785982e1f101e93b906": "0"
+      }
+    },
+    "accounting": {
+      "wl": {
+        "totalSupply": "0",
+        "totalBridgeBurned": "10000000000000000000",
+        "totalBridgeMinted": "0"
+      },
+      "bnb": {
+        "totalSupply": "0",
+        "totalBridgeBurned": "10000000000000000000",
+        "totalBridgeMinted": "10000000000000000000"
+      }
+    },
+    "sourceBlocks": {
+      "d82b5b79c80bf22834e38996bf177017b748749fddaaf53867a98e6d66fd52a0": {
+        "number": "0xd",
+        "hash": "0x89ecaf25d64fefa9170c1000bf8e39ab8650c5c333ddce501a72a9b90bcf12cb",
+        "receiptsRoot": "0xf68068cc261a8463ed0872b16018aca232c989a52656fd8113a6abfedec970f8",
+        "transactions": [
+          "0xe57873fdff470b8e80e46491988afa740962a6354b4c09e4a6cb8fa5770e616c"
+        ]
+      },
+      "680f380a99239bd54bd093046d31c8c36d127d3c26b255ed6d96b4c7adaeba69": {
+        "number": "0x8",
+        "hash": "0x9b7b6cd8a71ed8e4fce1669edf9a4572620300451eb64d16d3c1464f6c5bab0f",
+        "receiptsRoot": "0xc9f8ef49f1be5c11636f8f85a7ec37482c8ab6890c830cc010d82bda2f0eddd3",
+        "transactions": [
+          "0x327b8e40a374bbbb39f4a73a9457253a2f111c13471268d8f364d381e968973f"
+        ]
+      }
+    },
+    "claims": {
+      "d82b5b79c80bf22834e38996bf177017b748749fddaaf53867a98e6d66fd52a0": "false",
+      "680f380a99239bd54bd093046d31c8c36d127d3c26b255ed6d96b4c7adaeba69": "true"
+    },
+    "receipts": {
+      "proof-jobs/680f380a99239bd54bd093046d31c8c36d127d3c26b255ed6d96b4c7adaeba69-receipt-4c77a9cd5aa93cea1d919cc99fd54f2af22deab0cf8fc32ba51995cb63ed162a/receipt.bin": {
+        "sha256": "fc627b4abafd58e1f740e8d80954356b2aa51010848960d1153f343221c6d420",
+        "bytes": 537332,
+        "mtimeNs": 1793862781051444254
+      },
+      "proof-jobs/d82b5b79c80bf22834e38996bf177017b748749fddaaf53867a98e6d66fd52a0-receipt-10f51d23cda97ad21e1125401da20fcbb5f6028cc17cd86bab20367886845512/receipt.bin": {
+        "sha256": "008fbfce375662f1ed002e44a67b3cca06716bae7303c276a24544a555cd7544",
+        "bytes": 537332,
+        "mtimeNs": 1793863048619728810
+      }
+    },
+    "entry": {
+      "totalNativeSent": "10000000000000000000",
+      "totalEntryMinted": "10000000000000000000"
+    },
+    "nativeBalances": {
+      "0x70997970c51812dc3a010c7d01b50e0d17dc79c8": "0x21d8f18bf5065ffd317",
+      "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc": "0x21e19e0c9bab2400000",
+      "0x90f79bf6eb2c4f870365e785982e1f101e93b906": "0x21e19e0c9bab2400000"
+    }
+  },
+  "after": {
+    "sessionId": "6656b748627dc9f06ed0d8f45481a1c0",
+    "contracts": {
+      "original": "0x700b6A60ce7EaaEA56F065753d8dcB9653dbAD35",
+      "wrapped": "0x700b6A60ce7EaaEA56F065753d8dcB9653dbAD35",
+      "wl_headers": "0xA15BB66138824a1c7167f5E85b957d04Dd34E468",
+      "unlock": "0xb19b36b1456E65E3A6D514D3F715f204BD59f431",
+      "bnb_headers": "0xA15BB66138824a1c7167f5E85b957d04Dd34E468",
+      "mint": "0xb19b36b1456E65E3A6D514D3F715f204BD59f431",
+      "wl_audit": "0xe1Aa25618fA0c7A1CFDab5d6B456af611873b629",
+      "bnb_audit": "0xe1Aa25618fA0c7A1CFDab5d6B456af611873b629"
+    },
+    "balances": {
+      "wl": {
+        "0x70997970c51812dc3a010c7d01b50e0d17dc79c8": "0",
+        "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc": "0",
+        "0x90f79bf6eb2c4f870365e785982e1f101e93b906": "0"
+      },
+      "bnb": {
+        "0x70997970c51812dc3a010c7d01b50e0d17dc79c8": "0",
+        "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc": "0",
+        "0x90f79bf6eb2c4f870365e785982e1f101e93b906": "0"
+      }
+    },
+    "accounting": {
+      "wl": {
+        "totalSupply": "0",
+        "totalBridgeBurned": "10000000000000000000",
+        "totalBridgeMinted": "0"
+      },
+      "bnb": {
+        "totalSupply": "0",
+        "totalBridgeBurned": "10000000000000000000",
+        "totalBridgeMinted": "10000000000000000000"
+      }
+    },
+    "sourceBlocks": {
+      "d82b5b79c80bf22834e38996bf177017b748749fddaaf53867a98e6d66fd52a0": {
+        "number": "0xd",
+        "hash": "0x89ecaf25d64fefa9170c1000bf8e39ab8650c5c333ddce501a72a9b90bcf12cb",
+        "receiptsRoot": "0xf68068cc261a8463ed0872b16018aca232c989a52656fd8113a6abfedec970f8",
+        "transactions": [
+          "0xe57873fdff470b8e80e46491988afa740962a6354b4c09e4a6cb8fa5770e616c"
+        ]
+      },
+      "680f380a99239bd54bd093046d31c8c36d127d3c26b255ed6d96b4c7adaeba69": {
+        "number": "0x8",
+        "hash": "0x9b7b6cd8a71ed8e4fce1669edf9a4572620300451eb64d16d3c1464f6c5bab0f",
+        "receiptsRoot": "0xc9f8ef49f1be5c11636f8f85a7ec37482c8ab6890c830cc010d82bda2f0eddd3",
+        "transactions": [
+          "0x327b8e40a374bbbb39f4a73a9457253a2f111c13471268d8f364d381e968973f"
+        ]
+      }
+    },
+    "claims": {
+      "d82b5b79c80bf22834e38996bf177017b748749fddaaf53867a98e6d66fd52a0": "false",
+      "680f380a99239bd54bd093046d31c8c36d127d3c26b255ed6d96b4c7adaeba69": "true"
+    },
+    "receipts": {
+      "proof-jobs/680f380a99239bd54bd093046d31c8c36d127d3c26b255ed6d96b4c7adaeba69-receipt-4c77a9cd5aa93cea1d919cc99fd54f2af22deab0cf8fc32ba51995cb63ed162a/receipt.bin": {
+        "sha256": "fc627b4abafd58e1f740e8d80954356b2aa51010848960d1153f343221c6d420",
+        "bytes": 537332,
+        "mtimeNs": 1793862781051444254
+      },
+      "proof-jobs/d82b5b79c80bf22834e38996bf177017b748749fddaaf53867a98e6d66fd52a0-receipt-10f51d23cda97ad21e1125401da20fcbb5f6028cc17cd86bab20367886845512/receipt.bin": {
+        "sha256": "008fbfce375662f1ed002e44a67b3cca06716bae7303c276a24544a555cd7544",
+        "bytes": 537332,
+        "mtimeNs": 1793863048619728810
+      }
+    },
+    "entry": {
+      "totalNativeSent": "10000000000000000000",
+      "totalEntryMinted": "10000000000000000000"
+    },
+    "nativeBalances": {
+      "0x70997970c51812dc3a010c7d01b50e0d17dc79c8": "0x21d8f18bf5065ffd317",
+      "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc": "0x21e19e0c9bab2400000",
+      "0x90f79bf6eb2c4f870365e785982e1f101e93b906": "0x21e19e0c9bab2400000"
+    }
+  },
+  "sdkReceiptsVerified": [
+    "008fbfce375662f1ed002e44a67b3cca06716bae7303c276a24544a555cd7544",
+    "fc627b4abafd58e1f740e8d80954356b2aa51010848960d1153f343221c6d420"
+  ],
+  "freshProofsGenerated": 0,
+  "userTransactionsSent": 0,
+  "newServicePid": 29585,
+  "ui": "http://127.0.0.1:8583/xwl.html"
+}

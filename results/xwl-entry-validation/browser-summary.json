@@ -1,0 +1,116 @@
+{
+  "passed": true,
+  "stages": [
+    "entry",
+    "outbound burn",
+    "outbound composite",
+    "outbound claim",
+    "return burn",
+    "return composite",
+    "restart with unclaimed return",
+    "return claim",
+    "xWL trade leg",
+    "WL trade leg",
+    "domain, proof and replay rejection"
+  ],
+  "signatures": 7,
+  "sessionId": "6656b748627dc9f06ed0d8f45481a1c0",
+  "entry": {
+    "transactionHash": "0x408243c215bd9c52eb53ddec374fa5dab93d25b78912701f2b2214899a216cd9",
+    "blockNumber": "0x7",
+    "blockHash": "0x8eaebd5a3aed15b3856b5106eb9decb5bcc2912fcf548e0763ece63664346e3e",
+    "receiptsRoot": "0x79586249728528af84b9841bd209a796b8e79edc50b27fd994ba271f7d634e03",
+    "gasUsed": "0x18551",
+    "logs": 2,
+    "nativeSinkDeltaWithoutTips": "10000000000000000000"
+  },
+  "outbound": {
+    "action": "burn-wl",
+    "transferId": "0xd2cc3d4924a3a90713af6e95186de43dcc20821e3d00cbdd22519923ba90c8db",
+    "fromBlock": 8
+  },
+  "proofs": {
+    "burn-wl": {
+      "jobId": "680f380a99239bd54bd093046d31c8c36d127d3c26b255ed6d96b4c7adaeba69",
+      "receiptSHA256": "fc627b4abafd58e1f740e8d80954356b2aa51010848960d1153f343221c6d420",
+      "sourceBlock": 8,
+      "transferId": "0xd2cc3d4924a3a90713af6e95186de43dcc20821e3d00cbdd22519923ba90c8db"
+    },
+    "burn-bsc": {
+      "jobId": "d82b5b79c80bf22834e38996bf177017b748749fddaaf53867a98e6d66fd52a0",
+      "receiptSHA256": "008fbfce375662f1ed002e44a67b3cca06716bae7303c276a24544a555cd7544",
+      "sourceBlock": 13,
+      "transferId": "0xd114985421ec3eb5664a0992d128713c75ab5597752cb638d69282117934959c"
+    }
+  },
+  "inbound": {
+    "action": "burn-bsc",
+    "transferId": "0xd114985421ec3eb5664a0992d128713c75ab5597752cb638d69282117934959c",
+    "fromBlock": 13
+  },
+  "restart": {
+    "passed": true,
+    "sdkReceiptsVerified": 2,
+    "freshProofsGenerated": 0,
+    "newServicePid": 29585
+  },
+  "beforeTrade": {
+    "wl": {
+      "A": "10000000000000000000",
+      "B": "0",
+      "totalSupply": "10000000000000000000",
+      "totalBridgeBurned": "10000000000000000000",
+      "totalBridgeMinted": "10000000000000000000"
+    },
+    "bnb": {
+      "A": "0",
+      "B": "0",
+      "totalSupply": "0",
+      "totalBridgeBurned": "10000000000000000000",
+      "totalBridgeMinted": "10000000000000000000"
+    },
+    "nativeA": "9989999073013418681589",
+    "nativeB": "10000000000000000000000",
+    "entryMinted": "10000000000000000000",
+    "nativeSent": "10000000000000000000"
+  },
+  "xwlTransfer": "0xdd93cc7d14789d057a2464a7c913b0d619a8656910c089f632b261017a2aff0f",
+  "wlTransfer": "0xd34f3678bf620cd1ef928a1719e9e6ca94bc4e69668e1cd01f3699852774b6d4",
+  "final": {
+    "wl": {
+      "A": "0",
+      "B": "10000000000000000000",
+      "totalSupply": "10000000000000000000",
+      "totalBridgeBurned": "10000000000000000000",
+      "totalBridgeMinted": "10000000000000000000"
+    },
+    "bnb": {
+      "A": "0",
+      "B": "0",
+      "totalSupply": "0",
+      "totalBridgeBurned": "10000000000000000000",
+      "totalBridgeMinted": "10000000000000000000"
+    },
+    "nativeA": "9997999020985544303573",
+    "nativeB": "9991999977193409018000",
+    "entryMinted": "10000000000000000000",
+    "nativeSent": "10000000000000000000"
+  },
+  "negative": [
+    "old V2 asset addresses",
+    "burn-wl sourceChainId",
+    "burn-wl sourceToken",
+    "burn-wl amount",
+    "burn-wl recipient",
+    "burn-wl transferId",
+    "burn-bsc sourceChainId",
+    "burn-bsc sourceToken",
+    "burn-bsc amount",
+    "burn-bsc recipient",
+    "burn-bsc transferId",
+    "burn-wl actual SDK tamper",
+    "burn-wl actual contract replay",
+    "burn-bsc actual SDK tamper",
+    "burn-bsc actual contract replay"
+  ]
+}

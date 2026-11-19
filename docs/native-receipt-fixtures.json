@@ -1,0 +1,22 @@
+{
+  "sourceEndpoint": "https://bsc-dataseed.nariox.org/",
+  "blockNumber": 124532730,
+  "blockHash": "0x0375ca9a5ca81db8f9b4c959ba9c05156b7a2eb9f505d3178938feb3f528de6f",
+  "receiptRoot": "0x5ac9b5419a23cae87df540f45b86535b0c5ec5e2ba484b71a4e4bbada0bd0320",
+  "scope": "observed RPC block and offline MPT inclusion only; no bridge asset claim/consensus authentication",
+  "chainAuthenticated": false,
+  "files": [
+    {
+      "path": "proof-generator/internal/receipt/testdata/native-bnb-receipts.json",
+      "sha256": "d5c5ae0d3e0553cf6e132fa23a237ff69b09c3257c6766afca84d725fb9bc6e2"
+    },
+    {
+      "path": "contracts/test/fixtures/native-type4-index16.json",
+      "sha256": "383ad40ddedc96004468ec709b43d7b9f8325f3c23e29feae63db55e94040045"
+    },
+    {
+      "path": "contracts/test/fixtures/native-type4-index107.json",
+      "sha256": "048c2c1eadda969b6f1f1ee0916b98e87728c731b19a329b129c137e1796f4d0"
+    }
+  ]
+}

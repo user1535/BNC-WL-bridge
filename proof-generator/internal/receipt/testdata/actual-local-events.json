@@ -1,0 +1,69 @@
+{
+  "origin": "results/local-risc0-bound-pinned",
+  "synthetic": false,
+  "chainAuthenticated": false,
+  "fixtures": [
+    {
+      "action": "lock",
+      "sourceChain": 31337,
+      "sourceToken": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "destinationToken": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "log": {
+        "address": "0x5fbdb2315678afecb367f032d93f642f64180aa3",
+        "topics": [
+          "0xe3a2ff5d27cbc3046060445b398507c82a5f66d0832c86f55aa35afa1a5f7964",
+          "0x142377abef75b2c17d63acba513eda191ad25ac00af0a392e53ece64d660d455",
+          "0x00000000000000000000000072016e33c2ced66b7f11d1454f369be89f5141d2",
+          "0x00000000000000000000000072016e33c2ced66b7f11d1454f369be89f5141d2"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000015af1d78b58c4000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000007a6a",
+        "blockHash": "0xab787a4d477c4897dcbb47197dfedb56bf1a8899d3b0b109add3858740860dba",
+        "blockNumber": "0x5",
+        "blockTimestamp": "0x6aba5217",
+        "transactionHash": "0xe2a5bbb13dd4fae34c96780c40dad1b42dcaa60a38e85170936301ee22a2a670",
+        "transactionIndex": "0x0",
+        "logIndex": "0x0",
+        "removed": false
+      },
+      "expected": {
+        "sender": "0x72016e33c2cED66b7f11d1454f369bE89F5141d2",
+        "recipient": "0x72016e33c2cED66b7f11d1454f369bE89F5141d2",
+        "amount": "25000000000000000000",
+        "nonce": 1,
+        "destinationChainId": 31338
+      },
+      "receiptSHA256": "f968365658d47a322f37320ea259d07fcb9e2110a3b16e19aef207fb436145d6"
+    },
+    {
+      "action": "burn",
+      "sourceChain": 31338,
+      "sourceToken": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "destinationToken": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "log": {
+        "address": "0x5fbdb2315678afecb367f032d93f642f64180aa3",
+        "topics": [
+          "0x0bc01761102a2f2e5b422b5c2d1bb9ebca83acd539de20d4bcc0615d66c1e0ca",
+          "0xa39b80bb925f5f714e8187d467288cbe4a97079c2910911b3cb0a43b7f676980",
+          "0x00000000000000000000000072016e33c2ced66b7f11d1454f369be89f5141d2",
+          "0x00000000000000000000000072016e33c2ced66b7f11d1454f369be89f5141d2"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000015af1d78b58c4000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000007a69",
+        "blockHash": "0x56cc449f937909d69ff506b2c93e99e86d8c0e11f1634c4f6e6f93114e267f7c",
+        "blockNumber": "0x9",
+        "blockTimestamp": "0x6aba5326",
+        "transactionHash": "0x93e4d49c849d2c90548256c54d481372f60391062fdf01041fb689a4a7ab3dc6",
+        "transactionIndex": "0x0",
+        "logIndex": "0x1",
+        "removed": false
+      },
+      "expected": {
+        "sender": "0x72016e33c2cED66b7f11d1454f369bE89F5141d2",
+        "recipient": "0x72016e33c2cED66b7f11d1454f369bE89F5141d2",
+        "amount": "25000000000000000000",
+        "nonce": 1,
+        "destinationChainId": 31337
+      },
+      "receiptSHA256": "28c75355afd8d53449fa35f13b166ce4567d773498ae72b80f507ca93c76a65b"
+    }
+  ]
+}

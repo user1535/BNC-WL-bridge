@@ -1,0 +1,88 @@
+{
+  "passed": true,
+  "date": "2026-11-05",
+  "scope": "local development checklist",
+  "session": "results/xwl-entry-v1",
+  "browserSignatures": 7,
+  "entry": {
+    "transactionHash": "0x408243c215bd9c52eb53ddec374fa5dab93d25b78912701f2b2214899a216cd9",
+    "blockNumber": "0x7",
+    "blockHash": "0x8eaebd5a3aed15b3856b5106eb9decb5bcc2912fcf548e0763ece63664346e3e",
+    "receiptsRoot": "0x79586249728528af84b9841bd209a796b8e79edc50b27fd994ba271f7d634e03",
+    "gasUsed": "0x18551",
+    "logs": 2,
+    "nativeSinkDeltaWithoutTips": "10000000000000000000"
+  },
+  "freshCompositeReceipts": 2,
+  "proofRuns": {
+    "burn-wl": {
+      "mode": "prove",
+      "exitCode": 0,
+      "failure": null,
+      "elapsedSeconds": 270.8939195360008,
+      "peakRSS": 4922490880,
+      "cpuCap": 12,
+      "memoryCap": 6631733248,
+      "timeCap": 1800,
+      "fileCap": 67108864,
+      "inputSHA256": "4c77a9cd5aa93cea1d919cc99fd54f2af22deab0cf8fc32ba51995cb63ed162a",
+      "hostSHA256": "14044271740f941e2320d331550afe72d748cbb42f451d5a69903604511f6b56",
+      "receiptSHA256": "fc627b4abafd58e1f740e8d80954356b2aa51010848960d1153f343221c6d420",
+      "receiptBytes": 537332,
+      "imageId": "b0e69f5195d8dd9bd83bfda7c6980dbe9e597404a0984f8f7f656508d99a9a68"
+    },
+    "burn-bsc": {
+      "mode": "prove",
+      "exitCode": 0,
+      "failure": null,
+      "elapsedSeconds": 266.82859752700006,
+      "peakRSS": 4904890368,
+      "cpuCap": 12,
+      "memoryCap": 6646946611,
+      "timeCap": 1800,
+      "fileCap": 67108864,
+      "inputSHA256": "10f51d23cda97ad21e1125401da20fcbb5f6028cc17cd86bab20367886845512",
+      "hostSHA256": "14044271740f941e2320d331550afe72d748cbb42f451d5a69903604511f6b56",
+      "receiptSHA256": "008fbfce375662f1ed002e44a67b3cca06716bae7303c276a24544a555cd7544",
+      "receiptBytes": 537332,
+      "imageId": "b0e69f5195d8dd9bd83bfda7c6980dbe9e597404a0984f8f7f656508d99a9a68"
+    }
+  },
+  "restart": {
+    "passed": true,
+    "sdkReceiptsVerified": 2,
+    "freshProofsGenerated": 0,
+    "newServicePid": 29585
+  },
+  "trade": {
+    "xwl": "10",
+    "wl": "8",
+    "xwlTransfer": "0xdd93cc7d14789d057a2464a7c913b0d619a8656910c089f632b261017a2aff0f",
+    "wlTransfer": "0xd34f3678bf620cd1ef928a1719e9e6ca94bc4e69668e1cd01f3699852774b6d4"
+  },
+  "negativeChecks": [
+    "old V2 asset addresses",
+    "burn-wl sourceChainId",
+    "burn-wl sourceToken",
+    "burn-wl amount",
+    "burn-wl recipient",
+    "burn-wl transferId",
+    "burn-bsc sourceChainId",
+    "burn-bsc sourceToken",
+    "burn-bsc amount",
+    "burn-bsc recipient",
+    "burn-bsc transferId",
+    "burn-wl actual SDK tamper",
+    "burn-wl actual contract replay",
+    "burn-bsc actual SDK tamper",
+    "burn-bsc actual contract replay"
+  ],
+  "preservedPriorEvidenceFiles": 49,
+  "tests": {
+    "solidity": 47,
+    "wallet": 16
+  },
+  "externalOperatorPolicyConfirmed": false,
+  "sourceAuthenticated": false,
+  "onchainRisc0Verified": false
+}

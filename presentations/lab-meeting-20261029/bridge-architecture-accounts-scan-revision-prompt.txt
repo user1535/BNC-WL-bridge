@@ -1,0 +1,22 @@
+Make a targeted diagram-routing cleanup to this exact slide. Keep ALL text, numbers, icons, the two account cards, panel geometry, colors and footer unchanged. Do not reintroduce root-registration boxes. There must be no RPC text. Preserve the image dimensions.
+
+Fix ONLY these two connector paths:
+
+A. The bottom arrow labeled "① lock · 사용자 서명" must start at the WorldLand account card itself, not from the shared User panel bottom.
+- Remove the current vertical stub at the bottom-center of the User panel (near x=1040), and the portion of the bottom horizontal lock path to the right of the WorldLand account.
+- Start the lock line at the LOWER-LEFT BORDER of the WorldLand account card, near (870,640). Route left a short distance into the margin at x≈850, then DOWN along the left inner edge of the User panel to the bottom track y≈785. This margin is left of the shared verification rows, so avoid crossing those text boxes.
+- Follow the existing bottom track LEFT to the source chain.
+- At the source end, the arrow should point into bridgeLock(), not Blocks / Receipts. Route along the left margin of Source, x≈53, then right into the bridgeLock() box at about y=504.
+- Keep the "① lock · 사용자 서명" label legible on the bottom track.
+- Do not connect the lock line to BNB, to the shared SDK check, or to the shared User panel bottom.
+The line's clear meaning is WorldLand ACCOUNT → Source bridgeLock().
+
+B. Clean up the external Scan connector, which currently has a dangling vertical blue line in the Source/Server gap.
+- The Scan data line must originate from the RIGHT EDGE of the Source "Blocks / Receipts" box (around x=365,y=690).
+- Go right into the gap x≈417, then up to y≈150, then right into the external Scan site box.
+- The vertical line must stop exactly at its connection to Blocks / Receipts near y=690: no dangling part below.
+- Remove the obsolete stub from the top of the Source Chain panel and the horizontal segment from x≈230 to x≈417 at y≈181, since the data now explicitly originates from Blocks / Receipts.
+- Keep the external Scan → Bridge Server downward arrow unchanged.
+- Keep the "② Scan 데이터 조회" label in its top-left location.
+
+Preserve the existing arrow 4 from BNB account toward Bridge Contracts and arrow 5 returning mint directly into the BNB account. Preserve every other element. Smooth, consistent blue strokes, clear arrowheads, no line crossings through words.

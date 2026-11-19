@@ -1,0 +1,161 @@
+Running: go -C proof-generator test -race ./...
+?   	example.com/worldland-bnb-bridge/proof-generator/cmd/mpt-fixtures	[no test files]
+?   	example.com/worldland-bnb-bridge/proof-generator/cmd/receipt-core-fixtures	[no test files]
+ok  	example.com/worldland-bnb-bridge/proof-generator/cmd/bridge-proof	(cached)
+?   	example.com/worldland-bnb-bridge/proof-generator/internal/header	[no test files]
+ok  	example.com/worldland-bnb-bridge/proof-generator/internal/chain	(cached)
+ok  	example.com/worldland-bnb-bridge/proof-generator/internal/receipt	(cached)
+Running: go -C proof-generator vet ./...
+Running: forge test --root contracts
+No files changed, compilation skipped
+
+Ran 2 tests for test/DevHeaderRegistry.t.sol:DevHeaderRegistryTest
+[PASS] testBatchCoverageAndConflictingHash() (gas: 858040)
+[PASS] testRejectsLiveDestinationChain() (gas: 36686)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 1.78ms (739.33µs CPU time)
+
+Ran 2 tests for test/MockRoundtrip.t.sol:MockRoundtripTest
+[PASS] testDevMocksRejectLiveDestinationChains() (gas: 1702816)
+[PASS] testSameOwnerRoundtripAndFrontRun() (gas: 2537063)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 3.57ms (2.61ms CPU time)
+
+Ran 3 tests for test/BridgeAuditLog.t.sol:BridgeAuditLogTest
+[PASS] testIncidentBlocksPreviouslyRegisteredRoot() (gas: 136262)
+[PASS] testInvalidCallerCannotStop() (gas: 14726)
+[PASS] testMalformedHeaderDoesNotStop() (gas: 19746)
+Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 8.07ms (281.02µs CPU time)
+
+Ran 6 tests for test/BridgeTokens.t.sol:BridgeTokensTest
+[PASS] testLockPreventsTransferAndTransferFromUntilUnlock() (gas: 143794)
+[PASS] testLockRequiresDestinationTokenBinding() (gas: 893210)
+[PASS] testLockValidationAndUniqueIds() (gas: 76281)
+[PASS] testMintBurnAndNoTransfer() (gas: 79045)
+[PASS] testReceiverBindingIsOneTime() (gas: 22245)
+[PASS] testUnlockAuthorizationAndReplay() (gas: 96103)
+Suite result: ok. 6 passed; 0 failed; 0 skipped; finished in 18.27ms (2.81ms CPU time)
+
+Ran 4 tests for test/ReceiptCoreFormats.t.sol:ReceiptCoreFormatsTest
+[PASS] testCapturedNativeSetCodeReceiptMPTLog() (gas: 2702819)
+[PASS] testSupportedLegacyAndTypedReceiptsUseLocalLogIndex() (gas: 3669734)
+[PASS] testUnsupportedTypesAndMalformedReceiptFieldsRejected() (gas: 9119312)
+[PASS] testWrongRootTxIndexAndEmptyProofRejected() (gas: 390074)
+Suite result: ok. 4 passed; 0 failed; 0 skipped; finished in 549.75ms (133.92ms CPU time)
+
+Ran 8 tests for test/MPTCanonical.t.sol:MPTCanonicalTest
+[PASS] testEvenCompactPaddingMustBeZero() (gas: 23760)
+[PASS] testFuzzGethDifferentialMutation(uint8,uint16,uint16,uint8) (runs: 256, μ: 1193369, ~: 1195099)
+[PASS] testGethDifferential128CanonicalProofs() (gas: 152947923)
+[PASS] testGethHashedBranchAndExtension() (gas: 2560407)
+[PASS] testGethInlineBranchAndExtension() (gas: 3837389)
+[PASS] testGethNonMembershipIsNotInclusion() (gas: 8273535)
+[PASS] testNonCanonicalRLPRejected() (gas: 30416)
+[PASS] testTrailingAndEmptyProofsRejected() (gas: 1188371)
+Suite result: ok. 8 passed; 0 failed; 0 skipped; finished in 1.70s (1.59s CPU time)
+
+Ran 6 tests for test/ERC20Boundaries.t.sol:ERC20BoundariesTest
+[PASS] testFiniteAndInfiniteAllowanceAndEvents() (gas: 608060)
+[PASS] testFuzzLockTransferConservation(uint8,uint8) (runs: 256, μ: 990879, ~: 993600)
+[PASS] testLockedTransferFromRollbackAndSelfRestriction() (gas: 1005817)
+[PASS] testMintBurnBoundaries() (gas: 557407)
+[PASS] testRevertedTransferFromRollsBackAllowance() (gas: 555142)
+[PASS] testZeroAndSelfTransfersPreserveSupplyAndEmit() (gas: 565175)
+Suite result: ok. 6 passed; 0 failed; 0 skipped; finished in 1.71s (1.72s CPU time)
+
+Ran 12 tests for test/BurnMintV2.t.sol:BurnMintV2Test
+[PASS] testAdminRecoveryUpgradeAndUnverifiedClaimSelectorsCannotMint() (gas: 40298)
+[PASS] testAlteredRecipientAmountChainNonceAndBurnerRejected() (gas: 2353333)
+[PASS] testDeployerCannotBindProofBypassingReceiver() (gas: 7951317)
+[PASS] testFuzzAnyNonReceiverCannotMint(address,bytes32,uint256) (runs: 256, μ: 25297, ~: 25297)
+[PASS] testMPTTransferDelegatedTransferPartialBurnOtherRecipient() (gas: 1338431)
+[PASS] testNoWrappedGenesisOrRealChainDeployment() (gas: 167852)
+[PASS] testProxyAndWrongImmutableConfigurationCannotReceiveMintAuthority() (gas: 12910184)
+[PASS] testReplayAndThirdPartyClaimCannotRedirect() (gas: 1059475)
+[PASS] testRevertedBurnRollsBackNonceSupplyAndCounter() (gas: 52168)
+[PASS] testRevertedMintRollsBackReplayAndAccountingThenRetrySucceeds() (gas: 1104599)
+[PASS] testUnauthorizedMintAndBindingRejected() (gas: 20638)
+[PASS] testWrongRootAndMissingProofRejected() (gas: 188354)
+Suite result: ok. 12 passed; 0 failed; 0 skipped; finished in 1.72s (125.88ms CPU time)
+
+Ran 1 test for test/ConservationSequences.t.sol:ConservationSequencesTest
+[PASS] testFuzzPendingClaimsPartialBurnTransfersAndReplay(uint256) (runs: 256, μ: 12433401, ~: 12355740)
+Suite result: ok. 1 passed; 0 failed; 0 skipped; finished in 1.72s (1.72s CPU time)
+
+Ran 9 test suites in 1.72s (7.44s CPU time): 44 tests passed, 0 failed, 0 skipped (44 total tests)
+Running: cargo test --locked --manifest-path risc0/receipt-computation/Cargo.toml -p bridge-receipt-core
+   Compiling bridge-receipt-core v0.1.0 (/home/gangryun/BNC-WL/risc0/receipt-computation/core)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 1.21s
+     Running unittests src/lib.rs (risc0/receipt-computation/target/debug/deps/bridge_receipt_core-b8d5b3b30369f51f)
+
+running 5 tests
+test tests::valid ... ok
+test tests::proof_and_nonce ... ok
+test tests::mutations ... ok
+test tests::valid_burn ... ok
+test tests::captured_v2_domains_and_mutations ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+   Doc-tests bridge_receipt_core
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+Running: /mnt/c/Users/yebeen/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe --test wallet/client.test.mjs wallet/burn-mint.test.mjs
+✔ V2 captured MPT/domain vectors permit holder C burn to recipient B (31.8372ms)
+✔ V2 rejects altered event metadata even with a recomputed input commitment (63.7334ms)
+✔ V1/V2 packages and pinned guest policies cannot be exchanged (18.8836ms)
+✔ V2 claim uses designated recipient and blocks replay/account changes before signing (228.4659ms)
+✔ V2 fresh burn preview preserves a different recipient and persists before send (2.6825ms)
+✔ ERC20 delegated transfer preview binds holder, recipient, amount and signer (1.1558ms)
+✔ actual receipt-computation lock/burn package MPT, event, ABI match (29.8129ms)
+✔ reject tampered metadata, receipt, ABI, root, domain, destination and proof suffix (62.8082ms)
+✔ geth receipt core multi-node format fixtures and wrong key (17.8819ms)
+✔ MPT inline child, extension and branch shapes, canonical compact path (0.4833ms)
+✔ captured native BNB type4 receipts verify against the full 121-receipt root (20.9836ms)
+✔ wallet actual coverage preview and fresh validated send, saves intent before send (157.7398ms)
+✔ changed account, chain, code, replay, root and RPC errors block wallet send (540.7103ms)
+✔ unregistered roots and retired header operations never authorize wallet send (70.0256ms)
+✔ source action uses owner and available tokens, rejects insufficient gas or amount (2.6583ms)
+✔ missing computation proof or native-only/retired manifest is rejected (1.3573ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1320.6304
+Running: python3 -m unittest discover -s native-wl -v
+test_activation_and_burn_validation_are_atomic (test_reference.NativeTransitionTests.test_activation_and_burn_validation_are_atomic) ... ok
+test_burn_supply_and_third_party_mint (test_reference.NativeTransitionTests.test_burn_supply_and_third_party_mint) ... ok
+test_deterministic_reexecution_and_reorg_restore (test_reference.NativeTransitionTests.test_deterministic_reexecution_and_reorg_restore) ... ok
+test_mint_authority_replay_and_failure_atomicity (test_reference.NativeTransitionTests.test_mint_authority_replay_and_failure_atomicity) ... ok
+test_uint256_overflow_rolls_back_processed_id (test_reference.NativeTransitionTests.test_uint256_overflow_rolls_back_processed_id) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+Running: python3 scripts/check-runtime-resources.py
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.002s
+
+OK
+Running: python3 scripts/check-receipt-computation.py
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.747s
+
+OK
+Running: python3 scripts/check-burn-mint-computation.py
+....
+----------------------------------------------------------------------
+Ran 4 tests in 1.992s
+
+OK
+Running: python3 scripts/check-bridge-audit.py
+audit chain commitment, tamper detection, incident stop and restart persistence PASS
+matching roots remain active; repeated registered-root mismatch triggers stop PASS
+Current source and selected SDK gates PASS

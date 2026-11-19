@@ -1,0 +1,23 @@
+{
+  "chainId": 97,
+  "status": "connection_unverified",
+  "transactionBroadcast": false,
+  "attempts": [
+    {
+      "rpc": "https://bsc-testnet-dataseed.bnbchain.org/",
+      "outcome": "connection timeout"
+    },
+    {
+      "rpc": "https://bsc-testnet.bnbchain.org/",
+      "outcome": "connection timeout"
+    },
+    {
+      "rpc": "https://bsc-prebsc-dataseed.bnbchain.org/",
+      "outcome": "connection timeout"
+    },
+    {
+      "rpc": "https://bsc-testnet-rpc.publicnode.com/",
+      "outcome": "RPC connection or chain-ID validation failed"
+    }
+  ]
+}

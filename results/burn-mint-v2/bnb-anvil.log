@@ -1,0 +1,1802 @@
+Error: Operation not permitted (os error 1)
+2026-11-03T06:56:25.786151Z  INFO node::user: eth_chainId
+2026-11-03T06:56:25.788470Z  INFO node::user: eth_chainId
+2026-11-03T06:56:25.912283Z  INFO node::user: eth_chainId
+2026-11-03T06:56:26.879098Z  INFO node::user: eth_chainId
+2026-11-03T06:56:26.933894Z  INFO node::user: eth_getTransactionCount
+2026-11-03T06:56:26.935038Z  INFO node::user: eth_estimateGas
+2026-11-03T06:56:26.937393Z  INFO node::user: eth_feeHistory
+2026-11-03T06:56:26.937929Z  INFO node::user: eth_sendTransaction
+2026-11-03T06:56:26.937969Z  INFO node::user: eth_accounts
+2026-11-03T06:56:26.939088Z  INFO node::user: 
+2026-11-03T06:56:26.939130Z  INFO node::user:     Transaction: 0x63d3f327270252bb825547cad3a1aec4bb26076ea7e341d59ee70f61d88e843e
+2026-11-03T06:56:26.939137Z  INFO node::user:     Contract created: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+2026-11-03T06:56:26.939141Z  INFO node::user:     Gas used: 914587
+2026-11-03T06:56:26.939144Z  INFO node::user: 
+2026-11-03T06:56:26.939152Z  INFO node::user:     Block Number: 1
+2026-11-03T06:56:26.939155Z  INFO node::user:     Block Hash: 0x473d95a3d22408cb0f0a4183f23a1942786d09152a381d033b08c4118c37ef3d
+2026-11-03T06:56:26.939160Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 06:56:26 +0000"
+
+2026-11-03T06:56:26.939161Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T06:56:26.939718Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T06:56:27.916876Z  INFO node::user: eth_chainId
+2026-11-03T06:56:28.006123Z  INFO node::user: eth_chainId
+2026-11-03T06:56:28.059458Z  INFO node::user: eth_getTransactionCount
+2026-11-03T06:56:28.060283Z  INFO node::user: eth_estimateGas
+2026-11-03T06:56:28.061614Z  INFO node::user: eth_feeHistory
+2026-11-03T06:56:28.062164Z  INFO node::user: eth_sendTransaction
+2026-11-03T06:56:28.062184Z  INFO node::user: eth_accounts
+2026-11-03T06:56:28.062989Z  INFO node::user: 
+2026-11-03T06:56:28.063005Z  INFO node::user:     Transaction: 0xa2ef4afe6c064644c497bdee9f96453f0d9942cd085e193b0134562b7ae8cc4f
+2026-11-03T06:56:28.063009Z  INFO node::user:     Contract created: 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
+2026-11-03T06:56:28.063013Z  INFO node::user:     Gas used: 763703
+2026-11-03T06:56:28.063015Z  INFO node::user: 
+2026-11-03T06:56:28.063019Z  INFO node::user:     Block Number: 2
+2026-11-03T06:56:28.063021Z  INFO node::user:     Block Hash: 0xa4415be84ddd0c129f5d2f1919c748fd4ba2926ddb10b659ab9e241b803d8e46
+2026-11-03T06:56:28.063025Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 06:56:28 +0000"
+
+2026-11-03T06:56:28.063087Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T06:56:28.063612Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T06:56:28.090011Z  INFO node::user: eth_chainId
+2026-11-03T06:56:28.142567Z  INFO node::user: eth_getTransactionCount
+2026-11-03T06:56:28.143347Z  INFO node::user: eth_estimateGas
+2026-11-03T06:56:28.145312Z  INFO node::user: eth_feeHistory
+2026-11-03T06:56:28.145917Z  INFO node::user: eth_sendTransaction
+2026-11-03T06:56:28.145934Z  INFO node::user: eth_accounts
+2026-11-03T06:56:28.146807Z  INFO node::user: 
+2026-11-03T06:56:28.146821Z  INFO node::user:     Transaction: 0x65065cb755c629fd9088d89ccbca9047769bc0cb05d37d8a17181066b6104fce
+2026-11-03T06:56:28.146826Z  INFO node::user:     Contract created: 0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0
+2026-11-03T06:56:28.146830Z  INFO node::user:     Gas used: 1843328
+2026-11-03T06:56:28.146832Z  INFO node::user: 
+2026-11-03T06:56:28.146836Z  INFO node::user:     Block Number: 3
+2026-11-03T06:56:28.146839Z  INFO node::user:     Block Hash: 0x69794440d4316a0426cb3e2a11bc92ff2aa1087e30ee25c90d33322c2d371ad3
+2026-11-03T06:56:28.146842Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 06:56:28 +0000"
+
+2026-11-03T06:56:28.146860Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T06:56:28.147339Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T06:56:28.172920Z  INFO node::user: eth_chainId
+2026-11-03T06:56:28.179765Z  INFO node::user: eth_chainId
+2026-11-03T06:56:28.180323Z  INFO node::user: eth_getTransactionCount
+2026-11-03T06:56:28.180948Z  INFO node::user: eth_call
+2026-11-03T06:56:28.186963Z  INFO node::user: eth_chainId
+2026-11-03T06:56:28.211574Z  INFO node::user: eth_chainId
+2026-11-03T06:56:28.212250Z  INFO node::user: eth_getTransactionCount
+2026-11-03T06:56:28.212694Z  INFO node::user: eth_feeHistory
+2026-11-03T06:56:28.213217Z  INFO node::user: eth_estimateGas
+2026-11-03T06:56:28.214037Z  INFO node::user: eth_sendTransaction
+2026-11-03T06:56:28.214050Z  INFO node::user: eth_accounts
+2026-11-03T06:56:28.214719Z  INFO node::user: 
+2026-11-03T06:56:28.214734Z  INFO node::user:     Transaction: 0x2853dbeef37ba51b562042338f22ec76641caa8fc93ae0fad136f2efcdd0f2ab
+2026-11-03T06:56:28.214737Z  INFO node::user:     Gas used: 70940
+2026-11-03T06:56:28.214739Z  INFO node::user: 
+2026-11-03T06:56:28.214744Z  INFO node::user:     Block Number: 4
+2026-11-03T06:56:28.214746Z  INFO node::user:     Block Hash: 0x08239a47260b28115638c4fa1322153c36802e99f6938908a49a63bcb2cd22fd
+2026-11-03T06:56:28.214749Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 06:56:28 +0000"
+
+2026-11-03T06:56:28.214912Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T06:56:28.255199Z  INFO node::user: eth_chainId
+2026-11-03T06:56:28.320390Z  INFO node::user: eth_chainId
+2026-11-03T06:56:28.386991Z  INFO node::user: eth_chainId
+2026-11-03T06:59:08.431880Z  INFO node::user: eth_chainId
+2026-11-03T06:59:08.434210Z  INFO node::user: eth_chainId
+2026-11-03T06:59:08.436107Z  INFO node::user: eth_getCode
+2026-11-03T06:59:08.436885Z  INFO node::user: eth_getCode
+2026-11-03T06:59:08.440431Z  INFO node::user: eth_getCode
+2026-11-03T06:59:08.605499Z  INFO node::user: eth_chainId
+2026-11-03T06:59:08.666783Z  INFO node::user: eth_getTransactionCount
+2026-11-03T06:59:08.667653Z  INFO node::user: eth_estimateGas
+2026-11-03T06:59:08.669324Z  INFO node::user: eth_feeHistory
+2026-11-03T06:59:08.669885Z  INFO node::user: eth_sendTransaction
+2026-11-03T06:59:08.669905Z  INFO node::user: eth_accounts
+2026-11-03T06:59:08.670749Z  INFO node::user: 
+2026-11-03T06:59:08.670770Z  INFO node::user:     Transaction: 0x8b8fd3b562f8101112a480e60bc4753a6d4d5d9101a0c676f8863df622ec3925
+2026-11-03T06:59:08.670776Z  INFO node::user:     Contract created: 0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9
+2026-11-03T06:59:08.670780Z  INFO node::user:     Gas used: 223445
+2026-11-03T06:59:08.670784Z  INFO node::user: 
+2026-11-03T06:59:08.670790Z  INFO node::user:     Block Number: 5
+2026-11-03T06:59:08.670795Z  INFO node::user:     Block Hash: 0x86fcdcb9dd6de44fd0f39dde6aee3032d134ce7d763e0b35f3c5eca8306b9067
+2026-11-03T06:59:08.670802Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 06:59:08 +0000"
+
+2026-11-03T06:59:08.670956Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T06:59:08.671539Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T06:59:08.733677Z  INFO node::user: eth_chainId
+2026-11-03T06:59:08.740845Z  INFO node::user: eth_chainId
+2026-11-03T06:59:08.741353Z  INFO node::user: eth_getTransactionCount
+2026-11-03T06:59:08.741821Z  INFO node::user: eth_call
+2026-11-03T06:59:08.805943Z  INFO node::user: eth_blockNumber
+2026-11-03T06:59:08.837447Z  INFO node::user: eth_getLogs
+2026-11-03T06:59:08.886373Z  INFO node::user: eth_chainId
+2026-11-03T06:59:08.949751Z  INFO node::user: eth_chainId
+2026-11-03T06:59:08.956714Z  INFO node::user: eth_chainId
+2026-11-03T06:59:08.957278Z  INFO node::user: eth_getTransactionCount
+2026-11-03T06:59:08.957977Z  INFO node::user: eth_call
+2026-11-03T06:59:08.964757Z  INFO node::user: eth_chainId
+2026-11-03T06:59:08.985748Z  INFO node::user: eth_chainId
+2026-11-03T06:59:08.986627Z  INFO node::user: eth_getTransactionCount
+2026-11-03T06:59:08.987253Z  INFO node::user: eth_feeHistory
+2026-11-03T06:59:08.987844Z  INFO node::user: eth_estimateGas
+2026-11-03T06:59:08.988772Z  INFO node::user: eth_sendTransaction
+2026-11-03T06:59:08.988791Z  INFO node::user: eth_accounts
+2026-11-03T06:59:08.989533Z  INFO node::user: 
+2026-11-03T06:59:08.989552Z  INFO node::user:     Transaction: 0x9aa1532a48a2f3d50944100fe2ed0cc7a4462f10267b499c356a00456b78d849
+2026-11-03T06:59:08.989560Z  INFO node::user:     Gas used: 67982
+2026-11-03T06:59:08.989581Z  INFO node::user: 
+2026-11-03T06:59:08.989587Z  INFO node::user:     Block Number: 6
+2026-11-03T06:59:08.989590Z  INFO node::user:     Block Hash: 0xb2a28b07231b963a413f20d095cd34529fb5e0e2a7c28a26ba630b8b42f7e538
+2026-11-03T06:59:08.989596Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 06:59:08 +0000"
+
+2026-11-03T06:59:08.989761Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T06:59:18.999549Z  INFO node::user: eth_blockNumber
+2026-11-03T06:59:19.024755Z  INFO node::user: eth_getLogs
+2026-11-03T06:59:29.055356Z  INFO node::user: eth_blockNumber
+2026-11-03T06:59:29.078376Z  INFO node::user: eth_getLogs
+2026-11-03T06:59:39.105549Z  INFO node::user: eth_blockNumber
+2026-11-03T06:59:39.140771Z  INFO node::user: eth_getLogs
+2026-11-03T06:59:49.171144Z  INFO node::user: eth_blockNumber
+2026-11-03T06:59:49.204913Z  INFO node::user: eth_getLogs
+2026-11-03T06:59:59.233448Z  INFO node::user: eth_blockNumber
+2026-11-03T06:59:59.267870Z  INFO node::user: eth_getLogs
+2026-11-03T07:00:09.316274Z  INFO node::user: eth_blockNumber
+2026-11-03T07:00:09.350178Z  INFO node::user: eth_getLogs
+2026-11-03T07:00:19.401523Z  INFO node::user: eth_blockNumber
+2026-11-03T07:00:19.436647Z  INFO node::user: eth_getLogs
+2026-11-03T07:00:29.519547Z  INFO node::user: eth_blockNumber
+2026-11-03T07:00:29.550000Z  INFO node::user: eth_getLogs
+2026-11-03T07:00:39.579608Z  INFO node::user: eth_blockNumber
+2026-11-03T07:00:39.609303Z  INFO node::user: eth_getLogs
+2026-11-03T07:00:49.637629Z  INFO node::user: eth_blockNumber
+2026-11-03T07:00:49.667387Z  INFO node::user: eth_getLogs
+2026-11-03T07:00:59.694798Z  INFO node::user: eth_blockNumber
+2026-11-03T07:00:59.729576Z  INFO node::user: eth_getLogs
+2026-11-03T07:01:09.782847Z  INFO node::user: eth_blockNumber
+2026-11-03T07:01:09.817188Z  INFO node::user: eth_getLogs
+2026-11-03T07:01:19.864474Z  INFO node::user: eth_blockNumber
+2026-11-03T07:01:19.903861Z  INFO node::user: eth_getLogs
+2026-11-03T07:01:29.944018Z  INFO node::user: eth_blockNumber
+2026-11-03T07:01:29.979014Z  INFO node::user: eth_getLogs
+2026-11-03T07:01:40.021784Z  INFO node::user: eth_blockNumber
+2026-11-03T07:01:40.056330Z  INFO node::user: eth_getLogs
+2026-11-03T07:01:50.087338Z  INFO node::user: eth_blockNumber
+2026-11-03T07:01:50.109545Z  INFO node::user: eth_getLogs
+2026-11-03T07:02:00.133470Z  INFO node::user: eth_blockNumber
+2026-11-03T07:02:00.162820Z  INFO node::user: eth_getLogs
+2026-11-03T07:02:10.202994Z  INFO node::user: eth_blockNumber
+2026-11-03T07:02:10.234928Z  INFO node::user: eth_getLogs
+2026-11-03T07:02:20.260196Z  INFO node::user: eth_blockNumber
+2026-11-03T07:02:20.294928Z  INFO node::user: eth_getLogs
+2026-11-03T07:02:30.332898Z  INFO node::user: eth_blockNumber
+2026-11-03T07:02:30.359115Z  INFO node::user: eth_getLogs
+2026-11-03T07:02:40.396390Z  INFO node::user: eth_blockNumber
+2026-11-03T07:02:40.424103Z  INFO node::user: eth_getLogs
+2026-11-03T07:02:50.460343Z  INFO node::user: eth_blockNumber
+2026-11-03T07:02:50.494140Z  INFO node::user: eth_getLogs
+2026-11-03T07:03:00.528269Z  INFO node::user: eth_blockNumber
+2026-11-03T07:03:00.547357Z  INFO node::user: eth_getLogs
+2026-11-03T07:03:07.995265Z  INFO node::user: eth_chainId
+2026-11-03T07:03:07.997339Z  INFO node::user: eth_getCode
+2026-11-03T07:03:07.998351Z  INFO node::user: eth_getCode
+2026-11-03T07:03:08.001399Z  INFO node::user: eth_getCode
+2026-11-03T07:03:08.336140Z  INFO node::user: eth_chainId
+2026-11-03T07:03:08.338818Z  INFO node::user: eth_getCode
+2026-11-03T07:03:08.339641Z  INFO node::user: eth_getCode
+2026-11-03T07:03:08.342476Z  INFO node::user: eth_getCode
+2026-11-03T07:03:09.060667Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.072265Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.081478Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.089175Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.098269Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.099375Z  INFO node::user: eth_call
+2026-11-03T07:03:09.106385Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.107108Z  INFO node::user: eth_call
+2026-11-03T07:03:09.116295Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.117246Z  INFO node::user: eth_call
+2026-11-03T07:03:09.125604Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.126444Z  INFO node::user: eth_call
+2026-11-03T07:03:09.221166Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.231597Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.237565Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.244566Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.251668Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.257743Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.266321Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.266346Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.274737Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.348034Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.358243Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.367583Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.376693Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.384991Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.392370Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.401114Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.401708Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.410127Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.417038Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.423230Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.670491Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.688716Z  INFO node::user: eth_chainId
+2026-11-03T07:03:09.708657Z  INFO node::user: eth_chainId
+2026-11-03T07:03:10.137066Z  INFO node::user: eth_chainId
+2026-11-03T07:03:10.152612Z  INFO node::user: eth_chainId
+2026-11-03T07:03:10.164601Z  INFO node::user: eth_chainId
+2026-11-03T07:03:10.175653Z  INFO node::user: eth_chainId
+2026-11-03T07:03:10.184923Z  INFO node::user: eth_chainId
+2026-11-03T07:03:10.193227Z  INFO node::user: eth_chainId
+2026-11-03T07:03:10.201321Z  INFO node::user: eth_chainId
+2026-11-03T07:03:10.202077Z  INFO node::user: eth_call
+2026-11-03T07:03:10.208874Z  INFO node::user: eth_chainId
+2026-11-03T07:03:10.209667Z  INFO node::user: eth_call
+2026-11-03T07:03:10.216750Z  INFO node::user: eth_chainId
+2026-11-03T07:03:10.217496Z  INFO node::user: eth_call
+2026-11-03T07:03:10.224885Z  INFO node::user: eth_chainId
+2026-11-03T07:03:10.225603Z  INFO node::user: eth_call
+2026-11-03T07:03:10.319894Z  INFO node::user: eth_chainId
+2026-11-03T07:03:10.331285Z  INFO node::user: eth_chainId
+2026-11-03T07:03:10.340544Z  INFO node::user: eth_chainId
+2026-11-03T07:03:10.348619Z  INFO node::user: eth_chainId
+2026-11-03T07:03:10.358039Z  INFO node::user: eth_chainId
+2026-11-03T07:03:10.359104Z  INFO node::user: eth_call
+2026-11-03T07:03:10.366011Z  INFO node::user: eth_chainId
+2026-11-03T07:03:10.366732Z  INFO node::user: eth_call
+2026-11-03T07:03:10.373996Z  INFO node::user: eth_chainId
+2026-11-03T07:03:10.374690Z  INFO node::user: eth_call
+2026-11-03T07:03:10.381711Z  INFO node::user: eth_chainId
+2026-11-03T07:03:10.382445Z  INFO node::user: eth_call
+2026-11-03T07:03:10.578492Z  INFO node::user: eth_blockNumber
+2026-11-03T07:03:10.610125Z  INFO node::user: eth_getLogs
+2026-11-03T07:03:10.826043Z  INFO node::user: eth_chainId
+2026-11-03T07:03:10.896950Z  INFO node::user: eth_chainId
+2026-11-03T07:03:10.905485Z  INFO node::user: eth_chainId
+2026-11-03T07:03:10.906214Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:03:10.906905Z  INFO node::user: eth_call
+2026-11-03T07:03:10.914975Z  INFO node::user: eth_chainId
+2026-11-03T07:03:10.940014Z  INFO node::user: eth_chainId
+2026-11-03T07:03:10.940787Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:03:10.941322Z  INFO node::user: eth_feeHistory
+2026-11-03T07:03:10.941989Z  INFO node::user: eth_estimateGas
+2026-11-03T07:03:10.942908Z  INFO node::user: eth_sendTransaction
+2026-11-03T07:03:10.942932Z  INFO node::user: eth_accounts
+2026-11-03T07:03:10.943630Z  INFO node::user: 
+2026-11-03T07:03:10.943644Z  INFO node::user:     Transaction: 0x023378921b89644fc860b3c973ce4ba39067616ed314defb933a2dd44ade484c
+2026-11-03T07:03:10.943660Z  INFO node::user:     Gas used: 33794
+2026-11-03T07:03:10.943662Z  INFO node::user: 
+2026-11-03T07:03:10.943666Z  INFO node::user:     Block Number: 7
+2026-11-03T07:03:10.943669Z  INFO node::user:     Block Hash: 0x7a37d886ac8caee99d82554fc202a403e2334c751fbe9967d2090ed35363cd0c
+2026-11-03T07:03:10.943673Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:03:10 +0000"
+
+2026-11-03T07:03:10.943932Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:03:10.990880Z  INFO node::user: eth_chainId
+2026-11-03T07:03:11.070187Z  INFO node::user: eth_chainId
+2026-11-03T07:03:11.077852Z  INFO node::user: eth_chainId
+2026-11-03T07:03:11.078417Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:03:11.079408Z  INFO node::user: eth_call
+2026-11-03T07:03:11.110992Z  INFO node::user: eth_chainId
+2026-11-03T07:03:11.118432Z  INFO node::user: eth_chainId
+2026-11-03T07:03:11.119251Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:03:11.119935Z  INFO node::user: eth_call
+2026-11-03T07:03:11.127301Z  INFO node::user: eth_chainId
+2026-11-03T07:03:11.156872Z  INFO node::user: eth_chainId
+2026-11-03T07:03:11.157639Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:03:11.158200Z  INFO node::user: eth_feeHistory
+2026-11-03T07:03:11.158901Z  INFO node::user: eth_estimateGas
+2026-11-03T07:03:11.159970Z  INFO node::user: eth_sendTransaction
+2026-11-03T07:03:11.159985Z  INFO node::user: eth_accounts
+2026-11-03T07:03:11.160662Z  INFO node::user: 
+2026-11-03T07:03:11.160675Z  INFO node::user:     Transaction: 0x7d6b20608dca5b7ea8cb9d9af1dca01c550896817e7e69e359631cfd27fd1e58
+2026-11-03T07:03:11.160679Z  INFO node::user:     Gas used: 74414
+2026-11-03T07:03:11.160681Z  INFO node::user: 
+2026-11-03T07:03:11.160697Z  INFO node::user:     Block Number: 8
+2026-11-03T07:03:11.160699Z  INFO node::user:     Block Hash: 0x76f762fb7336fe6dda2dda0c7c2ef31a0ce8d84c2a3969a5ab55063a4cb984e2
+2026-11-03T07:03:11.160703Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:03:11 +0000"
+
+2026-11-03T07:03:11.160825Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:03:11.225002Z  INFO node::user: eth_chainId
+2026-11-03T07:03:11.232968Z  INFO node::user: eth_chainId
+2026-11-03T07:03:11.233598Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:03:11.234183Z  INFO node::user: eth_call
+2026-11-03T07:03:11.286885Z  INFO node::user: eth_chainId
+2026-11-03T07:03:11.287398Z  INFO node::user: eth_call
+2026-11-03T07:03:11.288256Z  INFO node::user: eth_call
+2026-11-03T07:03:11.289114Z  INFO node::user: eth_getCode
+2026-11-03T07:03:11.290466Z  INFO node::user: eth_call
+2026-11-03T07:03:11.291135Z  INFO node::user: eth_getCode
+2026-11-03T07:03:11.291880Z  INFO node::user: eth_call
+2026-11-03T07:03:11.292669Z  INFO node::user: eth_getCode
+2026-11-03T07:03:11.293582Z  INFO node::user: eth_call
+2026-11-03T07:03:11.294451Z  INFO node::user: eth_getCode
+2026-11-03T07:03:11.295241Z  INFO node::user: eth_call
+2026-11-03T07:07:26.247619Z  INFO node::user: eth_chainId
+2026-11-03T07:07:26.306216Z  INFO node::user: eth_chainId
+2026-11-03T07:07:26.325588Z  INFO node::user: eth_chainId
+2026-11-03T07:07:26.326562Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:07:26.328253Z  INFO node::user: eth_call
+2026-11-03T07:07:28.331294Z  INFO node::user: eth_chainId
+2026-11-03T07:07:28.444381Z  INFO node::user: eth_chainId
+2026-11-03T07:07:28.451068Z  INFO node::user: eth_blockNumber
+2026-11-03T07:07:28.471496Z  INFO node::user: eth_chainId
+2026-11-03T07:07:28.471548Z  INFO node::user: eth_getLogs
+2026-11-03T07:07:28.479757Z  INFO node::user: eth_chainId
+2026-11-03T07:07:28.480452Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:07:28.481315Z  INFO node::user: eth_call
+2026-11-03T07:07:28.536718Z  INFO node::user: eth_chainId
+2026-11-03T07:07:28.592842Z  INFO node::user: eth_chainId
+2026-11-03T07:07:28.601619Z  INFO node::user: eth_chainId
+2026-11-03T07:07:28.602265Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:07:28.603043Z  INFO node::user: eth_call
+2026-11-03T07:07:28.609151Z  INFO node::user: eth_chainId
+2026-11-03T07:07:28.634906Z  INFO node::user: eth_chainId
+2026-11-03T07:07:28.635593Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:07:28.636085Z  INFO node::user: eth_feeHistory
+2026-11-03T07:07:28.636743Z  INFO node::user: eth_estimateGas
+2026-11-03T07:07:28.637787Z  INFO node::user: eth_sendTransaction
+2026-11-03T07:07:28.637802Z  INFO node::user: eth_accounts
+2026-11-03T07:07:28.638689Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:07:28.638746Z  INFO node::user: 
+2026-11-03T07:07:28.638759Z  INFO node::user:     Transaction: 0xbb592e75abd4a2a274352f2881237a6c688d36082d755e9b5cbeba319811d4e7
+2026-11-03T07:07:28.638767Z  INFO node::user:     Gas used: 33794
+2026-11-03T07:07:28.638771Z  INFO node::user: 
+2026-11-03T07:07:28.638776Z  INFO node::user:     Block Number: 9
+2026-11-03T07:07:28.638779Z  INFO node::user:     Block Hash: 0xa8dcc539fdce76aa6b50875413971e2c098f0d6a52f16f4f7dfcbf7aafeb2c55
+2026-11-03T07:07:28.638785Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:07:28 +0000"
+
+2026-11-03T07:07:28.639108Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:07:28.639596Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:07:28.733003Z  INFO node::user: eth_chainId
+2026-11-03T07:07:28.754904Z  INFO node::user: eth_chainId
+2026-11-03T07:07:28.763747Z  INFO node::user: eth_chainId
+2026-11-03T07:07:28.764353Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:07:28.764864Z  INFO node::user: eth_call
+2026-11-03T07:07:29.846110Z  INFO node::user: eth_chainId
+2026-11-03T07:07:29.873571Z  INFO node::user: eth_chainId
+2026-11-03T07:07:29.880408Z  INFO node::user: eth_chainId
+2026-11-03T07:07:29.880883Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:07:29.881394Z  INFO node::user: eth_call
+2026-11-03T07:07:29.975838Z  INFO node::user: eth_chainId
+2026-11-03T07:07:29.983336Z  INFO node::user: eth_chainId
+2026-11-03T07:07:29.990174Z  INFO node::user: eth_chainId
+2026-11-03T07:07:29.996798Z  INFO node::user: eth_chainId
+2026-11-03T07:07:30.003312Z  INFO node::user: eth_chainId
+2026-11-03T07:07:30.004018Z  INFO node::user: eth_call
+2026-11-03T07:07:30.024299Z  INFO node::user: eth_chainId
+2026-11-03T07:07:30.024895Z  INFO node::user: eth_call
+2026-11-03T07:07:30.030885Z  INFO node::user: eth_chainId
+2026-11-03T07:07:30.031461Z  INFO node::user: eth_call
+2026-11-03T07:07:30.037350Z  INFO node::user: eth_chainId
+2026-11-03T07:07:30.037930Z  INFO node::user: eth_call
+2026-11-03T07:07:38.656872Z  INFO node::user: eth_blockNumber
+2026-11-03T07:07:38.672777Z  INFO node::user: eth_getLogs
+2026-11-03T07:07:48.706327Z  INFO node::user: eth_blockNumber
+2026-11-03T07:07:48.719435Z  INFO node::user: eth_getLogs
+2026-11-03T07:07:58.749782Z  INFO node::user: eth_blockNumber
+2026-11-03T07:07:58.765415Z  INFO node::user: eth_getLogs
+2026-11-03T07:08:08.795053Z  INFO node::user: eth_blockNumber
+2026-11-03T07:08:08.808388Z  INFO node::user: eth_getLogs
+2026-11-03T07:08:18.837247Z  INFO node::user: eth_blockNumber
+2026-11-03T07:08:18.867285Z  INFO node::user: eth_getLogs
+2026-11-03T07:08:28.908785Z  INFO node::user: eth_blockNumber
+2026-11-03T07:08:28.924958Z  INFO node::user: eth_getLogs
+2026-11-03T07:08:38.958209Z  INFO node::user: eth_blockNumber
+2026-11-03T07:08:38.983617Z  INFO node::user: eth_getLogs
+2026-11-03T07:08:49.016857Z  INFO node::user: eth_blockNumber
+2026-11-03T07:08:49.030750Z  INFO node::user: eth_getLogs
+2026-11-03T07:08:59.067447Z  INFO node::user: eth_blockNumber
+2026-11-03T07:08:59.097990Z  INFO node::user: eth_getLogs
+2026-11-03T07:09:09.151680Z  INFO node::user: eth_blockNumber
+2026-11-03T07:09:09.165480Z  INFO node::user: eth_getLogs
+2026-11-03T07:09:19.202136Z  INFO node::user: eth_blockNumber
+2026-11-03T07:09:19.238811Z  INFO node::user: eth_getLogs
+2026-11-03T07:09:29.273503Z  INFO node::user: eth_blockNumber
+2026-11-03T07:09:29.298415Z  INFO node::user: eth_getLogs
+2026-11-03T07:09:39.346030Z  INFO node::user: eth_blockNumber
+2026-11-03T07:09:39.374968Z  INFO node::user: eth_getLogs
+2026-11-03T07:09:39.505155Z  INFO node::user: eth_chainId
+2026-11-03T07:09:39.507058Z  INFO node::user: eth_getCode
+2026-11-03T07:09:39.507759Z  INFO node::user: eth_getCode
+2026-11-03T07:09:39.510913Z  INFO node::user: eth_getCode
+2026-11-03T07:09:39.539490Z  INFO node::user: eth_chainId
+2026-11-03T07:09:39.540656Z  INFO node::user: eth_getCode
+2026-11-03T07:09:39.541205Z  INFO node::user: eth_getCode
+2026-11-03T07:09:39.542871Z  INFO node::user: eth_getCode
+2026-11-03T07:09:39.693945Z  INFO node::user: eth_chainId
+2026-11-03T07:09:39.706852Z  INFO node::user: eth_chainId
+2026-11-03T07:09:39.713793Z  INFO node::user: eth_chainId
+2026-11-03T07:09:39.723596Z  INFO node::user: eth_chainId
+2026-11-03T07:09:39.731282Z  INFO node::user: eth_chainId
+2026-11-03T07:09:39.734238Z  INFO node::user: eth_call
+2026-11-03T07:09:39.740964Z  INFO node::user: eth_chainId
+2026-11-03T07:09:39.741591Z  INFO node::user: eth_call
+2026-11-03T07:09:39.747627Z  INFO node::user: eth_chainId
+2026-11-03T07:09:39.748348Z  INFO node::user: eth_call
+2026-11-03T07:09:39.754713Z  INFO node::user: eth_chainId
+2026-11-03T07:09:39.755350Z  INFO node::user: eth_call
+2026-11-03T07:09:41.526198Z  INFO node::user: eth_chainId
+2026-11-03T07:09:41.583840Z  INFO node::user: eth_chainId
+2026-11-03T07:09:41.591426Z  INFO node::user: eth_chainId
+2026-11-03T07:09:41.592039Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:09:41.595156Z  INFO node::user: eth_call
+2026-11-03T07:09:41.601543Z  INFO node::user: eth_chainId
+2026-11-03T07:09:41.626006Z  INFO node::user: eth_chainId
+2026-11-03T07:09:41.626764Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:09:41.627313Z  INFO node::user: eth_feeHistory
+2026-11-03T07:09:41.627930Z  INFO node::user: eth_estimateGas
+2026-11-03T07:09:41.628843Z  INFO node::user: eth_sendTransaction
+2026-11-03T07:09:41.628856Z  INFO node::user: eth_accounts
+2026-11-03T07:09:41.629552Z  INFO node::user: 
+2026-11-03T07:09:41.629564Z  INFO node::user:     Transaction: 0x5d4cefe4c8b6155af23412a5e6ddfaa9aac2046f281335d6f180c9ca1314e6c3
+2026-11-03T07:09:41.629568Z  INFO node::user:     Gas used: 33794
+2026-11-03T07:09:41.629571Z  INFO node::user: 
+2026-11-03T07:09:41.629574Z  INFO node::user:     Block Number: 10
+2026-11-03T07:09:41.629576Z  INFO node::user:     Block Hash: 0x39f97cc9a6cc34bc999db3eac4e828de6314cdbac53fa11142fd758da5e4243e
+2026-11-03T07:09:41.629579Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:09:41 +0000"
+
+2026-11-03T07:09:41.629687Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:09:41.751225Z  INFO node::user: eth_chainId
+2026-11-03T07:09:41.797547Z  INFO node::user: eth_chainId
+2026-11-03T07:09:41.804918Z  INFO node::user: eth_chainId
+2026-11-03T07:09:41.805581Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:09:41.808966Z  INFO node::user: eth_call
+2026-11-03T07:09:41.836145Z  INFO node::user: eth_chainId
+2026-11-03T07:09:41.844106Z  INFO node::user: eth_chainId
+2026-11-03T07:09:41.844662Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:09:41.845164Z  INFO node::user: eth_call
+2026-11-03T07:09:41.887705Z  INFO node::user: eth_chainId
+2026-11-03T07:09:41.894934Z  INFO node::user: eth_chainId
+2026-11-03T07:09:41.895546Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:09:41.896124Z  INFO node::user: eth_call
+2026-11-03T07:09:41.924851Z  INFO node::user: eth_chainId
+2026-11-03T07:09:41.925265Z  INFO node::user: eth_call
+2026-11-03T07:09:41.925850Z  INFO node::user: eth_call
+2026-11-03T07:09:41.926368Z  INFO node::user: eth_getCode
+2026-11-03T07:09:41.927304Z  INFO node::user: eth_call
+2026-11-03T07:09:41.927903Z  INFO node::user: eth_getCode
+2026-11-03T07:09:41.928704Z  INFO node::user: eth_call
+2026-11-03T07:09:41.929205Z  INFO node::user: eth_getCode
+2026-11-03T07:09:41.929797Z  INFO node::user: eth_call
+2026-11-03T07:09:41.930388Z  INFO node::user: eth_getCode
+2026-11-03T07:09:41.931090Z  INFO node::user: eth_call
+2026-11-03T07:09:42.179623Z  INFO node::user: eth_chainId
+2026-11-03T07:09:42.203450Z  INFO node::user: eth_chainId
+2026-11-03T07:09:42.211184Z  INFO node::user: eth_chainId
+2026-11-03T07:09:42.211789Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:09:42.212417Z  INFO node::user: eth_call
+2026-11-03T07:09:44.401132Z  INFO node::user: eth_chainId
+2026-11-03T07:09:44.452297Z  INFO node::user: eth_chainId
+2026-11-03T07:09:44.458974Z  INFO node::user: eth_chainId
+2026-11-03T07:09:44.459452Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:09:44.459937Z  INFO node::user: eth_call
+2026-11-03T07:09:44.465269Z  INFO node::user: eth_chainId
+2026-11-03T07:09:44.486899Z  INFO node::user: eth_chainId
+2026-11-03T07:09:44.487538Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:09:44.488031Z  INFO node::user: eth_feeHistory
+2026-11-03T07:09:44.488650Z  INFO node::user: eth_estimateGas
+2026-11-03T07:09:44.489418Z  INFO node::user: eth_sendTransaction
+2026-11-03T07:09:44.489432Z  INFO node::user: eth_accounts
+2026-11-03T07:09:44.490203Z  INFO node::user: 
+2026-11-03T07:09:44.490213Z  INFO node::user:     Transaction: 0x1d888acaacc9342e6d4b67c3069e39aea6ce1ba8c5b6cce7dbc06ce1a0d57d1b
+2026-11-03T07:09:44.490218Z  INFO node::user:     Gas used: 33794
+2026-11-03T07:09:44.490221Z  INFO node::user: 
+2026-11-03T07:09:44.490225Z  INFO node::user:     Block Number: 11
+2026-11-03T07:09:44.490229Z  INFO node::user:     Block Hash: 0x1cccbfc00f138e2d820fca9b305442afc0e33ebd7e59a0db03b653a84a09b7db
+2026-11-03T07:09:44.490233Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:09:44 +0000"
+
+2026-11-03T07:09:44.490283Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:09:44.541726Z  INFO node::user: eth_chainId
+2026-11-03T07:09:44.650168Z  INFO node::user: eth_chainId
+2026-11-03T07:09:44.672504Z  INFO node::user: eth_chainId
+2026-11-03T07:09:44.680490Z  INFO node::user: eth_chainId
+2026-11-03T07:09:44.681123Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:09:44.681698Z  INFO node::user: eth_call
+2026-11-03T07:09:44.887033Z  INFO node::user: eth_chainId
+2026-11-03T07:09:44.907169Z  INFO node::user: eth_chainId
+2026-11-03T07:09:44.913635Z  INFO node::user: eth_chainId
+2026-11-03T07:09:44.914180Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:09:44.914738Z  INFO node::user: eth_call
+2026-11-03T07:09:45.600488Z  INFO node::user: eth_chainId
+2026-11-03T07:09:45.622993Z  INFO node::user: eth_chainId
+2026-11-03T07:09:45.629579Z  INFO node::user: eth_chainId
+2026-11-03T07:09:45.630071Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:09:45.630592Z  INFO node::user: eth_call
+2026-11-03T07:09:45.707515Z  INFO node::user: eth_chainId
+2026-11-03T07:09:45.715909Z  INFO node::user: eth_chainId
+2026-11-03T07:09:45.722522Z  INFO node::user: eth_chainId
+2026-11-03T07:09:45.728984Z  INFO node::user: eth_chainId
+2026-11-03T07:09:45.736592Z  INFO node::user: eth_chainId
+2026-11-03T07:09:45.737250Z  INFO node::user: eth_call
+2026-11-03T07:09:45.744026Z  INFO node::user: eth_chainId
+2026-11-03T07:09:45.744657Z  INFO node::user: eth_call
+2026-11-03T07:09:45.751672Z  INFO node::user: eth_chainId
+2026-11-03T07:09:45.752303Z  INFO node::user: eth_call
+2026-11-03T07:09:45.758341Z  INFO node::user: eth_chainId
+2026-11-03T07:09:45.758992Z  INFO node::user: eth_call
+2026-11-03T07:09:45.964714Z  INFO node::user: eth_chainId
+2026-11-03T07:09:45.984725Z  INFO node::user: eth_chainId
+2026-11-03T07:09:45.991330Z  INFO node::user: eth_chainId
+2026-11-03T07:09:45.991790Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:09:45.992296Z  INFO node::user: eth_call
+2026-11-03T07:09:46.002356Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.003017Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.009060Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.009676Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.015942Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.016514Z  INFO node::user: eth_getCode
+2026-11-03T07:09:46.022200Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.022809Z  INFO node::user: eth_getCode
+2026-11-03T07:09:46.028673Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.029469Z  INFO node::user: eth_getCode
+2026-11-03T07:09:46.035394Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.036048Z  INFO node::user: eth_call
+2026-11-03T07:09:46.041867Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.042454Z  INFO node::user: eth_call
+2026-11-03T07:09:46.048880Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.049495Z  INFO node::user: eth_call
+2026-11-03T07:09:46.056252Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.056890Z  INFO node::user: eth_estimateGas
+2026-11-03T07:09:46.084398Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.084429Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.085693Z  INFO node::user: eth_getBalance
+2026-11-03T07:09:46.085746Z  INFO node::user: eth_gasPrice
+2026-11-03T07:09:46.092721Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.093248Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.441861Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.487506Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.499759Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.500415Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:09:46.501060Z  INFO node::user: eth_call
+2026-11-03T07:09:46.800061Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.800781Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.809652Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.810236Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.819461Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.820550Z  INFO node::user: eth_getCode
+2026-11-03T07:09:46.827114Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.827776Z  INFO node::user: eth_getCode
+2026-11-03T07:09:46.836552Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.837180Z  INFO node::user: eth_getCode
+2026-11-03T07:09:46.844152Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.844812Z  INFO node::user: eth_call
+2026-11-03T07:09:46.851734Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.852351Z  INFO node::user: eth_call
+2026-11-03T07:09:46.860173Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.860864Z  INFO node::user: eth_call
+2026-11-03T07:09:46.869893Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.870612Z  INFO node::user: eth_estimateGas
+2026-11-03T07:09:46.894088Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.895422Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.895466Z  INFO node::user: eth_getBalance
+2026-11-03T07:09:46.896802Z  INFO node::user: eth_gasPrice
+2026-11-03T07:09:46.903511Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.904128Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.911597Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.912365Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:09:46.920479Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.921103Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.934222Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.934920Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.941123Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.941945Z  INFO node::user: eth_gasPrice
+2026-11-03T07:09:46.952401Z  INFO node::user: eth_chainId
+2026-11-03T07:09:46.952996Z  INFO node::user: eth_sendRawTransaction
+2026-11-03T07:09:46.954492Z  INFO node::user: 
+2026-11-03T07:09:46.954566Z  INFO node::user:     Transaction: 0xf5d60be3e21e1d6131ef02b2cab62720c1d932b84f25028445b8fd18c528a2d3
+2026-11-03T07:09:46.965357Z  INFO node::user:     Gas used: 596327
+2026-11-03T07:09:46.965378Z  INFO node::user: 
+2026-11-03T07:09:46.965384Z  INFO node::user:     Block Number: 12
+2026-11-03T07:09:46.965387Z  INFO node::user:     Block Hash: 0xe65d6e464cbabe2cd62a8b8891ae4cfd36d5240d0470a98e7bf8866d10ae8345
+2026-11-03T07:09:46.965392Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:09:46 +0000"
+
+2026-11-03T07:09:47.114701Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.116879Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.130924Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.133011Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:09:47.146724Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.158079Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.172707Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.183631Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.194720Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.195997Z  INFO node::user: eth_call
+2026-11-03T07:09:47.205962Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.207036Z  INFO node::user: eth_call
+2026-11-03T07:09:47.217474Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.218607Z  INFO node::user: eth_call
+2026-11-03T07:09:47.227686Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.228738Z  INFO node::user: eth_call
+2026-11-03T07:09:47.367209Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.379297Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.387807Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.394883Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.402159Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.402963Z  INFO node::user: eth_call
+2026-11-03T07:09:47.409158Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.409836Z  INFO node::user: eth_call
+2026-11-03T07:09:47.416584Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.417273Z  INFO node::user: eth_call
+2026-11-03T07:09:47.424014Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.424696Z  INFO node::user: eth_call
+2026-11-03T07:09:47.597654Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.599186Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.608265Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.609174Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.620290Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.621257Z  INFO node::user: eth_getCode
+2026-11-03T07:09:47.631209Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.632134Z  INFO node::user: eth_call
+2026-11-03T07:09:47.640153Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.640881Z  INFO node::user: eth_estimateGas
+2026-11-03T07:09:47.650114Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.651841Z  INFO node::user: eth_getBalance
+2026-11-03T07:09:47.651869Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.653297Z  INFO node::user: eth_gasPrice
+2026-11-03T07:09:47.660406Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.661050Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.737401Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.738179Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.746100Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.747039Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.754423Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.755253Z  INFO node::user: eth_getCode
+2026-11-03T07:09:47.763370Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.764886Z  INFO node::user: eth_call
+2026-11-03T07:09:47.772663Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.773527Z  INFO node::user: eth_estimateGas
+2026-11-03T07:09:47.782920Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.782942Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.784268Z  INFO node::user: eth_gasPrice
+2026-11-03T07:09:47.784389Z  INFO node::user: eth_getBalance
+2026-11-03T07:09:47.792871Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.793627Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.800230Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.800938Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:09:47.806962Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.807624Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.819178Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.819980Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.826503Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.827218Z  INFO node::user: eth_gasPrice
+2026-11-03T07:09:47.834297Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.835020Z  INFO node::user: eth_sendRawTransaction
+2026-11-03T07:09:47.835671Z  INFO node::user: 
+2026-11-03T07:09:47.835684Z  INFO node::user:     Transaction: 0xfaa05be8dea124e77679e3b69b374beba8790c9fae02e68a9bd768fdb99c6ce2
+2026-11-03T07:09:47.835688Z  INFO node::user:     Gas used: 51582
+2026-11-03T07:09:47.835690Z  INFO node::user: 
+2026-11-03T07:09:47.835694Z  INFO node::user:     Block Number: 13
+2026-11-03T07:09:47.835696Z  INFO node::user:     Block Hash: 0x65c349ec76406bed1729dbebc04370e849554877247f8d8a3715306b4ad97782
+2026-11-03T07:09:47.835699Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:09:47 +0000"
+
+2026-11-03T07:09:47.959686Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.960679Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.974639Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.975725Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:09:47.987002Z  INFO node::user: eth_chainId
+2026-11-03T07:09:47.997318Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.008425Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.020014Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.027842Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.028528Z  INFO node::user: eth_call
+2026-11-03T07:09:48.035462Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.036117Z  INFO node::user: eth_call
+2026-11-03T07:09:48.042274Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.042994Z  INFO node::user: eth_call
+2026-11-03T07:09:48.049708Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.050366Z  INFO node::user: eth_call
+2026-11-03T07:09:48.122985Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.132742Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.140939Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.148147Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.155924Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.156592Z  INFO node::user: eth_call
+2026-11-03T07:09:48.163563Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.164450Z  INFO node::user: eth_call
+2026-11-03T07:09:48.171174Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.171953Z  INFO node::user: eth_call
+2026-11-03T07:09:48.178459Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.179257Z  INFO node::user: eth_call
+2026-11-03T07:09:48.326186Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.328002Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.340512Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.341884Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.351288Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.352064Z  INFO node::user: eth_getCode
+2026-11-03T07:09:48.359688Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.360507Z  INFO node::user: eth_call
+2026-11-03T07:09:48.368701Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.369437Z  INFO node::user: eth_estimateGas
+2026-11-03T07:09:48.378649Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.378753Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.380289Z  INFO node::user: eth_gasPrice
+2026-11-03T07:09:48.380526Z  INFO node::user: eth_getBalance
+2026-11-03T07:09:48.389430Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.390108Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.453549Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.454929Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.463386Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.464275Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.473588Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.475068Z  INFO node::user: eth_getCode
+2026-11-03T07:09:48.484731Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.486204Z  INFO node::user: eth_call
+2026-11-03T07:09:48.494459Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.496176Z  INFO node::user: eth_estimateGas
+2026-11-03T07:09:48.506241Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.506267Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.507716Z  INFO node::user: eth_getBalance
+2026-11-03T07:09:48.507839Z  INFO node::user: eth_gasPrice
+2026-11-03T07:09:48.517588Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.518358Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.526259Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.526961Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:09:48.533544Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.534328Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.545755Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.547583Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.548531Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.555057Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.555682Z  INFO node::user: eth_gasPrice
+2026-11-03T07:09:48.564469Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.565191Z  INFO node::user: eth_sendRawTransaction
+2026-11-03T07:09:48.565850Z  INFO node::user: 
+2026-11-03T07:09:48.565861Z  INFO node::user:     Transaction: 0x395faab70d583b399495aa1a96733b2c8dd1d3f903d7c287283372aa8b7f35e6
+2026-11-03T07:09:48.565865Z  INFO node::user:     Gas used: 46194
+2026-11-03T07:09:48.565867Z  INFO node::user: 
+2026-11-03T07:09:48.565871Z  INFO node::user:     Block Number: 14
+2026-11-03T07:09:48.565873Z  INFO node::user:     Block Hash: 0xed7e9ad32fb39424bc516d33f50c074047ee38c7c9a10503b2fdcd63c0557d0e
+2026-11-03T07:09:48.565876Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:09:48 +0000"
+
+2026-11-03T07:09:48.600445Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.607565Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.608080Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:09:48.608591Z  INFO node::user: eth_call
+2026-11-03T07:09:48.614039Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.634878Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.635595Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:09:48.636093Z  INFO node::user: eth_feeHistory
+2026-11-03T07:09:48.636789Z  INFO node::user: eth_estimateGas
+2026-11-03T07:09:48.637689Z  INFO node::user: eth_sendTransaction
+2026-11-03T07:09:48.637705Z  INFO node::user: eth_accounts
+2026-11-03T07:09:48.638594Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:09:48.638599Z  INFO node::user: 
+2026-11-03T07:09:48.638664Z  INFO node::user:     Transaction: 0x070a81136002f924c055c906ab85f9b13957bec95183bdf0df2c9d210d189854
+2026-11-03T07:09:48.638669Z  INFO node::user:     Gas used: 33794
+2026-11-03T07:09:48.638671Z  INFO node::user: 
+2026-11-03T07:09:48.638690Z  INFO node::user:     Block Number: 15
+2026-11-03T07:09:48.638693Z  INFO node::user:     Block Hash: 0x6e72216b851a9f642521eb4217275f6b1ee63ffc01432562dcd48349736ce02c
+2026-11-03T07:09:48.638697Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:09:48 +0000"
+
+2026-11-03T07:09:48.976333Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.977550Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.988822Z  INFO node::user: eth_chainId
+2026-11-03T07:09:48.989996Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:09:48.999484Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.008777Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.018051Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.025829Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.033781Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.034501Z  INFO node::user: eth_call
+2026-11-03T07:09:49.041832Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.042635Z  INFO node::user: eth_call
+2026-11-03T07:09:49.049902Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.050694Z  INFO node::user: eth_call
+2026-11-03T07:09:49.057417Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.058086Z  INFO node::user: eth_call
+2026-11-03T07:09:49.122445Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.130987Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.138042Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.144696Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.152202Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.152984Z  INFO node::user: eth_call
+2026-11-03T07:09:49.159360Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.160078Z  INFO node::user: eth_call
+2026-11-03T07:09:49.166306Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.167034Z  INFO node::user: eth_call
+2026-11-03T07:09:49.173205Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.173907Z  INFO node::user: eth_call
+2026-11-03T07:09:49.359364Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.360473Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.371897Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.372969Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.380739Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.381563Z  INFO node::user: eth_getCode
+2026-11-03T07:09:49.390032Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.391286Z  INFO node::user: eth_call
+2026-11-03T07:09:49.399146Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.399958Z  INFO node::user: eth_estimateGas
+2026-11-03T07:09:49.409281Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.409959Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.411098Z  INFO node::user: eth_getBalance
+2026-11-03T07:09:49.411210Z  INFO node::user: eth_gasPrice
+2026-11-03T07:09:49.419860Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.420591Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.487499Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.488402Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.497151Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.497982Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.506085Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.506902Z  INFO node::user: eth_getCode
+2026-11-03T07:09:49.516361Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.517109Z  INFO node::user: eth_call
+2026-11-03T07:09:49.523753Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.524426Z  INFO node::user: eth_estimateGas
+2026-11-03T07:09:49.533155Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.534355Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.534361Z  INFO node::user: eth_getBalance
+2026-11-03T07:09:49.535834Z  INFO node::user: eth_gasPrice
+2026-11-03T07:09:49.542319Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.543084Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.549686Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.550383Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:09:49.556518Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.557257Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.568285Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.569073Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.575661Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.576376Z  INFO node::user: eth_gasPrice
+2026-11-03T07:09:49.584224Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.584890Z  INFO node::user: eth_sendRawTransaction
+2026-11-03T07:09:49.585544Z  INFO node::user: 
+2026-11-03T07:09:49.585555Z  INFO node::user:     Transaction: 0xa24ca9342ecb604f034d1f34fd5a1a4ec221179253b8f4a38c10292bdd7b14fe
+2026-11-03T07:09:49.585558Z  INFO node::user:     Gas used: 49819
+2026-11-03T07:09:49.585560Z  INFO node::user: 
+2026-11-03T07:09:49.585564Z  INFO node::user:     Block Number: 16
+2026-11-03T07:09:49.585566Z  INFO node::user:     Block Hash: 0x8dd5aeb562ba5b82c3b4da72925989f5de93d176bb0e109cf373f2ca9ce826e8
+2026-11-03T07:09:49.585570Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:09:49 +0000"
+
+2026-11-03T07:09:49.707658Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.709153Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.719809Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.720645Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:09:49.730226Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.738772Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.746684Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.755218Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.763741Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.764533Z  INFO node::user: eth_call
+2026-11-03T07:09:49.771338Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.772258Z  INFO node::user: eth_call
+2026-11-03T07:09:49.779058Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.779928Z  INFO node::user: eth_call
+2026-11-03T07:09:49.787173Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.787857Z  INFO node::user: eth_call
+2026-11-03T07:09:49.864655Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.873786Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.881892Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.889973Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.897436Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.898185Z  INFO node::user: eth_call
+2026-11-03T07:09:49.906028Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.906783Z  INFO node::user: eth_call
+2026-11-03T07:09:49.913793Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.914660Z  INFO node::user: eth_call
+2026-11-03T07:09:49.922147Z  INFO node::user: eth_chainId
+2026-11-03T07:09:49.922965Z  INFO node::user: eth_call
+2026-11-03T07:09:50.075450Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.076212Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.087222Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.087914Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.095040Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.095978Z  INFO node::user: eth_getCode
+2026-11-03T07:09:50.103234Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.103964Z  INFO node::user: eth_call
+2026-11-03T07:09:50.110484Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.111287Z  INFO node::user: eth_estimateGas
+2026-11-03T07:09:50.121551Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.121588Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.123006Z  INFO node::user: eth_gasPrice
+2026-11-03T07:09:50.123197Z  INFO node::user: eth_getBalance
+2026-11-03T07:09:50.132562Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.133272Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.204172Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.205525Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.213254Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.214093Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.221815Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.222612Z  INFO node::user: eth_getCode
+2026-11-03T07:09:50.231436Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.232286Z  INFO node::user: eth_call
+2026-11-03T07:09:50.239489Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.240187Z  INFO node::user: eth_estimateGas
+2026-11-03T07:09:50.249244Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.250924Z  INFO node::user: eth_getBalance
+2026-11-03T07:09:50.250928Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.252289Z  INFO node::user: eth_gasPrice
+2026-11-03T07:09:50.259718Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.260422Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.268048Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.268708Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:09:50.275176Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.275859Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.289092Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.289957Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.297158Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.298102Z  INFO node::user: eth_gasPrice
+2026-11-03T07:09:50.305404Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.306017Z  INFO node::user: eth_sendRawTransaction
+2026-11-03T07:09:50.306694Z  INFO node::user: 
+2026-11-03T07:09:50.306713Z  INFO node::user:     Transaction: 0x463a1960913adbdf402600135666a5270820dd5b62ee1fd5fae598d32121231a
+2026-11-03T07:09:50.306717Z  INFO node::user:     Gas used: 29694
+2026-11-03T07:09:50.306720Z  INFO node::user: 
+2026-11-03T07:09:50.306723Z  INFO node::user:     Block Number: 17
+2026-11-03T07:09:50.306725Z  INFO node::user:     Block Hash: 0x0129745c33b7ecb7e612a6587deaa73b6dca6a33bcf7b1073bff138b0e800d72
+2026-11-03T07:09:50.306728Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:09:50 +0000"
+
+2026-11-03T07:09:50.429652Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.431939Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.446730Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.448222Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:09:50.458831Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.472153Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.482646Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.491400Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.501224Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.501942Z  INFO node::user: eth_call
+2026-11-03T07:09:50.510328Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.511149Z  INFO node::user: eth_call
+2026-11-03T07:09:50.518999Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.519659Z  INFO node::user: eth_call
+2026-11-03T07:09:50.526336Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.527083Z  INFO node::user: eth_call
+2026-11-03T07:09:50.588816Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.599297Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.607067Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.614938Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.623699Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.624486Z  INFO node::user: eth_call
+2026-11-03T07:09:50.631457Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.632193Z  INFO node::user: eth_call
+2026-11-03T07:09:50.638936Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.639568Z  INFO node::user: eth_call
+2026-11-03T07:09:50.645548Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.646911Z  INFO node::user: eth_blockNumber
+2026-11-03T07:09:50.647029Z  INFO node::user: eth_call
+2026-11-03T07:09:50.663539Z  INFO node::user: eth_getLogs
+2026-11-03T07:09:50.727054Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.785982Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.790045Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.790826Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.794066Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.794781Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:09:50.795375Z  INFO node::user: eth_call
+2026-11-03T07:09:50.804206Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.804718Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.805764Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.812856Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.813941Z  INFO node::user: eth_getCode
+2026-11-03T07:09:50.821572Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.822279Z  INFO node::user: eth_call
+2026-11-03T07:09:50.827253Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.828155Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:09:50.828702Z  INFO node::user: eth_feeHistory
+2026-11-03T07:09:50.828980Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.829461Z  INFO node::user: eth_estimateGas
+2026-11-03T07:09:50.829702Z  INFO node::user: eth_call
+2026-11-03T07:09:50.830583Z  INFO node::user: eth_sendTransaction
+2026-11-03T07:09:50.830613Z  INFO node::user: eth_accounts
+2026-11-03T07:09:50.831492Z  INFO node::user: 
+2026-11-03T07:09:50.831503Z  INFO node::user:     Transaction: 0xaeb05fb4aaee730ec44ef7e0262baaf67977ce9cd76e6a4a760ffb9eab627511
+2026-11-03T07:09:50.831507Z  INFO node::user:     Gas used: 33794
+2026-11-03T07:09:50.831509Z  INFO node::user: 
+2026-11-03T07:09:50.831513Z  INFO node::user:     Block Number: 18
+2026-11-03T07:09:50.831515Z  INFO node::user:     Block Hash: 0x437a403c37e81f75ed1ab194e460b901c0da5ccbbd25b6f26970e548e990180c
+2026-11-03T07:09:50.831519Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:09:50 +0000"
+
+2026-11-03T07:09:50.831825Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:09:50.837706Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.839486Z  INFO node::user: eth_estimateGas
+2026-11-03T07:09:50.847902Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.849287Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.849328Z  INFO node::user: eth_getBalance
+2026-11-03T07:09:50.850699Z  INFO node::user: eth_gasPrice
+2026-11-03T07:09:50.856838Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.857448Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.918784Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.919610Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.925591Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.926206Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.932800Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.933544Z  INFO node::user: eth_getCode
+2026-11-03T07:09:50.940914Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.941702Z  INFO node::user: eth_call
+2026-11-03T07:09:50.949116Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.950241Z  INFO node::user: eth_call
+2026-11-03T07:09:50.958095Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.959198Z  INFO node::user: eth_estimateGas
+2026-11-03T07:09:50.969268Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.969468Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.970909Z  INFO node::user: eth_getBalance
+2026-11-03T07:09:50.971393Z  INFO node::user: eth_gasPrice
+2026-11-03T07:09:50.980541Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.981936Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.988943Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.989622Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:09:50.995718Z  INFO node::user: eth_chainId
+2026-11-03T07:09:50.996392Z  INFO node::user: eth_chainId
+2026-11-03T07:09:51.007535Z  INFO node::user: eth_chainId
+2026-11-03T07:09:51.008191Z  INFO node::user: eth_chainId
+2026-11-03T07:09:51.015032Z  INFO node::user: eth_chainId
+2026-11-03T07:09:51.015814Z  INFO node::user: eth_gasPrice
+2026-11-03T07:09:51.022974Z  INFO node::user: eth_chainId
+2026-11-03T07:09:51.023657Z  INFO node::user: eth_sendRawTransaction
+2026-11-03T07:09:51.024399Z  INFO node::user: 
+2026-11-03T07:09:51.024411Z  INFO node::user:     Transaction: 0x48ecf454bdeb11375e7701b2a770874c888c0255335457934a8b10019fbd2b8e
+2026-11-03T07:09:51.024415Z  INFO node::user:     Gas used: 84543
+2026-11-03T07:09:51.024418Z  INFO node::user: 
+2026-11-03T07:09:51.024421Z  INFO node::user:     Block Number: 19
+2026-11-03T07:09:51.024423Z  INFO node::user:     Block Hash: 0x5e7927340f13730e158833980275cdbc626575662fefdcb945de0d1320621aa1
+2026-11-03T07:09:51.024427Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:09:51 +0000"
+
+2026-11-03T07:09:51.142251Z  INFO node::user: eth_chainId
+2026-11-03T07:09:51.143695Z  INFO node::user: eth_chainId
+2026-11-03T07:09:51.154090Z  INFO node::user: eth_chainId
+2026-11-03T07:09:51.155577Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:09:51.164022Z  INFO node::user: eth_chainId
+2026-11-03T07:09:51.174167Z  INFO node::user: eth_chainId
+2026-11-03T07:09:51.183142Z  INFO node::user: eth_chainId
+2026-11-03T07:09:51.191188Z  INFO node::user: eth_chainId
+2026-11-03T07:09:51.199669Z  INFO node::user: eth_chainId
+2026-11-03T07:09:51.200434Z  INFO node::user: eth_call
+2026-11-03T07:09:51.207430Z  INFO node::user: eth_chainId
+2026-11-03T07:09:51.208129Z  INFO node::user: eth_call
+2026-11-03T07:09:51.215261Z  INFO node::user: eth_chainId
+2026-11-03T07:09:51.216299Z  INFO node::user: eth_call
+2026-11-03T07:09:51.223133Z  INFO node::user: eth_chainId
+2026-11-03T07:09:51.223832Z  INFO node::user: eth_call
+2026-11-03T07:09:51.305997Z  INFO node::user: eth_chainId
+2026-11-03T07:09:51.318619Z  INFO node::user: eth_chainId
+2026-11-03T07:09:51.326038Z  INFO node::user: eth_chainId
+2026-11-03T07:09:51.333485Z  INFO node::user: eth_chainId
+2026-11-03T07:09:51.340651Z  INFO node::user: eth_chainId
+2026-11-03T07:09:51.341439Z  INFO node::user: eth_call
+2026-11-03T07:09:51.348378Z  INFO node::user: eth_chainId
+2026-11-03T07:09:51.349242Z  INFO node::user: eth_call
+2026-11-03T07:09:51.355720Z  INFO node::user: eth_chainId
+2026-11-03T07:09:51.356338Z  INFO node::user: eth_call
+2026-11-03T07:09:51.362247Z  INFO node::user: eth_chainId
+2026-11-03T07:09:51.363119Z  INFO node::user: eth_call
+2026-11-03T07:09:52.905624Z  INFO node::user: eth_chainId
+2026-11-03T07:09:52.978556Z  INFO node::user: eth_chainId
+2026-11-03T07:09:52.987089Z  INFO node::user: eth_chainId
+2026-11-03T07:09:52.987921Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:09:52.988562Z  INFO node::user: eth_call
+2026-11-03T07:09:52.995779Z  INFO node::user: eth_chainId
+2026-11-03T07:09:53.032594Z  INFO node::user: eth_chainId
+2026-11-03T07:09:53.033772Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:09:53.034684Z  INFO node::user: eth_feeHistory
+2026-11-03T07:09:53.035632Z  INFO node::user: eth_estimateGas
+2026-11-03T07:09:53.036924Z  INFO node::user: eth_sendTransaction
+2026-11-03T07:09:53.036939Z  INFO node::user: eth_accounts
+2026-11-03T07:09:53.037700Z  INFO node::user: 
+2026-11-03T07:09:53.037715Z  INFO node::user:     Transaction: 0x7a8ebce05db1dfaecb188059a48e27dc0875f418c6fa445f7d315fe1b70ee707
+2026-11-03T07:09:53.037718Z  INFO node::user:     Gas used: 33794
+2026-11-03T07:09:53.037721Z  INFO node::user: 
+2026-11-03T07:09:53.037724Z  INFO node::user:     Block Number: 20
+2026-11-03T07:09:53.037726Z  INFO node::user:     Block Hash: 0xd9e1ef6fa15f8cee491c58c8ea6f716f0ff83cedb89e19bb44c64156f9ea4c4c
+2026-11-03T07:09:53.037742Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:09:53 +0000"
+
+2026-11-03T07:09:53.038065Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:09:53.093844Z  INFO node::user: eth_chainId
+2026-11-03T07:09:53.094877Z  INFO node::user: eth_blockNumber
+2026-11-03T07:09:53.114886Z  INFO node::user: eth_getLogs
+2026-11-03T07:09:53.116271Z  INFO node::user: anvil_mine
+2026-11-03T07:09:53.116637Z  INFO node::user: 
+2026-11-03T07:09:53.116653Z  INFO node::user:     Block Number: 21
+2026-11-03T07:09:53.116657Z  INFO node::user:     Block Hash: 0x8e106f207b603c1a4d01ced63ba0df02f15e7ba7bb32b166f2ea6d00fadc916a
+2026-11-03T07:09:53.116662Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:09:53 +0000"
+
+2026-11-03T07:09:53.145021Z  INFO node::user: eth_blockNumber
+2026-11-03T07:09:53.146430Z  INFO node::user: eth_getLogs
+2026-11-03T07:09:53.147821Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:09:53.274278Z  INFO node::user: eth_chainId
+2026-11-03T07:09:53.315580Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:09:53.338657Z  INFO node::user: eth_blockNumber
+2026-11-03T07:09:53.340154Z  INFO node::user: eth_getLogs
+2026-11-03T07:09:53.409571Z  INFO node::user: eth_chainId
+2026-11-03T07:09:53.410298Z  INFO node::user: eth_blockNumber
+2026-11-03T07:09:53.410975Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:09:53.411587Z  INFO node::user: eth_getLogs
+2026-11-03T07:09:53.412450Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:09:53.412955Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:09:53.413568Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:09:53.414105Z  INFO node::user: eth_getBlockReceipts
+2026-11-03T07:09:53.414941Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:09:53.428196Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:09:53.428656Z  INFO node::user: eth_blockNumber
+2026-11-03T07:09:53.429438Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:14:10.465671Z  INFO node::user: eth_chainId
+2026-11-03T07:14:10.469017Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:14:10.471230Z  INFO node::user: eth_blockNumber
+2026-11-03T07:14:12.647252Z  INFO node::user: eth_blockNumber
+2026-11-03T07:14:12.661283Z  INFO node::user: eth_getLogs
+2026-11-03T07:14:12.677171Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:14:12.713826Z  INFO node::user: eth_chainId
+2026-11-03T07:14:12.767458Z  INFO node::user: eth_chainId
+2026-11-03T07:14:12.774818Z  INFO node::user: eth_chainId
+2026-11-03T07:14:12.775354Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:14:12.776272Z  INFO node::user: eth_call
+2026-11-03T07:14:12.783369Z  INFO node::user: eth_chainId
+2026-11-03T07:14:12.803249Z  INFO node::user: eth_chainId
+2026-11-03T07:14:12.804090Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:14:12.804621Z  INFO node::user: eth_feeHistory
+2026-11-03T07:14:12.806280Z  INFO node::user: eth_estimateGas
+2026-11-03T07:14:12.807337Z  INFO node::user: eth_sendTransaction
+2026-11-03T07:14:12.807356Z  INFO node::user: eth_accounts
+2026-11-03T07:14:12.808164Z  INFO node::user: 
+2026-11-03T07:14:12.808180Z  INFO node::user:     Transaction: 0x1d1dcdfbed59144283e1cd4010706444bb0efd8fd2251ae6fcfa32b12fbf9ac5
+2026-11-03T07:14:12.808184Z  INFO node::user:     Gas used: 33794
+2026-11-03T07:14:12.808187Z  INFO node::user: 
+2026-11-03T07:14:12.808192Z  INFO node::user:     Block Number: 22
+2026-11-03T07:14:12.808194Z  INFO node::user:     Block Hash: 0x5a7aa8607e564aa6b93fb00d4e81e7d7ff38c611e30d9685768fcb180d7e2438
+2026-11-03T07:14:12.808198Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:14:12 +0000"
+
+2026-11-03T07:14:12.808574Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:14:14.549542Z  INFO node::user: eth_chainId
+2026-11-03T07:14:14.550157Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:14:14.550862Z  INFO node::user: eth_blockNumber
+2026-11-03T07:14:14.659212Z  INFO node::user: eth_chainId
+2026-11-03T07:14:14.660124Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:14:14.661204Z  INFO node::user: eth_blockNumber
+2026-11-03T07:14:14.904759Z  INFO node::user: eth_chainId
+2026-11-03T07:14:14.905780Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:14:14.906304Z  INFO node::user: eth_blockNumber
+2026-11-03T07:14:15.480888Z  INFO node::user: eth_chainId
+2026-11-03T07:14:15.481646Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:14:15.482316Z  INFO node::user: eth_blockNumber
+2026-11-03T07:14:15.605494Z  INFO node::user: eth_chainId
+2026-11-03T07:14:15.615377Z  INFO node::user: eth_chainId
+2026-11-03T07:14:15.623338Z  INFO node::user: eth_chainId
+2026-11-03T07:14:15.632092Z  INFO node::user: eth_chainId
+2026-11-03T07:14:15.640525Z  INFO node::user: eth_chainId
+2026-11-03T07:14:15.642179Z  INFO node::user: eth_call
+2026-11-03T07:14:15.658227Z  INFO node::user: eth_chainId
+2026-11-03T07:14:15.659393Z  INFO node::user: eth_call
+2026-11-03T07:14:15.668485Z  INFO node::user: eth_chainId
+2026-11-03T07:14:15.669271Z  INFO node::user: eth_call
+2026-11-03T07:14:15.676532Z  INFO node::user: eth_chainId
+2026-11-03T07:14:15.677363Z  INFO node::user: eth_call
+2026-11-03T07:14:15.905406Z  INFO node::user: eth_chainId
+2026-11-03T07:14:15.906094Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:14:15.906727Z  INFO node::user: eth_blockNumber
+2026-11-03T07:14:15.950762Z  INFO node::user: eth_chainId
+2026-11-03T07:14:15.958399Z  INFO node::user: eth_chainId
+2026-11-03T07:14:15.967577Z  INFO node::user: eth_chainId
+2026-11-03T07:14:15.976287Z  INFO node::user: eth_chainId
+2026-11-03T07:14:15.985800Z  INFO node::user: eth_chainId
+2026-11-03T07:14:15.993972Z  INFO node::user: eth_chainId
+2026-11-03T07:14:16.003840Z  INFO node::user: eth_chainId
+2026-11-03T07:14:16.011789Z  INFO node::user: eth_chainId
+2026-11-03T07:14:16.021671Z  INFO node::user: eth_chainId
+2026-11-03T07:14:16.054209Z  INFO node::user: eth_chainId
+2026-11-03T07:14:16.058119Z  INFO node::user: eth_chainId
+2026-11-03T07:14:16.067756Z  INFO node::user: eth_chainId
+2026-11-03T07:14:16.416882Z  INFO node::user: eth_chainId
+2026-11-03T07:14:16.417833Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:14:16.418603Z  INFO node::user: eth_blockNumber
+2026-11-03T07:14:16.743351Z  INFO node::user: eth_chainId
+2026-11-03T07:14:16.750663Z  INFO node::user: eth_chainId
+2026-11-03T07:14:16.759883Z  INFO node::user: eth_chainId
+2026-11-03T07:14:16.768314Z  INFO node::user: eth_chainId
+2026-11-03T07:14:16.777297Z  INFO node::user: eth_chainId
+2026-11-03T07:14:16.787504Z  INFO node::user: eth_chainId
+2026-11-03T07:14:16.797625Z  INFO node::user: eth_chainId
+2026-11-03T07:14:16.808345Z  INFO node::user: eth_chainId
+2026-11-03T07:14:16.816778Z  INFO node::user: eth_chainId
+2026-11-03T07:14:16.842789Z  INFO node::user: eth_chainId
+2026-11-03T07:14:16.842924Z  INFO node::user: eth_chainId
+2026-11-03T07:14:16.851545Z  INFO node::user: eth_chainId
+2026-11-03T07:14:16.858948Z  INFO node::user: eth_chainId
+2026-11-03T07:14:16.865866Z  INFO node::user: eth_chainId
+2026-11-03T07:14:16.878055Z  INFO node::user: eth_chainId
+2026-11-03T07:14:16.886340Z  INFO node::user: eth_chainId
+2026-11-03T07:14:16.897873Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.041606Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.052224Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.062371Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.072384Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.083417Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.091746Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.099713Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.100653Z  INFO node::user: eth_call
+2026-11-03T07:14:17.107780Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.108595Z  INFO node::user: eth_call
+2026-11-03T07:14:17.114764Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.115385Z  INFO node::user: eth_call
+2026-11-03T07:14:17.121740Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.122544Z  INFO node::user: eth_call
+2026-11-03T07:14:17.214605Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.216250Z  INFO node::user: eth_getCode
+2026-11-03T07:14:17.216971Z  INFO node::user: eth_getCode
+2026-11-03T07:14:17.219579Z  INFO node::user: eth_getCode
+2026-11-03T07:14:17.228926Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.236070Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.243760Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.249866Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.257035Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.264217Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.271724Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.272473Z  INFO node::user: eth_call
+2026-11-03T07:14:17.278713Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.279387Z  INFO node::user: eth_call
+2026-11-03T07:14:17.285458Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.286033Z  INFO node::user: eth_call
+2026-11-03T07:14:17.292526Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.293110Z  INFO node::user: eth_call
+2026-11-03T07:14:17.298788Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.299379Z  INFO node::user: eth_call
+2026-11-03T07:14:17.305368Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.305963Z  INFO node::user: eth_call
+2026-11-03T07:14:17.542636Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.572476Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.580763Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.581400Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:14:17.581986Z  INFO node::user: eth_call
+2026-11-03T07:14:17.595294Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.596056Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.603948Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.604648Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.612803Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.613497Z  INFO node::user: eth_getCode
+2026-11-03T07:14:17.620908Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.621626Z  INFO node::user: eth_getCode
+2026-11-03T07:14:17.629236Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.629819Z  INFO node::user: eth_getCode
+2026-11-03T07:14:17.637264Z  INFO node::user: eth_chainId
+2026-11-03T07:14:17.637919Z  INFO node::user: eth_call
+2026-11-03T07:14:18.059907Z  INFO node::user: eth_chainId
+2026-11-03T07:14:18.060596Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:14:18.061214Z  INFO node::user: eth_blockNumber
+2026-11-03T07:14:18.109686Z  INFO node::user: eth_chainId
+2026-11-03T07:14:18.117774Z  INFO node::user: eth_chainId
+2026-11-03T07:14:18.126397Z  INFO node::user: eth_chainId
+2026-11-03T07:14:18.134778Z  INFO node::user: eth_chainId
+2026-11-03T07:14:18.142738Z  INFO node::user: eth_chainId
+2026-11-03T07:14:18.151288Z  INFO node::user: eth_chainId
+2026-11-03T07:14:18.462277Z  INFO node::user: eth_chainId
+2026-11-03T07:14:18.464894Z  INFO node::user: eth_getCode
+2026-11-03T07:14:18.465772Z  INFO node::user: eth_getCode
+2026-11-03T07:14:18.468268Z  INFO node::user: eth_getCode
+2026-11-03T07:14:18.609042Z  INFO node::user: eth_chainId
+2026-11-03T07:14:18.618160Z  INFO node::user: eth_chainId
+2026-11-03T07:14:18.624761Z  INFO node::user: eth_chainId
+2026-11-03T07:14:18.633165Z  INFO node::user: eth_chainId
+2026-11-03T07:14:18.640216Z  INFO node::user: eth_chainId
+2026-11-03T07:14:18.640851Z  INFO node::user: eth_call
+2026-11-03T07:14:18.647543Z  INFO node::user: eth_chainId
+2026-11-03T07:14:18.648113Z  INFO node::user: eth_call
+2026-11-03T07:14:18.655274Z  INFO node::user: eth_chainId
+2026-11-03T07:14:18.655945Z  INFO node::user: eth_call
+2026-11-03T07:14:18.667379Z  INFO node::user: eth_chainId
+2026-11-03T07:14:18.668017Z  INFO node::user: eth_call
+2026-11-03T07:14:18.787779Z  INFO node::user: eth_chainId
+2026-11-03T07:14:18.788410Z  INFO node::user: eth_blockNumber
+2026-11-03T07:14:18.801983Z  INFO node::user: eth_chainId
+2026-11-03T07:14:18.802636Z  INFO node::user: eth_getLogs
+2026-11-03T07:14:18.809014Z  INFO node::user: eth_chainId
+2026-11-03T07:14:18.859360Z  INFO node::user: eth_chainId
+2026-11-03T07:14:18.909442Z  INFO node::user: eth_chainId
+2026-11-03T07:14:18.917848Z  INFO node::user: eth_chainId
+2026-11-03T07:14:18.918418Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:14:18.919044Z  INFO node::user: eth_call
+2026-11-03T07:14:18.924491Z  INFO node::user: eth_chainId
+2026-11-03T07:14:18.945996Z  INFO node::user: eth_chainId
+2026-11-03T07:14:18.946874Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:14:18.947358Z  INFO node::user: eth_feeHistory
+2026-11-03T07:14:18.947888Z  INFO node::user: eth_estimateGas
+2026-11-03T07:14:18.948696Z  INFO node::user: eth_sendTransaction
+2026-11-03T07:14:18.948710Z  INFO node::user: eth_accounts
+2026-11-03T07:14:18.949395Z  INFO node::user: 
+2026-11-03T07:14:18.949406Z  INFO node::user:     Transaction: 0x78004c25d2f01b01c1aae876dbde274db5081c8618363d5055795e21f5987ff5
+2026-11-03T07:14:18.949409Z  INFO node::user:     Gas used: 33782
+2026-11-03T07:14:18.949411Z  INFO node::user: 
+2026-11-03T07:14:18.949414Z  INFO node::user:     Block Number: 23
+2026-11-03T07:14:18.949416Z  INFO node::user:     Block Hash: 0x231d0ba37cbf30d3c8d057359d5c28e281a99005b34b9aaec467b3a7a42044e8
+2026-11-03T07:14:18.949419Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:14:18 +0000"
+
+2026-11-03T07:14:18.949535Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:14:22.959184Z  INFO node::user: eth_blockNumber
+2026-11-03T07:14:22.975699Z  INFO node::user: eth_getLogs
+2026-11-03T07:14:22.992761Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:14:33.014747Z  INFO node::user: eth_blockNumber
+2026-11-03T07:14:33.042720Z  INFO node::user: eth_getLogs
+2026-11-03T07:14:33.067803Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:14:43.091014Z  INFO node::user: eth_blockNumber
+2026-11-03T07:14:43.108410Z  INFO node::user: eth_getLogs
+2026-11-03T07:14:43.124959Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:14:48.504391Z  INFO node::user: eth_chainId
+2026-11-03T07:14:48.506670Z  INFO node::user: eth_getCode
+2026-11-03T07:14:48.507565Z  INFO node::user: eth_getCode
+2026-11-03T07:14:48.510042Z  INFO node::user: eth_getCode
+2026-11-03T07:14:48.742298Z  INFO node::user: eth_chainId
+2026-11-03T07:14:48.744229Z  INFO node::user: eth_getCode
+2026-11-03T07:14:48.745065Z  INFO node::user: eth_getCode
+2026-11-03T07:14:48.747057Z  INFO node::user: eth_getCode
+2026-11-03T07:14:49.225222Z  INFO node::user: eth_chainId
+2026-11-03T07:14:49.282448Z  INFO node::user: eth_chainId
+2026-11-03T07:14:49.289304Z  INFO node::user: eth_chainId
+2026-11-03T07:14:49.289775Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:14:49.290309Z  INFO node::user: eth_call
+2026-11-03T07:14:49.295527Z  INFO node::user: eth_chainId
+2026-11-03T07:14:49.316618Z  INFO node::user: eth_chainId
+2026-11-03T07:14:49.317249Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:14:49.317661Z  INFO node::user: eth_feeHistory
+2026-11-03T07:14:49.318306Z  INFO node::user: eth_estimateGas
+2026-11-03T07:14:49.319358Z  INFO node::user: eth_sendTransaction
+2026-11-03T07:14:49.319380Z  INFO node::user: eth_accounts
+2026-11-03T07:14:49.320039Z  INFO node::user: 
+2026-11-03T07:14:49.320053Z  INFO node::user:     Transaction: 0x8a11173bcc121e42a2dc17b60ee1917f42263143ca8ad890d23a6c04cc62c2e6
+2026-11-03T07:14:49.320058Z  INFO node::user:     Gas used: 33782
+2026-11-03T07:14:49.320061Z  INFO node::user: 
+2026-11-03T07:14:49.320064Z  INFO node::user:     Block Number: 24
+2026-11-03T07:14:49.320066Z  INFO node::user:     Block Hash: 0xa4a5a3bfd6a8ef6f576b33e152c2d98084995d3f8c9e6d2fb5a8d7e2fce8b6f7
+2026-11-03T07:14:49.320070Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:14:49 +0000"
+
+2026-11-03T07:14:49.320104Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:14:49.939129Z  INFO node::user: eth_chainId
+2026-11-03T07:14:49.995180Z  INFO node::user: eth_chainId
+2026-11-03T07:14:50.007426Z  INFO node::user: eth_chainId
+2026-11-03T07:14:50.008292Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:14:50.008986Z  INFO node::user: eth_call
+2026-11-03T07:14:50.045856Z  INFO node::user: eth_chainId
+2026-11-03T07:14:50.056624Z  INFO node::user: eth_chainId
+2026-11-03T07:14:50.057456Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:14:50.058173Z  INFO node::user: eth_call
+2026-11-03T07:14:50.109878Z  INFO node::user: eth_chainId
+2026-11-03T07:14:50.117407Z  INFO node::user: eth_chainId
+2026-11-03T07:14:50.117928Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:14:50.118440Z  INFO node::user: eth_call
+2026-11-03T07:14:50.158304Z  INFO node::user: eth_chainId
+2026-11-03T07:14:50.158913Z  INFO node::user: eth_call
+2026-11-03T07:14:50.159652Z  INFO node::user: eth_call
+2026-11-03T07:14:50.160330Z  INFO node::user: eth_getCode
+2026-11-03T07:14:50.161306Z  INFO node::user: eth_call
+2026-11-03T07:14:50.161941Z  INFO node::user: eth_getCode
+2026-11-03T07:14:50.162875Z  INFO node::user: eth_call
+2026-11-03T07:14:50.163658Z  INFO node::user: eth_getCode
+2026-11-03T07:14:50.164510Z  INFO node::user: eth_call
+2026-11-03T07:14:50.165215Z  INFO node::user: eth_getCode
+2026-11-03T07:14:50.166207Z  INFO node::user: eth_call
+2026-11-03T07:14:50.539856Z  INFO node::user: eth_chainId
+2026-11-03T07:14:50.562050Z  INFO node::user: eth_chainId
+2026-11-03T07:14:50.569278Z  INFO node::user: eth_chainId
+2026-11-03T07:14:50.569891Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:14:50.570441Z  INFO node::user: eth_call
+2026-11-03T07:14:52.862221Z  INFO node::user: eth_chainId
+2026-11-03T07:14:52.921901Z  INFO node::user: eth_chainId
+2026-11-03T07:14:52.933230Z  INFO node::user: eth_chainId
+2026-11-03T07:14:52.933920Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:14:52.934688Z  INFO node::user: eth_call
+2026-11-03T07:14:52.940947Z  INFO node::user: eth_chainId
+2026-11-03T07:14:52.963171Z  INFO node::user: eth_chainId
+2026-11-03T07:14:52.963817Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:14:52.964281Z  INFO node::user: eth_feeHistory
+2026-11-03T07:14:52.964825Z  INFO node::user: eth_estimateGas
+2026-11-03T07:14:52.965672Z  INFO node::user: eth_sendTransaction
+2026-11-03T07:14:52.965687Z  INFO node::user: eth_accounts
+2026-11-03T07:14:52.966362Z  INFO node::user: 
+2026-11-03T07:14:52.966371Z  INFO node::user:     Transaction: 0x5f3e03cee3c176b8d03c3098a4ce75a0b47abd315878faa08eca60888f2984e0
+2026-11-03T07:14:52.966374Z  INFO node::user:     Gas used: 33794
+2026-11-03T07:14:52.966377Z  INFO node::user: 
+2026-11-03T07:14:52.966380Z  INFO node::user:     Block Number: 25
+2026-11-03T07:14:52.966382Z  INFO node::user:     Block Hash: 0xcd4d7341e0fca9e9ab1a7d5d2080f5557806eaf2f0def0062fdafc2b79d125ce
+2026-11-03T07:14:52.966385Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:14:52 +0000"
+
+2026-11-03T07:14:52.966612Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:14:54.974451Z  INFO node::user: eth_blockNumber
+2026-11-03T07:14:55.004944Z  INFO node::user: eth_getLogs
+2026-11-03T07:14:55.035006Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:15:05.053047Z  INFO node::user: eth_blockNumber
+2026-11-03T07:15:05.068246Z  INFO node::user: eth_getLogs
+2026-11-03T07:15:05.084821Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:15:15.108833Z  INFO node::user: eth_blockNumber
+2026-11-03T07:15:15.123667Z  INFO node::user: eth_getLogs
+2026-11-03T07:15:15.142279Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:15:25.170940Z  INFO node::user: eth_blockNumber
+2026-11-03T07:15:25.199043Z  INFO node::user: eth_getLogs
+2026-11-03T07:15:25.222335Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:15:35.244740Z  INFO node::user: eth_blockNumber
+2026-11-03T07:15:35.272693Z  INFO node::user: eth_getLogs
+2026-11-03T07:15:35.302244Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:15:45.325091Z  INFO node::user: eth_blockNumber
+2026-11-03T07:15:45.352184Z  INFO node::user: eth_getLogs
+2026-11-03T07:15:45.377574Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:15:55.418851Z  INFO node::user: eth_blockNumber
+2026-11-03T07:15:55.444395Z  INFO node::user: eth_getLogs
+2026-11-03T07:15:55.463152Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:16:05.493285Z  INFO node::user: eth_blockNumber
+2026-11-03T07:16:05.523837Z  INFO node::user: eth_getLogs
+2026-11-03T07:16:05.554812Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:16:15.574776Z  INFO node::user: eth_blockNumber
+2026-11-03T07:16:15.587885Z  INFO node::user: eth_getLogs
+2026-11-03T07:16:15.603463Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:16:25.675030Z  INFO node::user: eth_blockNumber
+2026-11-03T07:16:25.707962Z  INFO node::user: eth_getLogs
+2026-11-03T07:16:25.737130Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:16:35.766862Z  INFO node::user: eth_blockNumber
+2026-11-03T07:16:35.779224Z  INFO node::user: eth_getLogs
+2026-11-03T07:16:35.797274Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:16:36.712116Z  INFO node::user: eth_chainId
+2026-11-03T07:16:36.713918Z  INFO node::user: eth_getCode
+2026-11-03T07:16:36.714665Z  INFO node::user: eth_getCode
+2026-11-03T07:16:36.717176Z  INFO node::user: eth_getCode
+2026-11-03T07:16:36.786776Z  INFO node::user: eth_chainId
+2026-11-03T07:16:36.788075Z  INFO node::user: eth_getCode
+2026-11-03T07:16:36.788624Z  INFO node::user: eth_getCode
+2026-11-03T07:16:36.790304Z  INFO node::user: eth_getCode
+2026-11-03T07:16:37.868690Z  INFO node::user: eth_chainId
+2026-11-03T07:16:37.928216Z  INFO node::user: eth_chainId
+2026-11-03T07:16:37.935209Z  INFO node::user: eth_chainId
+2026-11-03T07:16:37.935699Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:16:37.936332Z  INFO node::user: eth_call
+2026-11-03T07:16:37.941958Z  INFO node::user: eth_chainId
+2026-11-03T07:16:37.977180Z  INFO node::user: eth_chainId
+2026-11-03T07:16:37.977918Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:16:37.978414Z  INFO node::user: eth_feeHistory
+2026-11-03T07:16:37.979225Z  INFO node::user: eth_estimateGas
+2026-11-03T07:16:37.980316Z  INFO node::user: eth_sendTransaction
+2026-11-03T07:16:37.980329Z  INFO node::user: eth_accounts
+2026-11-03T07:16:37.981104Z  INFO node::user: 
+2026-11-03T07:16:37.981117Z  INFO node::user:     Transaction: 0x81af68e1dc0391c67837266a2b444ba5b5f1a0d3ed0f63801b6745a7b2bddd18
+2026-11-03T07:16:37.981121Z  INFO node::user:     Gas used: 33794
+2026-11-03T07:16:37.981124Z  INFO node::user: 
+2026-11-03T07:16:37.981127Z  INFO node::user:     Block Number: 26
+2026-11-03T07:16:37.981129Z  INFO node::user:     Block Hash: 0xc056522a6ec803efbbb9853524c39f1b9abdf012af86cefcab03ca08b8452b6a
+2026-11-03T07:16:37.981133Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:16:37 +0000"
+
+2026-11-03T07:16:37.981159Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:16:38.239462Z  INFO node::user: eth_chainId
+2026-11-03T07:16:38.324368Z  INFO node::user: eth_chainId
+2026-11-03T07:16:38.336428Z  INFO node::user: eth_chainId
+2026-11-03T07:16:38.337223Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:16:38.337922Z  INFO node::user: eth_call
+2026-11-03T07:16:38.374951Z  INFO node::user: eth_chainId
+2026-11-03T07:16:38.383369Z  INFO node::user: eth_chainId
+2026-11-03T07:16:38.384197Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:16:38.385035Z  INFO node::user: eth_call
+2026-11-03T07:16:38.433155Z  INFO node::user: eth_chainId
+2026-11-03T07:16:38.440529Z  INFO node::user: eth_chainId
+2026-11-03T07:16:38.441113Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:16:38.441645Z  INFO node::user: eth_call
+2026-11-03T07:16:38.471586Z  INFO node::user: eth_chainId
+2026-11-03T07:16:38.472015Z  INFO node::user: eth_call
+2026-11-03T07:16:38.472634Z  INFO node::user: eth_call
+2026-11-03T07:16:38.473152Z  INFO node::user: eth_getCode
+2026-11-03T07:16:38.473972Z  INFO node::user: eth_call
+2026-11-03T07:16:38.474444Z  INFO node::user: eth_getCode
+2026-11-03T07:16:38.475347Z  INFO node::user: eth_call
+2026-11-03T07:16:38.475856Z  INFO node::user: eth_getCode
+2026-11-03T07:16:38.476454Z  INFO node::user: eth_call
+2026-11-03T07:16:38.476923Z  INFO node::user: eth_getCode
+2026-11-03T07:16:38.477601Z  INFO node::user: eth_call
+2026-11-03T07:16:38.807821Z  INFO node::user: eth_chainId
+2026-11-03T07:16:38.848174Z  INFO node::user: eth_chainId
+2026-11-03T07:16:38.858405Z  INFO node::user: eth_chainId
+2026-11-03T07:16:38.859116Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:16:38.859773Z  INFO node::user: eth_call
+2026-11-03T07:16:40.565067Z  INFO node::user: eth_chainId
+2026-11-03T07:16:40.872677Z  INFO node::user: eth_chainId
+2026-11-03T07:16:40.886005Z  INFO node::user: eth_chainId
+2026-11-03T07:16:40.887012Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:16:40.887777Z  INFO node::user: eth_call
+2026-11-03T07:16:40.921627Z  INFO node::user: eth_chainId
+2026-11-03T07:16:40.929655Z  INFO node::user: eth_chainId
+2026-11-03T07:16:40.930236Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:16:40.930934Z  INFO node::user: eth_call
+2026-11-03T07:16:40.961790Z  INFO node::user: eth_chainId
+2026-11-03T07:16:40.981385Z  INFO node::user: eth_chainId
+2026-11-03T07:16:40.982282Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:16:40.983072Z  INFO node::user: eth_call
+2026-11-03T07:16:41.026986Z  INFO node::user: eth_chainId
+2026-11-03T07:16:41.034870Z  INFO node::user: eth_chainId
+2026-11-03T07:16:41.035531Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:16:41.036159Z  INFO node::user: eth_call
+2026-11-03T07:16:41.043252Z  INFO node::user: eth_chainId
+2026-11-03T07:16:41.066701Z  INFO node::user: eth_chainId
+2026-11-03T07:16:41.074941Z  INFO node::user: eth_chainId
+2026-11-03T07:16:41.075562Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:16:41.076134Z  INFO node::user: eth_call
+2026-11-03T07:16:41.100448Z  INFO node::user: eth_chainId
+2026-11-03T07:16:41.100457Z  INFO node::user: eth_chainId
+2026-11-03T07:16:41.108109Z  INFO node::user: eth_chainId
+2026-11-03T07:16:41.108292Z  INFO node::user: eth_chainId
+2026-11-03T07:16:41.108668Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:16:41.108814Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:16:41.109231Z  INFO node::user: eth_call
+2026-11-03T07:16:41.109385Z  INFO node::user: eth_call
+2026-11-03T07:16:41.113786Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:16:41.114477Z  INFO node::user: eth_chainId
+2026-11-03T07:16:41.136087Z  INFO node::user: eth_chainId
+2026-11-03T07:16:41.136856Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:16:41.137325Z  INFO node::user: eth_feeHistory
+2026-11-03T07:16:41.137915Z  INFO node::user: eth_estimateGas
+2026-11-03T07:16:41.138827Z  INFO node::user: eth_sendTransaction
+2026-11-03T07:16:41.138848Z  INFO node::user: eth_accounts
+2026-11-03T07:16:41.139593Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:16:41.139761Z  INFO node::user: 
+2026-11-03T07:16:41.139777Z  INFO node::user:     Transaction: 0x762de228e5b9e089ffe597bd94847f3386d2437a6dcebfd05a837c3bf48acbc5
+2026-11-03T07:16:41.139783Z  INFO node::user:     Gas used: 33794
+2026-11-03T07:16:41.139786Z  INFO node::user: 
+2026-11-03T07:16:41.139790Z  INFO node::user:     Block Number: 27
+2026-11-03T07:16:41.139792Z  INFO node::user:     Block Hash: 0xce9c33fa9d5d491167b460025db1280922700cfcc588dcd9fbe9bfcd71f0e748
+2026-11-03T07:16:41.139796Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:16:41 +0000"
+
+2026-11-03T07:16:41.140002Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:16:41.140498Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:16:41.171743Z  INFO node::user: eth_chainId
+2026-11-03T07:16:41.179183Z  INFO node::user: eth_chainId
+2026-11-03T07:16:41.179705Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:16:41.180204Z  INFO node::user: eth_call
+2026-11-03T07:16:41.190226Z  INFO node::user: eth_chainId
+[2m2026-11-03T07:16:41.612083Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:41.615637Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:41.620208Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:41.787594Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:41.795134Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:41.795754Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getTransactionCount
+[2m2026-11-03T07:16:41.796656Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:41.825725Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:41.833361Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:41.834238Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getTransactionCount
+[2m2026-11-03T07:16:41.835018Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:41.962708Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:41.965689Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getCode
+[2m2026-11-03T07:16:41.967154Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getCode
+[2m2026-11-03T07:16:41.971766Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getCode
+[2m2026-11-03T07:16:42.078045Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:42.085826Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:42.086446Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getTransactionCount
+[2m2026-11-03T07:16:42.087155Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:42.094260Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:16:42.097695Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:42.099653Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getCode
+[2m2026-11-03T07:16:42.100431Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getCode
+[2m2026-11-03T07:16:42.103116Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getCode
+[2m2026-11-03T07:16:42.106629Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:42.113084Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:16:42.130484Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:16:42.346447Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:42.353947Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:42.354603Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getTransactionCount
+[2m2026-11-03T07:16:42.355403Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:42.381104Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:42.388397Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:42.388999Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getTransactionCount
+[2m2026-11-03T07:16:42.389592Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:42.414095Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:42.421305Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:42.421843Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getTransactionCount
+[2m2026-11-03T07:16:42.422632Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:42.447587Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:42.455700Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:42.456295Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getTransactionCount
+[2m2026-11-03T07:16:42.456811Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:42.480288Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:42.487577Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:42.488274Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getTransactionCount
+[2m2026-11-03T07:16:42.488820Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:42.511970Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:42.519109Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:42.519698Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getTransactionCount
+[2m2026-11-03T07:16:42.520220Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:42.524481Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:16:42.580458Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:42.587609Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:42.588156Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getTransactionCount
+[2m2026-11-03T07:16:42.588705Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:42.600157Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:42.600857Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:16:42.601422Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:16:42.708833Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:42.709447Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:16:42.710009Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:16:42.864354Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:42.865572Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:16:42.866360Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:16:42.922866Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.031463Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.053980Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.061172Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.061853Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getTransactionCount
+[2m2026-11-03T07:16:43.062340Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:43.186799Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.218145Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.224716Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.225251Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getTransactionCount
+[2m2026-11-03T07:16:43.225723Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:43.230905Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.434749Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.441413Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.441914Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getTransactionCount
+[2m2026-11-03T07:16:43.442409Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:43.463452Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.469971Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.470462Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getTransactionCount
+[2m2026-11-03T07:16:43.471010Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:43.494269Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.500887Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.501408Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getTransactionCount
+[2m2026-11-03T07:16:43.501925Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:43.523821Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.530336Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.530857Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getTransactionCount
+[2m2026-11-03T07:16:43.531346Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:43.554768Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.562442Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.562976Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getTransactionCount
+[2m2026-11-03T07:16:43.563501Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:43.587657Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.594219Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.594810Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getTransactionCount
+[2m2026-11-03T07:16:43.595304Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:43.599401Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:16:43.649163Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.655361Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.655873Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getTransactionCount
+[2m2026-11-03T07:16:43.656385Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:43.752478Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.754050Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getCode
+[2m2026-11-03T07:16:43.754910Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getCode
+[2m2026-11-03T07:16:43.757170Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getCode
+[2m2026-11-03T07:16:43.868893Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.877818Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.884844Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.891536Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.898043Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.898678Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:43.906055Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.906723Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:43.912564Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.913183Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:43.919378Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:43.920011Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:43.978876Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.000345Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.007927Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.014602Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.021802Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.028388Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.036352Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.037006Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:44.043214Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.043818Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:44.049606Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.050239Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:44.056386Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.056976Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:44.124109Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.231732Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.261219Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.267914Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.268513Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getTransactionCount
+[2m2026-11-03T07:16:44.269145Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:44.483936Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.507870Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.516355Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.516902Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getTransactionCount
+[2m2026-11-03T07:16:44.517493Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:44.764972Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.785170Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.792290Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.792825Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getTransactionCount
+[2m2026-11-03T07:16:44.793324Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:44.803755Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.804368Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.810759Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.811294Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.816962Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.817524Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getCode
+[2m2026-11-03T07:16:44.824449Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.825015Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getCode
+[2m2026-11-03T07:16:44.831322Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.831987Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getCode
+[2m2026-11-03T07:16:44.839133Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.839713Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:44.972095Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.979580Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:44.980083Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getTransactionCount
+[2m2026-11-03T07:16:44.980584Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:45.005006Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:45.012175Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:45.012699Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getTransactionCount
+[2m2026-11-03T07:16:45.013210Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:45.071899Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:45.078962Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId
+[2m2026-11-03T07:16:45.079557Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getTransactionCount
+[2m2026-11-03T07:16:45.080124Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_call
+[2m2026-11-03T07:16:52.165289Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:16:52.195598Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:16:52.227414Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:17:02.269313Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:17:02.296524Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:17:02.321895Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:17:12.354271Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:17:12.372806Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:17:12.392870Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:17:22.422129Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:17:22.456905Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:17:22.488926Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:17:32.539962Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:17:32.569987Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:17:32.598233Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:17:42.637047Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:17:42.654532Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:17:42.671513Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:17:52.703943Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:17:52.731338Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:17:52.757194Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:18:02.822405Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:18:02.841245Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:18:02.861233Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:18:12.903657Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:18:12.916644Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:18:12.931721Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:18:22.957790Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:18:22.975324Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:18:22.996744Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:18:33.039580Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:18:33.061360Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:18:33.088526Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:18:43.123244Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:18:43.137032Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:18:43.152976Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:18:53.171344Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:18:53.184028Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:18:53.197430Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:19:03.235820Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:19:03.271581Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:19:03.310749Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:19:13.351936Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:19:13.366612Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:19:13.381067Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:19:23.422352Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:19:23.443707Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:19:23.467440Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:19:33.514247Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:19:33.548721Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:19:33.580615Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:19:43.619135Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:19:43.635003Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:19:43.655289Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:19:53.683328Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:19:53.717386Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:19:53.754160Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:20:03.792878Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:20:03.815442Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:20:03.848121Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:20:13.931676Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:20:13.944588Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:20:13.959709Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:20:23.992883Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:20:24.027185Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:20:24.061080Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:20:34.094304Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:20:34.124315Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:20:34.148975Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:20:44.174827Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:20:44.191435Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:20:44.206048Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:20:54.231096Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:20:54.263616Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:20:54.299498Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:21:04.338105Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:21:04.361547Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:21:04.385778Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:21:14.431166Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:21:14.443830Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:21:14.459877Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:21:24.496982Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:21:24.538685Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:21:24.573081Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:21:34.600071Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:21:34.633647Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:21:34.671113Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:21:44.728057Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:21:44.742291Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:21:44.757896Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:21:54.822226Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:21:54.846916Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:21:54.881157Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:22:04.933439Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:22:04.966109Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:22:04.999473Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:22:15.028735Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:22:15.042749Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:22:15.058706Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:22:25.090685Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_blockNumber
+[2m2026-11-03T07:22:25.121006Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getLogs
+[2m2026-11-03T07:22:25.144291Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_getBlockByNumber
+[2m2026-11-03T07:22:36.245038Z[0m [32m INFO[0m [2mnode::user[0m[2m:[0m eth_chainId

@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "session": "/home/gangryun/BNC-WL/results/prototype-risc0",
+  "sessionId": "f545310336e2b16b1ef004bc7c2578c9",
+  "contracts": {
+    "original": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "wrapped": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "mint": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+    "unlock": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+    "wl_headers": "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707",
+    "bnb_headers": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"
+  },
+  "balances": {
+    "0x70997970c51812dc3a010c7d01b50e0d17dc79c8": {
+      "original": "100000000000000000000",
+      "available": "100000000000000000000",
+      "locked": "0",
+      "wrapped": "0"
+    },
+    "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc": {
+      "original": "100000000000000000000",
+      "available": "100000000000000000000",
+      "locked": "0",
+      "wrapped": "0"
+    },
+    "0x90f79bf6eb2c4f870365e785982e1f101e93b906": {
+      "original": "100000000000000000000",
+      "available": "100000000000000000000",
+      "locked": "0",
+      "wrapped": "0"
+    }
+  },
+  "proofs": {
+    "8ac981831feec48d61ca886d407bea8502cf60c313d58802520c6467a7eea429": {
+      "action": "lock",
+      "transferId": "0xe385206f12413b1b2de067007752f820a6c112d6d1a22e388b50738a1aa8a389",
+      "blockHash": "0x3451fb4acaab71da62fe8d0de8ee18b7ed2cf49ed32f06f2936451b3f2eed11f",
+      "receiptRoot": "0x5debbafe2169c3573d5aa750f15453d9007f9f4ea8603e551c6b8369be7b1ab3",
+      "receiptSHA256": "c78983198a1224e96f6f027d8efbe9c9dbddfa1dee5899f8b96e1e5c379e0490",
+      "imageId": "1d2847d6a7fa72e1a9b5d20444ec043818da086c2ed952493243499702021d21",
+      "sdkVerified": true
+    },
+    "8ffa5ea35acfd477a4f9fe11614407244875a5be514c221b7c3fe5120eaa7e26": {
+      "action": "burn",
+      "transferId": "0xb52a599870e1c4682ea8abd7b77da744745a17d3e46a1d6982213491c95b9617",
+      "blockHash": "0x96b7cde96e9fc2725c2d0a210ea311dd381796d01f6442a9490cb00d42ace8fd",
+      "receiptRoot": "0x79f3fa3f3c07eb7f65e9d98b86188e6f7bdfd00b5eca9095bbf4f164ebe75bd5",
+      "receiptSHA256": "395b3bd86972b5009970cdacbc36bb9cff231ca773b5b62855008239b66054e5",
+      "imageId": "1d2847d6a7fa72e1a9b5d20444ec043818da086c2ed952493243499702021d21",
+      "sdkVerified": true
+    }
+  },
+  "cache": {
+    "proof-jobs/8ac981831feec48d61ca886d407bea8502cf60c313d58802520c6467a7eea429-receipt-76524d8d69c44dcc5134b19567b2975d8cd0ffc8b9a79dcdcd90a3ebd1847772/receipt.bin": {
+      "sha256": "c78983198a1224e96f6f027d8efbe9c9dbddfa1dee5899f8b96e1e5c379e0490",
+      "modifiedNS": 1793252273306214204,
+      "size": 537324
+    },
+    "proof-jobs/8ffa5ea35acfd477a4f9fe11614407244875a5be514c221b7c3fe5120eaa7e26-receipt-95d9da8f0e604e1075aca34779310afc8bd2c224fe4a819329f58e2154423e24/receipt.bin": {
+      "sha256": "395b3bd86972b5009970cdacbc36bb9cff231ca773b5b62855008239b66054e5",
+      "modifiedNS": 1793252554772853292,
+      "size": 537324
+    }
+  },
+  "newProofsGenerated": 0
+}

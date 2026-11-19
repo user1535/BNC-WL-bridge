@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-29",
+  "passed": true,
+  "removedFiles": 43492,
+  "removedBytes": 22853982213,
+  "approxCurrentTreeBytes": 66732737,
+  "activeScripts": 18,
+  "activeRustWorkspace": "risc0/receipt-computation",
+  "runtimeBinaries": [
+    ".bin/bridge-proof",
+    ".bin/bridge-receipt-host"
+  ],
+  "currentSessionPreserved": true,
+  "sameContractsBalancesAndReceiptFiles": true,
+  "newProofsGenerated": 0,
+  "userAssetTransactionsSent": 0,
+  "guestImageUnchanged": true,
+  "tests": {
+    "go": "race tests + vet + generator rebuild PASS",
+    "rustCore": 4,
+    "solidity": 32,
+    "wallet": 10,
+    "sdkAndCancellation": 7,
+    "audit": "PASS",
+    "browserReadOnlyAfterRestart": "PASS",
+    "regeneratedLockAndBurnPackageSdkVerification": "PASS",
+    "relocatedReleasePreflight": "PASS"
+  },
+  "historicalArchivesVerified": true,
+  "historicalSessionsArchived": 29,
+  "historicalSummaryRecords": 351,
+  "teeAutomations": "already PAUSED",
+  "sourceAuthenticated": false,
+  "onchainRisc0Verified": false,
+  "ui": "http://127.0.0.1:8580/"
+}

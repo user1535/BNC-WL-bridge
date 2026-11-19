@@ -1,0 +1,20 @@
+{
+  "blockHash": "0xb574e074cd3df0d6ae09cd081864dd6c9e57339d56bae4a8020a2516d9c976ba",
+  "blockNumber": 10218917,
+  "chainId": 103,
+  "checkedAt": "2026-11-10T06:52:26Z",
+  "logCount": 0,
+  "logsMatchReceipts": true,
+  "logsMethodAvailable": true,
+  "network": "seoul",
+  "receiptLogCount": 0,
+  "receiptRoot": "0x056b23fbba480696b65fe5a59b8f2148a1299103c4f57df839233af2cf4ca2d2",
+  "receiptRootReconstructed": true,
+  "receiptTypes": {
+    "0": 1
+  },
+  "sourceAuthenticated": false,
+  "tip": 10340967,
+  "transactionBroadcast": false,
+  "transactions": 1
+}

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>WL → xWL 발행</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="burn-mint.css">
+  <script type="module" src="xwl-ui.mjs"></script>
+</head>
+<body class="burn-mint" data-xwl="entry">
+  <main>
+    <nav class="page-links"><a href="xwl.html">← xWL 지갑</a></nav>
+    <header><span class="tag">WorldLand 로컬</span><h1>WL → xWL 발행</h1></header>
+    <section><h2>지갑 연결</h2>
+      <label>공개 테스트 계정 <select id="account"><option value="1">A</option><option value="2">B</option><option value="3">C</option></select></label>
+      <button id="demo-wallet" disabled>데모 지갑 연결</button>
+      <button id="extension-wallet" class="secondary" disabled>확장 지갑 연결</button>
+      <p id="owner" class="address">미연결</p>
+      <p id="balances-view">—</p>
+    </section>
+    <section class="flow-step" id="entry-step"><div class="step-heading"><h2>WL 소각 · xWL 발행</h2><span class="step-badge" id="entry-badge">대기</span></div>
+      <label>소각할 WL 수량 <input id="entry-amount" inputmode="decimal" value="10"></label>
+      <label>xWL 수신자 <input id="entry-recipient" autocomplete="off" spellcheck="false"></label>
+      <p id="entry-policy"></p>
+      <button id="entry-preview" disabled>소각·발행 미리보기</button>
+      <p id="entry-result" role="status"></p>
+    </section>
+    <section id="review-panel" hidden><h2>서명 전 검토</h2><pre id="review"></pre><button id="submit" disabled>지갑에서 승인·서명</button></section>
+    <section><h2>거래 상태</h2><p id="status" class="feedback" role="status">지갑을 준비하고 있습니다.</p>
+      <button id="recover" class="secondary" disabled>미확인 거래 상태 조회</button><a id="pending-link" hidden>해당 작업 열기 →</a>
+    </section>
+  </main>
+</body>
+</html>

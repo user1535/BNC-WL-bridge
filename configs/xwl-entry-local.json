@@ -1,0 +1,9 @@
+{
+  "assetProfile": "xwl-entry-v1",
+  "worldLandChainId": 31337,
+  "bscChainId": 31338,
+  "decimals": 18,
+  "initialSupply": "0",
+  "entryCap": "1000000000000000000000",
+  "sink": "0x0000000000000000000000000000000000000000"
+}

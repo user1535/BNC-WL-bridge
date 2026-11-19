@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-29",
+  "passed": true,
+  "scope": "local trusted-server RPC + actual RISC Zero computation + user browser submission",
+  "ui": "http://127.0.0.1:8580/",
+  "teeActive": false,
+  "teeAutomation": "PAUSED",
+  "freshRisc0Proofs": 2,
+  "browserSignedTransactions": 4,
+  "balancesBefore": {
+    "original": "100000000000000000000",
+    "available": "100000000000000000000",
+    "wrapped": "0"
+  },
+  "balancesAfter": {
+    "original": "100000000000000000000",
+    "available": "100000000000000000000",
+    "wrapped": "0"
+  },
+  "proofMetrics": [
+    {
+      "action": "lock",
+      "elapsedSeconds": 261.73709912400227,
+      "peakRSS": 4904226816,
+      "cpuCap": 12,
+      "failure": null
+    },
+    {
+      "action": "burn",
+      "elapsedSeconds": 271.7794304029958,
+      "peakRSS": 4931022848,
+      "cpuCap": 12,
+      "failure": null
+    }
+  ],
+  "negativeChecksPerDirection": 6,
+  "replayRejectedBothDirections": true,
+  "restartStateAndCachePreserved": true,
+  "newProofsDuringRestart": 0,
+  "legacyBrowserPendingPreserved": true,
+  "tests": {
+    "rustCore": 4,
+    "solidity": 56,
+    "walletRegression": 9,
+    "actualSdkAndCancellation": 7,
+    "goPackages": "PASS"
+  },
+  "sourceAuthenticated": false,
+  "onchainRisc0Verified": false,
+  "realAssetDeploymentAllowed": false,
+  "evidence": [
+    "browser-summary.json",
+    "before-restart.json",
+    "after-restart.json",
+    "restart-browser-summary.json",
+    "proof-metrics.json",
+    "restored-ui.png"
+  ],
+  "limitations": [
+    "local Anvil 31337/31338; no native chain deployment",
+    "composite computation receipt verified by server SDK; destination verifies MPT/event/replay",
+    "server operator and RPC are trusted",
+    "external extension wallet not exercised; browser demo wallet exercised"
+  ]
+}

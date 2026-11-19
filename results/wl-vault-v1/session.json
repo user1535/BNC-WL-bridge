@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "protocol": "native-wl-vault-v1",
+  "mode": "dev",
+  "header_binding": "minimal-link",
+  "phase": "ready",
+  "chains": {
+    "wl": {
+      "rpc": "http://127.0.0.1:8569",
+      "port": 8569,
+      "id": 31337,
+      "pid": 14944
+    },
+    "bnb": {
+      "rpc": "http://127.0.0.1:8570",
+      "port": 8570,
+      "id": 31338,
+      "pid": 14958
+    }
+  },
+  "contracts": {
+    "wl_headers": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "bnb_headers": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "original": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "wrapped": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "mint": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "unlock": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "wl_audit": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
+    "bnb_audit": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0"
+  },
+  "events": [],
+  "chain_authenticated": false,
+  "real_asset_deployment_allowed": false,
+  "operator": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+  "users": [
+    "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+    "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc",
+    "0x90f79bf6eb2c4f870365e785982e1f101e93b906"
+  ],
+  "wallet_session_id": "6fea237e117be5d66b4d10b40a09183e"
+}

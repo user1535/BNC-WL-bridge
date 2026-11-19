@@ -1,0 +1,122 @@
+{
+  "results/prototype-risc0/bnb-state.json": {
+    "sha256": "af52efcb251bee9dd011629faf0a663d04260b00b67c8b0e3e23098074506123",
+    "size": 799558,
+    "mtimeNs": 1793606710474888608
+  },
+  "results/prototype-risc0/trusted-root.lock": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0,
+    "mtimeNs": 1793252011974511884
+  },
+  "results/prototype-risc0/launcher.lock": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0,
+    "mtimeNs": 1793253520795996108
+  },
+  "results/prototype-risc0/wl-state.json": {
+    "sha256": "6f7f1fc889691a1aeef45c16e7e42765df70017c827c2850f69375c327f68f7b",
+    "size": 964028,
+    "mtimeNs": 1793606710470888702
+  },
+  "results/prototype-risc0/wl-anvil.log": {
+    "sha256": "ae995b14ad44ccf47231f2815944c3dc6227521ba22c4893c42175b2b331ff4b",
+    "size": 522700,
+    "mtimeNs": 1793267506119485877
+  },
+  "results/prototype-risc0/bnb-anvil.log": {
+    "sha256": "646be35474e76cf076a6638b651f476816bb0162f6501fee6a8cba46d4f680aa",
+    "size": 488828,
+    "mtimeNs": 1793267506123485716
+  },
+  "results/prototype-risc0/client.lock": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0,
+    "mtimeNs": 1793251843342537425
+  },
+  "results/prototype-risc0/session.json": {
+    "sha256": "f8c65b0a62d32af511a0e264dd7aaeb7f78aad2412a9b6623e84fa15eaa93dd5",
+    "size": 1416,
+    "mtimeNs": 1793253522255964602
+  },
+  "results/prototype-risc0/audit-journal.jsonl": {
+    "sha256": "6e393ee1808b82ba479f07315fdfae658ee7e8a47813961ce3bfdb13fc535ef6",
+    "size": 5692,
+    "mtimeNs": 1793253522475959454
+  },
+  "results/prototype-risc0/proof-service.lock": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0,
+    "mtimeNs": 1793251848222839293
+  },
+  "results/prototype-risc0/proof-jobs/8ac981831feec48d61ca886d407bea8502cf60c313d58802520c6467a7eea429.json": {
+    "sha256": "d07af621ef898b079cb2c30cfaf0804c18b7c84a8be2d0881f676f97baa9016d",
+    "size": 724966,
+    "mtimeNs": 1793252274230148176
+  },
+  "results/prototype-risc0/proof-jobs/8ffa5ea35acfd477a4f9fe11614407244875a5be514c221b7c3fe5120eaa7e26.json": {
+    "sha256": "f6307a0275d357d262a41bf3588108c3413f991c9191813456e920023009fd56",
+    "size": 726234,
+    "mtimeNs": 1793252555188833433
+  },
+  "results/prototype-risc0/proof-jobs/8ac981831feec48d61ca886d407bea8502cf60c313d58802520c6467a7eea429-receipt-76524d8d69c44dcc5134b19567b2975d8cd0ffc8b9a79dcdcd90a3ebd1847772/input.json": {
+    "sha256": "76524d8d69c44dcc5134b19567b2975d8cd0ffc8b9a79dcdcd90a3ebd1847772",
+    "size": 2783,
+    "mtimeNs": 1793252012226504358
+  },
+  "results/prototype-risc0/proof-jobs/8ac981831feec48d61ca886d407bea8502cf60c313d58802520c6467a7eea429-receipt-76524d8d69c44dcc5134b19567b2975d8cd0ffc8b9a79dcdcd90a3ebd1847772/run-result.json": {
+    "sha256": "76813bafb4edf01b83535fff24b1b21ddfc0c03a30b697a71e85b4f8cd06926b",
+    "size": 377,
+    "mtimeNs": 1793252274150153864
+  },
+  "results/prototype-risc0/proof-jobs/8ac981831feec48d61ca886d407bea8502cf60c313d58802520c6467a7eea429-receipt-76524d8d69c44dcc5134b19567b2975d8cd0ffc8b9a79dcdcd90a3ebd1847772/sdk.log": {
+    "sha256": "0f2ac75725d967e856c5e264c7bb02fc214139b8816779a4c02f312b4ed1c771",
+    "size": 353,
+    "mtimeNs": 1793252274150153864
+  },
+  "results/prototype-risc0/proof-jobs/8ac981831feec48d61ca886d407bea8502cf60c313d58802520c6467a7eea429-receipt-76524d8d69c44dcc5134b19567b2975d8cd0ffc8b9a79dcdcd90a3ebd1847772/summary.json": {
+    "sha256": "fb7fdf81aa24701805e0a46bfa1f757c140df2c3425b26737cfdec70608bd882",
+    "size": 1065,
+    "mtimeNs": 1793252273306214204
+  },
+  "results/prototype-risc0/proof-jobs/8ac981831feec48d61ca886d407bea8502cf60c313d58802520c6467a7eea429-receipt-76524d8d69c44dcc5134b19567b2975d8cd0ffc8b9a79dcdcd90a3ebd1847772/run.log": {
+    "sha256": "e2b68f246811be44bed412e80e7cbd374a2ad4e42872bcb053b5ee6f94dd4259",
+    "size": 11,
+    "mtimeNs": 1793252273306214204
+  },
+  "results/prototype-risc0/proof-jobs/8ac981831feec48d61ca886d407bea8502cf60c313d58802520c6467a7eea429-receipt-76524d8d69c44dcc5134b19567b2975d8cd0ffc8b9a79dcdcd90a3ebd1847772/receipt.bin": {
+    "sha256": "c78983198a1224e96f6f027d8efbe9c9dbddfa1dee5899f8b96e1e5c379e0490",
+    "size": 537324,
+    "mtimeNs": 1793252273306214204
+  },
+  "results/prototype-risc0/proof-jobs/8ffa5ea35acfd477a4f9fe11614407244875a5be514c221b7c3fe5120eaa7e26-receipt-95d9da8f0e604e1075aca34779310afc8bd2c224fe4a819329f58e2154423e24/input.json": {
+    "sha256": "95d9da8f0e604e1075aca34779310afc8bd2c224fe4a819329f58e2154423e24",
+    "size": 3411,
+    "mtimeNs": 1793252283081713734
+  },
+  "results/prototype-risc0/proof-jobs/8ffa5ea35acfd477a4f9fe11614407244875a5be514c221b7c3fe5120eaa7e26-receipt-95d9da8f0e604e1075aca34779310afc8bd2c224fe4a819329f58e2154423e24/run-result.json": {
+    "sha256": "d635aba8d11e38dab345437b81eb7730a79319ebc0470e78b1334740bc882cd0",
+    "size": 376,
+    "mtimeNs": 1793252554988842975
+  },
+  "results/prototype-risc0/proof-jobs/8ffa5ea35acfd477a4f9fe11614407244875a5be514c221b7c3fe5120eaa7e26-receipt-95d9da8f0e604e1075aca34779310afc8bd2c224fe4a819329f58e2154423e24/sdk.log": {
+    "sha256": "3b50d2cdbc949aa5b2dd845976ffd9f002621fd6cfe53a41de66116eb142e50b",
+    "size": 352,
+    "mtimeNs": 1793252554992842784
+  },
+  "results/prototype-risc0/proof-jobs/8ffa5ea35acfd477a4f9fe11614407244875a5be514c221b7c3fe5120eaa7e26-receipt-95d9da8f0e604e1075aca34779310afc8bd2c224fe4a819329f58e2154423e24/summary.json": {
+    "sha256": "4f98735ee5fb9eb4ffe44ea29d422fdd22ea86b9599ccaa435b6e960d0b860f5",
+    "size": 1065,
+    "mtimeNs": 1793252554772853292
+  },
+  "results/prototype-risc0/proof-jobs/8ffa5ea35acfd477a4f9fe11614407244875a5be514c221b7c3fe5120eaa7e26-receipt-95d9da8f0e604e1075aca34779310afc8bd2c224fe4a819329f58e2154423e24/run.log": {
+    "sha256": "e2b68f246811be44bed412e80e7cbd374a2ad4e42872bcb053b5ee6f94dd4259",
+    "size": 11,
+    "mtimeNs": 1793252554772853292
+  },
+  "results/prototype-risc0/proof-jobs/8ffa5ea35acfd477a4f9fe11614407244875a5be514c221b7c3fe5120eaa7e26-receipt-95d9da8f0e604e1075aca34779310afc8bd2c224fe4a819329f58e2154423e24/receipt.bin": {
+    "sha256": "395b3bd86972b5009970cdacbc36bb9cff231ca773b5b62855008239b66054e5",
+    "size": 537324,
+    "mtimeNs": 1793252554772853292
+  }
+}

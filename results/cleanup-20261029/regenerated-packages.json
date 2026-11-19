@@ -1,0 +1,14 @@
+[
+  {
+    "action": "lock",
+    "newGeneratorInputMatches": true,
+    "existingReceiptSdkVerified": true,
+    "newProofsGenerated": 0
+  },
+  {
+    "action": "burn",
+    "newGeneratorInputMatches": true,
+    "existingReceiptSdkVerified": true,
+    "newProofsGenerated": 0
+  }
+]

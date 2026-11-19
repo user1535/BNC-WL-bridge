@@ -1,0 +1,7 @@
+{
+  "imageId": "799376513029ceaf76199ef13b1301ce28664a6edd68063324c3eceeec6910f7",
+  "receiptFormat": "risc0-sdk-bincode-3.0.5",
+  "statement": "trusted-input-receipt-computation",
+  "sourceAuthenticated": false,
+  "onchainVerified": false
+}

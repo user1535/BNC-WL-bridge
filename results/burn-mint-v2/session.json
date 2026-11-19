@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "mode": "dev",
+  "header_binding": "minimal-link",
+  "phase": "ready",
+  "chains": {
+    "wl": {
+      "rpc": "http://127.0.0.1:8575",
+      "port": 8575,
+      "id": 31337,
+      "pid": 35159
+    },
+    "bnb": {
+      "rpc": "http://127.0.0.1:8576",
+      "port": 8576,
+      "id": 31338,
+      "pid": 35173
+    }
+  },
+  "contracts": {
+    "original": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "wrapped": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "wl_headers": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "unlock": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+    "bnb_headers": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "mint": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+    "wl_audit": "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
+    "bnb_audit": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9"
+  },
+  "events": [],
+  "chain_authenticated": false,
+  "real_asset_deployment_allowed": false,
+  "protocol": "burn-mint-v2",
+  "operator": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+  "users": [
+    "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+    "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc",
+    "0x90f79bf6eb2c4f870365e785982e1f101e93b906"
+  ],
+  "funded_0x70997970c51812dc3a010c7d01b50e0d17dc79c8": true,
+  "funded_0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc": true,
+  "funded_0x90f79bf6eb2c4f870365e785982e1f101e93b906": true,
+  "wallet_session_id": "7d05b430d57de36d59d5ac6eddc5ba7c"
+}

@@ -1,0 +1,22 @@
+{
+  "totals": {
+    "passed": 44,
+    "failed": 0,
+    "skipped": 0
+  },
+  "guardSuiteTests": [
+    "testAdminRecoveryUpgradeAndUnverifiedClaimSelectorsCannotMint()",
+    "testAlteredRecipientAmountChainNonceAndBurnerRejected()",
+    "testDeployerCannotBindProofBypassingReceiver()",
+    "testFuzzAnyNonReceiverCannotMint(address,bytes32,uint256)",
+    "testMPTTransferDelegatedTransferPartialBurnOtherRecipient()",
+    "testNoWrappedGenesisOrRealChainDeployment()",
+    "testProxyAndWrongImmutableConfigurationCannotReceiveMintAuthority()",
+    "testReplayAndThirdPartyClaimCannotRedirect()",
+    "testRevertedBurnRollsBackNonceSupplyAndCounter()",
+    "testRevertedMintRollsBackReplayAndAccountingThenRetrySucceeds()",
+    "testUnauthorizedMintAndBindingRejected()",
+    "testWrongRootAndMissingProofRejected()"
+  ],
+  "command": "forge test --root contracts --offline --out /tmp/bnc-mint-guard-out --cache-path /tmp/bnc-mint-guard-cache --json"
+}

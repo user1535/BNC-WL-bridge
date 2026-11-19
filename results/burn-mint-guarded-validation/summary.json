@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-03",
+  "passed": true,
+  "completionScope": "Plan 2.4 local implementation, proofs, UI, regression, and native-extension design/state-model validation",
+  "session": "results/burn-mint-v2-guarded",
+  "ui": "http://127.0.0.1:8581/burn-mint.html",
+  "finalSourceAndRuntimeMatch": true,
+  "runtimeSHA256": {
+    "original": "43a1fa659424663d5c4c0e477afe0a660ed087f40fb7179a6ef509ac124e6de4",
+    "wrapped": "2a86470ce5b42ce2515c26f32529e3513e1da594ea26cc2f1a3d413b5dd27f60",
+    "unlock": "df65ae6c5aa8c75bc1d5b1235f15e665a77bc0296c6c6361000b0bd00c320357",
+    "mint": "685aca37fc5833be68e5ff6fb0669abefced85fdfcd2d867182d09674a258af7"
+  },
+  "browserSignedTransactions": 8,
+  "freshCompositeReceipts": 2,
+  "proofRuns": {
+    "burn-wl": {
+      "mode": "prove",
+      "exitCode": 0,
+      "failure": null,
+      "elapsedSeconds": 258.67596630000025,
+      "peakRSS": 4938129408,
+      "cpuCap": 12,
+      "memoryCap": 6688738918,
+      "timeCap": 1800,
+      "fileCap": 67108864,
+      "inputSHA256": "e3eb03437c7229905c45d8f5b6f54ae9e608f2c3e4718cc9d53c37d632059e59",
+      "hostSHA256": "14044271740f941e2320d331550afe72d748cbb42f451d5a69903604511f6b56"
+    },
+    "burn-bsc": {
+      "mode": "prove",
+      "exitCode": 0,
+      "failure": null,
+      "elapsedSeconds": 255.76197488900016,
+      "peakRSS": 4934877184,
+      "cpuCap": 12,
+      "memoryCap": 6687867289,
+      "timeCap": 1800,
+      "fileCap": 67108864,
+      "inputSHA256": "01e809177a4d1e24ab12b4d73e619e322a45dd6a037ed89ebdf2e0a062f4e148",
+      "hostSHA256": "14044271740f941e2320d331550afe72d748cbb42f451d5a69903604511f6b56"
+    }
+  },
+  "negativeBrowserChecks": 16,
+  "balances": {
+    "wl": [
+      "90000000000000000000",
+      "104000000000000000000",
+      "100000000000000000000"
+    ],
+    "bnb": [
+      "0",
+      "0",
+      "6000000000000000000"
+    ]
+  },
+  "supply": {
+    "wl": {
+      "totalSupply": "994000000000000000000",
+      "totalBridgeBurned": "10000000000000000000",
+      "totalBridgeMinted": "4000000000000000000"
+    },
+    "bnb": {
+      "totalSupply": "6000000000000000000",
+      "totalBridgeBurned": "4000000000000000000",
+      "totalBridgeMinted": "10000000000000000000"
+    }
+  },
+  "restartPassed": true,
+  "freshProofsDuringRestart": 0,
+  "pendingStorageRecovered": true,
+  "originalSessionPreserved": {
+    "passed": true,
+    "files": 24,
+    "hashSizeMtimePreserved": true,
+    "mismatches": []
+  },
+  "tests": {
+    "go": "race + vet PASS",
+    "solidity": 44,
+    "v2Solidity": 12,
+    "rustCore": 5,
+    "wallet": 16,
+    "v1SdkAndCancellation": 7,
+    "v2Sdk": 4,
+    "resourceBudgets": 4,
+    "nativeTransitionModel": 5,
+    "audit": "PASS"
+  },
+  "developmentTotals": {
+    "preGuardProofsPreserved": 2,
+    "finalGuardedProofs": 2,
+    "newProofsTotal": 4,
+    "browserSignedTransactionsTotal": 16
+  },
+  "nativeWlImplemented": false,
+  "sourceAuthenticated": false,
+  "onchainRisc0Verified": false,
+  "limitations": [
+    "Local ERC20 model on Anvil 31337/31338; native WL node integration and activation not implemented",
+    "Server operator and RPC trusted; RISC Zero verified by server SDK; contracts verify MPT/event/replay",
+    "External extension wallet and real network deployment not exercised"
+  ],
+  "package": {
+    "output": "/tmp/bnc-wl-burn-mint-v2-final.tar.gz",
+    "bytes": 23908833,
+    "sha256": "00988ef66ba471163c6c44666666bf61f4e14bd39e85572ffcdf9ee0e04eefe0"
+  },
+  "packageRelocatedV1Doctor": true,
+  "packageRelocatedV2SdkTests": 4
+}

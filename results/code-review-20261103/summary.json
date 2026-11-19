@@ -1,0 +1,189 @@
+{
+  "reviewDate": "2026-11-03",
+  "timezone": "Asia/Seoul",
+  "recordedAt": "2026-11-03T15:15:52.416471+09:00",
+  "scope": "source review, preserved receipt SDK re-verification and read-only local runtime probe",
+  "sourceBaseline": {
+    "path": "results/cleanup-20261029/source-sha256.json",
+    "files": 94,
+    "mismatches": []
+  },
+  "sourceInventory": {
+    "wallet": {
+      "files": 7,
+      "lines": 771
+    },
+    "scripts": {
+      "files": 18,
+      "lines": 1629
+    },
+    "proof-generator": {
+      "files": 17,
+      "lines": 1747
+    },
+    "risc0": {
+      "files": 5,
+      "lines": 109
+    },
+    "contracts": {
+      "files": 21,
+      "lines": 1796
+    }
+  },
+  "inventoryDefinition": "Physical lines including comments and tests; py/mjs/go/rs/sol/sh/html/css; excludes vendor and generated caches; excludes JSON/TOML/lock/docs.",
+  "gitMetadataReadable": false,
+  "runtimeProbe": {
+    "method": "Read-only localhost HTTP/JSON-RPC with sandbox escalation",
+    "ports": {
+      "8580": "ECONNREFUSED",
+      "8565": "ECONNREFUSED",
+      "8566": "ECONNREFUSED"
+    },
+    "conclusion": "default local endpoints not serving at check time",
+    "observedRelevantProcesses": [],
+    "observedSessionLocksHeld": []
+  },
+  "currentChecks": {
+    "serverDoctor": {
+      "passed": true,
+      "pinnedGuestReceiptVerified": true,
+      "checksPassed": 7,
+      "cpuLimit": 12,
+      "memoryLimitBytes": 7299808051,
+      "timeoutSeconds": 1800,
+      "fileLimitBytes": 67108864
+    },
+    "receiptSdkAndCancellation": {
+      "passed": true,
+      "tests": 7,
+      "exitCode": 0,
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 scripts/check-receipt-computation.py"
+    },
+    "auditRegression": {
+      "passed": true,
+      "exitCode": 0,
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 scripts/check-bridge-audit.py"
+    },
+    "pythonSyntax": {
+      "passed": true,
+      "files": 13
+    },
+    "storedAuditHashChain": {
+      "passed": true,
+      "entries": 11,
+      "lastDigest": "c07da83493c411512566f0fd3f1125510872e4f0dfe6fda2d0b4294862f2c589",
+      "onchainAnchorReadToday": false
+    },
+    "activeReceipts": [
+      {
+        "jobId": "8ac981831feec48d61ca886d407bea8502cf60c313d58802520c6467a7eea429",
+        "state": "ready",
+        "action": "lock",
+        "transferId": "0xe385206f12413b1b2de067007752f820a6c112d6d1a22e388b50738a1aa8a389",
+        "amount": "1000000000000000000",
+        "blockNumber": 11,
+        "receiptBytes": 537324,
+        "receiptSHA256": "c78983198a1224e96f6f027d8efbe9c9dbddfa1dee5899f8b96e1e5c379e0490",
+        "embeddedReceiptMatchesFile": true,
+        "matchesHistoricalHash": true,
+        "matchesHistoricalMtime": true,
+        "sdkVerification": {
+          "verified": true,
+          "imageId": "1d2847d6a7fa72e1a9b5d20444ec043818da086c2ed952493243499702021d21",
+          "journal": {
+            "action": "lock",
+            "amount": "1000000000000000000",
+            "blockHash": "0x3451fb4acaab71da62fe8d0de8ee18b7ed2cf49ed32f06f2936451b3f2eed11f",
+            "blockNumber": 11,
+            "destinationChainId": 31338,
+            "destinationToken": "0x5fbdb2315678afecb367f032d93f642f64180aa3",
+            "inputDigest": "0xf58a6b735bbe5cfb2f4e76f7197a4236ca2fc78fd7e7a6f5c9ea64d53fd2bcbe",
+            "receiptRoot": "0x5debbafe2169c3573d5aa750f15453d9007f9f4ea8603e551c6b8369be7b1ab3",
+            "recipient": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+            "sourceAuthenticated": false,
+            "sourceChainId": 31337,
+            "sourceToken": "0x5fbdb2315678afecb367f032d93f642f64180aa3",
+            "statement": "trusted-input-receipt-computation",
+            "transferId": "0xe385206f12413b1b2de067007752f820a6c112d6d1a22e388b50738a1aa8a389",
+            "version": 1
+          },
+          "receiptSHA256": "c78983198a1224e96f6f027d8efbe9c9dbddfa1dee5899f8b96e1e5c379e0490",
+          "sourceAuthenticated": false,
+          "onchainVerified": false,
+          "verificationLocation": "server-risc0-sdk"
+        }
+      },
+      {
+        "jobId": "8ffa5ea35acfd477a4f9fe11614407244875a5be514c221b7c3fe5120eaa7e26",
+        "state": "ready",
+        "action": "burn",
+        "transferId": "0xb52a599870e1c4682ea8abd7b77da744745a17d3e46a1d6982213491c95b9617",
+        "amount": "1000000000000000000",
+        "blockNumber": 11,
+        "receiptBytes": 537324,
+        "receiptSHA256": "395b3bd86972b5009970cdacbc36bb9cff231ca773b5b62855008239b66054e5",
+        "embeddedReceiptMatchesFile": true,
+        "matchesHistoricalHash": true,
+        "matchesHistoricalMtime": true,
+        "sdkVerification": {
+          "verified": true,
+          "imageId": "1d2847d6a7fa72e1a9b5d20444ec043818da086c2ed952493243499702021d21",
+          "journal": {
+            "action": "burn",
+            "amount": "1000000000000000000",
+            "blockHash": "0x96b7cde96e9fc2725c2d0a210ea311dd381796d01f6442a9490cb00d42ace8fd",
+            "blockNumber": 11,
+            "destinationChainId": 31337,
+            "destinationToken": "0x5fbdb2315678afecb367f032d93f642f64180aa3",
+            "inputDigest": "0x30300b933b174efe390ed33fee27a7c24480239f01d6e01b81144230ae8fd75e",
+            "receiptRoot": "0x79f3fa3f3c07eb7f65e9d98b86188e6f7bdfd00b5eca9095bbf4f164ebe75bd5",
+            "recipient": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+            "sourceAuthenticated": false,
+            "sourceChainId": 31338,
+            "sourceToken": "0x5fbdb2315678afecb367f032d93f642f64180aa3",
+            "statement": "trusted-input-receipt-computation",
+            "transferId": "0xb52a599870e1c4682ea8abd7b77da744745a17d3e46a1d6982213491c95b9617",
+            "version": 1
+          },
+          "receiptSHA256": "395b3bd86972b5009970cdacbc36bb9cff231ca773b5b62855008239b66054e5",
+          "sourceAuthenticated": false,
+          "onchainVerified": false,
+          "verificationLocation": "server-risc0-sdk"
+        }
+      }
+    ],
+    "historicalArchiveHashes": [
+      {
+        "path": "legacy/retired-source-20261029.tar.gz",
+        "matchesHistoricalSHA256": true
+      },
+      {
+        "path": "legacy/historical-sessions-20261029.tar.gz",
+        "matchesHistoricalSHA256": true
+      }
+    ],
+    "notRerun": [
+      "Go test/race/vet",
+      "Rust core unit tests",
+      "Foundry contract tests",
+      "Node wallet unit tests",
+      "live browser roundtrip/restart",
+      "fresh RISC Zero proving"
+    ]
+  },
+  "changesToActiveSession": {
+    "filesBefore": 24,
+    "filesAfter": 24,
+    "sha256SizeAndMtimeUnchanged": true
+  },
+  "freshProofsGenerated": 0,
+  "userTransactionsSent": 0,
+  "operatorTransactionsSent": 0,
+  "chainsStarted": 0,
+  "contractsDeployed": 0,
+  "sourceAuthenticated": false,
+  "onchainRisc0Verified": false,
+  "realAssetDeploymentAllowed": false,
+  "historicalEndToEndEvidence": "results/restoration-20261029/summary.json",
+  "historicalCurrentSourceTests": "results/cleanup-20261029/summary.json"
+}

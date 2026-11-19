@@ -1,0 +1,153 @@
+{
+  "passed": true,
+  "before": {
+    "sessionId": "7d05b430d57de36d59d5ac6eddc5ba7c",
+    "contracts": {
+      "original": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "wrapped": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "wl_headers": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+      "unlock": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+      "bnb_headers": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+      "mint": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+      "wl_audit": "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
+      "bnb_audit": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9"
+    },
+    "balances": {
+      "wl": {
+        "0x70997970c51812dc3a010c7d01b50e0d17dc79c8": "90000000000000000000",
+        "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc": "104000000000000000000",
+        "0x90f79bf6eb2c4f870365e785982e1f101e93b906": "100000000000000000000"
+      },
+      "bnb": {
+        "0x70997970c51812dc3a010c7d01b50e0d17dc79c8": "0",
+        "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc": "0",
+        "0x90f79bf6eb2c4f870365e785982e1f101e93b906": "6000000000000000000"
+      }
+    },
+    "accounting": {
+      "wl": {
+        "totalSupply": "994000000000000000000",
+        "totalBridgeBurned": "10000000000000000000",
+        "totalBridgeMinted": "4000000000000000000"
+      },
+      "bnb": {
+        "totalSupply": "6000000000000000000",
+        "totalBridgeBurned": "4000000000000000000",
+        "totalBridgeMinted": "10000000000000000000"
+      }
+    },
+    "sourceBlocks": {
+      "5ee51f88237994030058876299fba209479e27fc2d5bb94c5bf6ecb1b874d56e": {
+        "number": "0x13",
+        "hash": "0x5e7927340f13730e158833980275cdbc626575662fefdcb945de0d1320621aa1",
+        "receiptsRoot": "0x00ab4644e69c11c6778d1517abfe3bda21b6310d2ee42aa110a1d017c55e4045",
+        "transactions": [
+          "0x48ecf454bdeb11375e7701b2a770874c888c0255335457934a8b10019fbd2b8e"
+        ]
+      },
+      "f953bd60d5e59e0c6609911c23436c8d439930129de3b8225a707f85af93dcb6": {
+        "number": "0xa",
+        "hash": "0x9da696fbbe5a1210240e13a4fff33f5a83cfaf6fb8dd8dca1e1428ba6ff2caa8",
+        "receiptsRoot": "0x0aa4d0a96d31cf579a253538ae24bb05bd87f53777a09aeeb86f62651e8feca6",
+        "transactions": [
+          "0x7a6d3a6f6011189742d9417f02c8f7c46d89f9372eb55039070e8bb70f94357d"
+        ]
+      }
+    },
+    "claims": {
+      "5ee51f88237994030058876299fba209479e27fc2d5bb94c5bf6ecb1b874d56e": "true",
+      "f953bd60d5e59e0c6609911c23436c8d439930129de3b8225a707f85af93dcb6": "true"
+    },
+    "receipts": {
+      "proof-jobs/5ee51f88237994030058876299fba209479e27fc2d5bb94c5bf6ecb1b874d56e-receipt-562d95711df08ba4e6905b4a67ba944e2720b385184e50d8932903b94d194923/receipt.bin": {
+        "sha256": "7fe221f937bab4e6e39a2b24f497b53c82bd61d87610095b82e24542a17cc750",
+        "bytes": 537332,
+        "mtimeNs": 1793690049513223970
+      },
+      "proof-jobs/f953bd60d5e59e0c6609911c23436c8d439930129de3b8225a707f85af93dcb6-receipt-890bbe26799fe5ffff1ad6f633a49c7f18cda17984cf36fd1e4f6e1bbd04eec3/receipt.bin": {
+        "sha256": "4d97056b943f75dc6d7abb32bc09f6e351fa7a3373b71f462b8a9482d7e7370d",
+        "bytes": 537332,
+        "mtimeNs": 1793689645853132482
+      }
+    }
+  },
+  "after": {
+    "sessionId": "7d05b430d57de36d59d5ac6eddc5ba7c",
+    "contracts": {
+      "original": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "wrapped": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "wl_headers": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+      "unlock": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+      "bnb_headers": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+      "mint": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+      "wl_audit": "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
+      "bnb_audit": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9"
+    },
+    "balances": {
+      "wl": {
+        "0x70997970c51812dc3a010c7d01b50e0d17dc79c8": "90000000000000000000",
+        "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc": "104000000000000000000",
+        "0x90f79bf6eb2c4f870365e785982e1f101e93b906": "100000000000000000000"
+      },
+      "bnb": {
+        "0x70997970c51812dc3a010c7d01b50e0d17dc79c8": "0",
+        "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc": "0",
+        "0x90f79bf6eb2c4f870365e785982e1f101e93b906": "6000000000000000000"
+      }
+    },
+    "accounting": {
+      "wl": {
+        "totalSupply": "994000000000000000000",
+        "totalBridgeBurned": "10000000000000000000",
+        "totalBridgeMinted": "4000000000000000000"
+      },
+      "bnb": {
+        "totalSupply": "6000000000000000000",
+        "totalBridgeBurned": "4000000000000000000",
+        "totalBridgeMinted": "10000000000000000000"
+      }
+    },
+    "sourceBlocks": {
+      "5ee51f88237994030058876299fba209479e27fc2d5bb94c5bf6ecb1b874d56e": {
+        "number": "0x13",
+        "hash": "0x5e7927340f13730e158833980275cdbc626575662fefdcb945de0d1320621aa1",
+        "receiptsRoot": "0x00ab4644e69c11c6778d1517abfe3bda21b6310d2ee42aa110a1d017c55e4045",
+        "transactions": [
+          "0x48ecf454bdeb11375e7701b2a770874c888c0255335457934a8b10019fbd2b8e"
+        ]
+      },
+      "f953bd60d5e59e0c6609911c23436c8d439930129de3b8225a707f85af93dcb6": {
+        "number": "0xa",
+        "hash": "0x9da696fbbe5a1210240e13a4fff33f5a83cfaf6fb8dd8dca1e1428ba6ff2caa8",
+        "receiptsRoot": "0x0aa4d0a96d31cf579a253538ae24bb05bd87f53777a09aeeb86f62651e8feca6",
+        "transactions": [
+          "0x7a6d3a6f6011189742d9417f02c8f7c46d89f9372eb55039070e8bb70f94357d"
+        ]
+      }
+    },
+    "claims": {
+      "5ee51f88237994030058876299fba209479e27fc2d5bb94c5bf6ecb1b874d56e": "true",
+      "f953bd60d5e59e0c6609911c23436c8d439930129de3b8225a707f85af93dcb6": "true"
+    },
+    "receipts": {
+      "proof-jobs/5ee51f88237994030058876299fba209479e27fc2d5bb94c5bf6ecb1b874d56e-receipt-562d95711df08ba4e6905b4a67ba944e2720b385184e50d8932903b94d194923/receipt.bin": {
+        "sha256": "7fe221f937bab4e6e39a2b24f497b53c82bd61d87610095b82e24542a17cc750",
+        "bytes": 537332,
+        "mtimeNs": 1793690049513223970
+      },
+      "proof-jobs/f953bd60d5e59e0c6609911c23436c8d439930129de3b8225a707f85af93dcb6-receipt-890bbe26799fe5ffff1ad6f633a49c7f18cda17984cf36fd1e4f6e1bbd04eec3/receipt.bin": {
+        "sha256": "4d97056b943f75dc6d7abb32bc09f6e351fa7a3373b71f462b8a9482d7e7370d",
+        "bytes": 537332,
+        "mtimeNs": 1793689645853132482
+      }
+    }
+  },
+  "sdkReceiptsVerified": [
+    "7fe221f937bab4e6e39a2b24f497b53c82bd61d87610095b82e24542a17cc750",
+    "4d97056b943f75dc6d7abb32bc09f6e351fa7a3373b71f462b8a9482d7e7370d"
+  ],
+  "freshProofsGenerated": 0,
+  "userTransactionsSent": 0,
+  "newServicePid": 35289,
+  "ui": "http://127.0.0.1:8581/burn-mint.html"
+}

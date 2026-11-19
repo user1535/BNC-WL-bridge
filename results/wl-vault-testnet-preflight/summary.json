@@ -1,0 +1,100 @@
+{
+  "state": "testnet_candidate_offline_verified",
+  "targetChainIds": {
+    "gwangju": 10359,
+    "bscTestnet": 97
+  },
+  "officialSeoulRead": {
+    "blockHash": "0xb574e074cd3df0d6ae09cd081864dd6c9e57339d56bae4a8020a2516d9c976ba",
+    "blockNumber": 10218917,
+    "chainId": 103,
+    "checkedAt": "2026-11-10T06:52:26Z",
+    "logCount": 0,
+    "logsMatchReceipts": true,
+    "logsMethodAvailable": true,
+    "network": "seoul",
+    "receiptLogCount": 0,
+    "receiptRoot": "0x056b23fbba480696b65fe5a59b8f2148a1299103c4f57df839233af2cf4ca2d2",
+    "receiptRootReconstructed": true,
+    "receiptTypes": {
+      "0": 1
+    },
+    "sourceAuthenticated": false,
+    "tip": 10340967,
+    "transactionBroadcast": false,
+    "transactions": 1
+  },
+  "bscTestnetRead": {
+    "chainId": 97,
+    "status": "connection_unverified",
+    "transactionBroadcast": false,
+    "attempts": [
+      {
+        "rpc": "https://bsc-testnet-dataseed.bnbchain.org/",
+        "outcome": "connection timeout"
+      },
+      {
+        "rpc": "https://bsc-testnet.bnbchain.org/",
+        "outcome": "connection timeout"
+      },
+      {
+        "rpc": "https://bsc-prebsc-dataseed.bnbchain.org/",
+        "outcome": "connection timeout"
+      },
+      {
+        "rpc": "https://bsc-testnet-rpc.publicnode.com/",
+        "outcome": "RPC connection or chain-ID validation failed"
+      }
+    ]
+  },
+  "gwangjuRead": "official endpoint required",
+  "unsignedPlan": {
+    "validated": true,
+    "broadcast": false,
+    "steps": [
+      "VaultTestnetRegistry",
+      "VaultTestnetRegistry",
+      "VaultTestnetWL",
+      "VaultTestnetWrappedWL",
+      "bindWrappedToken"
+    ],
+    "compiler": "0.8.24",
+    "evmVersion": "london"
+  },
+  "proofs": {
+    "lock": {
+      "synthetic": true,
+      "sdkVerified": true,
+      "alteredCompositeRejected": true,
+      "browserPackageVerified": true,
+      "transferId": "0x98d1ecc9ff0bd10dcbd64f17bb41e719845acb22342bc79d3997d5d4b059af97",
+      "elapsedSeconds": 258.67976771399844,
+      "peakRSS": 4937588736,
+      "bytes": 537340,
+      "receiptSha256": "7fcb4f36bb035260b96e00120ee9879fea07bcbe7cca776fcd0bc7e05aa4bfb8",
+      "imageId": "799376513029ceaf76199ef13b1301ce28664a6edd68063324c3eceeec6910f7"
+    },
+    "burn": {
+      "synthetic": true,
+      "sdkVerified": true,
+      "alteredCompositeRejected": true,
+      "browserPackageVerified": true,
+      "transferId": "0x972a21553902f44636c6f4865cb4af2e291cd5a26b866deb5732b562fc84013b",
+      "elapsedSeconds": 265.77007195801707,
+      "peakRSS": 4937637888,
+      "bytes": 537340,
+      "receiptSha256": "5da08822409082b3df28b8a25d2c903a1fef37f75bc72e2456cfd87e8ee45b09",
+      "imageId": "799376513029ceaf76199ef13b1301ce28664a6edd68063324c3eceeec6910f7"
+    }
+  },
+  "solidityTests": 55,
+  "walletRegressionTests": 16,
+  "goTests": true,
+  "readOnlyServiceTests": 4,
+  "externalDeployment": false,
+  "externalTestnetRoundtrip": false,
+  "sourceAuthenticated": false,
+  "onchainRisc0Verified": false,
+  "installedLocalImageId": "1b0417939d1f2ccd49bb3c037def83ebf4a63857fe1ff91ae6154b1a5702a310",
+  "rebuiltLocalImageId": "3b1e5cc0d4a5aa145c2318187cf22bfa06999e926434bf6f76c42d6ab72ad0b3"
+}

@@ -1,0 +1,24 @@
+✔ V2 captured MPT/domain vectors permit holder C burn to recipient B (29.8185ms)
+✔ V2 rejects altered event metadata even with a recomputed input commitment (63.9478ms)
+✔ V1/V2 packages and pinned guest policies cannot be exchanged (18.2087ms)
+✔ V2 claim uses designated recipient and blocks replay/account changes before signing (240.5592ms)
+✔ V2 fresh burn preview preserves a different recipient and persists before send (2.6558ms)
+✔ ERC20 delegated transfer preview binds holder, recipient, amount and signer (1.119ms)
+✔ actual receipt-computation lock/burn package MPT, event, ABI match (30.4578ms)
+✔ reject tampered metadata, receipt, ABI, root, domain, destination and proof suffix (64.1066ms)
+✔ geth receipt core multi-node format fixtures and wrong key (20.4826ms)
+✔ MPT inline child, extension and branch shapes, canonical compact path (0.5022ms)
+✔ captured native BNB type4 receipts verify against the full 121-receipt root (26.1649ms)
+✔ wallet actual coverage preview and fresh validated send, saves intent before send (158.3667ms)
+✔ changed account, chain, code, replay, root and RPC errors block wallet send (480.2433ms)
+✔ unregistered roots and retired header operations never authorize wallet send (67.9236ms)
+✔ source action uses owner and available tokens, rejects insufficient gas or amount (2.2694ms)
+✔ missing computation proof or native-only/retired manifest is rejected (0.9722ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1270.6142

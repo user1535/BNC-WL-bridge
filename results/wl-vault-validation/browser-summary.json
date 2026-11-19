@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "sessionId": "6fea237e117be5d66b4d10b40a09183e",
+  "browserSignedTransactions": 6,
+  "events": {
+    "lock": {
+      "action": "lock-vault",
+      "transferId": "0x095d071b0ab134d30693831904d52770837bb7b3fac250fe489fdc8f564703b6",
+      "fromBlock": 6
+    },
+    "burn": {
+      "action": "burn-vault",
+      "transferId": "0x175f1a4751efa70b27c52ce61a418f71eef647f8915f0a3ab816c3d6b139254f",
+      "fromBlock": 12
+    }
+  },
+  "proofs": {
+    "lock": {
+      "jobId": "05718d26430c3d69fe683ee9e9ca4d591d467372f35139625323c5b247ac69b2",
+      "imageId": "1b0417939d1f2ccd49bb3c037def83ebf4a63857fe1ff91ae6154b1a5702a310",
+      "receiptSHA256": "6fddd4e66af56abb1b708be0e3d0643b34ef5e83f3c4c8fe1a378d319c0a1b60"
+    },
+    "burn": {
+      "jobId": "e35f23a1b5d4746a5d8d62143f74ba49ec4cd5ec9806a2fc602a9dc2399d9af9",
+      "imageId": "1b0417939d1f2ccd49bb3c037def83ebf4a63857fe1ff91ae6154b1a5702a310",
+      "receiptSHA256": "8c83a7a733299d04bfc1d6bc11e60cc46b456cfb23caad7e8adde55e5fd94ad8"
+    }
+  },
+  "transactions": {
+    "deposit": "0x7112cfd3cd6ddb9632bd4dbd90f49804392d37e3ca4914eac143239ef4d84520",
+    "mint": "0xc2524302ff9731f7f911e628b86d91841859dc4d6b883f178fa12d4ec6405dc3",
+    "transferWrapped": "0x2a655eb8e5e751fbbbafbf320951b35b93229a607f5ded3f89b52fcfa2e577a2",
+    "burn": "0xfebee853b10bdcbdfaa86960a9376ccdcc80498833e91826e42554d1babce1b8",
+    "release": "0x33432ddfd2589f07fd398cfd5596c071341acd71ad50f85b10ec6faf9c5b5f23",
+    "transferNative": "0x13c5782a37704b2212df752b6362855076d9a14730c64c944fba622f8c4539be"
+  },
+  "lockedWL": "10",
+  "releasedWL": "10",
+  "vaultWL": "0",
+  "wWLSupply": "0",
+  "postReleaseNativeTransferWL": "2"
+}

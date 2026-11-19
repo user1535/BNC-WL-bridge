@@ -1,0 +1,266 @@
+2026-11-03T07:06:32.561387Z  INFO node::user: eth_chainId
+2026-11-03T07:06:32.772378Z  INFO node::user: eth_chainId
+2026-11-03T07:06:32.779694Z  INFO node::user: eth_chainId
+2026-11-03T07:06:32.781276Z  INFO node::user: eth_accounts
+2026-11-03T07:06:32.843385Z  INFO node::user: eth_chainId
+2026-11-03T07:06:33.007095Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:06:33.009402Z  INFO node::user: eth_estimateGas
+2026-11-03T07:06:33.020541Z  INFO node::user: eth_feeHistory
+2026-11-03T07:06:33.022854Z  INFO node::user: eth_sendTransaction
+2026-11-03T07:06:33.022895Z  INFO node::user: eth_accounts
+2026-11-03T07:06:33.030702Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:06:33.031619Z  INFO node::user: 
+2026-11-03T07:06:33.031664Z  INFO node::user:     Transaction: 0xd85b0d24d6c2df513141d611bdb50be5d65bbc9df2ea11056446c26d9a4e97bb
+2026-11-03T07:06:33.031671Z  INFO node::user:     Contract created: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+2026-11-03T07:06:33.031716Z  INFO node::user:     Gas used: 2947740
+2026-11-03T07:06:33.031720Z  INFO node::user: 
+2026-11-03T07:06:33.031739Z  INFO node::user:     Block Number: 1
+2026-11-03T07:06:33.031743Z  INFO node::user:     Block Hash: 0x4755030f2a12fe33f2a8a8b0c25d83c8f52a07f7fb3efd55ff68dba2a4ae611f
+2026-11-03T07:06:33.031749Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:06:33 +0000"
+
+2026-11-03T07:06:33.031768Z  INFO node::user: eth_blockNumber
+2026-11-03T07:06:33.032269Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:06:33.033010Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:06:33.033492Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:06:33.430949Z  INFO node::user: eth_chainId
+2026-11-03T07:06:33.592301Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:06:33.599906Z  INFO node::user: eth_estimateGas
+2026-11-03T07:06:33.601967Z  INFO node::user: eth_feeHistory
+2026-11-03T07:06:33.602513Z  INFO node::user: eth_sendTransaction
+2026-11-03T07:06:33.602559Z  INFO node::user: eth_accounts
+2026-11-03T07:06:33.603574Z  INFO node::user: 
+2026-11-03T07:06:33.603587Z  INFO node::user:     Transaction: 0xccf6f4acee087a6846de4d5461c1a3025d20ef9515ef07831706206449dbba84
+2026-11-03T07:06:33.603592Z  INFO node::user:     Contract created: 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
+2026-11-03T07:06:33.603597Z  INFO node::user:     Gas used: 763732
+2026-11-03T07:06:33.603601Z  INFO node::user: 
+2026-11-03T07:06:33.603633Z  INFO node::user:     Block Number: 2
+2026-11-03T07:06:33.603641Z  INFO node::user:     Block Hash: 0xd3ba9e6285dffd9b7a5b4d6454e6d2156632d8cc155eac71e2928d39d7a19a40
+2026-11-03T07:06:33.603647Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:06:33 +0000"
+
+2026-11-03T07:06:33.606770Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:06:33.607237Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:06:33.683087Z  INFO node::user: eth_chainId
+2026-11-03T07:06:33.863892Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:06:33.864859Z  INFO node::user: eth_estimateGas
+2026-11-03T07:06:33.867541Z  INFO node::user: eth_feeHistory
+2026-11-03T07:06:33.868126Z  INFO node::user: eth_sendTransaction
+2026-11-03T07:06:33.868149Z  INFO node::user: eth_accounts
+2026-11-03T07:06:33.869157Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:06:33.869249Z  INFO node::user: 
+2026-11-03T07:06:33.869260Z  INFO node::user:     Transaction: 0x0ba59e067daf454be0e07aa1ff869dc5f00853a01fba4058a59feab1960021b7
+2026-11-03T07:06:33.869265Z  INFO node::user:     Contract created: 0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0
+2026-11-03T07:06:33.869270Z  INFO node::user:     Gas used: 1843328
+2026-11-03T07:06:33.869273Z  INFO node::user: 
+2026-11-03T07:06:33.869278Z  INFO node::user:     Block Number: 3
+2026-11-03T07:06:33.869281Z  INFO node::user:     Block Hash: 0x61d62931644b23ec2bcca4c6dc38383d8b2a0c05031511b8fd4465ff4283101a
+2026-11-03T07:06:33.869286Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:06:33 +0000"
+
+2026-11-03T07:06:33.869588Z  INFO node::user: eth_blockNumber
+2026-11-03T07:06:33.870104Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:06:33.870408Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:06:33.870690Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:06:33.947068Z  INFO node::user: eth_chainId
+2026-11-03T07:06:33.948637Z  INFO node::user: anvil_nodeInfo
+2026-11-03T07:06:33.974909Z  INFO node::user: eth_chainId
+2026-11-03T07:06:33.978783Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:06:33.979703Z  INFO node::user: eth_call
+2026-11-03T07:06:33.984490Z  INFO node::user: eth_chainId
+2026-11-03T07:06:34.046675Z  INFO node::user: eth_chainId
+2026-11-03T07:06:34.047450Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:06:34.047897Z  INFO node::user: eth_feeHistory
+2026-11-03T07:06:34.048393Z  INFO node::user: eth_estimateGas
+2026-11-03T07:06:34.051896Z  INFO node::user: eth_sendTransaction
+2026-11-03T07:06:34.051921Z  INFO node::user: eth_accounts
+2026-11-03T07:06:34.052894Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:06:34.053258Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:06:34.053849Z  INFO node::user: eth_blockNumber
+2026-11-03T07:06:34.054180Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:06:34.054631Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:06:34.058863Z  INFO node::user: 
+2026-11-03T07:06:34.058882Z  INFO node::user:     Transaction: 0xc656771cd8164501cf91b8a9a2e1de64b2bfa474d89623f9aaf19540e80c69e3
+2026-11-03T07:06:34.058887Z  INFO node::user:     Gas used: 1758530
+2026-11-03T07:06:34.058892Z  INFO node::user: 
+2026-11-03T07:06:34.058898Z  INFO node::user:     Block Number: 4
+2026-11-03T07:06:34.058901Z  INFO node::user:     Block Hash: 0x3850843e87f06eb2b7beb80cb917fdaec35edd07a4ed2b1abb736f07d563099c
+2026-11-03T07:06:34.058905Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:06:34 +0000"
+
+2026-11-03T07:06:34.083713Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:06:34.305558Z  INFO node::user: eth_blockNumber
+2026-11-03T07:06:34.305718Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:06:34.306895Z  INFO node::user: eth_getBlockByNumber
+2026-11-03T07:06:35.051700Z  INFO node::user: eth_chainId
+2026-11-03T07:06:35.433208Z  INFO node::user: eth_chainId
+2026-11-03T07:06:35.433735Z  INFO node::user: anvil_nodeInfo
+2026-11-03T07:06:35.458889Z  INFO node::user: eth_chainId
+2026-11-03T07:06:35.459411Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:06:35.459875Z  INFO node::user: eth_call
+2026-11-03T07:06:35.464413Z  INFO node::user: eth_chainId
+2026-11-03T07:06:35.522848Z  INFO node::user: eth_chainId
+2026-11-03T07:06:35.523593Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:06:35.523961Z  INFO node::user: eth_feeHistory
+2026-11-03T07:06:35.526719Z  INFO node::user: eth_estimateGas
+2026-11-03T07:06:35.527730Z  INFO node::user: eth_sendTransaction
+2026-11-03T07:06:35.527746Z  INFO node::user: eth_accounts
+2026-11-03T07:06:35.528539Z  INFO node::user: 
+2026-11-03T07:06:35.528550Z  INFO node::user:     Transaction: 0x1b2d601574aa7f2870c4b2808878917e31dc71c9eb219d6b6136b7ed9312c3c1
+2026-11-03T07:06:35.528555Z  INFO node::user:     Gas used: 51600
+2026-11-03T07:06:35.528558Z  INFO node::user: 
+2026-11-03T07:06:35.528561Z  INFO node::user:     Block Number: 5
+2026-11-03T07:06:35.528564Z  INFO node::user:     Block Hash: 0x3d41919990cf51abdafd25a13670d75230b1c59ab6608f55478d396d4985f012
+2026-11-03T07:06:35.528570Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:06:35 +0000"
+
+2026-11-03T07:06:35.528741Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:06:35.585230Z  INFO node::user: eth_chainId
+2026-11-03T07:06:35.586207Z  INFO node::user: anvil_nodeInfo
+2026-11-03T07:06:35.610929Z  INFO node::user: eth_chainId
+2026-11-03T07:06:35.611447Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:06:35.614693Z  INFO node::user: eth_call
+2026-11-03T07:06:35.622413Z  INFO node::user: eth_chainId
+2026-11-03T07:06:35.679032Z  INFO node::user: eth_chainId
+2026-11-03T07:06:35.679705Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:06:35.680180Z  INFO node::user: eth_feeHistory
+2026-11-03T07:06:35.680675Z  INFO node::user: eth_estimateGas
+2026-11-03T07:06:35.682919Z  INFO node::user: eth_sendTransaction
+2026-11-03T07:06:35.682970Z  INFO node::user: eth_accounts
+2026-11-03T07:06:35.683778Z  INFO node::user: 
+2026-11-03T07:06:35.683790Z  INFO node::user:     Transaction: 0x858dd65bdddbbd23a9c6f69b7452da4ec3e2dec3a19a255b1df4e734eff4a952
+2026-11-03T07:06:35.683794Z  INFO node::user:     Gas used: 51588
+2026-11-03T07:06:35.683798Z  INFO node::user: 
+2026-11-03T07:06:35.683802Z  INFO node::user:     Block Number: 6
+2026-11-03T07:06:35.683806Z  INFO node::user:     Block Hash: 0xa80561bcc5c4bd5d425902fdc416d3d90af26dce941c4aa06432a2e751bf5bd3
+2026-11-03T07:06:35.683810Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:06:35 +0000"
+
+2026-11-03T07:06:35.683877Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:06:35.744078Z  INFO node::user: eth_chainId
+2026-11-03T07:06:35.744722Z  INFO node::user: anvil_nodeInfo
+2026-11-03T07:06:35.770889Z  INFO node::user: eth_chainId
+2026-11-03T07:06:35.771395Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:06:35.771838Z  INFO node::user: eth_call
+2026-11-03T07:06:35.779374Z  INFO node::user: eth_chainId
+2026-11-03T07:06:35.850961Z  INFO node::user: eth_chainId
+2026-11-03T07:06:35.851637Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:06:35.852044Z  INFO node::user: eth_feeHistory
+2026-11-03T07:06:35.852645Z  INFO node::user: eth_estimateGas
+2026-11-03T07:06:35.853651Z  INFO node::user: eth_sendTransaction
+2026-11-03T07:06:35.853668Z  INFO node::user: eth_accounts
+2026-11-03T07:06:35.854563Z  INFO node::user: 
+2026-11-03T07:06:35.854568Z  INFO node::user: eth_getTransactionReceipt
+2026-11-03T07:06:35.854609Z  INFO node::user:     Transaction: 0x3a3d1d8ab2da94931a91c687a91061642ce84c49f00489b1ff7d13cb3dc0c7d7
+2026-11-03T07:06:35.854615Z  INFO node::user:     Gas used: 51600
+2026-11-03T07:06:35.854619Z  INFO node::user: 
+2026-11-03T07:06:35.854624Z  INFO node::user:     Block Number: 7
+2026-11-03T07:06:35.854627Z  INFO node::user:     Block Hash: 0x2b4e8f082ea354dcf80acae57b04511cbf3fc7571e4da2097b1a962fef35c848
+2026-11-03T07:06:35.854632Z  INFO node::user:     Block Time: "Tue, 3 Nov 2026 07:06:35 +0000"
+
+2026-11-03T07:06:35.910974Z  INFO node::user: eth_chainId
+2026-11-03T07:06:35.911867Z  INFO node::user: anvil_nodeInfo
+2026-11-03T07:06:35.934921Z  INFO node::user: eth_chainId
+2026-11-03T07:06:35.935400Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:06:35.935913Z  INFO node::user: eth_call
+2026-11-03T07:06:36.007011Z  INFO node::user: eth_chainId
+2026-11-03T07:06:36.007782Z  INFO node::user: anvil_nodeInfo
+2026-11-03T07:06:36.027152Z  INFO node::user: eth_chainId
+2026-11-03T07:06:36.027724Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:06:36.028260Z  INFO node::user: eth_call
+2026-11-03T07:06:36.069214Z  INFO node::user: eth_call
+2026-11-03T07:06:36.069461Z  INFO node::user: 
+RPC request failed:
+2026-11-03T07:06:36.069471Z  INFO node::user:     Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266), to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x1a25d8bc010101010101010101010101010101010101010101010101010101010101010100000000000000000000000070997970c51812dc3a010c7d01b50e0d17dc79c80000000000000000000000000000000000000000000000000de0b6b3a7640000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None, None)
+2026-11-03T07:06:36.069563Z  INFO node::user:     Error: Execution error: execution reverted: custom error 0x82b42900
+
+2026-11-03T07:06:36.095214Z  INFO node::user: eth_call
+2026-11-03T07:06:36.095364Z  INFO node::user: 
+RPC request failed:
+2026-11-03T07:06:36.095372Z  INFO node::user:     Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266), to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x40c10f1900000000000000000000000070997970c51812dc3a010c7d01b50e0d17dc79c80000000000000000000000000000000000000000000000000de0b6b3a7640000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None, None)
+2026-11-03T07:06:36.095411Z  INFO node::user:     Error: Execution error: execution reverted
+
+2026-11-03T07:06:36.137614Z  INFO node::user: eth_call
+2026-11-03T07:06:36.137764Z  INFO node::user: 
+RPC request failed:
+2026-11-03T07:06:36.137771Z  INFO node::user:     Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266), to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x484b973c00000000000000000000000070997970c51812dc3a010c7d01b50e0d17dc79c80000000000000000000000000000000000000000000000000de0b6b3a7640000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None, None)
+2026-11-03T07:06:36.137791Z  INFO node::user:     Error: Execution error: execution reverted
+
+2026-11-03T07:06:36.170089Z  INFO node::user: eth_call
+2026-11-03T07:06:36.170234Z  INFO node::user: 
+RPC request failed:
+2026-11-03T07:06:36.170243Z  INFO node::user:     Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266), to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x651f8a3c00000000000000000000000070997970c51812dc3a010c7d01b50e0d17dc79c80000000000000000000000000000000000000000000000000de0b6b3a7640000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None, None)
+2026-11-03T07:06:36.170265Z  INFO node::user:     Error: Execution error: execution reverted
+
+2026-11-03T07:06:36.206794Z  INFO node::user: eth_call
+2026-11-03T07:06:36.206959Z  INFO node::user: 
+RPC request failed:
+2026-11-03T07:06:36.206967Z  INFO node::user:     Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266), to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0xf4b744f0000000000000000000000000f39fd6e51aad88f6f4ce6ab8827279cfffb92266) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None, None)
+2026-11-03T07:06:36.206990Z  INFO node::user:     Error: Execution error: execution reverted
+
+2026-11-03T07:06:36.242792Z  INFO node::user: eth_call
+2026-11-03T07:06:36.243004Z  INFO node::user: 
+RPC request failed:
+2026-11-03T07:06:36.243018Z  INFO node::user:     Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266), to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x3659cfe6000000000000000000000000f39fd6e51aad88f6f4ce6ab8827279cfffb92266) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None, None)
+2026-11-03T07:06:36.243152Z  INFO node::user:     Error: Execution error: execution reverted
+
+2026-11-03T07:06:36.299585Z  INFO node::user: eth_call
+2026-11-03T07:06:36.299784Z  INFO node::user: 
+RPC request failed:
+2026-11-03T07:06:36.299798Z  INFO node::user:     Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266), to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0xbd7344060000000000000000000000005fbdb2315678afecb367f032d93f642f64180aa30000000000000000000000009fe46736679d2d9a65f0992f2272de9f3c7fa6e0) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None, None)
+2026-11-03T07:06:36.299821Z  INFO node::user:     Error: Execution error: execution reverted: custom error 0x682a9065
+
+2026-11-03T07:06:36.333369Z  INFO node::user: eth_call
+2026-11-03T07:06:36.333565Z  INFO node::user: 
+RPC request failed:
+2026-11-03T07:06:36.333578Z  INFO node::user:     Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0x70997970c51812dc3a010c7d01b50e0d17dc79c8), to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x1a25d8bc010101010101010101010101010101010101010101010101010101010101010100000000000000000000000070997970c51812dc3a010c7d01b50e0d17dc79c80000000000000000000000000000000000000000000000000de0b6b3a7640000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None, None)
+2026-11-03T07:06:36.333601Z  INFO node::user:     Error: Execution error: execution reverted: custom error 0x82b42900
+
+2026-11-03T07:06:36.373597Z  INFO node::user: eth_call
+2026-11-03T07:06:36.373768Z  INFO node::user: 
+RPC request failed:
+2026-11-03T07:06:36.373777Z  INFO node::user:     Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0x70997970c51812dc3a010c7d01b50e0d17dc79c8), to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x40c10f1900000000000000000000000070997970c51812dc3a010c7d01b50e0d17dc79c80000000000000000000000000000000000000000000000000de0b6b3a7640000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None, None)
+2026-11-03T07:06:36.373800Z  INFO node::user:     Error: Execution error: execution reverted
+
+2026-11-03T07:06:36.415440Z  INFO node::user: eth_call
+2026-11-03T07:06:36.415639Z  INFO node::user: 
+RPC request failed:
+2026-11-03T07:06:36.415649Z  INFO node::user:     Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0x70997970c51812dc3a010c7d01b50e0d17dc79c8), to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x484b973c00000000000000000000000070997970c51812dc3a010c7d01b50e0d17dc79c80000000000000000000000000000000000000000000000000de0b6b3a7640000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None, None)
+2026-11-03T07:06:36.415685Z  INFO node::user:     Error: Execution error: execution reverted
+
+2026-11-03T07:06:36.455395Z  INFO node::user: eth_call
+2026-11-03T07:06:36.455569Z  INFO node::user: 
+RPC request failed:
+2026-11-03T07:06:36.455577Z  INFO node::user:     Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0x70997970c51812dc3a010c7d01b50e0d17dc79c8), to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x651f8a3c00000000000000000000000070997970c51812dc3a010c7d01b50e0d17dc79c80000000000000000000000000000000000000000000000000de0b6b3a7640000) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None, None)
+2026-11-03T07:06:36.455600Z  INFO node::user:     Error: Execution error: execution reverted
+
+2026-11-03T07:06:36.498821Z  INFO node::user: eth_call
+2026-11-03T07:06:36.499000Z  INFO node::user: 
+RPC request failed:
+2026-11-03T07:06:36.499008Z  INFO node::user:     Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0x70997970c51812dc3a010c7d01b50e0d17dc79c8), to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0xf4b744f000000000000000000000000070997970c51812dc3a010c7d01b50e0d17dc79c8) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None, None)
+2026-11-03T07:06:36.499030Z  INFO node::user:     Error: Execution error: execution reverted
+
+2026-11-03T07:06:36.533490Z  INFO node::user: eth_call
+2026-11-03T07:06:36.533661Z  INFO node::user: 
+RPC request failed:
+2026-11-03T07:06:36.533670Z  INFO node::user:     Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0x70997970c51812dc3a010c7d01b50e0d17dc79c8), to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0x3659cfe600000000000000000000000070997970c51812dc3a010c7d01b50e0d17dc79c8) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None, None)
+2026-11-03T07:06:36.533691Z  INFO node::user:     Error: Execution error: execution reverted
+
+2026-11-03T07:06:36.586823Z  INFO node::user: eth_call
+2026-11-03T07:06:36.587007Z  INFO node::user: 
+RPC request failed:
+2026-11-03T07:06:36.587017Z  INFO node::user:     Request: EthCall(WithOtherFields { inner: TransactionRequest { from: Some(0x70997970c51812dc3a010c7d01b50e0d17dc79c8), to: Some(Call(0x5fbdb2315678afecb367f032d93f642f64180aa3)), gas_price: None, max_fee_per_gas: None, max_priority_fee_per_gas: None, max_fee_per_blob_gas: None, gas: None, value: None, input: TransactionInput { input: None, data: Some(0xbd7344060000000000000000000000005fbdb2315678afecb367f032d93f642f64180aa30000000000000000000000009fe46736679d2d9a65f0992f2272de9f3c7fa6e0) }, nonce: None, chain_id: None, access_list: None, transaction_type: None, blob_versioned_hashes: None, sidecar: None, authorization_list: None }, other: OtherFields {} }, Some(latest), None, None)
+2026-11-03T07:06:36.587039Z  INFO node::user:     Error: Execution error: execution reverted: custom error 0x82b42900
+
+2026-11-03T07:06:36.643744Z  INFO node::user: eth_chainId
+2026-11-03T07:06:36.644772Z  INFO node::user: anvil_nodeInfo
+2026-11-03T07:06:36.669669Z  INFO node::user: eth_chainId
+2026-11-03T07:06:36.670145Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:06:36.670625Z  INFO node::user: eth_call
+2026-11-03T07:06:36.744530Z  INFO node::user: eth_chainId
+2026-11-03T07:06:36.746658Z  INFO node::user: anvil_nodeInfo
+2026-11-03T07:06:36.775505Z  INFO node::user: eth_chainId
+2026-11-03T07:06:36.775981Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:06:36.776420Z  INFO node::user: eth_call
+2026-11-03T07:06:36.833823Z  INFO node::user: eth_chainId
+2026-11-03T07:06:36.834457Z  INFO node::user: anvil_nodeInfo
+2026-11-03T07:06:36.857027Z  INFO node::user: eth_chainId
+2026-11-03T07:06:36.857505Z  INFO node::user: eth_getTransactionCount
+2026-11-03T07:06:36.858145Z  INFO node::user: eth_call
+2026-11-03T07:06:36.863197Z  INFO node::user: eth_getCode
+2026-11-03T07:06:36.867352Z  INFO node::user: eth_getCode
+2026-11-03T07:06:38.946801Z  INFO node::user: eth_chainId

@@ -1,0 +1,187 @@
+{
+  "date": "2026-11-10",
+  "status": "local_verified",
+  "chainIds": [
+    31337,
+    31338
+  ],
+  "session": "results/wl-vault-v1",
+  "demoUrl": "http://127.0.0.1:8584/",
+  "browser": {
+    "status": "passed",
+    "sessionId": "6fea237e117be5d66b4d10b40a09183e",
+    "browserSignedTransactions": 6,
+    "events": {
+      "lock": {
+        "action": "lock-vault",
+        "transferId": "0x095d071b0ab134d30693831904d52770837bb7b3fac250fe489fdc8f564703b6",
+        "fromBlock": 6
+      },
+      "burn": {
+        "action": "burn-vault",
+        "transferId": "0x175f1a4751efa70b27c52ce61a418f71eef647f8915f0a3ab816c3d6b139254f",
+        "fromBlock": 12
+      }
+    },
+    "proofs": {
+      "lock": {
+        "jobId": "05718d26430c3d69fe683ee9e9ca4d591d467372f35139625323c5b247ac69b2",
+        "imageId": "1b0417939d1f2ccd49bb3c037def83ebf4a63857fe1ff91ae6154b1a5702a310",
+        "receiptSHA256": "6fddd4e66af56abb1b708be0e3d0643b34ef5e83f3c4c8fe1a378d319c0a1b60"
+      },
+      "burn": {
+        "jobId": "e35f23a1b5d4746a5d8d62143f74ba49ec4cd5ec9806a2fc602a9dc2399d9af9",
+        "imageId": "1b0417939d1f2ccd49bb3c037def83ebf4a63857fe1ff91ae6154b1a5702a310",
+        "receiptSHA256": "8c83a7a733299d04bfc1d6bc11e60cc46b456cfb23caad7e8adde55e5fd94ad8"
+      }
+    },
+    "transactions": {
+      "deposit": "0x7112cfd3cd6ddb9632bd4dbd90f49804392d37e3ca4914eac143239ef4d84520",
+      "mint": "0xc2524302ff9731f7f911e628b86d91841859dc4d6b883f178fa12d4ec6405dc3",
+      "transferWrapped": "0x2a655eb8e5e751fbbbafbf320951b35b93229a607f5ded3f89b52fcfa2e577a2",
+      "burn": "0xfebee853b10bdcbdfaa86960a9376ccdcc80498833e91826e42554d1babce1b8",
+      "release": "0x33432ddfd2589f07fd398cfd5596c071341acd71ad50f85b10ec6faf9c5b5f23",
+      "transferNative": "0x13c5782a37704b2212df752b6362855076d9a14730c64c944fba622f8c4539be"
+    },
+    "lockedWL": "10",
+    "releasedWL": "10",
+    "vaultWL": "0",
+    "wWLSupply": "0",
+    "postReleaseNativeTransferWL": "2"
+  },
+  "proofs": {
+    "lock": {
+      "jobId": "05718d26430c3d69fe683ee9e9ca4d591d467372f35139625323c5b247ac69b2",
+      "imageId": "1b0417939d1f2ccd49bb3c037def83ebf4a63857fe1ff91ae6154b1a5702a310",
+      "receiptSHA256": "6fddd4e66af56abb1b708be0e3d0643b34ef5e83f3c4c8fe1a378d319c0a1b60",
+      "transferId": "0x095d071b0ab134d30693831904d52770837bb7b3fac250fe489fdc8f564703b6",
+      "receipt": "results/wl-vault-v1/proof-jobs/05718d26430c3d69fe683ee9e9ca4d591d467372f35139625323c5b247ac69b2-receipt-b54aa8a2f06523c2ad4f03dd69701326c502a828e47251627c718d6f947a5a5c/receipt.bin",
+      "bytes": 537340,
+      "measurement": "results/wl-vault-v1/proof-jobs/05718d26430c3d69fe683ee9e9ca4d591d467372f35139625323c5b247ac69b2-receipt-b54aa8a2f06523c2ad4f03dd69701326c502a828e47251627c718d6f947a5a5c/run-result.json",
+      "mode": "prove",
+      "exitCode": 0,
+      "failure": null,
+      "elapsedSeconds": 248.63279411999974,
+      "peakRSS": 4937519104,
+      "cpuCap": 12,
+      "memoryCap": 6709927526,
+      "timeCap": 1800,
+      "fileCap": 67108864,
+      "inputSHA256": "b54aa8a2f06523c2ad4f03dd69701326c502a828e47251627c718d6f947a5a5c",
+      "hostSHA256": "d6c230247d364789f4adf2d63436eac9bf178575a85e41628bacb014bc75d65f"
+    },
+    "burn": {
+      "jobId": "e35f23a1b5d4746a5d8d62143f74ba49ec4cd5ec9806a2fc602a9dc2399d9af9",
+      "imageId": "1b0417939d1f2ccd49bb3c037def83ebf4a63857fe1ff91ae6154b1a5702a310",
+      "receiptSHA256": "8c83a7a733299d04bfc1d6bc11e60cc46b456cfb23caad7e8adde55e5fd94ad8",
+      "transferId": "0x175f1a4751efa70b27c52ce61a418f71eef647f8915f0a3ab816c3d6b139254f",
+      "receipt": "results/wl-vault-v1/proof-jobs/e35f23a1b5d4746a5d8d62143f74ba49ec4cd5ec9806a2fc602a9dc2399d9af9-receipt-3c070d6f4aa88c728f74b467adc8be28dde4f57501230504b21a619be6ddf17e/receipt.bin",
+      "bytes": 537340,
+      "measurement": "results/wl-vault-v1/proof-jobs/e35f23a1b5d4746a5d8d62143f74ba49ec4cd5ec9806a2fc602a9dc2399d9af9-receipt-3c070d6f4aa88c728f74b467adc8be28dde4f57501230504b21a619be6ddf17e/run-result.json",
+      "mode": "prove",
+      "exitCode": 0,
+      "failure": null,
+      "elapsedSeconds": 258.6996073559858,
+      "peakRSS": 4933550080,
+      "cpuCap": 12,
+      "memoryCap": 6707625164,
+      "timeCap": 1800,
+      "fileCap": 67108864,
+      "inputSHA256": "3c070d6f4aa88c728f74b467adc8be28dde4f57501230504b21a619be6ddf17e",
+      "hostSHA256": "29afba05fc4287170ad6cdf3f16f65b7209c636e0bfaddcd2c5ef07c00349dbf"
+    }
+  },
+  "restart": {
+    "status": "passed",
+    "freshProofs": 0,
+    "beforePids": {
+      "wl": 8705,
+      "bnb": 8719
+    },
+    "afterPids": {
+      "wl": 14944,
+      "bnb": 14958
+    },
+    "deduplicatedRecoveryRequests": 2,
+    "sessionId": "6fea237e117be5d66b4d10b40a09183e",
+    "contracts": {
+      "original": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+      "wrapped": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+      "mint": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+      "unlock": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+      "wl_headers": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "bnb_headers": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+    },
+    "proofs": {
+      "lock": {
+        "transferId": "0x095d071b0ab134d30693831904d52770837bb7b3fac250fe489fdc8f564703b6",
+        "jobId": "05718d26430c3d69fe683ee9e9ca4d591d467372f35139625323c5b247ac69b2",
+        "blockHash": "0x0bf521e2ab8cfad402fe87d3c708fdc88f5ec5abfa24fd18cd639b6473b52c45",
+        "receiptRoot": "0x85308ac0bf6803d4556de4075c9215244e2ba814064345d37c6469ad488ba6ba",
+        "receipt": {
+          "sha256": "6fddd4e66af56abb1b708be0e3d0643b34ef5e83f3c4c8fe1a378d319c0a1b60",
+          "size": 537340,
+          "mtimeNs": 1794274820479924262
+        },
+        "run": {
+          "sha256": "7f809a3da707cb40759cc4816daec86141be73f0207444e7757a857bc76eb16f",
+          "size": 377,
+          "mtimeNs": 1794274820691692517
+        }
+      },
+      "burn": {
+        "transferId": "0x175f1a4751efa70b27c52ce61a418f71eef647f8915f0a3ab816c3d6b139254f",
+        "jobId": "e35f23a1b5d4746a5d8d62143f74ba49ec4cd5ec9806a2fc602a9dc2399d9af9",
+        "blockHash": "0xb7791c40dc2c564412513e9de54cc31ff0804f5c0ac6985dd8e909ce8fd71583",
+        "receiptRoot": "0xb37c2a4573e4851201485500afac2c54c220187efd437b03a0b54ba512beedec",
+        "receipt": {
+          "sha256": "8c83a7a733299d04bfc1d6bc11e60cc46b456cfb23caad7e8adde55e5fd94ad8",
+          "size": 537340,
+          "mtimeNs": 1794275189031744542
+        },
+        "run": {
+          "sha256": "36dac7cdad873214cf1e9f64163fc9e71389008a2196733b82fe249faa67825c",
+          "size": 376,
+          "mtimeNs": 1794275189471781440
+        }
+      }
+    },
+    "balances": {
+      "wl": {
+        "0x70997970c51812dc3a010c7d01b50e0d17dc79c8": "0x21d8f1942ae5900aef5",
+        "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc": "0x21e19e0c9bab2400000",
+        "0x90f79bf6eb2c4f870365e785982e1f101e93b906": "0x21e19e0c9bab2400000"
+      },
+      "bnb": {
+        "0x70997970c51812dc3a010c7d01b50e0d17dc79c8": "0x21e19de6d1049ee876c",
+        "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc": "0x21e19e0779a1acb7744",
+        "0x90f79bf6eb2c4f870365e785982e1f101e93b906": "0x21e19e093a20ece5415"
+      },
+      "vaultWL": "0x8ac7230489e80000"
+    }
+  },
+  "regressions": {
+    "solidityPassed": 52,
+    "vaultSolidityPassed": 5,
+    "walletNodePassed": 16,
+    "go": true,
+    "rustCoreDefaultPassed": 5,
+    "rustCoreVaultPassed": 5,
+    "legacyV1SDKPassed": 7,
+    "legacyV2SDKPassed": 4,
+    "resourceBudgetPassed": 4,
+    "legacyV2MockBrowserBothDirectionsPassed": true,
+    "historicalFilesUnchanged": 63
+  },
+  "proofRejections": [
+    "wrong chain",
+    "altered amount",
+    "altered recipient",
+    "altered composite with recomputed SHA256"
+  ],
+  "onchainReplaysRejected": 2,
+  "sourceAuthenticated": false,
+  "onchainRisc0Verified": false,
+  "externalDeployment": false,
+  "externalRpcAndPolicyVerified": false
+}

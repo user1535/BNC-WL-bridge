@@ -1,0 +1,90 @@
+Compiling 1 files with Solc 0.8.24
+Solc 0.8.24 finished in 1.85s
+Compiler run successful!
+
+Ran 3 tests for test/BridgeAuditLog.t.sol:BridgeAuditLogTest
+[PASS] testIncidentBlocksPreviouslyRegisteredRoot() (gas: 136262)
+[PASS] testInvalidCallerCannotStop() (gas: 14726)
+[PASS] testMalformedHeaderDoesNotStop() (gas: 19746)
+Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 1.17ms (395.35µs CPU time)
+
+Ran 6 tests for test/BridgeTokens.t.sol:BridgeTokensTest
+[PASS] testLockPreventsTransferAndTransferFromUntilUnlock() (gas: 143794)
+[PASS] testLockRequiresDestinationTokenBinding() (gas: 893210)
+[PASS] testLockValidationAndUniqueIds() (gas: 76281)
+[PASS] testMintBurnAndNoTransfer() (gas: 79045)
+[PASS] testReceiverBindingIsOneTime() (gas: 22245)
+[PASS] testUnlockAuthorizationAndReplay() (gas: 96103)
+Suite result: ok. 6 passed; 0 failed; 0 skipped; finished in 1.33ms (792.00µs CPU time)
+
+Ran 3 tests for test/XWLEntry.t.sol:XWLEntryTest
+[PASS] testPaidEntryIssuesExactlyTenAndSeparatesBridgeCounters() (gas: 136661)
+[PASS] testSinkFailureRollsBackMintAndNativePayment() (gas: 100373)
+[PASS] testZeroPaymentInvalidRecipientAndUnauthorizedMintRevert() (gas: 23121)
+Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 964.07µs (267.96µs CPU time)
+
+Ran 2 tests for test/DevHeaderRegistry.t.sol:DevHeaderRegistryTest
+[PASS] testBatchCoverageAndConflictingHash() (gas: 858040)
+[PASS] testRejectsLiveDestinationChain() (gas: 36686)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 443.74µs (283.76µs CPU time)
+
+Ran 2 tests for test/MockRoundtrip.t.sol:MockRoundtripTest
+[PASS] testDevMocksRejectLiveDestinationChains() (gas: 1702816)
+[PASS] testSameOwnerRoundtripAndFrontRun() (gas: 2537063)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 980.07µs (692.21µs CPU time)
+
+Ran 5 tests for test/NativeWLVault.t.sol:NativeWLVaultTest
+[PASS] testMutatedLockDataAndReplayRejected() (gas: 1850365)
+[PASS] testNativeDepositThirdPartyMintAndTransferableRedemption() (gas: 1581376)
+[PASS] testPayoutFailurePreservesProofAndCollateralForRetry() (gas: 1647282)
+[PASS] testRejectsExcessReleaseEvenWithRegisteredRoot() (gas: 483795)
+[PASS] testZeroInputsBindingAndUnverifiedMintRejected() (gas: 1779143)
+Suite result: ok. 5 passed; 0 failed; 0 skipped; finished in 72.46ms (108.56ms CPU time)
+
+Ran 12 tests for test/BurnMintV2.t.sol:BurnMintV2Test
+[PASS] testAdminRecoveryUpgradeAndUnverifiedClaimSelectorsCannotMint() (gas: 40298)
+[PASS] testAlteredRecipientAmountChainNonceAndBurnerRejected() (gas: 2353333)
+[PASS] testDeployerCannotBindProofBypassingReceiver() (gas: 7951317)
+[PASS] testFuzzAnyNonReceiverCannotMint(address,bytes32,uint256) (runs: 256, μ: 25297, ~: 25297)
+[PASS] testMPTTransferDelegatedTransferPartialBurnOtherRecipient() (gas: 1338431)
+[PASS] testNoWrappedGenesisOrRealChainDeployment() (gas: 167852)
+[PASS] testProxyAndWrongImmutableConfigurationCannotReceiveMintAuthority() (gas: 12910184)
+[PASS] testReplayAndThirdPartyClaimCannotRedirect() (gas: 1059475)
+[PASS] testRevertedBurnRollsBackNonceSupplyAndCounter() (gas: 52168)
+[PASS] testRevertedMintRollsBackReplayAndAccountingThenRetrySucceeds() (gas: 1104599)
+[PASS] testUnauthorizedMintAndBindingRejected() (gas: 20638)
+[PASS] testWrongRootAndMissingProofRejected() (gas: 188354)
+Suite result: ok. 12 passed; 0 failed; 0 skipped; finished in 220.74ms (259.60ms CPU time)
+
+Ran 6 tests for test/ERC20Boundaries.t.sol:ERC20BoundariesTest
+[PASS] testFiniteAndInfiniteAllowanceAndEvents() (gas: 608060)
+[PASS] testFuzzLockTransferConservation(uint8,uint8) (runs: 256, μ: 989946, ~: 993600)
+[PASS] testLockedTransferFromRollbackAndSelfRestriction() (gas: 1005817)
+[PASS] testMintBurnBoundaries() (gas: 557407)
+[PASS] testRevertedTransferFromRollsBackAllowance() (gas: 555142)
+[PASS] testZeroAndSelfTransfersPreserveSupplyAndEmit() (gas: 565175)
+Suite result: ok. 6 passed; 0 failed; 0 skipped; finished in 1.01s (1.03s CPU time)
+
+Ran 8 tests for test/MPTCanonical.t.sol:MPTCanonicalTest
+[PASS] testEvenCompactPaddingMustBeZero() (gas: 23760)
+[PASS] testFuzzGethDifferentialMutation(uint8,uint16,uint16,uint8) (runs: 256, μ: 1191749, ~: 1195099)
+[PASS] testGethDifferential128CanonicalProofs() (gas: 152947923)
+[PASS] testGethHashedBranchAndExtension() (gas: 2560407)
+[PASS] testGethInlineBranchAndExtension() (gas: 3837389)
+[PASS] testGethNonMembershipIsNotInclusion() (gas: 8273535)
+[PASS] testNonCanonicalRLPRejected() (gas: 30416)
+[PASS] testTrailingAndEmptyProofsRejected() (gas: 1188371)
+Suite result: ok. 8 passed; 0 failed; 0 skipped; finished in 1.50s (2.85s CPU time)
+
+Ran 1 test for test/ConservationSequences.t.sol:ConservationSequencesTest
+[PASS] testFuzzPendingClaimsPartialBurnTransfersAndReplay(uint256) (runs: 256, μ: 12238428, ~: 12156027)
+Suite result: ok. 1 passed; 0 failed; 0 skipped; finished in 3.27s (3.27s CPU time)
+
+Ran 4 tests for test/ReceiptCoreFormats.t.sol:ReceiptCoreFormatsTest
+[PASS] testCapturedNativeSetCodeReceiptMPTLog() (gas: 2702819)
+[PASS] testSupportedLegacyAndTypedReceiptsUseLocalLogIndex() (gas: 3669734)
+[PASS] testUnsupportedTypesAndMalformedReceiptFieldsRejected() (gas: 9119312)
+[PASS] testWrongRootTxIndexAndEmptyProofRejected() (gas: 390074)
+Suite result: ok. 4 passed; 0 failed; 0 skipped; finished in 3.26s (4.99s CPU time)
+
+Ran 11 test suites in 3.29s (9.35s CPU time): 52 tests passed, 0 failed, 0 skipped (52 total tests)

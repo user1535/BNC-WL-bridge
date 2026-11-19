@@ -1,0 +1,11 @@
+[package]
+name = "bridge-receipt-core"
+version = "0.1.0"
+edition = "2021"
+[features]
+vault = []
+vault-testnet = ["vault"]
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+tiny-keccak = { version = "2", features = ["keccak"] }
+serde_json = "1"

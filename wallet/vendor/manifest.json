@@ -1,0 +1,21 @@
+{
+  "package": "ethers",
+  "version": "6.15.0",
+  "license": "MIT",
+  "files": [
+    {
+      "path": "wallet/vendor/ethers-6.15.0.min.mjs",
+      "url": "https://raw.githubusercontent.com/ethers-io/ethers.js/v6.15.0/dist/ethers.min.js",
+      "sha256": "66580dbb32353addbbfd2c1880a29693436c2d41ebdd4bf4a4516b9ad6f5f5ea",
+      "bytes": 512985,
+      "modifications": []
+    },
+    {
+      "path": "wallet/vendor/ethers-LICENSE.md",
+      "url": "https://raw.githubusercontent.com/ethers-io/ethers.js/v6.15.0/LICENSE.md",
+      "sha256": "44eea86637405118248327fbe9d9fa95d04c7a57221c7e8c155f736db9f1b612",
+      "bytes": 1075,
+      "modifications": []
+    }
+  ]
+}

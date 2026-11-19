@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checks": {
+    "anvil": true,
+    "forge": true,
+    "cast": true,
+    "receiptGenerator": true,
+    "receiptComputationHost": true,
+    "r0vm": true,
+    "pinnedGuestReceiptVerified": true
+  },
+  "projectRoot": "/home/gangryun/BNC-WL",
+  "receiptHost": "/home/gangryun/BNC-WL/.bin/bridge-receipt-host",
+  "effectiveProofCpuLimit": 12,
+  "effectiveMemoryLimitBytes": 6673838080,
+  "timeoutSeconds": 1800,
+  "fileCapBytes": 67108864
+}

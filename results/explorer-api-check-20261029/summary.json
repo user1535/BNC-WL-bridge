@@ -1,0 +1,197 @@
+{
+  "checkedDateKST": "2026-10-29",
+  "scope": "Read-only public API capability review; no deployment, user transaction, state reset or RISC Zero proving",
+  "requirements": [
+    "block hash/number/receiptsRoot/ordered transaction hashes",
+    "all transaction receipts in target block, including receipt type/status/cumulativeGasUsed/logsBloom/logs",
+    "logs include emitter/topics/data and ordering metadata"
+  ],
+  "worldlandScan": {
+    "baseURL": "https://scan.worldland.foundation",
+    "liveCalls": [
+      {
+        "method": "eth_blockNumber",
+        "path": "/api/eth-rpc",
+        "result": "success"
+      },
+      {
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x9c3000",
+          false
+        ],
+        "path": "/api/eth-rpc",
+        "result": "Action not found."
+      },
+      {
+        "method": "eth_getBlockReceipts",
+        "params": [
+          "0x9c3000"
+        ],
+        "path": "/api/eth-rpc",
+        "result": "Action not found."
+      },
+      {
+        "method": "eth_getTransactionReceipt",
+        "params": [
+          "0x0000000000000000000000000000000000000000000000000000000000000000"
+        ],
+        "path": "/api/eth-rpc",
+        "result": "Action not found."
+      },
+      {
+        "path": "/api?module=proxy&action=eth_getBlockByNumber&tag=0x9c3000&boolean=false",
+        "httpStatus": 400,
+        "result": "Unknown action"
+      },
+      {
+        "path": "/api/v2/stats",
+        "httpStatus": 404
+      },
+      {
+        "path": "/api?module=transaction&action=gettxinfo&txhash=0x847d80b656e3e4d466ec5647f2b2d6033c7b72706baa219153272d320870d667",
+        "result": "success",
+        "returnedFields": [
+          "blockNumber",
+          "confirmations",
+          "from",
+          "gasLimit",
+          "gasPrice",
+          "gasUsed",
+          "hash",
+          "input",
+          "logs",
+          "next_page_params",
+          "revertReason",
+          "success",
+          "timeStamp",
+          "to",
+          "value"
+        ]
+      }
+    ],
+    "documentedEthRpcMethods": [
+      "eth_blockNumber",
+      "eth_getBalance",
+      "eth_getLogs"
+    ],
+    "missingInGetTxInfo": [
+      "cumulativeGasUsed",
+      "logsBloom",
+      "type",
+      "transactionIndex",
+      "blockHash"
+    ],
+    "conclusion": "Documented and tested explorer APIs alone do not supply the block root/full receipt data required by the current MPT generator.",
+    "sources": [
+      "https://scan.worldland.foundation/eth-rpc-api-docs",
+      "https://scan.worldland.foundation/api-docs"
+    ]
+  },
+  "worldlandOfficialRPC": {
+    "url": "https://seoul.worldland.foundation/",
+    "liveBlockRead": {
+      "method": "eth_getBlockByNumber",
+      "block": "0x9c3000",
+      "result": "success",
+      "receiptRootPresent": true,
+      "transactionCount": 0
+    },
+    "liveReceiptRead": {
+      "method": "eth_getTransactionReceipt",
+      "txHash": "0x847d80b656e3e4d466ec5647f2b2d6033c7b72706baa219153272d320870d667",
+      "result": "success",
+      "requiredFieldsPresent": true,
+      "returnedFields": [
+        "blockHash",
+        "blockNumber",
+        "contractAddress",
+        "cumulativeGasUsed",
+        "effectiveGasPrice",
+        "from",
+        "gasUsed",
+        "logs",
+        "logsBloom",
+        "status",
+        "to",
+        "transactionHash",
+        "transactionIndex",
+        "type"
+      ],
+      "logCount": 0
+    },
+    "limitations": [
+      "Read one empty block and one ordinary transfer receipt; no full nonempty-block MPT reconstruction or bridge event tested."
+    ],
+    "source": "https://docs.worldland.foundation/developer/dapp/dev-environment"
+  },
+  "bscScan": {
+    "verificationLevel": "official documentation and public chainlist; no authenticated live receipt/block query",
+    "apiURL": "https://api.etherscan.io/v2/api",
+    "chainId": 56,
+    "requiredMethods": [
+      "eth_getBlockByNumber",
+      "eth_getTransactionReceipt"
+    ],
+    "receiptFieldsDocumented": [
+      "status",
+      "cumulativeGasUsed",
+      "logsBloom",
+      "logs",
+      "type",
+      "transactionIndex",
+      "blockHash",
+      "blockNumber",
+      "transactionHash"
+    ],
+    "blockRootDocumented": true,
+    "collectionStrategy": "Fetch block transaction hashes then each receipt; reconstruct MPT locally and compare its root with block receiptsRoot.",
+    "authentication": "Etherscan API key and paid plan for chain 56; chain 97 also marked paid.",
+    "chainlistObservation": {
+      "chainid": "56",
+      "status": 1,
+      "comment": "Paid Plan required"
+    },
+    "directNetworkProbe": "TLS handshake timed out; public chainlist obtained with web tool.",
+    "sources": [
+      "https://docs.etherscan.io/api-reference/endpoint/ethgetblockbynumber",
+      "https://docs.etherscan.io/api-reference/endpoint/ethgettransactionreceipt",
+      "https://api.etherscan.io/v2/chainlist"
+    ]
+  },
+  "implementationStatus": "Current default remains local RPC chains 31337/31338. Explorer adapters not implemented.",
+  "artifacts": {
+    "eth_blockNumber": {
+      "file": "eth_blockNumber.json",
+      "sha256": "451a0ef4624a9fb1fead111d7e53ddb3d535e7534266a3c6dcf23bf47de9ddd6"
+    },
+    "eth_getBlockByNumber": {
+      "file": "eth_getBlockByNumber.json",
+      "sha256": "e12a3856652fa0d797c30525cd18a4e7f604a0b78738e2f5307b5f8d34a71227"
+    },
+    "eth_getBlockReceipts": {
+      "file": "eth_getBlockReceipts.json",
+      "sha256": "e12a3856652fa0d797c30525cd18a4e7f604a0b78738e2f5307b5f8d34a71227"
+    },
+    "eth_getTransactionReceipt": {
+      "file": "eth_getTransactionReceipt.json",
+      "sha256": "e12a3856652fa0d797c30525cd18a4e7f604a0b78738e2f5307b5f8d34a71227"
+    },
+    "proxy-block": {
+      "file": "proxy-block.json",
+      "sha256": "89ff4778cdfa769c1665e31bc93527ea32ca651cf4e69c6fa7f237618a687839"
+    },
+    "gettxinfo": {
+      "file": "gettxinfo.json",
+      "sha256": "a1eb50724ec8b046311f914cf1aa167d12cb6db2d86e9db3e8e791733f1818f5"
+    },
+    "official-wl-block": {
+      "file": "official-wl-block.json",
+      "sha256": "aa0cd13ba0c73e1a894a3abe77cdcb985276f262f3c01e89492e56d7de4fb03e"
+    },
+    "official-wl-receipt": {
+      "file": "official-wl-receipt.json",
+      "sha256": "e576af1a1fbc81a4e2ccb1368bb91248f8a20ccbfe27df6b30c956407109c56f"
+    }
+  }
+}

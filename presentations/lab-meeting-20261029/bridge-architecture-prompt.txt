@@ -1,0 +1,88 @@
+Use case: text-localization / productivity-visual
+Asset type: a single polished Korean lab-meeting architecture slide, edited from the supplied source image.
+Input image 1 is the EDIT TARGET. Preserve its recognizable four-column architecture, white background, dark-navy heading, pastel source/prover/user/destination grouping, blue numbered flow arrows, clean flat icons. Rebuild at crisp presentation resolution, 16:9 landscape, preferably 3072 x 1728. Keep a flat, clean, professional academic diagram, no texture, no photograph, no 3-D. Improve typography and alignment substantially. Use clear, correctly spelled Korean sans-serif and English technical text. This is a faithful content update based on the CURRENT IMPLEMENTATION, not a depiction of the old architecture.
+
+MAIN TITLE (exact): "WorldLand ↔ BNB Bridge"
+Subtitle (exact): "사용자 직접 서명 + RISC Zero 연산 증명"
+Top-right small badge: "로컬 시제품 | 2026-10-29"
+
+The diagram mainly depicts the forward lock → mint path, with a compact reverse-path note. Four main columns, left to right. Allocate adequate width to the Server column and Destination column. Use pale amber Source, mint Server, sky-blue User, lavender Destination, as in the original. Avoid overly dark body panels. Use large legible text; concise labels, ample spacing, neatly routed arrows with no text collisions.
+
+COLUMN 1:
+Header "Source Chain"
+Subheader "WorldLand 역할"
+Network caption "Local Anvil · 31337"
+A simple blue W/chain icon, not an Ethereum logo.
+Three stacked boxes:
+"BridgeLockableToken"
+"bridgeLock()"
+then "Locked 이벤트"
+then "Blocks / Receipts"
+Use small token/document/block icons. Flow downward between the boxes.
+
+COLUMN 2:
+Header "Bridge Server"
+Subheader "운영자·RPC 신뢰"
+Stack these computation boxes with downward arrows:
+"RPC receipt 수집"
+"Receipt MPT·이벤트 계산"
+"RISC Zero composite proof"
+"서버 SDK 검증 (필수)"
+Then a final output box "Proof package + calldata".
+Below SDK box, if readable, a small single caption "고정 guest · journal/input 연결".
+Server-side computation proof is REAL RISC Zero, verified by SERVER SDK. Do not depict the old header proof, header membership proof, a TEE, consensus verification, Groth16, or an on-chain RISC Zero verifier.
+At the TOP of this column, immediately above the pastel column or within a small attached top tab, a distinct small orange operator tab "운영자 root 등록". A dashed orange arrow routes across the TOP of the User column, below the subtitle and above all main cards, and enters a destination tab "등록된 receipt root". This shows the operator can sign registration transactions. Separate this admin route clearly from the blue user asset transaction arrows. No private key icon or claim that the operator has no key.
+
+COLUMN 3:
+Header "User"
+Subheader "브라우저 데모 지갑"
+Single person icon.
+Three concise stacked items:
+"패키지·calldata 대조"
+"서명 직전 SDK 재검증 요청"
+"사용자가 서명·전송"
+A small bottom received-token capsule "wrapped token 수령".
+The User owns both chain interactions; do not show mainnet wallet logos or ETH/WL gas amounts.
+SDK verification request text must remain clearly a request to the server, not browser cryptographic SDK verification.
+
+COLUMN 4:
+Header "Destination Chain"
+Subheader "BNB 역할"
+Network caption "Local Anvil · 31338"
+Use a simple BNB/chain icon, not an Ethereum diamond.
+Include the destination root tab "등록된 receipt root", connected downward to the contracts.
+A box titled "Bridge Contracts"
+Checklist EXACT:
+"Receipt MPT 검증"
+"이벤트·도메인 검증"
+"중복 청구 차단"
+Then a highlighted action "wrapped token mint".
+Small concise verification-location caption inside the card:
+"RISC Zero 검증: 서버 SDK"
+This caption makes it unambiguous the contracts do NOT verify RISC Zero proofs themselves.
+
+PRIMARY BLUE NUMBERED ARROWS, preserve original concept with spacious routing:
+1: From User down and left to the Source token box via the bottom of the main diagram. Label "① lock · 직접 서명".
+2: Source receipts to Server, label "② RPC 데이터".
+3: Server package to User, label "③ 증명 패키지".
+4: User to Destination contracts, label "④ 청구 · 직접 서명".
+5: Destination mint to User received-token capsule, label "⑤ mint".
+Use actual blue numbered circles or the circled numbers once each, no duplicate numbering. Labels may wrap into short lines. Route arrows without crossing text. 1 and 5 can use dedicated bottom tracks above the footer.
+A short neutral note below the main flow:
+"역방향: burn → 증명·SDK 검증 → 사용자 청구 → unlock"
+
+BOTTOM EVIDENCE STRIP, clear separation from the architecture, pale blue:
+Line 1 exact: "검증 완료 | lock → mint → burn → unlock · 사용자 서명 4건 · 실제 증명 2개"
+Line 2 exact: "증명 생성: lock 261.74 s / burn 271.78 s · 최대 RSS 4.93 GB · CPU 상한 12개"
+Small gray applicability footer, exact:
+"적용 범위: 로컬 Anvil 2개 · 서버 운영자·RPC 신뢰"
+"미포함: 온체인 RISC Zero 검증 · 원본 체인 합의·최종성 인증 · 실제 체인·실자산 배포"
+
+Important factual changes from the source:
+- Replace Ethereum/Sepolia with BNB role on local Anvil, and WorldLand/Gwangju with WorldLand role on local Anvil.
+- Replace title Keyless Relayer with user-signed submission. Server holds operator registration authority but never signs user asset transactions.
+- Replace NativeVault/native WL lock with BridgeLockableToken / bridgeLock() local token locking.
+- Remove "Read + Compute only", "Private Key 없음", "Verify header proof", "RISC0 header proof", "header membership proof", "submitProof()", and all implications of authenticated consensus/finality.
+- Do not claim a whole bridge uses one transaction; forward direction uses user lock and claim, round trip has four user transactions.
+- NO invented benchmarks, no additional claims.
+Keep the original four-lane explanatory visual, but make all labels crisp, roomy and presentation-ready. Ensure the operator root-registration route is obvious and the two verification locations are unmistakable.

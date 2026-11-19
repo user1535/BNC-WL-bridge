@@ -1,0 +1,48 @@
+{
+  "archives": [
+    {
+      "archive": "legacy/retired-source-20261029.tar.gz",
+      "files": 417,
+      "bytes": 5332174,
+      "sha256": "fba973ccb8240fcf1736c6b235190242bf374fb244e9d839daed3d2f87a9b1cf"
+    },
+    {
+      "archive": "legacy/historical-sessions-20261029.tar.gz",
+      "files": 300,
+      "bytes": 23304533,
+      "sha256": "573fefc87020d8c8d5e7739f69d83239c7bdfc930dce7cc1cccf96c7ba1682e3"
+    }
+  ],
+  "preservedHistoricalSessions": [
+    "results/prototype-tee-v2",
+    "results/session-fast-mpt-regression",
+    "results/session-fast-partial-burn-faults",
+    "results/prototype-zk-session",
+    "results/prototype-api-session-v2",
+    "results/prototype-api-session",
+    "results/prototype-fresh-cancel-fault",
+    "results/prototype-zk-api-reuse",
+    "results/wallet-client-fast-verified",
+    "results/prototype-header-steps",
+    "results/session-fast-partial-burn-300s",
+    "results/prototype-tee-simulation",
+    "results/prototype-trusted-rpc",
+    "results/wallet-client-fast",
+    "results/session-zk-multiblock",
+    "results/session-zk-large-multiblock",
+    "results/prototype-fresh-reorg-fault",
+    "results/prototype-api-session-v3",
+    "results/session-fast-check",
+    "results/session-bound-setup",
+    "results/session-fast",
+    "results/local-claim-recovery-rpc-faults/session",
+    "results/session-zk-partial-burn-wallet-faults/session",
+    "results/session-zk-large-resume-check/session",
+    "results/local-claim-recovery-rpc-identifiers/session",
+    "results/session-zk-current-partial-burn/session",
+    "results/session-zk-large-receipt-recovery/session",
+    "results/session-zk-partial-burn-settlement/session",
+    "results/session-zk-partial-burn-wallet-faults-fixed/session"
+  ],
+  "historicalSummaries": 351
+}

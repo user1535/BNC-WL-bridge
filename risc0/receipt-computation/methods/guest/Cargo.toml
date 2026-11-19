@@ -1,0 +1,11 @@
+[package]
+name = "bridge-receipt-guest"
+version = "0.1.0"
+edition = "2021"
+[workspace]
+[features]
+vault = ["bridge-receipt-core/vault"]
+vault-testnet = ["bridge-receipt-core/vault-testnet"]
+[dependencies]
+risc0-zkvm = { version = "=3.0.5", default-features = false, features = ["std"] }
+bridge-receipt-core = { path = "../../core" }

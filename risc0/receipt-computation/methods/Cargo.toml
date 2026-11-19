@@ -1,0 +1,11 @@
+[package]
+name = "bridge-receipt-methods"
+version = "0.1.0"
+edition = "2021"
+[features]
+vault = []
+vault-testnet = []
+[build-dependencies]
+risc0-build = "=3.0.5"
+[package.metadata.risc0]
+methods = ["guest"]

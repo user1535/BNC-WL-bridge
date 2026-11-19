@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-03",
+  "scope": "local ERC20 issuance model; not native WL consensus minting",
+  "stateDirectory": "results/mint-authority-guard-session-20261103",
+  "chains": [
+    31337,
+    31338
+  ],
+  "ports": [
+    8577,
+    8578
+  ],
+  "freshProofsGenerated": 0,
+  "userBridgeTransactionsSent": 0,
+  "sdkVerificationTestedInThisRun": false,
+  "liveBurnMintRoundtripTested": false,
+  "checks": [
+    {
+      "chain": "wl",
+      "from": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+      "method": "bridgeMint(bytes32,address,uint256)",
+      "rejected": true
+    },
+    {
+      "chain": "wl",
+      "from": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+      "method": "mint(address,uint256)",
+      "rejected": true
+    },
+    {
+      "chain": "wl",
+      "from": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+      "method": "ownerMint(address,uint256)",
+      "rejected": true
+    },
+    {
+      "chain": "wl",
+      "from": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+      "method": "recoverMint(address,uint256)",
+      "rejected": true
+    },
+    {
+      "chain": "wl",
+      "from": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+      "method": "setMintReceiver(address)",
+      "rejected": true
+    },
+    {
+      "chain": "wl",
+      "from": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+      "method": "upgradeTo(address)",
+      "rejected": true
+    },
+    {
+      "chain": "wl",
+      "from": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+      "method": "bindPeer(address,address)",
+      "rejected": true
+    },
+    {
+      "chain": "wl",
+      "from": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+      "method": "bridgeMint(bytes32,address,uint256)",
+      "rejected": true
+    },
+    {
+      "chain": "wl",
+      "from": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+      "method": "mint(address,uint256)",
+      "rejected": true
+    },
+    {
+      "chain": "wl",
+      "from": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+      "method": "ownerMint(address,uint256)",
+      "rejected": true
+    },
+    {
+      "chain": "wl",
+      "from": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+      "method": "recoverMint(address,uint256)",
+      "rejected": true
+    },
+    {
+      "chain": "wl",
+      "from": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+      "method": "setMintReceiver(address)",
+      "rejected": true
+    },
+    {
+      "chain": "wl",
+      "from": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+      "method": "upgradeTo(address)",
+      "rejected": true
+    },
+    {
+      "chain": "wl",
+      "from": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+      "method": "bindPeer(address,address)",
+      "rejected": true
+    },
+    {
+      "chain": "bnb",
+      "from": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+      "method": "bridgeMint(bytes32,address,uint256)",
+      "rejected": true
+    },
+    {
+      "chain": "bnb",
+      "from": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+      "method": "mint(address,uint256)",
+      "rejected": true
+    },
+    {
+      "chain": "bnb",
+      "from": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+      "method": "ownerMint(address,uint256)",
+      "rejected": true
+    },
+    {
+      "chain": "bnb",
+      "from": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+      "method": "recoverMint(address,uint256)",
+      "rejected": true
+    },
+    {
+      "chain": "bnb",
+      "from": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+      "method": "setMintReceiver(address)",
+      "rejected": true
+    },
+    {
+      "chain": "bnb",
+      "from": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+      "method": "upgradeTo(address)",
+      "rejected": true
+    },
+    {
+      "chain": "bnb",
+      "from": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+      "method": "bindPeer(address,address)",
+      "rejected": true
+    },
+    {
+      "chain": "bnb",
+      "from": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+      "method": "bridgeMint(bytes32,address,uint256)",
+      "rejected": true
+    },
+    {
+      "chain": "bnb",
+      "from": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+      "method": "mint(address,uint256)",
+      "rejected": true
+    },
+    {
+      "chain": "bnb",
+      "from": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+      "method": "ownerMint(address,uint256)",
+      "rejected": true
+    },
+    {
+      "chain": "bnb",
+      "from": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+      "method": "recoverMint(address,uint256)",
+      "rejected": true
+    },
+    {
+      "chain": "bnb",
+      "from": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+      "method": "setMintReceiver(address)",
+      "rejected": true
+    },
+    {
+      "chain": "bnb",
+      "from": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+      "method": "upgradeTo(address)",
+      "rejected": true
+    },
+    {
+      "chain": "bnb",
+      "from": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+      "method": "bindPeer(address,address)",
+      "rejected": true
+    }
+  ],
+  "contracts": {
+    "original": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "wrapped": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "wl_headers": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "unlock": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+    "bnb_headers": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "mint": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0"
+  },
+  "operator": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+  "deployedRuntimeSHA256": {
+    "wl_token": "43a1fa659424663d5c4c0e477afe0a660ed087f40fb7179a6ef509ac124e6de4",
+    "wl_receiver": "df65ae6c5aa8c75bc1d5b1235f15e665a77bc0296c6c6361000b0bd00c320357",
+    "bnb_token": "2a86470ce5b42ce2515c26f32529e3513e1da594ea26cc2f1a3d413b5dd27f60",
+    "bnb_receiver": "685aca37fc5833be68e5ff6fb0669abefced85fdfcd2d867182d09674a258af7"
+  },
+  "passed": true,
+  "sessionStoppedAndPreserved": true,
+  "originalSessionUnchanged": true,
+  "sourceSHA256": {
+    "contracts/src/token/BurnMintToken.sol": "0d34391319bdb6a37238815b5d252b55b38c0d84041e481add25a9270e8925e5",
+    "contracts/src/bridge/BurnMintReceiver.sol": "7823d5952e1dead384bde2c2a9945d634fa89e14cf11263581bc0e19763300aa",
+    "contracts/test/BurnMintV2.t.sol": "49a85fc5d903da5f9f0bf6c155511d0f2a5740bb44d40082555b198a2331cc61"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "mode": "prove",
+  "exitCode": 0,
+  "failure": null,
+  "elapsedSeconds": 258.6996073559858,
+  "peakRSS": 4933550080,
+  "cpuCap": 12,
+  "memoryCap": 6707625164,
+  "timeCap": 1800,
+  "fileCap": 67108864,
+  "inputSHA256": "3c070d6f4aa88c728f74b467adc8be28dde4f57501230504b21a619be6ddf17e",
+  "hostSHA256": "29afba05fc4287170ad6cdf3f16f65b7209c636e0bfaddcd2c5ef07c00349dbf"
+}

@@ -1,0 +1,10 @@
+{
+  "imageId": "b0e69f5195d8dd9bd83bfda7c6980dbe9e597404a0984f8f7f656508d99a9a68",
+  "receiptFormat": "risc0-sdk-bincode-3.0.5",
+  "statement": "trusted-input-receipt-computation",
+  "sourceAuthenticated": false,
+  "onchainVerified": false,
+  "protocolVersion": 2,
+  "journalVersion": 2,
+  "protocol": "burn-mint-v2"
+}

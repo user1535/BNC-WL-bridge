@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checks": {
+    "anvil": true,
+    "forge": true,
+    "cast": true,
+    "receiptGenerator": true,
+    "receiptComputationHost": true,
+    "r0vm": true,
+    "pinnedGuestReceiptVerified": true
+  },
+  "projectRoot": "/tmp/bnc-wl-guarded-release-check/bnc-wl",
+  "receiptHost": "/tmp/bnc-wl-guarded-release-check/bnc-wl/.bin/bridge-receipt-host",
+  "effectiveProofCpuLimit": 12,
+  "effectiveMemoryLimitBytes": 6675030835,
+  "timeoutSeconds": 1800,
+  "fileCapBytes": 67108864
+}

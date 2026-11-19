@@ -1,0 +1,16 @@
+[
+  {
+    "action": "lock",
+    "elapsedSeconds": 261.73709912400227,
+    "peakRSS": 4904226816,
+    "cpuCap": 12,
+    "failure": null
+  },
+  {
+    "action": "burn",
+    "elapsedSeconds": 271.7794304029958,
+    "peakRSS": 4931022848,
+    "cpuCap": 12,
+    "failure": null
+  }
+]

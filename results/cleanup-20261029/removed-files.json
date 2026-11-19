@@ -1,0 +1,2983 @@
+{
+  "date": "2026-10-29",
+  "removedFiles": 43492,
+  "removedBytes": 22853982213,
+  "records": [
+    {
+      "path": "scripts/check-event-recovery.mjs",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 935
+    },
+    {
+      "path": "scripts/local-receipt-stress.sh",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 188
+    },
+    {
+      "path": "scripts/benchmark-bnb-rate.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 7923
+    },
+    {
+      "path": "scripts/verify-bnb-bls-evm.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 10633
+    },
+    {
+      "path": "scripts/check-package-download.mjs",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 935
+    },
+    {
+      "path": "scripts/run-bnb-vote-proof.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 9631
+    },
+    {
+      "path": "scripts/check-proof-service-fresh-zk-browser.mjs",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 7808
+    },
+    {
+      "path": "scripts/summarize-local-batch-capacity.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 3814
+    },
+    {
+      "path": "scripts/check-segment-cache.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 9184
+    },
+    {
+      "path": "scripts/verify-large-local-session.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 14723
+    },
+    {
+      "path": "scripts/check-proof-service-recovery.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 2701
+    },
+    {
+      "path": "scripts/export-wallet-manifest.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 1802
+    },
+    {
+      "path": "scripts/replay-local-groth16.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 13538
+    },
+    {
+      "path": "scripts/run-segment-cache.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 8060
+    },
+    {
+      "path": "scripts/serve-wallet.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 1145
+    },
+    {
+      "path": "scripts/verify-bnb-snapshot-schedule.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 8143
+    },
+    {
+      "path": "scripts/check-bnb-vote-guest.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 13083
+    },
+    {
+      "path": "scripts/check-proof-service-zk-reuse.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 2560
+    },
+    {
+      "path": "scripts/check-proof-service-fresh-updater-stale.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 1418
+    },
+    {
+      "path": "scripts/monitor-accepted-heads.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 3653
+    },
+    {
+      "path": "scripts/check-demo-ui.mjs",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 2275
+    },
+    {
+      "path": "scripts/check-bound-header.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 3906
+    },
+    {
+      "path": "scripts/benchmark-header.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 9478
+    },
+    {
+      "path": "scripts/compare-bnb-vote-executions.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 4106
+    },
+    {
+      "path": "scripts/check-audit-ui.mjs",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 997
+    },
+    {
+      "path": "scripts/profile-bnb-vote-guest.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 4963
+    },
+    {
+      "path": "scripts/run-native-proof.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 9556
+    },
+    {
+      "path": "scripts/probe-native-rpc.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 4177
+    },
+    {
+      "path": "scripts/check-wallet-status.mjs",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 636
+    },
+    {
+      "path": "scripts/local-zk-burn-settlement.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 8235
+    },
+    {
+      "path": "scripts/local-frontrun.sh",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 160
+    },
+    {
+      "path": "scripts/check-proof-service-fresh-cancel.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 3569
+    },
+    {
+      "path": "scripts/check-generator-rpc-faults.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 10276
+    },
+    {
+      "path": "scripts/check-chain-tabs.mjs",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 1274
+    },
+    {
+      "path": "scripts/check-prototype-docx-structure.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 1321
+    },
+    {
+      "path": "scripts/local-mock-roundtrip.sh",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 4988
+    },
+    {
+      "path": "scripts/render-server-config.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 3078
+    },
+    {
+      "path": "scripts/check-wallet-browser.mjs",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 5661
+    },
+    {
+      "path": "scripts/__pycache__",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 57,
+      "bytes": 722173
+    },
+    {
+      "path": "scripts/local-header-data.sh",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 2317
+    },
+    {
+      "path": "scripts/report-local-costs.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 3133
+    },
+    {
+      "path": "scripts/local-cache-repair.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 4652
+    },
+    {
+      "path": "scripts/verify-native-evm.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 9723
+    },
+    {
+      "path": "scripts/compare-local-proof-profiles.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 5400
+    },
+    {
+      "path": "scripts/check-proof-service-shutdown.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 2340
+    },
+    {
+      "path": "scripts/check-server-portability.mjs",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 6245
+    },
+    {
+      "path": "scripts/check-bound-session.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 3638
+    },
+    {
+      "path": "scripts/check-event-claims.mjs",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 971
+    },
+    {
+      "path": "scripts/check-prover-recovery.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 8719
+    },
+    {
+      "path": "scripts/local-zk-current-submit.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 8549
+    },
+    {
+      "path": "scripts/check-local-claim-recovery.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 5934
+    },
+    {
+      "path": "scripts/local-multiuser.sh",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 8886
+    },
+    {
+      "path": "scripts/check-compression-cache.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 6700
+    },
+    {
+      "path": "scripts/check-proof-service-fresh-reorg.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 2765
+    },
+    {
+      "path": "scripts/local-large-multiblock.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 14960
+    },
+    {
+      "path": "scripts/check-wallet-browser-policy.mjs",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 6407
+    },
+    {
+      "path": "scripts/local-paced-groth16.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 8879
+    },
+    {
+      "path": "scripts/check-demo-wallet.mjs",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 2742
+    },
+    {
+      "path": "scripts/verify-bnb-vote-risc0-evm.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 12219
+    },
+    {
+      "path": "scripts/check-compression-recovery.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 5300
+    },
+    {
+      "path": "scripts/measure-native-source-rate.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 6953
+    },
+    {
+      "path": "scripts/check-wallet-client.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 2512
+    },
+    {
+      "path": "scripts/check-legacy-cache.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 5620
+    },
+    {
+      "path": "scripts/build-unsigned-headers.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 5346
+    },
+    {
+      "path": "scripts/update-prototype-docx.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 17082
+    },
+    {
+      "path": "scripts/benchmark-bnb-rate.sh",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 158
+    },
+    {
+      "path": "scripts/local-multiblock.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 4346
+    },
+    {
+      "path": "scripts/sample-owned-prover-memory.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 6975
+    },
+    {
+      "path": "scripts/evaluate-header-mode.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 3506
+    },
+    {
+      "path": "scripts/check-wallet-reconnect.mjs",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 1214
+    },
+    {
+      "path": "scripts/local-risc0-roundtrip.sh",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 10997
+    },
+    {
+      "path": "scripts/verify-bnb-raw-header-vote.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 30936
+    },
+    {
+      "path": "scripts/local-header-proof.sh",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 5279
+    },
+    {
+      "path": "scripts/benchmark-header-storage.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 3927
+    },
+    {
+      "path": "scripts/check-trusted-rpc-demo.mjs",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 3340
+    },
+    {
+      "path": "scripts/check-proof-service-fresh-restart.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 4489
+    },
+    {
+      "path": "scripts/verify-bnb-fork-predicates.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 7941
+    },
+    {
+      "path": "scripts/check-event-history.mjs",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 1040
+    },
+    {
+      "path": "scripts/local-receipt-fallback.sh",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 173
+    },
+    {
+      "path": "scripts/local-roundtrip.sh",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 19424
+    },
+    {
+      "path": "scripts/capture-native-headers.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 6525
+    },
+    {
+      "path": "scripts/check-claim-preview.mjs",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 1024
+    },
+    {
+      "path": "scripts/local-session-check.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 8797
+    },
+    {
+      "path": "scripts/local-zk-partial-burn-check.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 9065
+    },
+    {
+      "path": "scripts/check-proof-worker-concurrency.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 1867
+    },
+    {
+      "path": "scripts/run-local-proof.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 13063
+    },
+    {
+      "path": "scripts/check-proof-service-browser.mjs",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 7689
+    },
+    {
+      "path": "scripts/run-local.sh",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 1045
+    },
+    {
+      "path": "scripts/verify-local-proof-evm.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 9106
+    },
+    {
+      "path": "scripts/check-header-steps-browser.mjs",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 6353
+    },
+    {
+      "path": "scripts/check-native-header.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 6260
+    },
+    {
+      "path": "scripts/resume-native-compression.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 7543
+    },
+    {
+      "path": "scripts/register-prototype-dev-header.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 2930
+    },
+    {
+      "path": "scripts/probe-native-bls-precompiles.py",
+      "reason": "retired header/BLS/Groth16/native experiments or outdated UI test",
+      "files": 1,
+      "bytes": 8403
+    },
+    {
+      "path": "configs/local-composite.env",
+      "reason": "retired alternative launch mode",
+      "files": 1,
+      "bytes": 167
+    },
+    {
+      "path": "configs/local-paced.env",
+      "reason": "retired alternative launch mode",
+      "files": 1,
+      "bytes": 177
+    },
+    {
+      "path": "configs/local-zk-bound.env",
+      "reason": "retired alternative launch mode",
+      "files": 1,
+      "bytes": 53
+    },
+    {
+      "path": "configs/local-zk.env",
+      "reason": "retired alternative launch mode",
+      "files": 1,
+      "bytes": 145
+    },
+    {
+      "path": "configs/local-fast.env",
+      "reason": "retired alternative launch mode",
+      "files": 1,
+      "bytes": 130
+    },
+    {
+      "path": "deploy",
+      "reason": "unsupported historical cloud deployment template",
+      "files": 1,
+      "bytes": 705
+    },
+    {
+      "path": ".bin/bridge-header-data",
+      "reason": "unused experiment executable",
+      "files": 1,
+      "bytes": 10335216
+    },
+    {
+      "path": ".bin/bridge-rate-verdict",
+      "reason": "unused experiment executable",
+      "files": 1,
+      "bytes": 2446377
+    },
+    {
+      "path": ".bin/bridge-header-benchmark-baseline",
+      "reason": "unused experiment executable",
+      "files": 1,
+      "bytes": 40526784
+    },
+    {
+      "path": ".bin/bridge-header-benchmark-accelerated",
+      "reason": "unused experiment executable",
+      "files": 1,
+      "bytes": 40522688
+    },
+    {
+      "path": ".bin/bridge-monitor",
+      "reason": "unused experiment executable",
+      "files": 1,
+      "bytes": 10546320
+    },
+    {
+      "path": ".bin/bnb-vote-signature-inspect",
+      "reason": "unused experiment executable",
+      "files": 1,
+      "bytes": 7685464
+    },
+    {
+      "path": ".bin/bridge-header-inspect",
+      "reason": "unused experiment executable",
+      "files": 1,
+      "bytes": 10095496
+    },
+    {
+      "path": ".bin/bridge-cache-audit",
+      "reason": "unused experiment executable",
+      "files": 1,
+      "bytes": 7231824
+    },
+    {
+      "path": ".bin/native-receipt-inspect",
+      "reason": "unused experiment executable",
+      "files": 1,
+      "bytes": 7460744
+    },
+    {
+      "path": ".bin/bridge-header-worker",
+      "reason": "unused experiment executable",
+      "files": 1,
+      "bytes": 10665536
+    },
+    {
+      "path": ".bin/bridge-header-bound-host-proof-run",
+      "reason": "unused experiment executable",
+      "files": 1,
+      "bytes": 40545520
+    },
+    {
+      "path": "risc0/native-binding",
+      "reason": "retired header/BLS guest workspace and build artifacts",
+      "files": 7,
+      "bytes": 25146
+    },
+    {
+      "path": "risc0/methods-bound",
+      "reason": "retired header/BLS guest workspace and build artifacts",
+      "files": 6,
+      "bytes": 40657
+    },
+    {
+      "path": "risc0/target",
+      "reason": "retired header/BLS guest workspace and build artifacts",
+      "files": 13259,
+      "bytes": 6073851822
+    },
+    {
+      "path": "risc0/bnb-vote",
+      "reason": "retired header/BLS guest workspace and build artifacts",
+      "files": 13080,
+      "bytes": 5072871794
+    },
+    {
+      "path": "risc0/host-bound",
+      "reason": "retired header/BLS guest workspace and build artifacts",
+      "files": 2,
+      "bytes": 554
+    },
+    {
+      "path": "risc0/native",
+      "reason": "retired header/BLS guest workspace and build artifacts",
+      "files": 12,
+      "bytes": 145118
+    },
+    {
+      "path": "risc0/fixtures",
+      "reason": "retired header/BLS guest workspace and build artifacts",
+      "files": 2,
+      "bytes": 4300
+    },
+    {
+      "path": "risc0/Cargo.lock",
+      "reason": "retired header/BLS guest workspace and build artifacts",
+      "files": 1,
+      "bytes": 90584
+    },
+    {
+      "path": "risc0/bnb-vote-hinted",
+      "reason": "retired header/BLS guest workspace and build artifacts",
+      "files": 5081,
+      "bytes": 1979748892
+    },
+    {
+      "path": "risc0/host-accelerated",
+      "reason": "retired header/BLS guest workspace and build artifacts",
+      "files": 2,
+      "bytes": 3010
+    },
+    {
+      "path": "risc0/methods",
+      "reason": "retired header/BLS guest workspace and build artifacts",
+      "files": 6,
+      "bytes": 39946
+    },
+    {
+      "path": "risc0/header-binding",
+      "reason": "retired header/BLS guest workspace and build artifacts",
+      "files": 3,
+      "bytes": 10758
+    },
+    {
+      "path": "risc0/Cargo.toml",
+      "reason": "retired header/BLS guest workspace and build artifacts",
+      "files": 1,
+      "bytes": 218
+    },
+    {
+      "path": "risc0/methods-accelerated",
+      "reason": "retired header/BLS guest workspace and build artifacts",
+      "files": 6,
+      "bytes": 40352
+    },
+    {
+      "path": "risc0/host",
+      "reason": "retired header/BLS guest workspace and build artifacts",
+      "files": 5,
+      "bytes": 62870
+    },
+    {
+      "path": "risc0/receipt-computation/target",
+      "reason": "regenerable Cargo cache; compiled runtime host preserved in .bin",
+      "files": 5049,
+      "bytes": 1407082043
+    },
+    {
+      "path": "proof-generator/cmd/bnb-attestation-inspect",
+      "reason": "unused benchmark/header/consensus diagnostic CLI",
+      "files": 1,
+      "bytes": 981
+    },
+    {
+      "path": "proof-generator/cmd/bridge-header-data",
+      "reason": "unused benchmark/header/consensus diagnostic CLI",
+      "files": 2,
+      "bytes": 11580
+    },
+    {
+      "path": "proof-generator/cmd/bridge-rate-verdict",
+      "reason": "unused benchmark/header/consensus diagnostic CLI",
+      "files": 1,
+      "bytes": 642
+    },
+    {
+      "path": "proof-generator/cmd/native-header-fixtures",
+      "reason": "unused benchmark/header/consensus diagnostic CLI",
+      "files": 1,
+      "bytes": 4488
+    },
+    {
+      "path": "proof-generator/cmd/bnb-raw-vote-vectors",
+      "reason": "unused benchmark/header/consensus diagnostic CLI",
+      "files": 1,
+      "bytes": 2028
+    },
+    {
+      "path": "proof-generator/cmd/bnb-epoch-vote-vectors",
+      "reason": "unused benchmark/header/consensus diagnostic CLI",
+      "files": 1,
+      "bytes": 8268
+    },
+    {
+      "path": "proof-generator/cmd/bridge-monitor",
+      "reason": "unused benchmark/header/consensus diagnostic CLI",
+      "files": 1,
+      "bytes": 5583
+    },
+    {
+      "path": "proof-generator/cmd/bnb-snapshot-vectors",
+      "reason": "unused benchmark/header/consensus diagnostic CLI",
+      "files": 1,
+      "bytes": 6510
+    },
+    {
+      "path": "proof-generator/cmd/bnb-seal-vectors",
+      "reason": "unused benchmark/header/consensus diagnostic CLI",
+      "files": 1,
+      "bytes": 7194
+    },
+    {
+      "path": "proof-generator/cmd/bnb-vote-signature-inspect",
+      "reason": "unused benchmark/header/consensus diagnostic CLI",
+      "files": 1,
+      "bytes": 2611
+    },
+    {
+      "path": "proof-generator/cmd/bnb-fork-vectors",
+      "reason": "unused benchmark/header/consensus diagnostic CLI",
+      "files": 1,
+      "bytes": 5675
+    },
+    {
+      "path": "proof-generator/cmd/bridge-header-inspect",
+      "reason": "unused benchmark/header/consensus diagnostic CLI",
+      "files": 1,
+      "bytes": 1551
+    },
+    {
+      "path": "proof-generator/cmd/bridge-cache-audit",
+      "reason": "unused benchmark/header/consensus diagnostic CLI",
+      "files": 1,
+      "bytes": 3232
+    },
+    {
+      "path": "proof-generator/cmd/bnb-seal-inspect",
+      "reason": "unused benchmark/header/consensus diagnostic CLI",
+      "files": 1,
+      "bytes": 1048
+    },
+    {
+      "path": "proof-generator/cmd/native-receipt-inspect",
+      "reason": "unused benchmark/header/consensus diagnostic CLI",
+      "files": 1,
+      "bytes": 4643
+    },
+    {
+      "path": "proof-generator/cmd/bridge-header-worker",
+      "reason": "unused benchmark/header/consensus diagnostic CLI",
+      "files": 1,
+      "bytes": 12377
+    },
+    {
+      "path": "proof-generator/internal/bnbvote",
+      "reason": "unused header proving/consensus/benchmark package",
+      "files": 4,
+      "bytes": 22924
+    },
+    {
+      "path": "proof-generator/internal/batch",
+      "reason": "unused header proving/consensus/benchmark package",
+      "files": 2,
+      "bytes": 2168
+    },
+    {
+      "path": "proof-generator/internal/bnbseal",
+      "reason": "unused header proving/consensus/benchmark package",
+      "files": 1,
+      "bytes": 3412
+    },
+    {
+      "path": "proof-generator/internal/risc0",
+      "reason": "unused header proving/consensus/benchmark package",
+      "files": 3,
+      "bytes": 13752
+    },
+    {
+      "path": "proof-generator/internal/protocoloracle",
+      "reason": "unused header proving/consensus/benchmark package",
+      "files": 7,
+      "bytes": 10486
+    },
+    {
+      "path": "proof-generator/internal/benchmark",
+      "reason": "unused header proving/consensus/benchmark package",
+      "files": 4,
+      "bytes": 5903
+    },
+    {
+      "path": "proof-generator/internal/header/batch_encoding_test.go",
+      "reason": "unused header batching/cache implementation",
+      "files": 1,
+      "bytes": 2193
+    },
+    {
+      "path": "proof-generator/internal/header/cache_audit_test.go",
+      "reason": "unused header batching/cache implementation",
+      "files": 1,
+      "bytes": 4541
+    },
+    {
+      "path": "proof-generator/internal/header/batch_encoding.go",
+      "reason": "unused header batching/cache implementation",
+      "files": 1,
+      "bytes": 3375
+    },
+    {
+      "path": "proof-generator/internal/header/cache_audit.go",
+      "reason": "unused header batching/cache implementation",
+      "files": 1,
+      "bytes": 3961
+    },
+    {
+      "path": "proof-generator/internal/header/coverage.go",
+      "reason": "unused header batching/cache implementation",
+      "files": 1,
+      "bytes": 2580
+    },
+    {
+      "path": "proof-generator/internal/header/coverage_test.go",
+      "reason": "unused header batching/cache implementation",
+      "files": 1,
+      "bytes": 1577
+    },
+    {
+      "path": "proof-generator/internal/header/cache.go",
+      "reason": "unused header batching/cache implementation",
+      "files": 1,
+      "bytes": 7657
+    },
+    {
+      "path": "proof-generator/internal/header/cache_test.go",
+      "reason": "unused header batching/cache implementation",
+      "files": 1,
+      "bytes": 5387
+    },
+    {
+      "path": "proof-generator/internal/chain/header_encoding_test.go",
+      "reason": "unused native header/BLS diagnostic code and fixtures",
+      "files": 1,
+      "bytes": 1270
+    },
+    {
+      "path": "proof-generator/internal/chain/inspect.go",
+      "reason": "unused native header/BLS diagnostic code and fixtures",
+      "files": 1,
+      "bytes": 2248
+    },
+    {
+      "path": "proof-generator/internal/chain/testdata",
+      "reason": "unused native header/BLS diagnostic code and fixtures",
+      "files": 10,
+      "bytes": 290667
+    },
+    {
+      "path": "proof-generator/internal/chain/bnb_attestation.go",
+      "reason": "unused native header/BLS diagnostic code and fixtures",
+      "files": 1,
+      "bytes": 4805
+    },
+    {
+      "path": "proof-generator/internal/chain/native_header_encoding_test.go",
+      "reason": "unused native header/BLS diagnostic code and fixtures",
+      "files": 1,
+      "bytes": 7736
+    },
+    {
+      "path": "proof-generator/internal/chain/header_encoding.go",
+      "reason": "unused native header/BLS diagnostic code and fixtures",
+      "files": 1,
+      "bytes": 2027
+    },
+    {
+      "path": "proof-generator/internal/chain/bnb_attestation_test.go",
+      "reason": "unused native header/BLS diagnostic code and fixtures",
+      "files": 1,
+      "bytes": 2885
+    },
+    {
+      "path": "proof-generator/internal/chain/native_header_encoding.go",
+      "reason": "unused native header/BLS diagnostic code and fixtures",
+      "files": 1,
+      "bytes": 8272
+    },
+    {
+      "path": "proof-generator/bridge-proof",
+      "reason": "duplicate generated executable",
+      "files": 1,
+      "bytes": 10631392
+    },
+    {
+      "path": "contracts/src/bridge/Risc0HeaderUpdater.sol",
+      "reason": "retired on-chain header proof contract",
+      "files": 1,
+      "bytes": 6148
+    },
+    {
+      "path": "contracts/src/bridge/LocalRiscZeroGroth16Verifier.sol",
+      "reason": "retired on-chain header proof contract",
+      "files": 1,
+      "bytes": 561
+    },
+    {
+      "path": "contracts/src/risc0",
+      "reason": "unused Groth16 verifier vendor code",
+      "files": 8,
+      "bytes": 69936
+    },
+    {
+      "path": "contracts/test/BNBVoteBLSDiagnostic.t.sol",
+      "reason": "retired native chain/header/Groth16 diagnostics",
+      "files": 1,
+      "bytes": 1110
+    },
+    {
+      "path": "contracts/test/NativeRealProof.t.sol",
+      "reason": "retired native chain/header/Groth16 diagnostics",
+      "files": 1,
+      "bytes": 4923
+    },
+    {
+      "path": "contracts/test/BNBRiscZeroVoteDiagnostic.t.sol",
+      "reason": "retired native chain/header/Groth16 diagnostics",
+      "files": 1,
+      "bytes": 5174
+    },
+    {
+      "path": "contracts/test/BNBVoteWireDiagnostic.sol",
+      "reason": "retired native chain/header/Groth16 diagnostics",
+      "files": 1,
+      "bytes": 2210
+    },
+    {
+      "path": "contracts/test/RiscZeroRealVerifier.t.sol",
+      "reason": "retired native chain/header/Groth16 diagnostics",
+      "files": 1,
+      "bytes": 4805
+    },
+    {
+      "path": "contracts/test/Risc0HeaderUpdater.t.sol",
+      "reason": "retired native chain/header/Groth16 diagnostics",
+      "files": 1,
+      "bytes": 7754
+    },
+    {
+      "path": "contracts/test/BNBRawHeaderVoteDiagnostic.sol",
+      "reason": "retired native chain/header/Groth16 diagnostics",
+      "files": 1,
+      "bytes": 3544
+    },
+    {
+      "path": "contracts/test/BNBForkPredicateDiagnostic.sol",
+      "reason": "retired native chain/header/Groth16 diagnostics",
+      "files": 1,
+      "bytes": 2108
+    },
+    {
+      "path": "contracts/test/NativeProofDiagnostic.sol",
+      "reason": "retired native chain/header/Groth16 diagnostics",
+      "files": 1,
+      "bytes": 2412
+    },
+    {
+      "path": "contracts/test/BNBRiscZeroVoteDiagnostic.sol",
+      "reason": "retired native chain/header/Groth16 diagnostics",
+      "files": 1,
+      "bytes": 2678
+    },
+    {
+      "path": "contracts/test/BNBEpochHeaderVoteDiagnostic.sol",
+      "reason": "retired native chain/header/Groth16 diagnostics",
+      "files": 1,
+      "bytes": 4412
+    },
+    {
+      "path": "contracts/test/BNBSnapshotScheduleDiagnostic.sol",
+      "reason": "retired native chain/header/Groth16 diagnostics",
+      "files": 1,
+      "bytes": 2668
+    },
+    {
+      "path": "contracts/test/BNBAttestingHeaderVoteDiagnostic.sol",
+      "reason": "retired native chain/header/Groth16 diagnostics",
+      "files": 1,
+      "bytes": 4299
+    },
+    {
+      "path": "contracts/test/NativeProofDiagnostic.t.sol",
+      "reason": "retired native chain/header/Groth16 diagnostics",
+      "files": 1,
+      "bytes": 5807
+    },
+    {
+      "path": "contracts/test/BNBParliaSealDiagnostic.sol",
+      "reason": "retired native chain/header/Groth16 diagnostics",
+      "files": 1,
+      "bytes": 6005
+    },
+    {
+      "path": "contracts/test/BNBVoteBLSDiagnostic.sol",
+      "reason": "retired native chain/header/Groth16 diagnostics",
+      "files": 1,
+      "bytes": 5290
+    },
+    {
+      "path": "contracts/test/fixtures/native-real-bnb-groth16.json",
+      "reason": "unused diagnostic fixture",
+      "files": 1,
+      "bytes": 1668
+    },
+    {
+      "path": "contracts/test/fixtures/native-header-bnb.json",
+      "reason": "unused diagnostic fixture",
+      "files": 1,
+      "bytes": 922
+    },
+    {
+      "path": "contracts/test/fixtures/real-header-groth16.json",
+      "reason": "unused diagnostic fixture",
+      "files": 1,
+      "bytes": 1914
+    },
+    {
+      "path": "contracts/test/fixtures/native-real-worldland-groth16.json",
+      "reason": "unused diagnostic fixture",
+      "files": 1,
+      "bytes": 1676
+    },
+    {
+      "path": "contracts/out",
+      "reason": "regenerable Solidity build/deployment artifacts",
+      "files": 118,
+      "bytes": 2555276
+    },
+    {
+      "path": "contracts/cache",
+      "reason": "regenerable Solidity build/deployment artifacts",
+      "files": 2,
+      "bytes": 27691
+    },
+    {
+      "path": "wallet/testdata/manifest.json",
+      "reason": "obsolete header-proof wallet manifest",
+      "files": 1,
+      "bytes": 593
+    },
+    {
+      "path": "results/bnb-vote-hinted-opt2-execution",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 94,
+      "bytes": 43125601
+    },
+    {
+      "path": "results/native-proof-boundary",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 15,
+      "bytes": 1349272
+    },
+    {
+      "path": "results/bnb-vote-risc0-groth16-profile",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 26,
+      "bytes": 42682106
+    },
+    {
+      "path": "results/owned-memory-startup-reproducer",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 10,
+      "bytes": 3235
+    },
+    {
+      "path": "results/bnb-vote-hinted-segment-wave04",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 44973039
+    },
+    {
+      "path": "results/local-risc0-current",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 18,
+      "bytes": 99978
+    },
+    {
+      "path": "results/wallet-client-strict-replay",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 35,
+      "bytes": 41176457
+    },
+    {
+      "path": "results/bnb-vote-hinted-opt2-cycle-comparison.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 1254
+    },
+    {
+      "path": "results/accelerated-128-segment19-evm",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 3,
+      "bytes": 176254
+    },
+    {
+      "path": "results/bnb-raw-header-vote-cancun",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 6,
+      "bytes": 17843757
+    },
+    {
+      "path": "results/local-risc0-bound-pinned",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 20,
+      "bytes": 40653337
+    },
+    {
+      "path": "results/bnc-wl-trusted-rpc-linux-x86_64.tar.gz",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 33669337
+    },
+    {
+      "path": "results/accepted-head-monitor",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 4,
+      "bytes": 11420
+    },
+    {
+      "path": "results/heartbeat-client-patch.py",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 4957
+    },
+    {
+      "path": "results/prototype-tee-v2",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 9,
+      "bytes": 2201504
+    },
+    {
+      "path": "results/native-source-rate-32",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 333,
+      "bytes": 823103
+    },
+    {
+      "path": "results/accelerated-three-groth16",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 14,
+      "bytes": 41538535
+    },
+    {
+      "path": "results/bnb-vote-risc0-accelerated-execution",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 53,
+      "bytes": 24239833
+    },
+    {
+      "path": "results/bnb-vote-hinted-lto-execution",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 94,
+      "bytes": 43170663
+    },
+    {
+      "path": "results/compression-cache-tiny",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 8,
+      "bytes": 4631364
+    },
+    {
+      "path": "results/accelerated-sixteen-profile-evm",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 3,
+      "bytes": 36047
+    },
+    {
+      "path": "results/local-claim-recovery-rpc-faults",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 74,
+      "bytes": 136402226
+    },
+    {
+      "path": "results/local-proof-evm-script-legacy-fixed",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 614
+    },
+    {
+      "path": "results/segment-cache-multikeccak-128-keccak14-wave02",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 6,
+      "bytes": 44080132
+    },
+    {
+      "path": "results/segment-cache-tiny-pinned-resumed",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 43490776
+    },
+    {
+      "path": "results/patch-browser.py",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 573
+    },
+    {
+      "path": "results/tee-version-summary.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 1450
+    },
+    {
+      "path": "results/accelerated-sixtyfour-profile-evm",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 3,
+      "bytes": 95850
+    },
+    {
+      "path": "results/bnb-parlia-ecdsa-sealed-vote-prague-fixed",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 14,
+      "bytes": 40068620
+    },
+    {
+      "path": "results/server-main-restart-summary.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 203
+    },
+    {
+      "path": "results/local-proof-evm-script-a6-checked",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 3,
+      "bytes": 17290
+    },
+    {
+      "path": "results/session-fast-mpt-regression",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 27,
+      "bytes": 7943153
+    },
+    {
+      "path": "results/segment-cache-tiny-pinned",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 10,
+      "bytes": 1932081
+    },
+    {
+      "path": "results/gates",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 724,
+      "bytes": 944867913
+    },
+    {
+      "path": "results/bound-header-guards",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 22,
+      "bytes": 21200
+    },
+    {
+      "path": "results/bnb-vote-hinted-size-execution",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 94,
+      "bytes": 43035501
+    },
+    {
+      "path": "results/compression-recovery-runtime-guards",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 25,
+      "bytes": 109285326
+    },
+    {
+      "path": "results/segment-cache-tiny",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 8,
+      "bytes": 782831
+    },
+    {
+      "path": "results/bnb-vote-risc0-evm-incomplete-rejected",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 2,
+      "bytes": 42449842
+    },
+    {
+      "path": "results/bnb-vote-original-checker-regression",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 39,
+      "bytes": 42635654
+    },
+    {
+      "path": "results/segment-cache-tiny-prepare",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 43409815
+    },
+    {
+      "path": "results/compression-cache-tiny-guards",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 211,
+      "bytes": 83608708
+    },
+    {
+      "path": "results/session-zk-partial-burn-wallet-faults",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 41,
+      "bytes": 42620778
+    },
+    {
+      "path": "results/cache-repair-current",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 8,
+      "bytes": 17291
+    },
+    {
+      "path": "results/bnb-snapshot-schedule",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 4,
+      "bytes": 7189400
+    },
+    {
+      "path": "results/accelerated-sixtyfour-segment19-profile",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 19,
+      "bytes": 45785107
+    },
+    {
+      "path": "results/large-session-lock-guard",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 2,
+      "bytes": 129
+    },
+    {
+      "path": "results/bnb-vote-risc0-cycle-profile",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 8,
+      "bytes": 23965885
+    },
+    {
+      "path": "results/accelerated-phase-profile-summary.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 1891
+    },
+    {
+      "path": "results/bnb-vote-risc0-guest-execution",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 7,
+      "bytes": 24260199
+    },
+    {
+      "path": "results/session-fast-partial-burn-faults",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 29,
+      "bytes": 7940412
+    },
+    {
+      "path": "results/compression-recovery-four-evm",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 3,
+      "bytes": 20915
+    },
+    {
+      "path": "results/prototype-doc-updates.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 10068
+    },
+    {
+      "path": "results/local-risc0",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 21,
+      "bytes": 103721
+    },
+    {
+      "path": "results/wallet-browser-policy",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 772
+    },
+    {
+      "path": "results/bnc-wl-validation.tar.gz",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 33630162
+    },
+    {
+      "path": "results/heartbeat-docx-patch.py",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 2114
+    },
+    {
+      "path": "results/accelerated-64-segment19-threads8-evm",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 3,
+      "bytes": 96130
+    },
+    {
+      "path": "results/accelerated-64-segment19-threads8-profile",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 19,
+      "bytes": 45786259
+    },
+    {
+      "path": "results/native-groth16-wrap-guards",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 20,
+      "bytes": 1415949
+    },
+    {
+      "path": "results/bnb-vote-hinted-segment-prepare",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 44972759
+    },
+    {
+      "path": "results/dev-header-storage-costs",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 15,
+      "bytes": 254651
+    },
+    {
+      "path": "results/segment-cache-tiny-final-guards",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 282,
+      "bytes": 69123216
+    },
+    {
+      "path": "results/bnb-vote-hinted-recursion-wave01",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 45462966
+    },
+    {
+      "path": "results/accelerated-sixteen-profile",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 19,
+      "bytes": 44372555
+    },
+    {
+      "path": "results/native-header-encoding",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 7225
+    },
+    {
+      "path": "results/prototype-zk-session",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 7,
+      "bytes": 41054824
+    },
+    {
+      "path": "results/segment-cache-multikeccak-128-prepare",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 44067125
+    },
+    {
+      "path": "results/bnb-vote-hinted-lto-cycle-comparison.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 1256
+    },
+    {
+      "path": "results/accelerated-sixteen-phase-summary.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 1944
+    },
+    {
+      "path": "results/bnb-vote-hinted-recursion-cache",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 187,
+      "bytes": 170620701
+    },
+    {
+      "path": "results/bnb-vote-hinted-segment-wave02",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 44973025
+    },
+    {
+      "path": "results/fast-raw-runtime-block",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 8,
+      "bytes": 1175
+    },
+    {
+      "path": "results/accelerated-sixtyfour-phase-summary.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 2027
+    },
+    {
+      "path": "results/native-worldland-groth16-gc",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 15,
+      "bytes": 43163568
+    },
+    {
+      "path": "results/transaction-costs",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 2103
+    },
+    {
+      "path": "results/session-zk-large-resume-check",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 76,
+      "bytes": 136408827
+    },
+    {
+      "path": "results/docs-consolidation-audit-20260929",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 1103
+    },
+    {
+      "path": "results/compression-cache-tiny-complete",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 44018000
+    },
+    {
+      "path": "results/accelerated-groth16-export-comparison.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 1561
+    },
+    {
+      "path": "results/update-heartbeat-progress.py",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 5459
+    },
+    {
+      "path": "results/patch-worker.py",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 4160
+    },
+    {
+      "path": "results/prototype-api-session-v2",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 14,
+      "bytes": 1630429
+    },
+    {
+      "path": "results/bnb-no-risc0-sealed-vote-latency",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 16,
+      "bytes": 47364876
+    },
+    {
+      "path": "results/prototype-api-session",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 8,
+      "bytes": 595598
+    },
+    {
+      "path": "results/patch-dev-header-test.py",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 972
+    },
+    {
+      "path": "results/native-bnb-epoch-capture",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 8,
+      "bytes": 27917
+    },
+    {
+      "path": "results/segment-cache-tiny-rechecked",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 7,
+      "bytes": 217743
+    },
+    {
+      "path": "results/bnb-vote-hinted-segment-cache",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 278,
+      "bytes": 142881743
+    },
+    {
+      "path": "results/native-binding-library",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 2,
+      "bytes": 2374
+    },
+    {
+      "path": "results/heartbeat-service-patch.py",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 7206
+    },
+    {
+      "path": "results/native-worldland-composite",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 8,
+      "bytes": 42042809
+    },
+    {
+      "path": "results/accelerated-sixtyfour-segment20-capacity.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 678
+    },
+    {
+      "path": "results/docx-server-render",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 0,
+      "bytes": 0
+    },
+    {
+      "path": "results/bnb-vote-hinted-groth16-evm-guards",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 6,
+      "bytes": 45433370
+    },
+    {
+      "path": "results/update-final-paths.py",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 1047
+    },
+    {
+      "path": "results/native-header-bnb-nariox",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 12,
+      "bytes": 26334
+    },
+    {
+      "path": "results/server-browser-summary.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 71
+    },
+    {
+      "path": "results/segment-cache-tiny-fixture",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 371
+    },
+    {
+      "path": "results/compression-recovery-benchmark-guard.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 240
+    },
+    {
+      "path": "results/server-policy-summary.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 288
+    },
+    {
+      "path": "results/native-bnb-vote-signature",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 11701
+    },
+    {
+      "path": "results/bnb-vote-hinted-groth16-from-recursion",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 17,
+      "bytes": 47628147
+    },
+    {
+      "path": "results/legacy-cache-reuse",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 14,
+      "bytes": 41382309
+    },
+    {
+      "path": "results/segment-cache-multikeccak-options",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 6,
+      "bytes": 3701
+    },
+    {
+      "path": "results/docx-server-render.log",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 1189
+    },
+    {
+      "path": "results/local-claim-recovery-rpc-identifiers",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 74,
+      "bytes": 136395541
+    },
+    {
+      "path": "results/bnb-vote-hinted-recursion-wave03",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 45463547
+    },
+    {
+      "path": "results/accelerated-sixtyfour-segment20-profile",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 8,
+      "bytes": 40920307
+    },
+    {
+      "path": "results/accelerated-sixtyfour-profile",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 19,
+      "bytes": 48282884
+    },
+    {
+      "path": "results/prototype-fresh-cancel-fault",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 20,
+      "bytes": 89264844
+    },
+    {
+      "path": "results/demo-ui-summary.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 285
+    },
+    {
+      "path": "results/segment-cache-tiny-first-unit",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 43409845
+    },
+    {
+      "path": "results/session-zk-current-partial-burn",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 94,
+      "bytes": 178364286
+    },
+    {
+      "path": "results/accelerated-64-segment19-sdk12-vs8.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 3370
+    },
+    {
+      "path": "results/accelerated-header-guards",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 23,
+      "bytes": 40550269
+    },
+    {
+      "path": "results/native-header-worldland-rechecked",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 19,
+      "bytes": 16589
+    },
+    {
+      "path": "results/server-relocated-doctor.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 481
+    },
+    {
+      "path": "results/segment-tuning",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 68,
+      "bytes": 324334056
+    },
+    {
+      "path": "results/receipt-computation-lock-execute",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 3,
+      "bytes": 1449
+    },
+    {
+      "path": "results/session-zk-large-receipt-recovery",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 76,
+      "bytes": 136408855
+    },
+    {
+      "path": "results/prototype-zk-api-reuse",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 10,
+      "bytes": 47332259
+    },
+    {
+      "path": "results/bnb-vote-hinted-execution",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 98,
+      "bytes": 43443020
+    },
+    {
+      "path": "results/local-wallet-costs",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 2,
+      "bytes": 7717
+    },
+    {
+      "path": "results/native-rpc-capabilities",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 21,
+      "bytes": 729359
+    },
+    {
+      "path": "results/bnb-vote-hinted-segment-first",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 6,
+      "bytes": 44973017
+    },
+    {
+      "path": "results/bnb-raw-header-vote-prague",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 8,
+      "bytes": 17922317
+    },
+    {
+      "path": "results/server-restart-summary.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 175
+    },
+    {
+      "path": "results/segment-cache-multikeccak-host-build",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 3,
+      "bytes": 940
+    },
+    {
+      "path": "results/server-final-release-doctor.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 477
+    },
+    {
+      "path": "results/compression-cache-tiny-interrupted",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 6,
+      "bytes": 44016305
+    },
+    {
+      "path": "results/native-bnb-bls-evm",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 7,
+      "bytes": 126108
+    },
+    {
+      "path": "results/accelerated-profile-guards",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 1272
+    },
+    {
+      "path": "results/local-proof-evm-script-legacy-input-fixed",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 4,
+      "bytes": 40531571
+    },
+    {
+      "path": "results/actual-sixteen-shared-user-summary.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 2817
+    },
+    {
+      "path": "results/segment-cache-multikeccak-host-guards",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 4,
+      "bytes": 1008
+    },
+    {
+      "path": "results/native-bnb-signed-witness-capture",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 9,
+      "bytes": 36956
+    },
+    {
+      "path": "results/compression-cache-tiny-prepare",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 6,
+      "bytes": 45733131
+    },
+    {
+      "path": "results/native-bls-precompile-capability",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 73,
+      "bytes": 54214
+    },
+    {
+      "path": "results/native-bnb-bls-witness-tests",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 2,
+      "bytes": 179
+    },
+    {
+      "path": "results/check-header-step-restart.py",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 1852
+    },
+    {
+      "path": "results/header-worldland.csv",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 485
+    },
+    {
+      "path": "results/patch-prototype.py",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 1519
+    },
+    {
+      "path": "results/replayed-strict-current-contracts",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 20,
+      "bytes": 40681061
+    },
+    {
+      "path": "results/bnb-vote-hinted-cycle-comparison.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 1254
+    },
+    {
+      "path": "results/bnb-vote-hinted-segment-wave06",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 44973037
+    },
+    {
+      "path": "results/bnb-vote-hinted-recursion-prepare",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 6,
+      "bytes": 109491848
+    },
+    {
+      "path": "results/bnb-vote-hinted-segment-wave08",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 44973039
+    },
+    {
+      "path": "results/segment-cache-tiny-pinned-prepare",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 43492850
+    },
+    {
+      "path": "results/segment-cache-tiny-pinned-interrupted",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 43490853
+    },
+    {
+      "path": "results/bnb-vote-hinted-proof-preflight",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 3,
+      "bytes": 1234
+    },
+    {
+      "path": "results/cache-audit-rejection",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 6969
+    },
+    {
+      "path": "results/bnb-fork-predicates",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 4,
+      "bytes": 7180589
+    },
+    {
+      "path": "results/bnb-vote-hinted-groth16-evm",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 6,
+      "bytes": 45480915
+    },
+    {
+      "path": "results/trusted-rpc-service.log",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 201808
+    },
+    {
+      "path": "results/segment-cache-multikeccak-128-keccak14",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 38,
+      "bytes": 17169407
+    },
+    {
+      "path": "results/prover-cli-recovery",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 27,
+      "bytes": 60894894
+    },
+    {
+      "path": "results/segment-cache-tiny-pinned-first",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 43492869
+    },
+    {
+      "path": "results/header-encoding",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 1647
+    },
+    {
+      "path": "results/keccak-optimization",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 20,
+      "bytes": 77717
+    },
+    {
+      "path": "results/bnb-vote-hinted-lto-build",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 0,
+      "bytes": 0
+    },
+    {
+      "path": "results/server-doctor-zk.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 413
+    },
+    {
+      "path": "results/compression-recovery-four-profile",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 20,
+      "bytes": 43065191
+    },
+    {
+      "path": "results/local-proof-evm-script-legacy-check",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 529
+    },
+    {
+      "path": "results/native-worldland-groth16-recovered",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 10,
+      "bytes": 43153063
+    },
+    {
+      "path": "results/bnb-epoch-vote-schema-prague-fixed",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 12,
+      "bytes": 32850557
+    },
+    {
+      "path": "results/heartbeat-stop-patch.py",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 1138
+    },
+    {
+      "path": "results/session-zk-large-multiblock-rechecked",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 7,
+      "bytes": 17375992
+    },
+    {
+      "path": "results/native-bnb-attestation",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 4,
+      "bytes": 2650
+    },
+    {
+      "path": "results/wallet-client-fast-verified",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 24,
+      "bytes": 1251665
+    },
+    {
+      "path": "results/tee-demo-browser-summary.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 497
+    },
+    {
+      "path": "results/native-bnb-bls-evm-unsupported",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 52218
+    },
+    {
+      "path": "results/header-bnb.csv",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 467
+    },
+    {
+      "path": "results/legacy-zk-service.log",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 94
+    },
+    {
+      "path": "results/server-portability-summary.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 802
+    },
+    {
+      "path": "results/accelerated-sixtyfour-segment19-evm",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 3,
+      "bytes": 95999
+    },
+    {
+      "path": "results/bnb-vote-hinted-recursion-wave02",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 45463946
+    },
+    {
+      "path": "results/native-header-bnb-rechecked",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 19,
+      "bytes": 39180
+    },
+    {
+      "path": "results/prototype-header-steps",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 128,
+      "bytes": 257502054
+    },
+    {
+      "path": "results/accelerated-128-segment19-profile",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 19,
+      "bytes": 47934439
+    },
+    {
+      "path": "results/accelerated-four-groth16",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 14,
+      "bytes": 41539718
+    },
+    {
+      "path": "results/compression-cache-tiny-first",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 44017908
+    },
+    {
+      "path": "results/bnb-vote-hinted-segment-wave05",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 44973039
+    },
+    {
+      "path": "results/accelerated-three-evm",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 3,
+      "bytes": 19785
+    },
+    {
+      "path": "results/bnb-vote-hinted-size-cycle-comparison.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 1256
+    },
+    {
+      "path": "results/session-fast-partial-burn-300s",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 29,
+      "bytes": 7946980
+    },
+    {
+      "path": "results/bnb-vote-hinted-segment-wave09",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 44972924
+    },
+    {
+      "path": "results/native-bnb-signed-header-witness",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 12135
+    },
+    {
+      "path": "results/bnb-attesting-header-vote-cancun",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 8,
+      "bytes": 24681940
+    },
+    {
+      "path": "results/owned-memory-race-reproducer.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 561
+    },
+    {
+      "path": "results/bnb-vote-hinted-segment-host-rechecked-execution",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 79,
+      "bytes": 45481716
+    },
+    {
+      "path": "results/prover-hardware-probe",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 289
+    },
+    {
+      "path": "results/server-portability-initial-failure.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 531
+    },
+    {
+      "path": "results/paced-groth16",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 13,
+      "bytes": 2021384
+    },
+    {
+      "path": "results/native-proof-cancel-fixed",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 8,
+      "bytes": 1872
+    },
+    {
+      "path": "results/segment-cache-tiny-rechecked-first",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 43465684
+    },
+    {
+      "path": "results/local-proof-evm-script-legacy-input",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 0,
+      "bytes": 0
+    },
+    {
+      "path": "results/bnb-epoch-header-vote-prague",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 7,
+      "bytes": 24666545
+    },
+    {
+      "path": "results/bnb-attesting-header-vote-prague",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 10,
+      "bytes": 24849458
+    },
+    {
+      "path": "results/accelerated-four-evm",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 3,
+      "bytes": 21034
+    },
+    {
+      "path": "results/generator-rpc-faults",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 91,
+      "bytes": 63090
+    },
+    {
+      "path": "results/segment-cache-tiny-final-complete",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 43534955
+    },
+    {
+      "path": "results/bnb-vote-risc0-guest-execution-compact",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 37,
+      "bytes": 24460110
+    },
+    {
+      "path": "results/segment-cache-tiny-rechecked-prepare",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 43467606
+    },
+    {
+      "path": "results/bnc-wl-linux-x86_64.tar.gz",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 29832726
+    },
+    {
+      "path": "results/accelerated-four-fixture",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 3,
+      "bytes": 5896
+    },
+    {
+      "path": "results/prototype-tee-simulation",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 10,
+      "bytes": 1873615
+    },
+    {
+      "path": "results/accelerated-batch-capacity-matrix.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 9175
+    },
+    {
+      "path": "results/accelerated-sixtyfour-segment18-vs19.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 3332
+    },
+    {
+      "path": "results/local-header-proof",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 716
+    },
+    {
+      "path": "results/prototype-trusted-rpc",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 17,
+      "bytes": 4191717
+    },
+    {
+      "path": "results/fast-epoch-schema-runtime-block",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 8,
+      "bytes": 1264
+    },
+    {
+      "path": "results/bnb-rate",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 3,
+      "bytes": 110004
+    },
+    {
+      "path": "results/accelerated-sixteen-fixture",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 2,
+      "bytes": 23368
+    },
+    {
+      "path": "results/fast-latency-20260929",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 8,
+      "bytes": 79086
+    },
+    {
+      "path": "results/wallet-client-fast",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 14,
+      "bytes": 804585
+    },
+    {
+      "path": "results/session-zk-multiblock",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 37,
+      "bytes": 42596329
+    },
+    {
+      "path": "results/segment-cache-tiny-final-prepare",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 6,
+      "bytes": 43536071
+    },
+    {
+      "path": "results/bnb-attesting-header-vote-compression-prague",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 10,
+      "bytes": 24862803
+    },
+    {
+      "path": "results/session-zk-partial-burn-settlement",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 108,
+      "bytes": 167925923
+    },
+    {
+      "path": "results/bnb-vote-hinted-segment-completion",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 1437
+    },
+    {
+      "path": "results/server-launcher-lock-summary.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 69
+    },
+    {
+      "path": "results/session-zk-large-multiblock",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 73,
+      "bytes": 136385675
+    },
+    {
+      "path": "results/mpt-differential-128",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 11,
+      "bytes": 60512
+    },
+    {
+      "path": "results/native-bnb-evm-mpt",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 6,
+      "bytes": 40990702
+    },
+    {
+      "path": "results/bnb-epoch-header-vote-prague-fixed",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 10,
+      "bytes": 25020943
+    },
+    {
+      "path": "results/native-worldland-groth16",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 11,
+      "bytes": 41805300
+    },
+    {
+      "path": "results/native-proof-cancel",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 7,
+      "bytes": 1411
+    },
+    {
+      "path": "results/native-bnb-groth16",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 14,
+      "bytes": 41939403
+    },
+    {
+      "path": "results/cache-audit-minimal.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 1787
+    },
+    {
+      "path": "results/segment-cache-multikeccak-128-keccak14-wave01",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 6,
+      "bytes": 44080645
+    },
+    {
+      "path": "results/accelerated-sixtyfour-memory-exit-race.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 1089
+    },
+    {
+      "path": "results/receipt-computation.lock",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 0
+    },
+    {
+      "path": "results/compression-recovery-summary.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 748
+    },
+    {
+      "path": "results/native-guest-guards",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 92,
+      "bytes": 40949166
+    },
+    {
+      "path": "results/prepare-header-step-test.py",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 1669
+    },
+    {
+      "path": "results/compression-recovery-option-guards",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 514
+    },
+    {
+      "path": "results/segment-cache-multikeccak-128-keccak14-guards",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 984,
+      "bytes": 405298351
+    },
+    {
+      "path": "results/prototype-docx-qa.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 460
+    },
+    {
+      "path": "results/prototype-fresh-reorg-fault",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 31,
+      "bytes": 90304501
+    },
+    {
+      "path": "results/server-config-preview",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 3,
+      "bytes": 1367
+    },
+    {
+      "path": "results/local-risc0-bound",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 14,
+      "bytes": 64162
+    },
+    {
+      "path": "results/server-restart-before.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 8758
+    },
+    {
+      "path": "results/native-header-rpc-capture",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 15,
+      "bytes": 11152
+    },
+    {
+      "path": "results/session-zk-partial-burn-wallet-faults-fixed",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 43,
+      "bytes": 42774483
+    },
+    {
+      "path": "results/batch-capacity-matrix-guards",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 3,
+      "bytes": 1410
+    },
+    {
+      "path": "results/guest-input-guards",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 9,
+      "bytes": 4258
+    },
+    {
+      "path": "results/accelerated-128-fixture",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 3,
+      "bytes": 52564
+    },
+    {
+      "path": "results/demo-chain-status-summary.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 554
+    },
+    {
+      "path": "results/header-mode-decision.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 1621
+    },
+    {
+      "path": "results/prototype-api-session-v3",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 14,
+      "bytes": 1080482
+    },
+    {
+      "path": "results/native-worldland-evm",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 40960587
+    },
+    {
+      "path": "results/bnb-parlia-ecdsa-sealed-vote-prague",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 11,
+      "bytes": 39086637
+    },
+    {
+      "path": "results/native-source-capacity-comparison.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 1224
+    },
+    {
+      "path": "results/sampler-terminal-proof-failure",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 4,
+      "bytes": 3898
+    },
+    {
+      "path": "results/session-fast-check",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 34,
+      "bytes": 1937473
+    },
+    {
+      "path": "results/bound-host-identity",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 10,
+      "bytes": 9135
+    },
+    {
+      "path": "results/apply-doc-updates.py",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 1625
+    },
+    {
+      "path": "results/accelerated-sixtyfour-fixture",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 2,
+      "bytes": 26694
+    },
+    {
+      "path": "results/bnc-wl-server-linux-x86_64.tar.gz",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 33657314
+    },
+    {
+      "path": "results/session-bound-setup",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 8,
+      "bytes": 41448467
+    },
+    {
+      "path": "results/keccak-experimental-provenance.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 1553
+    },
+    {
+      "path": "results/demo-wallet-summary.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 346
+    },
+    {
+      "path": "results/segment-cache-tiny-final",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 11,
+      "bytes": 3647254
+    },
+    {
+      "path": "results/segment-cache-multikeccak-128-keccak14-prepare",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 44079317
+    },
+    {
+      "path": "results/bound-header-guards-current",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 24,
+      "bytes": 81094465
+    },
+    {
+      "path": "results/demo-chain-service.log",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 22664
+    },
+    {
+      "path": "results/bnb-vote-hinted-segment-wave07",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 44973039
+    },
+    {
+      "path": "results/server-release-summary.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 175
+    },
+    {
+      "path": "results/session-fast",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 28,
+      "bytes": 1612913
+    },
+    {
+      "path": "results/local-proof-evm-script-a6-input",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 4,
+      "bytes": 40542171
+    },
+    {
+      "path": "results/trusted-rpc-demo-summary.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 1126
+    },
+    {
+      "path": "results/bnb-vote-hinted-segment-wave03",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 44973038
+    },
+    {
+      "path": "results/cache-audit-strict.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 1792
+    },
+    {
+      "path": "results/autonomous-checkpoint.json",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 20402
+    },
+    {
+      "path": "results/bnb-vote-hinted-compression-wave01",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 10,
+      "bytes": 173034271
+    },
+    {
+      "path": "results/accelerated-64-segment20-threads8-profile",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 8,
+      "bytes": 40920399
+    },
+    {
+      "path": "results/bnb-epoch-vote-schema-prague",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 5,
+      "bytes": 31718300
+    },
+    {
+      "path": "results/replayed-strict-type4-contracts",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 20,
+      "bytes": 40681094
+    },
+    {
+      "path": "results/native-receipt-proof",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 2,
+      "bytes": 17365
+    },
+    {
+      "path": "results/accelerated-four-profile",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 19,
+      "bytes": 43697827
+    },
+    {
+      "path": "results/bnb-vote-risc0-preflight-guards",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 1,
+      "bytes": 295
+    },
+    {
+      "path": "results/accelerated-four-profile-evm",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 3,
+      "bytes": 21163
+    },
+    {
+      "path": "results/native-header-bnb-alternate",
+      "reason": "retired experiment output; historical states/summaries compacted in legacy",
+      "files": 2,
+      "bytes": 876
+    },
+    {
+      "path": "legacy/rpc-mpt-risc0-internal-20261006",
+      "reason": "duplicate old source backups or retired TEE backup",
+      "files": 3,
+      "bytes": 15144348
+    },
+    {
+      "path": "legacy/tee-retired-20261029",
+      "reason": "duplicate old source backups or retired TEE backup",
+      "files": 3,
+      "bytes": 9461672
+    },
+    {
+      "path": "cache",
+      "reason": "obsolete header proving cache",
+      "files": 1,
+      "bytes": 444
+    },
+    {
+      "path": "docs/archive",
+      "reason": "superseded diagnostic documentation; compact source checkpoint preserves it",
+      "files": 2,
+      "bytes": 459575
+    },
+    {
+      "path": "docs/protocol-sources",
+      "reason": "superseded diagnostic documentation; compact source checkpoint preserves it",
+      "files": 26,
+      "bytes": 617773
+    },
+    {
+      "path": "docs/ci-action-sources.json",
+      "reason": "superseded diagnostic documentation; compact source checkpoint preserves it",
+      "files": 1,
+      "bytes": 940
+    },
+    {
+      "path": "docs/native-proof-fixtures.json",
+      "reason": "superseded diagnostic documentation; compact source checkpoint preserves it",
+      "files": 1,
+      "bytes": 806
+    },
+    {
+      "path": "docs/risc0-verifier-sources.json",
+      "reason": "superseded diagnostic documentation; compact source checkpoint preserves it",
+      "files": 1,
+      "bytes": 2845
+    },
+    {
+      "path": "docs/risc0-proof-security-assessment.md",
+      "reason": "superseded diagnostic documentation; compact source checkpoint preserves it",
+      "files": 1,
+      "bytes": 18093
+    },
+    {
+      "path": ".anvil-worldland.log",
+      "reason": "obsolete local node log",
+      "files": 1,
+      "bytes": 20975
+    },
+    {
+      "path": ".anvil-bnb.log",
+      "reason": "obsolete local node log",
+      "files": 1,
+      "bytes": 32876
+    },
+    {
+      "path": ".anvil-header-data.log",
+      "reason": "obsolete local node log",
+      "files": 1,
+      "bytes": 2381
+    }
+  ],
+  "archives": [
+    {
+      "archive": "legacy/retired-source-20261029.tar.gz",
+      "files": 417,
+      "bytes": 5332174,
+      "sha256": "fba973ccb8240fcf1736c6b235190242bf374fb244e9d839daed3d2f87a9b1cf"
+    },
+    {
+      "archive": "legacy/historical-sessions-20261029.tar.gz",
+      "files": 300,
+      "bytes": 23304533,
+      "sha256": "573fefc87020d8c8d5e7739f69d83239c7bdfc930dce7cc1cccf96c7ba1682e3"
+    }
+  ],
+  "currentSessionPreserved": "results/prototype-risc0",
+  "guestChanged": false,
+  "postVerificationGeneratedArtifactsRemoved": [
+    {
+      "path": "risc0/receipt-computation/target",
+      "reason": "regenerable verification cache or temporary packaging artifact after successful checks",
+      "files": 394,
+      "bytes": 130806604
+    },
+    {
+      "path": "contracts/out",
+      "reason": "regenerable verification cache or temporary packaging artifact after successful checks",
+      "files": 33,
+      "bytes": 1059176
+    },
+    {
+      "path": "contracts/cache",
+      "reason": "regenerable verification cache or temporary packaging artifact after successful checks",
+      "files": 1,
+      "bytes": 11902
+    },
+    {
+      "path": "results/cleanup-20261029/current-app.tar.gz",
+      "reason": "regenerable verification cache or temporary packaging artifact after successful checks",
+      "files": 1,
+      "bytes": 11709524
+    },
+    {
+      "path": "scripts/__pycache__",
+      "reason": "regenerable verification cache or temporary packaging artifact after successful checks",
+      "files": 13,
+      "bytes": 146932
+    }
+  ]
+}
