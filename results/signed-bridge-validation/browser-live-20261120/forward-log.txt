@@ -1,0 +1,9 @@
+file:///home/gangryun/BNC-WL/scripts/check-signed-bridge-browser.mjs:40
+ if(await page.locator('#status').getAttribute('data-error')!==null)throw Error(name+': '+await page.locator('#status').innerText());
+                                                                          ^
+
+Error: mint-wwl: {'code': 3, 'message': 'execution reverted: custom error 0x49c24291', 'data': '0x49c24291'}
+    at claim (file:///home/gangryun/BNC-WL/scripts/check-signed-bridge-browser.mjs:40:75)
+    at async file:///home/gangryun/BNC-WL/scripts/check-signed-bridge-browser.mjs:55:3
+
+Node.js v24.11.0

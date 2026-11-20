@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "protocol": "signed-xwl-bridge-v1",
+  "id": "a2004047362a1d6b1c53be0ac784c2cc20d183cb0c4982e4c36b04adb7a292af",
+  "source": "bnb",
+  "destination": "wl",
+  "domain": {
+    "name": "BNC Signed Bridge",
+    "version": "1",
+    "chainId": 31337,
+    "verifyingContract": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+  },
+  "types": {
+    "BridgeClaim": [
+      {
+        "name": "burnId",
+        "type": "bytes32"
+      },
+      {
+        "name": "sourceChainId",
+        "type": "uint256"
+      },
+      {
+        "name": "sourceToken",
+        "type": "address"
+      },
+      {
+        "name": "sender",
+        "type": "address"
+      },
+      {
+        "name": "recipient",
+        "type": "address"
+      },
+      {
+        "name": "amount",
+        "type": "uint256"
+      },
+      {
+        "name": "nonce",
+        "type": "uint64"
+      },
+      {
+        "name": "sourceTxHash",
+        "type": "bytes32"
+      },
+      {
+        "name": "sourceBlockHash",
+        "type": "bytes32"
+      },
+      {
+        "name": "sourceBlockNumber",
+        "type": "uint256"
+      },
+      {
+        "name": "logIndex",
+        "type": "uint256"
+      },
+      {
+        "name": "deadline",
+        "type": "uint256"
+      }
+    ]
+  },
+  "message": {
+    "burnId": "0x109cdd7b10e2b2e8543636633c3a1432d2814065dcaa90c9df4fdcb208bf499b",
+    "sourceChainId": 31338,
+    "sourceToken": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "sender": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+    "recipient": "0x90f79bf6eb2c4f870365e785982e1f101e93b906",
+    "amount": "1000000000000000000",
+    "nonce": "1",
+    "sourceTxHash": "0x02b54f3d69eac900126786711dfc805ea7f689e108565f1253e7151d1c20ac3b",
+    "sourceBlockHash": "0x35211beaf317990b029b29b94e173c752772690bd4f35a675ee2e0484396b09a",
+    "sourceBlockNumber": "5",
+    "logIndex": "1",
+    "deadline": "1795075094"
+  },
+  "signature": "0x50191cbe817f12dfcebed7afdc397fed97b50a6e9d7d4a51a63bd7d2fc34239f02d8161be271bd007f643adb79c64f7854c2e7150339361094aa6ad18db326061c",
+  "signer": "0xa0ee7a142d267c1f36714e4a8f75612f20a79720",
+  "digest": "0x73811499f71ce507be974f31fdebd1ce349b2eb7f0aaf04516e9d8a18e097c0f",
+  "claimData": "0x4383be45109cdd7b10e2b2e8543636633c3a1432d2814065dcaa90c9df4fdcb208bf499b0000000000000000000000000000000000000000000000000000000000007a6a0000000000000000000000005fbdb2315678afecb367f032d93f642f64180aa300000000000000000000000070997970c51812dc3a010c7d01b50e0d17dc79c800000000000000000000000090f79bf6eb2c4f870365e785982e1f101e93b9060000000000000000000000000000000000000000000000000de0b6b3a7640000000000000000000000000000000000000000000000000000000000000000000102b54f3d69eac900126786711dfc805ea7f689e108565f1253e7151d1c20ac3b35211beaf317990b029b29b94e173c752772690bd4f35a675ee2e0484396b09a00000000000000000000000000000000000000000000000000000000000000050000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000006afeac1600000000000000000000000000000000000000000000000000000000000001a0000000000000000000000000000000000000000000000000000000000000004150191cbe817f12dfcebed7afdc397fed97b50a6e9d7d4a51a63bd7d2fc34239f02d8161be271bd007f643adb79c64f7854c2e7150339361094aa6ad18db326061c00000000000000000000000000000000000000000000000000000000000000",
+  "confirmations": 2,
+  "sourceAuthenticated": false,
+  "verification": "trusted-operator-signature"
+}

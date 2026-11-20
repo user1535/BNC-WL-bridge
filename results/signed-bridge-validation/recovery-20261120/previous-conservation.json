@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "collateral": "0",
+  "xwlSupply": "0",
+  "wwlSupply": "0",
+  "pending": "0",
+  "bridgeBurns": 5,
+  "packages": 5,
+  "historical": {
+    "results/prototype-risc0": 24,
+    "results/wl-vault-v1": 24,
+    "results/xwl-entry-v1": 25
+  }
+}

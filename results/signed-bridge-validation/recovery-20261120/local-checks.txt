@@ -1,0 +1,15 @@
+{"passed": true, "count": 20, "checks": ["foreign-origin", "foreign-host", "missing-request-header", "client-supplied-amount", "missing-source-transaction", "external-chain", "oversized-body", "rpc-denied:eth_sendTransaction", "rpc-denied:eth_sign", "rpc-denied:eth_signTypedData_v4", "rpc-denied:anvil_mine", "rpc-denied:anvil_setBalance", "rpc-denied:personal_unlockAccount", "malformed-raw-transaction", "public-manifest-no-private-keys", "duplicate-attestation-reuses-signature", "bounded-concurrent-idempotent-attestation", "wrong-log-index", "confirmation-policy-applies-before-cache-reuse", "operator-deployment-only-signer-zero-asset-transactions"]}
+{"passed": true, "collateral": "0", "xwlSupply": "0", "wwlSupply": "0", "pending": "0", "bridgeBurns": 5, "packages": 5, "historical": {"results/prototype-risc0": 24, "results/wl-vault-v1": 24, "results/xwl-entry-v1": 25}}
+{
+  "health": {
+    "status": "ok",
+    "protocol": "signed-xwl-bridge-v1",
+    "risc0": false
+  },
+  "nextSteps": [],
+  "historical": {
+    "results/prototype-risc0": 24,
+    "results/wl-vault-v1": 24,
+    "results/xwl-entry-v1": 25
+  }
+}

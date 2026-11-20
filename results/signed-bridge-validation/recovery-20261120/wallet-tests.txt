@@ -1,0 +1,31 @@
+✔ V2 captured MPT/domain vectors permit holder C burn to recipient B (135.013382ms)
+✔ V2 rejects altered event metadata even with a recomputed input commitment (108.230404ms)
+✔ V1/V2 packages and pinned guest policies cannot be exchanged (4.793652ms)
+✔ V2 claim uses designated recipient and blocks replay/account changes before signing (289.255374ms)
+✔ V2 fresh burn preview preserves a different recipient and persists before send (3.359399ms)
+✔ ERC20 delegated transfer preview binds holder, recipient, amount and signer (1.440913ms)
+✔ actual receipt-computation lock/burn package MPT, event, ABI match (12.502945ms)
+✔ reject tampered metadata, receipt, ABI, root, domain, destination and proof suffix (60.452178ms)
+✔ geth receipt core multi-node format fixtures and wrong key (6.923926ms)
+✔ MPT inline child, extension and branch shapes, canonical compact path (0.801965ms)
+✔ captured native BNB type4 receipts verify against the full 121-receipt root (4.187389ms)
+✔ wallet actual coverage preview and fresh validated send, saves intent before send (143.38519ms)
+✔ changed account, chain, code, replay, root and RPC errors block wallet send (515.77942ms)
+✔ unregistered roots and retired header operations never authorize wallet send (66.475777ms)
+✔ source action uses owner and available tokens, rejects insufficient gas or amount (1.883854ms)
+✔ 1 WL deposit and native transfer send canonical JSON-RPC quantities (4.036771ms)
+✔ missing computation proof or native-only/retired manifest is rejected (1.260991ms)
+✔ public package signature, event and destination calldata agree (62.683581ms)
+✔ tampering recipient, amount, source, destination, signature and calldata fails (23.437822ms)
+✔ reorg, insufficient confirmations, failed source and non-burn logs fail (28.989176ms)
+✔ expired and already claimed packages fail (17.457052ms)
+✔ manifest rejects external chain and RPC endpoints (4.693343ms)
+✔ review invalidates on wallet account/chain change before signing (4.44467ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1990.723635

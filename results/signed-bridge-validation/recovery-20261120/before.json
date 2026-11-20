@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-11-20T15:17:53+09:00",
+  "files": {
+    "results/signed-xwl-v1/bnb-anvil.log": {
+      "sha256": "88b2974408337dd8b3759c465fb2bb5f52073d0f6785f2b68f8a8b9ca27aff86",
+      "size": 66021,
+      "mtime_ns": 1795155089528232471
+    },
+    "results/signed-xwl-v1/bnb-state.json": {
+      "sha256": "22451c923d7dd022d818773156d01bacf38aff7b056567eb90ad01a3a484a7bc",
+      "size": 403479,
+      "mtime_ns": 1795155089532329151
+    },
+    "results/signed-xwl-v1/client.lock": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "mtime_ns": 1795070910088213718
+    },
+    "results/signed-xwl-v1/launcher.lock": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "mtime_ns": 1795072478899584592
+    },
+    "results/signed-xwl-v1/packages/30ee9f632ab5d7a42467044786183422ca868ecc077f71552645dfd6fad641f5.json": {
+      "sha256": "f0d228ed02f34ca2ea084b35201d9e492f4b837e0f84d5390dfcddab7347b19c",
+      "size": 3403,
+      "mtime_ns": 1795071960548743406
+    },
+    "results/signed-xwl-v1/packages/318f700761c2dacbbfef820732df355765bc87d2c4a281616ff6cc1d02956d29.json": {
+      "sha256": "7aa599afb90073349303a805d4e41c50e3a076e72844372b26661e332e2ef15c",
+      "size": 3402,
+      "mtime_ns": 1795071494325330265
+    },
+    "results/signed-xwl-v1/packages/4136e2687c1f6b2e477cecb6daa60abf848eb93918b79eb44e635285b513791d.json": {
+      "sha256": "fd5804740f8a42ce8b030db1c48e78e9f659ace981585d0f4716c64c9b41d42a",
+      "size": 3402,
+      "mtime_ns": 1795071658310986690
+    },
+    "results/signed-xwl-v1/packages/a2004047362a1d6b1c53be0ac784c2cc20d183cb0c4982e4c36b04adb7a292af.json": {
+      "sha256": "799ab89d20e83b4455a5fc3d84c784c603d621342b9698a9bdbacbb8884b9776",
+      "size": 3402,
+      "mtime_ns": 1795071496287556868
+    },
+    "results/signed-xwl-v1/packages/cd06ba37309bc54027a7a25adfc5ba7d158dda6ec3057b9a9ad01d8e409b7650.json": {
+      "sha256": "c3156aea4d0e1b363a26fd0b013ab02234cc1f2720c3ca89d719a45efa854100",
+      "size": 3403,
+      "mtime_ns": 1795071961956460432
+    },
+    "results/signed-xwl-v1/session.json": {
+      "sha256": "ea38967e9a111402cd909bb11baab3d7293166d111ec441f1878b7b9ecbee6cd",
+      "size": 24539,
+      "mtime_ns": 1795072480708089595
+    },
+    "results/signed-xwl-v1/signature-service.lock": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "mtime_ns": 1795070916088249319
+    },
+    "results/signed-xwl-v1/wl-anvil.log": {
+      "sha256": "61d95b96dbada366b2405210049e7165588962500c0675f8fde67ce262776e6c",
+      "size": 111463,
+      "mtime_ns": 1795155089442202197
+    },
+    "results/signed-xwl-v1/wl-state.json": {
+      "sha256": "fc9278f0f29b5853f67b73fb9cc53b5d76ef2486faa0b53208a90b0c742ef9c0",
+      "size": 662951,
+      "mtime_ns": 1795155089532329151
+    }
+  }
+}

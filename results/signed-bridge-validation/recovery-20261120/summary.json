@@ -1,0 +1,84 @@
+{
+  "checkedAt": "2026-11-20T15:19:37+09:00",
+  "status": "recovered_verified",
+  "health": {
+    "status": "ok",
+    "protocol": "signed-xwl-bridge-v1",
+    "risc0": false
+  },
+  "ui": {
+    "httpStatus": 200,
+    "bytes": 5054
+  },
+  "chains": {
+    "wl": {
+      "pid": 70953,
+      "chainId": 31337,
+      "number": 22,
+      "hash": "0xf5d2aefb882735ca9a8705a07079997f5ac0a04c0bea541e13d56fd7217912de",
+      "savedHeightUnchanged": true
+    },
+    "bnb": {
+      "pid": 70967,
+      "chainId": 31338,
+      "number": 15,
+      "hash": "0xfa6bcc572a6746e224cf9820f0c9143c7b0f088974a34fe2b54fd0ed99a6a09d",
+      "savedHeightUnchanged": true
+    }
+  },
+  "contractsBindingsAndRuntimeVerified": true,
+  "sessionChanges": "only node PIDs",
+  "packagesHashSizeMtimePreserved": 5,
+  "sourceBlocksPreserved": [
+    {
+      "chain": "bnb",
+      "number": "8",
+      "hash": "0x39740224ddecdfad2986482d52820f71c119df0ba81a6490ae744251a51f78a5"
+    },
+    {
+      "chain": "bnb",
+      "number": "5",
+      "hash": "0x35211beaf317990b029b29b94e173c752772690bd4f35a675ee2e0484396b09a"
+    },
+    {
+      "chain": "wl",
+      "number": "18",
+      "hash": "0x0fafda8ded778aa8aed6186854ef4a1e7f81aa80346e36b8f2f281f72eceebaa"
+    },
+    {
+      "chain": "bnb",
+      "number": "13",
+      "hash": "0x0c20ac5cf3a1db4f164b17d717c67ecd8f89c6f868dd43fdb1ccfc9cea7f00ca"
+    },
+    {
+      "chain": "wl",
+      "number": "8",
+      "hash": "0xb4e1ee2723e3ac71c24872ffd9cc351ddb7b035c7041483259a043fd11bb2504"
+    }
+  ],
+  "historicalFilesPreserved": 73,
+  "validation": {
+    "contractTestsPassed": 70,
+    "walletTestsPassed": 23,
+    "apiChecksPassed": 20,
+    "conservation": {
+      "passed": true,
+      "collateral": "0",
+      "xwlSupply": "0",
+      "wwlSupply": "0",
+      "pending": "0",
+      "bridgeBurns": 5,
+      "packages": 5,
+      "historical": {
+        "results/prototype-risc0": 24,
+        "results/wl-vault-v1": 24,
+        "results/xwl-entry-v1": 25
+      }
+    }
+  },
+  "assetTransactionsSubmitted": 0,
+  "contractsDeployed": 0,
+  "newRisc0Receipts": 0,
+  "latestBlockHeightsUnchanged": true,
+  "browserAssetRoundtripRerun": false
+}

@@ -1,0 +1,159 @@
+{
+  "protocol": "signed-xwl-bridge-v1",
+  "steps": {
+    "deposit": {
+      "transactionHash": "0x638c2bbd2f3d39175f4ea85ec850edbe849866477aaafa73d95a04abc7bfc7c1",
+      "index": 1,
+      "values": {
+        "wrap-op": "deposit",
+        "wrap-amount": "10",
+        "wrap-recipient": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8"
+      }
+    },
+    "xwl-transfer": {
+      "transactionHash": "0x751be06cf83d3bf3f1c6e17b055e5f2d3f4861029d99a16ff31ef9bd61cbe098",
+      "index": 1,
+      "values": {
+        "token-chain": "wl",
+        "token-op": "transfer",
+        "token-amount": "4",
+        "token-recipient": "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc"
+      }
+    },
+    "xwl-approve": {
+      "transactionHash": "0x728599b6fe0ac9e4f33f7197a5a36ee5d67a344b8b6895ce91548a14058532e2",
+      "index": 2,
+      "values": {
+        "token-chain": "wl",
+        "token-op": "approve",
+        "token-amount": "4",
+        "token-recipient": "0x90f79bf6eb2c4f870365e785982e1f101e93b906"
+      }
+    },
+    "xwl-transferFrom": {
+      "transactionHash": "0x12a860029f1393716e8428eca09edf83552d9415e662a0ae1eb879faa08205bf",
+      "index": 3,
+      "values": {
+        "token-chain": "wl",
+        "token-op": "transferFrom",
+        "token-amount": "4",
+        "token-recipient": "0x90f79bf6eb2c4f870365e785982e1f101e93b906",
+        "token-from": "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc"
+      }
+    },
+    "local-redeem": {
+      "transactionHash": "0x9803551223dd818e6a1292c99a0ffddee190610760d9e067527eb72360d5f6f5",
+      "index": 3,
+      "values": {
+        "wrap-op": "redeem",
+        "wrap-amount": "1",
+        "wrap-recipient": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8"
+      }
+    },
+    "burn-xwl": {
+      "transactionHash": "0x48326a04797303ca3f6a1ce9aa0957be37ed6cb4713875cbeac3a239566ffce0",
+      "index": 3,
+      "values": {
+        "bridge-source": "wl",
+        "bridge-amount": "3",
+        "bridge-recipient": "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc"
+      }
+    }
+  },
+  "negative": [],
+  "phases": {
+    "forward": "failed"
+  },
+  "sessionId": "205b88fc974224c16149f132",
+  "forwardPackage": {
+    "version": 1,
+    "protocol": "signed-xwl-bridge-v1",
+    "id": "034add9e6e2091c99ace2086236c698e92264f66f8c07a0d1cd680fded4947b0",
+    "source": "wl",
+    "destination": "bnb",
+    "domain": {
+      "name": "BNC Signed Bridge",
+      "version": "1",
+      "chainId": 31338,
+      "verifyingContract": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+    },
+    "types": {
+      "BridgeClaim": [
+        {
+          "name": "burnId",
+          "type": "bytes32"
+        },
+        {
+          "name": "sourceChainId",
+          "type": "uint256"
+        },
+        {
+          "name": "sourceToken",
+          "type": "address"
+        },
+        {
+          "name": "sender",
+          "type": "address"
+        },
+        {
+          "name": "recipient",
+          "type": "address"
+        },
+        {
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "name": "nonce",
+          "type": "uint64"
+        },
+        {
+          "name": "sourceTxHash",
+          "type": "bytes32"
+        },
+        {
+          "name": "sourceBlockHash",
+          "type": "bytes32"
+        },
+        {
+          "name": "sourceBlockNumber",
+          "type": "uint256"
+        },
+        {
+          "name": "logIndex",
+          "type": "uint256"
+        },
+        {
+          "name": "deadline",
+          "type": "uint256"
+        }
+      ]
+    },
+    "message": {
+      "burnId": "0xc72875c0c8f4850ef3260dba011b38b9450507d7febd20146ab329ec8958dcb3",
+      "sourceChainId": 31337,
+      "sourceToken": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "sender": "0x90f79bf6eb2c4f870365e785982e1f101e93b906",
+      "recipient": "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc",
+      "amount": "3000000000000000000",
+      "nonce": "2",
+      "sourceTxHash": "0x48326a04797303ca3f6a1ce9aa0957be37ed6cb4713875cbeac3a239566ffce0",
+      "sourceBlockHash": "0x932f1978fdde2d4773a7a31fca1527540ae2f8ff17f9f0b4e828de42257ec1fc",
+      "sourceBlockNumber": "28",
+      "logIndex": "1",
+      "deadline": "1795078860"
+    },
+    "signature": "0xa36438c202ba1d5f7f502e724b8537a1b053192564927eae2d558757f23c1da51991d6ce4a67b8c7c205de6fcd49c08493f9b06db4e80aa7d3f75abc4cfdf2121b",
+    "signer": "0xa0ee7a142d267c1f36714e4a8f75612f20a79720",
+    "digest": "0xf32fc2bf5f072ad7a4e68796e590babf237d42fc10134af59ee6465d015574b2",
+    "claimData": "0x4383be45c72875c0c8f4850ef3260dba011b38b9450507d7febd20146ab329ec8958dcb30000000000000000000000000000000000000000000000000000000000007a690000000000000000000000005fbdb2315678afecb367f032d93f642f64180aa300000000000000000000000090f79bf6eb2c4f870365e785982e1f101e93b9060000000000000000000000003c44cdddb6a900fa2b585dd299e03d12fa4293bc00000000000000000000000000000000000000000000000029a2241af62c0000000000000000000000000000000000000000000000000000000000000000000248326a04797303ca3f6a1ce9aa0957be37ed6cb4713875cbeac3a239566ffce0932f1978fdde2d4773a7a31fca1527540ae2f8ff17f9f0b4e828de42257ec1fc000000000000000000000000000000000000000000000000000000000000001c0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000006afebacc00000000000000000000000000000000000000000000000000000000000001a00000000000000000000000000000000000000000000000000000000000000041a36438c202ba1d5f7f502e724b8537a1b053192564927eae2d558757f23c1da51991d6ce4a67b8c7c205de6fcd49c08493f9b06db4e80aa7d3f75abc4cfdf2121b00000000000000000000000000000000000000000000000000000000000000",
+    "confirmations": 2,
+    "sourceAuthenticated": false,
+    "verification": "trusted-operator-signature",
+    "state": "ready"
+  },
+  "lastFailure": {
+    "phase": "forward",
+    "message": "mint-wwl: {'code': 3, 'message': 'execution reverted: custom error 0x49c24291', 'data': '0x49c24291'}"
+  }
+}

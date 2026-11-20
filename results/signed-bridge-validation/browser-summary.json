@@ -1,0 +1,460 @@
+{
+  "protocol": "signed-xwl-bridge-v1",
+  "steps": {
+    "deposit": {
+      "transactionHash": "0x2b4213a8f236dd03bd9bf7cb83668cd6d0834a5c58e0ce7211a354658d790a27",
+      "index": 1,
+      "values": {
+        "wrap-op": "deposit",
+        "wrap-amount": "10",
+        "wrap-recipient": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8"
+      }
+    },
+    "xwl-transfer": {
+      "transactionHash": "0xc36e85098a6a18266dcdff13e27dc98d9f6ac6c799150751d5333027f70081c1",
+      "index": 1,
+      "values": {
+        "token-chain": "wl",
+        "token-op": "transfer",
+        "token-amount": "4",
+        "token-recipient": "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc"
+      }
+    },
+    "xwl-approve": {
+      "transactionHash": "0xae6414bd979c8a73d9c9a27bb067e175163f8f158d29228f962d303f3b80ca37",
+      "index": 2,
+      "values": {
+        "token-chain": "wl",
+        "token-op": "approve",
+        "token-amount": "4",
+        "token-recipient": "0x90f79bf6eb2c4f870365e785982e1f101e93b906"
+      }
+    },
+    "xwl-transferFrom": {
+      "transactionHash": "0x581e1b014f81c6f03d6dd23aa30fcefcf59063f01f803aabae84596b4013240f",
+      "index": 3,
+      "values": {
+        "token-chain": "wl",
+        "token-op": "transferFrom",
+        "token-amount": "4",
+        "token-recipient": "0x90f79bf6eb2c4f870365e785982e1f101e93b906",
+        "token-from": "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc"
+      }
+    },
+    "local-redeem": {
+      "transactionHash": "0xfc5c3c4db27fda4eb1e0998b28bf3647a4776085f0d69fd9634fc5692956fe80",
+      "index": 3,
+      "values": {
+        "wrap-op": "redeem",
+        "wrap-amount": "1",
+        "wrap-recipient": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8"
+      }
+    },
+    "burn-xwl": {
+      "transactionHash": "0xe1f201059ac71985f591808f9275408537ea836885c3b6afa4f69fb27cf519ea",
+      "index": 3,
+      "values": {
+        "bridge-source": "wl",
+        "bridge-amount": "3",
+        "bridge-recipient": "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc"
+      }
+    },
+    "mint-wwl": {
+      "transactionHash": "0x81aaf9e32eea2828624a6defc333b0e61721d252e8c533bcbcbb8d647e27ac4e",
+      "index": 1
+    },
+    "wwl-transfer": {
+      "transactionHash": "0xd5016d5cd7cebad749f89735bf591d85df5b26801a941369490ad26abab21d96",
+      "index": 2,
+      "values": {
+        "token-chain": "bnb",
+        "token-op": "transfer",
+        "token-amount": "1",
+        "token-recipient": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8"
+      }
+    },
+    "burn-wwl-pending": {
+      "transactionHash": "0x02b54f3d69eac900126786711dfc805ea7f689e108565f1253e7151d1c20ac3b",
+      "index": 1,
+      "values": {
+        "bridge-source": "bnb",
+        "bridge-amount": "1",
+        "bridge-recipient": "0x90f79bf6eb2c4f870365e785982e1f101e93b906"
+      }
+    },
+    "return-xwl": {
+      "transactionHash": "0xed99644b77126c751391fb2fd097096a2a457165d40b7a66e2b58f1b2c755fe6",
+      "index": 2
+    },
+    "redeem-returned-xwl": {
+      "transactionHash": "0x49ac7f0419a9dfc4e8a0951d437eb0ffbb2afc86535a27517b22a1a971e20702",
+      "index": 3,
+      "values": {
+        "wrap-op": "redeem",
+        "wrap-amount": "1",
+        "wrap-recipient": "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc"
+      }
+    },
+    "burn-remaining-wwl": {
+      "transactionHash": "0x5bb867b2c098bf5ff8d36463276f73c1c635eeb4e84acbf181a19de3606bae68",
+      "index": 2,
+      "values": {
+        "bridge-source": "bnb",
+        "bridge-amount": "2",
+        "bridge-recipient": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8"
+      }
+    },
+    "mint-remaining-xwl": {
+      "transactionHash": "0x655c711559181cf6472257e8967fd49d9d16670809ca72865885bede08443bce",
+      "index": 3
+    },
+    "redeem-all-xwl": {
+      "transactionHash": "0xce4be5e01cbcd70c43777528512382c15b4688b18a96672edc9c39c9e6124d1a",
+      "index": 1,
+      "values": {
+        "wrap-op": "redeem",
+        "wrap-amount": "8",
+        "wrap-recipient": "0x90f79bf6eb2c4f870365e785982e1f101e93b906"
+      }
+    },
+    "lost-response-deposit": {
+      "transactionHash": "0x3cd1c0792cf84bdea4826bd4af53d325c5efa755526a6d4a325e0022bf36bd11"
+    },
+    "recovery-redeem": {
+      "transactionHash": "0xa4832bdb647e90694aae10f392dd5ac0130b58b62c40212c2c0e17b8fd5a4563",
+      "index": 1,
+      "values": {
+        "wrap-op": "redeem",
+        "wrap-amount": "1",
+        "wrap-recipient": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8"
+      }
+    },
+    "expiry-deposit": {
+      "transactionHash": "0x8055f2af187bf78aea72e41d699dedb6e8c222f8843265fd62787040878efa1e",
+      "index": 1,
+      "values": {
+        "wrap-op": "deposit",
+        "wrap-amount": "1",
+        "wrap-recipient": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8"
+      }
+    },
+    "expiry-burn-xwl": {
+      "transactionHash": "0xea3c10aa995c4226e1686ec8755878878933e147c333ca429d9dfffc8d1d4b90",
+      "index": 1,
+      "values": {
+        "bridge-source": "wl",
+        "bridge-amount": "1",
+        "bridge-recipient": "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc"
+      }
+    },
+    "expiry-mint-wwl": {
+      "transactionHash": "0xc2a2ea9d2e98f401b6b0a0b200eac6898f28ad93a9fed2f8912b3d52761bd4c0",
+      "index": 1
+    },
+    "expiry-burn-wwl": {
+      "transactionHash": "0x3636673cb72ad5559b2f18d719aca8df6b18d7dd114a2d31e2ce0833fbf70d33",
+      "index": 2,
+      "values": {
+        "bridge-source": "bnb",
+        "bridge-amount": "1",
+        "bridge-recipient": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8"
+      }
+    },
+    "expiry-return-xwl": {
+      "transactionHash": "0x97298f999d9821605d97b33239aec100b8e7faa73e0b69f8638d0ec9eb87236e",
+      "index": 3
+    },
+    "expiry-redeem": {
+      "transactionHash": "0x358ea26de9de4717705529afea21b544a665c5d687bed96108fb995b910cdd48",
+      "index": 1,
+      "values": {
+        "wrap-op": "redeem",
+        "wrap-amount": "1",
+        "wrap-recipient": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8"
+      }
+    }
+  },
+  "negative": [
+    "xwl-transfer:not-a-bridge-burn",
+    "local-redeem:not-a-bridge-burn",
+    "zero-deposit",
+    "wallet-rejection",
+    "expired-package"
+  ],
+  "phases": {
+    "forward": "passed",
+    "return": "passed",
+    "recovery": "passed",
+    "expiry": "passed"
+  },
+  "sessionId": "205b88fc974224c16149f132",
+  "forwardPackage": {
+    "version": 1,
+    "protocol": "signed-xwl-bridge-v1",
+    "id": "318f700761c2dacbbfef820732df355765bc87d2c4a281616ff6cc1d02956d29",
+    "source": "wl",
+    "destination": "bnb",
+    "domain": {
+      "name": "BNC Signed Bridge",
+      "version": "1",
+      "chainId": 31338,
+      "verifyingContract": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+    },
+    "types": {
+      "BridgeClaim": [
+        {
+          "name": "burnId",
+          "type": "bytes32"
+        },
+        {
+          "name": "sourceChainId",
+          "type": "uint256"
+        },
+        {
+          "name": "sourceToken",
+          "type": "address"
+        },
+        {
+          "name": "sender",
+          "type": "address"
+        },
+        {
+          "name": "recipient",
+          "type": "address"
+        },
+        {
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "name": "nonce",
+          "type": "uint64"
+        },
+        {
+          "name": "sourceTxHash",
+          "type": "bytes32"
+        },
+        {
+          "name": "sourceBlockHash",
+          "type": "bytes32"
+        },
+        {
+          "name": "sourceBlockNumber",
+          "type": "uint256"
+        },
+        {
+          "name": "logIndex",
+          "type": "uint256"
+        },
+        {
+          "name": "deadline",
+          "type": "uint256"
+        }
+      ]
+    },
+    "message": {
+      "burnId": "0x80b4cc269db69ed2edd6c8ae2c1ba8a04cb1fcbd73674a5e7ce5d68083306668",
+      "sourceChainId": 31337,
+      "sourceToken": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "sender": "0x90f79bf6eb2c4f870365e785982e1f101e93b906",
+      "recipient": "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc",
+      "amount": "3000000000000000000",
+      "nonce": "1",
+      "sourceTxHash": "0xe1f201059ac71985f591808f9275408537ea836885c3b6afa4f69fb27cf519ea",
+      "sourceBlockHash": "0xb4e1ee2723e3ac71c24872ffd9cc351ddb7b035c7041483259a043fd11bb2504",
+      "sourceBlockNumber": "8",
+      "logIndex": "1",
+      "deadline": "1795074515"
+    },
+    "signature": "0x632240986fc6363e0b4620ef4d44d6fb720b65f56e1b7efd21f14878f67461fa4ab12872057f70dc1b66d99ca00231ea53119369780cb3af5eefe0439bbcb8591b",
+    "signer": "0xa0ee7a142d267c1f36714e4a8f75612f20a79720",
+    "digest": "0x545a981ea9cdccb23b400dbf460528503c125a0ce4e09afafe19c04516d15d48",
+    "claimData": "0x4383be4580b4cc269db69ed2edd6c8ae2c1ba8a04cb1fcbd73674a5e7ce5d680833066680000000000000000000000000000000000000000000000000000000000007a690000000000000000000000005fbdb2315678afecb367f032d93f642f64180aa300000000000000000000000090f79bf6eb2c4f870365e785982e1f101e93b9060000000000000000000000003c44cdddb6a900fa2b585dd299e03d12fa4293bc00000000000000000000000000000000000000000000000029a2241af62c00000000000000000000000000000000000000000000000000000000000000000001e1f201059ac71985f591808f9275408537ea836885c3b6afa4f69fb27cf519eab4e1ee2723e3ac71c24872ffd9cc351ddb7b035c7041483259a043fd11bb250400000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000006afea9d300000000000000000000000000000000000000000000000000000000000001a00000000000000000000000000000000000000000000000000000000000000041632240986fc6363e0b4620ef4d44d6fb720b65f56e1b7efd21f14878f67461fa4ab12872057f70dc1b66d99ca00231ea53119369780cb3af5eefe0439bbcb8591b00000000000000000000000000000000000000000000000000000000000000",
+    "confirmations": 2,
+    "sourceAuthenticated": false,
+    "verification": "trusted-operator-signature",
+    "state": "ready"
+  },
+  "returnPackage": {
+    "version": 1,
+    "protocol": "signed-xwl-bridge-v1",
+    "id": "a2004047362a1d6b1c53be0ac784c2cc20d183cb0c4982e4c36b04adb7a292af",
+    "source": "bnb",
+    "destination": "wl",
+    "domain": {
+      "name": "BNC Signed Bridge",
+      "version": "1",
+      "chainId": 31337,
+      "verifyingContract": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+    },
+    "types": {
+      "BridgeClaim": [
+        {
+          "name": "burnId",
+          "type": "bytes32"
+        },
+        {
+          "name": "sourceChainId",
+          "type": "uint256"
+        },
+        {
+          "name": "sourceToken",
+          "type": "address"
+        },
+        {
+          "name": "sender",
+          "type": "address"
+        },
+        {
+          "name": "recipient",
+          "type": "address"
+        },
+        {
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "name": "nonce",
+          "type": "uint64"
+        },
+        {
+          "name": "sourceTxHash",
+          "type": "bytes32"
+        },
+        {
+          "name": "sourceBlockHash",
+          "type": "bytes32"
+        },
+        {
+          "name": "sourceBlockNumber",
+          "type": "uint256"
+        },
+        {
+          "name": "logIndex",
+          "type": "uint256"
+        },
+        {
+          "name": "deadline",
+          "type": "uint256"
+        }
+      ]
+    },
+    "message": {
+      "burnId": "0x109cdd7b10e2b2e8543636633c3a1432d2814065dcaa90c9df4fdcb208bf499b",
+      "sourceChainId": 31338,
+      "sourceToken": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "sender": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+      "recipient": "0x90f79bf6eb2c4f870365e785982e1f101e93b906",
+      "amount": "1000000000000000000",
+      "nonce": "1",
+      "sourceTxHash": "0x02b54f3d69eac900126786711dfc805ea7f689e108565f1253e7151d1c20ac3b",
+      "sourceBlockHash": "0x35211beaf317990b029b29b94e173c752772690bd4f35a675ee2e0484396b09a",
+      "sourceBlockNumber": "5",
+      "logIndex": "1",
+      "deadline": "1795075094"
+    },
+    "signature": "0x50191cbe817f12dfcebed7afdc397fed97b50a6e9d7d4a51a63bd7d2fc34239f02d8161be271bd007f643adb79c64f7854c2e7150339361094aa6ad18db326061c",
+    "signer": "0xa0ee7a142d267c1f36714e4a8f75612f20a79720",
+    "digest": "0x73811499f71ce507be974f31fdebd1ce349b2eb7f0aaf04516e9d8a18e097c0f",
+    "claimData": "0x4383be45109cdd7b10e2b2e8543636633c3a1432d2814065dcaa90c9df4fdcb208bf499b0000000000000000000000000000000000000000000000000000000000007a6a0000000000000000000000005fbdb2315678afecb367f032d93f642f64180aa300000000000000000000000070997970c51812dc3a010c7d01b50e0d17dc79c800000000000000000000000090f79bf6eb2c4f870365e785982e1f101e93b9060000000000000000000000000000000000000000000000000de0b6b3a7640000000000000000000000000000000000000000000000000000000000000000000102b54f3d69eac900126786711dfc805ea7f689e108565f1253e7151d1c20ac3b35211beaf317990b029b29b94e173c752772690bd4f35a675ee2e0484396b09a00000000000000000000000000000000000000000000000000000000000000050000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000006afeac1600000000000000000000000000000000000000000000000000000000000001a0000000000000000000000000000000000000000000000000000000000000004150191cbe817f12dfcebed7afdc397fed97b50a6e9d7d4a51a63bd7d2fc34239f02d8161be271bd007f643adb79c64f7854c2e7150339361094aa6ad18db326061c00000000000000000000000000000000000000000000000000000000000000",
+    "confirmations": 2,
+    "sourceAuthenticated": false,
+    "verification": "trusted-operator-signature",
+    "state": "ready"
+  },
+  "dialogs": 9,
+  "browserErrors": [],
+  "browserSignedTransactions": 22,
+  "expiredPackage": {
+    "version": 1,
+    "protocol": "signed-xwl-bridge-v1",
+    "id": "30ee9f632ab5d7a42467044786183422ca868ecc077f71552645dfd6fad641f5",
+    "source": "wl",
+    "destination": "bnb",
+    "domain": {
+      "name": "BNC Signed Bridge",
+      "version": "1",
+      "chainId": 31338,
+      "verifyingContract": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+    },
+    "types": {
+      "BridgeClaim": [
+        {
+          "name": "burnId",
+          "type": "bytes32"
+        },
+        {
+          "name": "sourceChainId",
+          "type": "uint256"
+        },
+        {
+          "name": "sourceToken",
+          "type": "address"
+        },
+        {
+          "name": "sender",
+          "type": "address"
+        },
+        {
+          "name": "recipient",
+          "type": "address"
+        },
+        {
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "name": "nonce",
+          "type": "uint64"
+        },
+        {
+          "name": "sourceTxHash",
+          "type": "bytes32"
+        },
+        {
+          "name": "sourceBlockHash",
+          "type": "bytes32"
+        },
+        {
+          "name": "sourceBlockNumber",
+          "type": "uint256"
+        },
+        {
+          "name": "logIndex",
+          "type": "uint256"
+        },
+        {
+          "name": "deadline",
+          "type": "uint256"
+        }
+      ]
+    },
+    "message": {
+      "burnId": "0xbd2469e0aaf7e4713f67771912d7ee305ff252ddba1a42ea417a8b5657fde676",
+      "sourceChainId": 31337,
+      "sourceToken": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "sender": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+      "recipient": "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc",
+      "amount": "1000000000000000000",
+      "nonce": "1",
+      "sourceTxHash": "0xea3c10aa995c4226e1686ec8755878878933e147c333ca429d9dfffc8d1d4b90",
+      "sourceBlockHash": "0x0fafda8ded778aa8aed6186854ef4a1e7f81aa80346e36b8f2f281f72eceebaa",
+      "sourceBlockNumber": "18",
+      "logIndex": "1",
+      "deadline": "1795075258"
+    },
+    "signature": "0xe1498425f52bd612ec4a073959088d02b4af0152e46aaa01a2a871500d3323e205fcb0dd5bc35c0026adf6f5b3df7f7452702c757fd636606a0644281db913841c",
+    "signer": "0xa0ee7a142d267c1f36714e4a8f75612f20a79720",
+    "digest": "0x4098a3aae577a0ba45f40f36bfed4e39db172f7669fa5c5aeb98ff38cf9b8de7",
+    "claimData": "0x4383be45bd2469e0aaf7e4713f67771912d7ee305ff252ddba1a42ea417a8b5657fde6760000000000000000000000000000000000000000000000000000000000007a690000000000000000000000005fbdb2315678afecb367f032d93f642f64180aa300000000000000000000000070997970c51812dc3a010c7d01b50e0d17dc79c80000000000000000000000003c44cdddb6a900fa2b585dd299e03d12fa4293bc0000000000000000000000000000000000000000000000000de0b6b3a76400000000000000000000000000000000000000000000000000000000000000000001ea3c10aa995c4226e1686ec8755878878933e147c333ca429d9dfffc8d1d4b900fafda8ded778aa8aed6186854ef4a1e7f81aa80346e36b8f2f281f72eceebaa00000000000000000000000000000000000000000000000000000000000000120000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000006afeacba00000000000000000000000000000000000000000000000000000000000001a00000000000000000000000000000000000000000000000000000000000000041e1498425f52bd612ec4a073959088d02b4af0152e46aaa01a2a871500d3323e205fcb0dd5bc35c0026adf6f5b3df7f7452702c757fd636606a0644281db913841c00000000000000000000000000000000000000000000000000000000000000",
+    "confirmations": 2,
+    "sourceAuthenticated": false,
+    "verification": "trusted-operator-signature",
+    "state": "ready"
+  },
+  "expiryRenewal": {
+    "sameBurnId": true,
+    "freshSignature": true,
+    "expiredSignatureRejected": true
+  }
+}

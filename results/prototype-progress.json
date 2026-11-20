@@ -2,7 +2,10 @@
   "vaultTestnet": {
     "updatedAt": "2026-11-10",
     "state": "testnet_candidate_hardened_offline_verified",
-    "chainIds": {"wl": 10359, "bnb": 97},
+    "chainIds": {
+      "wl": 10359,
+      "bnb": 97
+    },
     "runbook": "docs/vault-testnet-preflight.md",
     "evidence": "results/wl-vault-testnet-preflight/summary.json",
     "hardeningEvidence": "results/wl-vault-testnet-preflight/hardening.json",
@@ -36,55 +39,44 @@
     "externalRpcAndPolicyVerified": false,
     "externalDeployment": false
   },
-  "updatedAt": "2026-11-03",
-  "objective": "계획에 따른 vault 없는 양방향 burn·mint V2 개발 및 검증",
-  "state": "local_burn_mint_v2_verified_native_extension_design_validated",
-  "defaultMode": "risc0-computation",
-  "session": "results/prototype-risc0",
-  "ui": "http://127.0.0.1:8580/",
-  "trustModel": "trusted-server-and-rpc",
+  "updatedAt": "2026-11-20",
+  "objective": "WL 담보형 xWL과 내부 서명 기반 xWL↔wWL 브리지 로컬 구현·검증",
+  "state": "signed_xwl_bridge_local_verified",
+  "defaultMode": "operator-signature",
+  "session": "results/signed-xwl-v1",
+  "ui": "http://127.0.0.1:8580/signature.html",
+  "trustModel": "trusted-operator-and-rpc",
   "sourceAuthenticated": false,
   "onchainRisc0Verified": false,
   "retiredTEEArchive": "legacy/retired-source-20261029.tar.gz",
   "teeAutomation": "PAUSED",
   "completed": [
-    "TEE source/UI/service/CI/worker 제거 및 아카이브 SHA256 검증",
-    "기본 launcher에 실제 RISC0 연산 증명 필수 연결",
-    "고정 guest와 journal/input digest/receipt SHA256 검증",
-    "SDK 재검증 API 및 브라우저 청구 직전 검증 연결",
-    "Go 회귀 검사, Foundry 회귀 검사, Rust core 4개, 기존 wallet 9개 통과",
-    "실제 SDK 재검증·변조 receipt 및 journal/input 재결합 거부 6개 검사 통과",
-    "새 lock RISC0 증명 261.74초 생성, 브라우저 mint·다운로드·재업로드·SDK 변조 거부·replay 거부 통과",
-    "실제 새 RISC0 lock/burn 증명 2개 + 브라우저 지갑 직접 서명 4개 양방향 왕복 통과",
-    "각 방향 proof 누락/guest/journal/scope/input commitment/receipt 변조 거부 및 replay 거부",
-    "JSON 다운로드·재업로드·SDK 재검증 통과",
-    "서버·양 노드 정상 종료/재시작 후 계약·잔액·source 블록·receipt 파일 hash/mtime 유지, 새 증명 생성 0",
-    "기존 브라우저 미확인 거래 저장소 보존·세션별 분리·재시작 후 replay 차단·매뉴얼·감사 UI 검증",
-    "실제 SDK·취소 child process group 회수 검사 총 7개 통과",
-    "Unused source/artifact cleanup: active tree about 67 MB; current session, package regeneration and SDK/browser/restart checks PASS",
-    "V2 guarded local burn/mint: canonical issuance guard, 2 real composite receipts, 8 browser-signed transactions, transferable wWL/partial third-party redemption, SDK/tamper/replay/restart checks PASS"
+    "WL deposit/xWL issue/local redeem",
+    "xWL and wWL transfers, allowance and delegated transfer interface",
+    "bidirectional internal-signature bridge",
+    "public source/message/signature/claim inspection",
+    "22 real browser-signed local transactions",
+    "signature expiry/renewal, wallet response-loss recovery and rejection",
+    "midflight and final restart with historical preservation",
+    "70 contract, 23 wallet and 20 API checks",
+    "durable checklist and read-only resume/validation routine"
   ],
   "pending": [],
   "currentRun": {
-    "state": "complete_for_local_restoration_scope",
-    "freshProofs": 2,
-    "userSignedTransactions": 4,
-    "balances": {
-      "original": "100000000000000000000",
-      "available": "100000000000000000000",
-      "wrapped": "0"
-    },
-    "newProofsDuringRestart": 0,
-    "verifiedAt": "2026-10-29",
-    "scope": "historical V1 restoration verified 2026-10-29"
+    "date": "2026-11-19",
+    "status": "local_verified",
+    "protocol": "signed-xwl-bridge-v1",
+    "session": "results/signed-xwl-v1",
+    "ui": "http://127.0.0.1:8580/signature.html",
+    "evidence": "results/signed-bridge-validation/summary.json"
   },
-  "evidence": "results/restoration-20261029/summary.json",
+  "evidence": "results/signed-bridge-validation/summary.json",
   "limitations": [
-    "local Anvil 31337/31338; no native chain deployment",
-    "composite computation receipt verified by server SDK; destination verifies MPT/event/replay",
-    "server operator and RPC are trusted",
-    "external extension wallet not exercised; browser demo wallet exercised",
-    "Native WL protocol/node integration and network activation remain unimplemented; V2 is a local ERC20 model with a native-extension specification and state-transition reference tests"
+    "local Anvil only; no external chain deployment or real assets",
+    "trusted operator and RPC; no independent source consensus/finality verification",
+    "public Anvil fixture signer; immutable signer, no production key manager or signer rotation",
+    "browser demo-wallet exercised; external wallet extension not exercised",
+    "token transfers and allowances available; no DEX or market liquidity provided"
   ],
   "cleanup": {
     "date": "2026-10-29",
@@ -322,5 +314,196 @@
     "onchainRisc0Verified": false,
     "automationId": "bnc-wl-burn-mint",
     "automationStatus": "PAUSED_AFTER_LOCAL_COMPLETION"
+  },
+  "preSignatureRuntime": {
+    "updatedAt": "2026-11-03",
+    "objective": "계획에 따른 vault 없는 양방향 burn·mint V2 개발 및 검증",
+    "state": "local_burn_mint_v2_verified_native_extension_design_validated",
+    "defaultMode": "risc0-computation",
+    "session": "results/prototype-risc0",
+    "ui": "http://127.0.0.1:8580/",
+    "trustModel": "trusted-server-and-rpc",
+    "completed": [
+      "TEE source/UI/service/CI/worker 제거 및 아카이브 SHA256 검증",
+      "기본 launcher에 실제 RISC0 연산 증명 필수 연결",
+      "고정 guest와 journal/input digest/receipt SHA256 검증",
+      "SDK 재검증 API 및 브라우저 청구 직전 검증 연결",
+      "Go 회귀 검사, Foundry 회귀 검사, Rust core 4개, 기존 wallet 9개 통과",
+      "실제 SDK 재검증·변조 receipt 및 journal/input 재결합 거부 6개 검사 통과",
+      "새 lock RISC0 증명 261.74초 생성, 브라우저 mint·다운로드·재업로드·SDK 변조 거부·replay 거부 통과",
+      "실제 새 RISC0 lock/burn 증명 2개 + 브라우저 지갑 직접 서명 4개 양방향 왕복 통과",
+      "각 방향 proof 누락/guest/journal/scope/input commitment/receipt 변조 거부 및 replay 거부",
+      "JSON 다운로드·재업로드·SDK 재검증 통과",
+      "서버·양 노드 정상 종료/재시작 후 계약·잔액·source 블록·receipt 파일 hash/mtime 유지, 새 증명 생성 0",
+      "기존 브라우저 미확인 거래 저장소 보존·세션별 분리·재시작 후 replay 차단·매뉴얼·감사 UI 검증",
+      "실제 SDK·취소 child process group 회수 검사 총 7개 통과",
+      "Unused source/artifact cleanup: active tree about 67 MB; current session, package regeneration and SDK/browser/restart checks PASS",
+      "V2 guarded local burn/mint: canonical issuance guard, 2 real composite receipts, 8 browser-signed transactions, transferable wWL/partial third-party redemption, SDK/tamper/replay/restart checks PASS"
+    ],
+    "pending": [],
+    "currentRun": {
+      "state": "complete_for_local_restoration_scope",
+      "freshProofs": 2,
+      "userSignedTransactions": 4,
+      "balances": {
+        "original": "100000000000000000000",
+        "available": "100000000000000000000",
+        "wrapped": "0"
+      },
+      "newProofsDuringRestart": 0,
+      "verifiedAt": "2026-10-29",
+      "scope": "historical V1 restoration verified 2026-10-29"
+    },
+    "evidence": "results/restoration-20261029/summary.json",
+    "limitations": [
+      "local Anvil 31337/31338; no native chain deployment",
+      "composite computation receipt verified by server SDK; destination verifies MPT/event/replay",
+      "server operator and RPC are trusted",
+      "external extension wallet not exercised; browser demo wallet exercised",
+      "Native WL protocol/node integration and network activation remain unimplemented; V2 is a local ERC20 model with a native-extension specification and state-transition reference tests"
+    ]
+  },
+  "signedBridge": {
+    "date": "2026-11-19",
+    "timezone": "Asia/Seoul",
+    "status": "local_verified",
+    "protocol": "signed-xwl-bridge-v1",
+    "mode": "operator-signature",
+    "ui": "http://127.0.0.1:8580/signature.html",
+    "session": "results/signed-xwl-v1",
+    "chainIds": [
+      31337,
+      31338
+    ],
+    "contracts": {
+      "xwl": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "wwl": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+    },
+    "implementation": {
+      "wlCollateral": "contract Vault",
+      "xwl": "ERC20 on chain A; deposit/redeem locally",
+      "wwl": "ERC20 on chain B",
+      "bridge": "burn / EIP-712 internal signature / user claim / mint",
+      "risc0Required": false,
+      "mptRequired": false,
+      "rootRegistrationRequired": false,
+      "userAssetSubmission": "browser wallet"
+    },
+    "validation": {
+      "contractTests": 70,
+      "newContractTests": 13,
+      "newContractFuzzRuns": 256,
+      "walletTests": 23,
+      "newWalletTests": 6,
+      "apiChecks": 20,
+      "browserSignedTransactions": 22,
+      "bridgeBurns": 5,
+      "storedPackages": 5,
+      "browserPhases": {
+        "forward": "passed",
+        "return": "passed",
+        "recovery": "passed",
+        "expiry": "passed"
+      },
+      "nonceBasedLostResponseRecovery": true,
+      "walletRejectionAndZeroAmountRejected": true,
+      "expiredSignatureRejectedAndRenewed": true,
+      "midflightRestart": {
+        "passed": true,
+        "contractsBalancesPackagesPreserved": true,
+        "sourceBlocksPreserved": true,
+        "nodePidsChanged": true,
+        "historical": {
+          "results/prototype-risc0": 24,
+          "results/wl-vault-v1": 24,
+          "results/xwl-entry-v1": 25
+        },
+        "newAssetTransactions": 0
+      },
+      "finalRestart": {
+        "passed": true,
+        "contractsBalancesPackagesPreserved": true,
+        "sourceBlocksPreserved": true,
+        "nodePidsChanged": true,
+        "historical": {
+          "results/prototype-risc0": 24,
+          "results/wl-vault-v1": 24,
+          "results/xwl-entry-v1": 25
+        },
+        "newAssetTransactions": 0
+      },
+      "completedBrowserPhaseRerunAssetTransactions": 0,
+      "operatorAssetTransactions": 0,
+      "signerAssetTransactions": 0,
+      "operatorTransactions": "deployment and one-time peer binding only",
+      "newRisc0Receipts": 0
+    },
+    "final": {
+      "passed": true,
+      "collateral": "0",
+      "xwlSupply": "0",
+      "wwlSupply": "0",
+      "pending": "0",
+      "bridgeBurns": 5,
+      "packages": 5,
+      "historical": {
+        "results/prototype-risc0": 24,
+        "results/wl-vault-v1": 24,
+        "results/xwl-entry-v1": 25
+      },
+      "totalDeposited": "12000000000000000000",
+      "totalRedeemed": "12000000000000000000"
+    },
+    "historicalPreservation": {
+      "files": 73,
+      "bySession": {
+        "results/prototype-risc0": 24,
+        "results/wl-vault-v1": 24,
+        "results/xwl-entry-v1": 25
+      },
+      "hashSizeMtimePreserved": true
+    },
+    "testEnvironment": {
+      "node": "24.11.0",
+      "playwright": "1.65.1",
+      "browser": "Chromium 159.0.8154.6",
+      "fonts": "installed Windows Malgun Gothic used for test rendering"
+    },
+    "limitations": [
+      "local Anvil only; no external chain deployment or real assets",
+      "trusted operator and RPC; no independent source consensus/finality verification",
+      "public Anvil fixture signer; immutable signer, no production key manager or signer rotation",
+      "browser demo-wallet exercised; external wallet extension not exercised",
+      "token transfers and allowances available; no DEX or market liquidity provided"
+    ],
+    "sourceAuthenticated": false,
+    "onchainRisc0Verified": false,
+    "evidence": [
+      "contracts.json",
+      "wallet-tests.txt",
+      "api-checks.json",
+      "browser-summary.json",
+      "restart-midflight-result.json",
+      "restart-result.json",
+      "conservation.json",
+      "historical-before.json"
+    ]
+  },
+  "lastStatusCheck": {
+    "checkedAt": "2026-11-20T15:19:37+09:00",
+    "runtimeStatus": "running_verified",
+    "evidence": "results/signed-bridge-validation/recovery-20261120/summary.json",
+    "historicalFilesPreserved": 73,
+    "testsRerun": true,
+    "tests": {
+      "contracts": 70,
+      "wallet": 23,
+      "api": 20
+    },
+    "liveBalancesReverified": true,
+    "servicesRestarted": true,
+    "assetTransactionsSubmitted": 0,
+    "contractsDeployed": 0,
+    "browserAssetRoundtripRerun": false
   }
 }

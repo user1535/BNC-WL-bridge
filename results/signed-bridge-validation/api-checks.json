@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "checks": [
+    "foreign-origin",
+    "foreign-host",
+    "missing-request-header",
+    "client-supplied-amount",
+    "missing-source-transaction",
+    "external-chain",
+    "oversized-body",
+    "rpc-denied:eth_sendTransaction",
+    "rpc-denied:eth_sign",
+    "rpc-denied:eth_signTypedData_v4",
+    "rpc-denied:anvil_mine",
+    "rpc-denied:anvil_setBalance",
+    "rpc-denied:personal_unlockAccount",
+    "malformed-raw-transaction",
+    "public-manifest-no-private-keys",
+    "duplicate-attestation-reuses-signature",
+    "bounded-concurrent-idempotent-attestation",
+    "wrong-log-index",
+    "confirmation-policy-applies-before-cache-reuse",
+    "operator-deployment-only-signer-zero-asset-transactions"
+  ]
+}

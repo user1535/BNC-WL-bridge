@@ -1,0 +1,44 @@
+{
+  "checkedAt": "2026-11-20T15:16:53+09:00",
+  "scope": "read-only runtime status and historical preservation; no service restart or asset transaction",
+  "implementationStatus": "local_verified_2026-11-19",
+  "runtimeStatus": "degraded_rpc_unavailable",
+  "api": {
+    "url": "http://127.0.0.1:8580/api/health",
+    "httpStatus": 409,
+    "error": "<urlopen error [Errno 111] Connection refused>"
+  },
+  "ports": {
+    "8580": "reachable",
+    "8593": "connection_refused",
+    "8594": "connection_refused"
+  },
+  "locks": {
+    "signature-service.lock": {
+      "held": true,
+      "pid": 45986
+    },
+    "launcher.lock": {
+      "held": false
+    },
+    "client.lock": {
+      "held": false
+    }
+  },
+  "checklistPendingItems": 0,
+  "historicalPreservation": {
+    "verifiedNow": true,
+    "hashSizeMtimePreserved": true,
+    "files": 73,
+    "bySession": {
+      "results/prototype-risc0": 24,
+      "results/wl-vault-v1": 24,
+      "results/xwl-entry-v1": 25
+    }
+  },
+  "testsRerun": false,
+  "liveBalancesReverified": false,
+  "assetTransactionsSubmitted": 0,
+  "servicesRestarted": false,
+  "nextStep": "Restore the existing local runtime, preserving its saved state and existing API process; then run bash scripts/check-signed-local.sh."
+}

@@ -7,4 +7,8 @@ if [[ -n "${BNC_ENV_FILE:-}" ]]; then
   set +a
 fi
 export PATH="$root/.bin:$HOME/.foundry/bin:$HOME/.cargo/bin:$PATH"
-exec bash "$root/scripts/run-prototype.sh" "${BNC_MODE:-risc0-computation}" "${BNC_STATE_DIR:-$root/results/prototype-risc0}"
+if [[ "${BNC_MODE:-operator-signature}" != operator-signature ]]; then
+  echo "Active mode is operator-signature. Historical receipts and launchers are preserved separately." >&2
+  exit 1
+fi
+exec bash "$root/scripts/run-signed-bridge.sh"

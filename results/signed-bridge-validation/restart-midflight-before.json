@@ -1,0 +1,55 @@
+{
+  "contracts": {
+    "xwl": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "wwl": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+  },
+  "chains": {
+    "wl": {
+      "number": "0xa",
+      "hash": "0x36668829e29b29d585b7ccd0b8e5f0c9486de90498ad83afa8cc3ebaecb88b3a",
+      "pid": 35816
+    },
+    "bnb": {
+      "number": "0x7",
+      "hash": "0xdbf95800ff0b0f62430066055f7673b5a0a06cb9f273bc286382d3993e07c4b7",
+      "pid": 35830
+    }
+  },
+  "balances": {
+    "wl": {
+      "supply": "6000000000000000000",
+      "native": "0x7ce66c50e2840000",
+      "users": {
+        "0x70997970c51812dc3a010c7d01b50e0d17dc79c8": "6000000000000000000",
+        "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc": "0",
+        "0x90f79bf6eb2c4f870365e785982e1f101e93b906": "0"
+      }
+    },
+    "bnb": {
+      "supply": "2000000000000000000",
+      "native": "0x0",
+      "users": {
+        "0x70997970c51812dc3a010c7d01b50e0d17dc79c8": "0",
+        "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc": "2000000000000000000",
+        "0x90f79bf6eb2c4f870365e785982e1f101e93b906": "0"
+      }
+    }
+  },
+  "packages": {
+    "318f700761c2dacbbfef820732df355765bc87d2c4a281616ff6cc1d02956d29.json": {
+      "sha256": "7aa599afb90073349303a805d4e41c50e3a076e72844372b26661e332e2ef15c",
+      "size": 3402,
+      "mtime_ns": 1795071494325330265
+    },
+    "a2004047362a1d6b1c53be0ac784c2cc20d183cb0c4982e4c36b04adb7a292af.json": {
+      "sha256": "799ab89d20e83b4455a5fc3d84c784c603d621342b9698a9bdbacbb8884b9776",
+      "size": 3402,
+      "mtime_ns": 1795071496287556868
+    }
+  },
+  "historical": {
+    "results/prototype-risc0": 24,
+    "results/wl-vault-v1": 24,
+    "results/xwl-entry-v1": 25
+  }
+}

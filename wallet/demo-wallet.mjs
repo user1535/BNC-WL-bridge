@@ -1,6 +1,7 @@
 import {HDNodeWallet,id} from './vendor/ethers-6.15.0.min.mjs';
 const entrySelector=id('enter(address)').slice(0,10);
 const lockSelector=id('lock(address)').slice(0,10);
+const depositSelector=id('deposit(address)').slice(0,10);
 // Public Anvil fixture, never a personal wallet. Kept in browser memory only.
 export class DemoWallet {
  constructor(manifest,index=1){
@@ -11,6 +12,7 @@ export class DemoWallet {
   this.chain=31337;this.listeners={};this.allowed=new Set(Object.values(manifest.contracts).filter(x=>typeof x==='string').map(x=>x.toLowerCase()));
   this.entryToken=manifest.assetProfile==='xwl-entry-v1'?manifest.contracts.original.toLowerCase():null;
   this.vault=manifest.protocol==='native-wl-vault-v1'?manifest.contracts.original.toLowerCase():null;
+  this.signedVault=manifest.protocol==='signed-xwl-bridge-v1'?manifest.contracts.xwl.toLowerCase():null;
  }
  on(event,fn){(this.listeners[event]??=[]).push(fn);}
  async rpc(method,params=[]){
@@ -26,10 +28,11 @@ export class DemoWallet {
   if(method==='eth_sendTransaction'){
    const t=params[0],to=t.to.toLowerCase(),value=BigInt(t.value||0);
    const tokenCall=value===0n&&this.allowed.has(to);
-   const nativeCall=(this.entryToken||this.vault)&&this.chain===31337&&value>0n&&(
+   const nativeCall=(this.entryToken||this.vault||this.signedVault)&&this.chain===31337&&value>0n&&(
      t.data==='0x'&&/^0x[0-9a-f]{40}$/.test(to)&&!/^0x0{40}$/.test(to)
      || to===this.entryToken&&t.data.startsWith(entrySelector)&&t.data.length===74
-     || to===this.vault&&t.data.startsWith(lockSelector)&&t.data.length===74);
+     || to===this.vault&&t.data.startsWith(lockSelector)&&t.data.length===74
+     || to===this.signedVault&&t.data.startsWith(depositSelector)&&t.data.length===74);
    if(Number(BigInt(t.chainId))!==this.chain||t.from.toLowerCase()!==this.wallet.address.toLowerCase()||!(tokenCall||nativeCall))throw Error('데모 거래 범위 불일치');
    if(!window.confirm('로컬 테스트 거래를 승인할까요?\n체인: '+this.chain+'\n대상: '+t.to+'\n공개 테스트 계정만 사용합니다.')){const e=Error('거래 승인 거절');e.code=4001;throw e;}
    if(Number(BigInt(await this.rpc('eth_chainId')))!==this.chain)throw Error('RPC 체인 ID 불일치');

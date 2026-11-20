@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-19",
+  "timezone": "Asia/Seoul",
+  "status": "local_verified",
+  "protocol": "signed-xwl-bridge-v1",
+  "mode": "operator-signature",
+  "ui": "http://127.0.0.1:8580/signature.html",
+  "session": "results/signed-xwl-v1",
+  "chainIds": [
+    31337,
+    31338
+  ],
+  "contracts": {
+    "xwl": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "wwl": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+  },
+  "implementation": {
+    "wlCollateral": "contract Vault",
+    "xwl": "ERC20 on chain A; deposit/redeem locally",
+    "wwl": "ERC20 on chain B",
+    "bridge": "burn / EIP-712 internal signature / user claim / mint",
+    "risc0Required": false,
+    "mptRequired": false,
+    "rootRegistrationRequired": false,
+    "userAssetSubmission": "browser wallet"
+  },
+  "validation": {
+    "contractTests": 70,
+    "newContractTests": 13,
+    "newContractFuzzRuns": 256,
+    "walletTests": 23,
+    "newWalletTests": 6,
+    "apiChecks": 20,
+    "browserSignedTransactions": 22,
+    "bridgeBurns": 5,
+    "storedPackages": 5,
+    "browserPhases": {
+      "forward": "passed",
+      "return": "passed",
+      "recovery": "passed",
+      "expiry": "passed"
+    },
+    "nonceBasedLostResponseRecovery": true,
+    "walletRejectionAndZeroAmountRejected": true,
+    "expiredSignatureRejectedAndRenewed": true,
+    "midflightRestart": {
+      "passed": true,
+      "contractsBalancesPackagesPreserved": true,
+      "sourceBlocksPreserved": true,
+      "nodePidsChanged": true,
+      "historical": {
+        "results/prototype-risc0": 24,
+        "results/wl-vault-v1": 24,
+        "results/xwl-entry-v1": 25
+      },
+      "newAssetTransactions": 0
+    },
+    "finalRestart": {
+      "passed": true,
+      "contractsBalancesPackagesPreserved": true,
+      "sourceBlocksPreserved": true,
+      "nodePidsChanged": true,
+      "historical": {
+        "results/prototype-risc0": 24,
+        "results/wl-vault-v1": 24,
+        "results/xwl-entry-v1": 25
+      },
+      "newAssetTransactions": 0
+    },
+    "completedBrowserPhaseRerunAssetTransactions": 0,
+    "operatorAssetTransactions": 0,
+    "signerAssetTransactions": 0,
+    "operatorTransactions": "deployment and one-time peer binding only",
+    "newRisc0Receipts": 0
+  },
+  "final": {
+    "passed": true,
+    "collateral": "0",
+    "xwlSupply": "0",
+    "wwlSupply": "0",
+    "pending": "0",
+    "bridgeBurns": 5,
+    "packages": 5,
+    "historical": {
+      "results/prototype-risc0": 24,
+      "results/wl-vault-v1": 24,
+      "results/xwl-entry-v1": 25
+    },
+    "totalDeposited": "12000000000000000000",
+    "totalRedeemed": "12000000000000000000"
+  },
+  "historicalPreservation": {
+    "files": 73,
+    "bySession": {
+      "results/prototype-risc0": 24,
+      "results/wl-vault-v1": 24,
+      "results/xwl-entry-v1": 25
+    },
+    "hashSizeMtimePreserved": true
+  },
+  "testEnvironment": {
+    "node": "24.11.0",
+    "playwright": "1.65.1",
+    "browser": "Chromium 159.0.8154.6",
+    "fonts": "installed Windows Malgun Gothic used for test rendering"
+  },
+  "limitations": [
+    "local Anvil only; no external chain deployment or real assets",
+    "trusted operator and RPC; no independent source consensus/finality verification",
+    "public Anvil fixture signer; immutable signer, no production key manager or signer rotation",
+    "browser demo-wallet exercised; external wallet extension not exercised",
+    "token transfers and allowances available; no DEX or market liquidity provided"
+  ],
+  "sourceAuthenticated": false,
+  "onchainRisc0Verified": false,
+  "evidence": [
+    "contracts.json",
+    "wallet-tests.txt",
+    "api-checks.json",
+    "browser-summary.json",
+    "restart-midflight-result.json",
+    "restart-result.json",
+    "conservation.json",
+    "historical-before.json"
+  ]
+}
